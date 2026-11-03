@@ -91,37 +91,65 @@
     "max_pages_per_claim": 6,
     "source_tiers": {
       "government": [
+        "ed.gov",
+        "gov",
         "gov.sg"
       ],
       "academic": [
-        "doi.org",
-        "tidsskrift.dk",
-        "springer.com",
-        "sciencedirect.com",
-        "tandfonline.com",
-        "wiley.com",
-        "eric.ed.gov",
         "arxiv.org",
-        "semanticscholar.org"
+        "doi.org",
+        "eric.ed.gov",
+        "frontiersin.org",
+        "jstor.org",
+        "mdpi.com",
+        "ntu.edu.sg",
+        "nus.edu.sg",
+        "researchgate.net",
+        "sciencedirect.com",
+        "semanticscholar.org",
+        "springer.com",
+        "tandfonline.com",
+        "tidsskrift.dk",
+        "wiley.com"
       ],
       "news": [
-        "straitstimes.com",
-        "channelnewsasia.com",
-        "todayonline.com",
         "businesstimes.com.sg",
-        "malaymail.com",
+        "channelnewsasia.com",
+        "e27.co",
         "edsurge.com",
+        "malaymail.com",
+        "mothership.sg",
+        "straitstimes.com",
         "techinasia.com",
-        "e27.co"
+        "theedgesingapore.com",
+        "todayonline.com",
+        "zaobao.com.sg"
+      ],
+      "research": [
+        "oecd.org",
+        "worldbank.org",
+        "unesco.org",
+        "learningpolicyinstitute.org",
+        "tntp.org",
+        "nie.edu.sg",
+        "rand.org",
+        "brookings.edu",
+        "educationendowmentfoundation.org.uk"
       ]
     },
     "blocked_domains": [
-      "s3.amazonaws.com",
+      "facebook.com",
+      "instagram.com",
+      "linkedin.com",
       "macaubusiness.com",
+      "npm.vehikl.com",
+      "oraclecloud.com",
+      "pressreader.com",
+      "quora.com",
+      "s3.amazonaws.com",
       "thailand-business-news.com",
       "y0h0.c19.e2-5.dev",
-      "npm.vehikl.com",
-      "pressreader.com"
+      "youtube.com"
     ],
     "allow_other_tier": false,
     "competitors": [
@@ -165,6 +193,10 @@
       {
         "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051",
         "claim_id": "MKT-02"
+      },
+      {
+        "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry",
+        "claim_id": "MKT-03"
       }
     ],
     "proposed_actions": [

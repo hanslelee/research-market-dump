@@ -30,7 +30,7 @@ def run(data: Path, today: str, log=print, chat=None, only=None, ws_kwargs=None,
         if only and cid not in only:
             continue
         try:
-            kept = websearch.search(data, c["id"], today, log, chat=chat, **(ws_kwargs or {}))
+            kept = websearch.search(data, c["id"], today, log, chat=chat, **({"pause": 3.5} | (ws_kwargs or {})))
         except llm.LLMUnavailable:
             raise
         except Exception as e:

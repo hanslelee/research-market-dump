@@ -81,6 +81,12 @@ def export(data: Path, tests=None):
             w.writerow(header)
             w.writerows(rows)
     wb.save(out / "01_Hansle_Market_Research.xlsx")
+    visited = M.read(M.mdir(data) / "visited.json", {})
+    manual = [f"{u}\n    -> save the visible page text as {('market/snapshots/manual/' + M.h(u) + '.txt')}  ({v.get('reason', '')})"
+              for u, v in visited.items() if not v.get("ok")]
+    (out / "needs_manual_snapshot.txt").write_text(
+        "Pages the agent could not read (JavaScript, bot protection or login). Open each in a browser, copy the visible\n"
+        "text into the file named below, commit, and run the market workflow with step=web again.\n\n" + "\n".join(manual) + "\n")
     M.write(out / "validation_issues.json", res["issues"])
     return res, out
 

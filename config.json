@@ -82,7 +82,7 @@
       "add_per_claim": 4
     },
     "search": {
-      "provider": "none",
+      "provider": "tavily",
       "key_name": "TAVILY_API_KEY",
       "per_query": 5,
       "queries_per_claim": 3,

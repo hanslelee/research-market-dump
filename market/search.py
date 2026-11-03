@@ -44,14 +44,21 @@ def brave(query, sc):
 PROVIDERS = {"tavily": tavily, "brave": brave, "none": lambda q, sc: []}
 
 
+_warned = set()
+
+
 def search(query, sc, log=print):
+    """Search results, or [] (the agent then uses seed and competitor urls only). Never stops the run."""
     fn = PROVIDERS.get(sc.get("provider", "none"))
     if not fn:
         raise SearchUnavailable(f"unknown provider {sc.get('provider')!r}")
     try:
         return fn(query, sc)
-    except SearchUnavailable:
-        raise
+    except SearchUnavailable as e:
+        if str(e) not in _warned:
+            _warned.add(str(e))
+            log(f"search: {e}; using seed and competitor urls only")
+        return []
     except Exception as e:
         log(f"search: '{query}' failed ({e})")
         return []

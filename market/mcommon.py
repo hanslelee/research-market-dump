@@ -13,7 +13,10 @@ sys.path.insert(0, str(PIPELINE))
 
 STATUSES = ("VERIFIED", "PARTIAL", "SYNTHETIC", "MISSING", "UNVERIFIED", "NOT APPLICABLE")
 SOURCE_TYPE = {"government": "Government statistics", "academic": "Academic paper", "news": "News",
-               "research": "Research report (international / NGO)", "company": "Company website", "other": "Other"}
+               "research": "Research report (international / NGO)", "company": "Company website", "book": "Book",
+               "other": "Other"}
+KIND = {"Academic paper": "paper", "News": "news", "Government statistics": "government", "Company website": "company",
+        "Research report (international / NGO)": "report", "Book": "book", "Other": "other"}
 
 
 def today():
@@ -95,7 +98,7 @@ def tier(url: str, mc: dict, competitor_domains=()) -> str:
         return "government"
     if _match(host, competitor_domains):
         return "company"
-    for name in ("academic", "research", "news"):
+    for name in ("academic", "research", "news", "book"):
         if _match(host, tiers.get(name, [])):
             return name
     return "other"

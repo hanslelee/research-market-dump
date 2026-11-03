@@ -17,7 +17,9 @@ Claim status (Conclusions and Handoff), four levels: VERIFIED > PARTIAL > SYNTHE
 Evidence marked "EDU related" (market/edu_related.json) stays in the evidence list but is left out of MKT status.
 
 Human inputs (never written by an agent):
-  market/review.csv        evidence_id, verification_status, checked_by, checked_date, note
+  market/review.csv        evidence_id, verification_status, checked_by, checked_date, note, stance
+                           (NOT APPLICABLE = wrong or irrelevant row: kept in the list, left out of every claim;
+                            stance overrides the agent's supports / limits / contradicts)
   market/conclusions.json  {"MKT-01-A": {"conclusion": "...", "proposed_action": "", "review_status": "DRAFT", "cross_refs": ["EDU-E001"]}}
 """
 import csv
@@ -97,6 +99,9 @@ def apply_review(data: Path, rows, competitors):
             r["verification_status"] = x["verification_status"].strip()
         r["checked_by"] = x.get("checked_by", "").strip()
         r["checked_date"] = x.get("checked_date", "").strip()
+        if (x.get("stance") or "").strip() in ("supports", "limits", "contradicts"):
+            r["stance_by_agent"] = r.get("stance")
+            r["stance"] = x["stance"].strip()
         if x.get("note"):
             r["review_note"] = x["note"].strip()
 
@@ -159,7 +164,7 @@ def conclusions(data: Path, config, rows):
         cid = M.short_id(c["id"])
         if not cid.startswith("MKT") or c.get("status") == "retired" or c.get("role") == "parent":
             continue
-        ev = [r for r in rows if r["claim_id"] == cid and not r.get("edu_related")]
+        ev = [r for r in rows if r["claim_id"] == cid and not r.get("edu_related") and r["verification_status"] != "NOT APPLICABLE"]
         hc = human.get(cid, {})
         st = sub_status(c, ev)
         unreviewed = sum(1 for r in ev if r["verification_status"] == "UNVERIFIED")

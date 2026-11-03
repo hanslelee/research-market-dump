@@ -3,119 +3,99 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>research-dump</title>
-  <link rel="stylesheet" href="style.css">
+  <title>MathBridge Market Evidence</title>
+  <link rel="stylesheet" href="market.css">
   <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.34.3/dist/cytoscape.min.js"></script>
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">research-market-dump</div>
+    <div class="brand"><b>MathBridge</b> 시장조사 <span class="case" id="case"></span></div>
     <nav class="tabs" id="tabs">
       <button type="button" data-tab="home" class="on">홈</button>
-      <button type="button" data-tab="papers">논문 목록</button>
-      <button type="button" data-tab="topics">연구 주제</button>
+      <button type="button" data-tab="evidences">Evidences</button>
+      <button type="button" data-tab="claims">Claims</button>
     </nav>
-    <div class="scope" id="scope"></div>
-    <div class="source" id="source-label"></div>
-    <button type="button" id="btn-excel" class="mini" title="Download the latest market workbook (market/out/01_Hansle_Market_Research.xlsx)">엑셀 받기</button>
-    <button type="button" id="btn-excel-rebuild" class="mini" title="Rebuild the workbook from the current data (GitHub Actions, about 1 to 2 minutes; needs your repository connected)">엑셀 다시 만들기</button>
-    <button type="button" id="btn-translate" class="mini" hidden title="Translate the Korean summaries and notes on screen with your summary model key">Translate</button>
-    <div class="lang" id="lang" role="group" aria-label="Language">
-      <button type="button" data-lang="ko">KO</button><button type="button" data-lang="en">EN</button>
-    </div>
+    <div class="spacer"></div>
+    <span class="meta" id="generated"></span>
+    <button type="button" id="btn-excel">엑셀 받기</button>
+    <button type="button" id="btn-rebuild">엑셀 다시 만들기</button>
+    <button type="button" id="btn-connect" class="quiet">저장소 연결</button>
   </header>
 
+  <div class="banner" id="banner" hidden></div>
+
   <!-- 홈: graph -->
-  <div class="layout" id="view-home">
-    <aside class="sidebar" id="sidebar">
+  <main class="view" id="view-home">
+    <aside class="side">
       <section class="panel">
-        <h2>데이터</h2>
-        <div class="source-actions">
-          <button id="btn-demo" type="button">데모 데이터</button>
-          <button id="btn-connect" type="button">내 저장소 연결</button>
-          <button id="btn-logout" type="button" class="quiet">로그아웃</button>
-          <button id="btn-import" type="button" hidden>읽기 목록 가져오기</button>
+        <h2>팀 주장</h2>
+        <div id="home-claims"></div>
+      </section>
+      <section class="panel">
+        <h2>출처 종류</h2>
+        <div id="kind-filters" class="legend"></div>
+      </section>
+      <section class="panel">
+        <h2>근거와 주장의 관계</h2>
+        <div class="legend">
+          <span><i class="edge supports"></i>supports</span>
+          <span><i class="edge limits"></i>limits</span>
+          <span><i class="edge contradicts"></i>contradicts</span>
+          <span><i class="edge dashed"></i>아직 확인 안 함</span>
         </div>
-        <p class="hint" id="load-status"></p>
-      </section>
-
-      <section class="panel">
-        <h2>Layer 1 · 연구 주제</h2>
-        <ul class="claims" id="claims"></ul>
-        <button id="btn-new-claim" type="button" class="mini-wide">+ 새 연구 주제</button>
-      </section>
-
-      <section class="panel">
-        <h2>보기</h2>
-        <div id="view-toggles" class="toggles"></div>
-      </section>
-
-      <section class="panel">
-        <h2>관계</h2>
-        <div id="relation-toggles" class="toggles"></div>
-      </section>
-
-      <section class="panel">
-        <h2>태그</h2>
-        <div id="tag-filters"></div>
+        <label class="check"><input type="checkbox" id="hide-unverified"> 확인 안 된 근거 숨기기</label>
+        <label class="check"><input type="checkbox" id="hide-edu" checked> EDU related 숨기기</label>
+        <label class="check"><input type="checkbox" id="hide-na" checked> NOT APPLICABLE 숨기기</label>
       </section>
     </aside>
+    <section class="graph-wrap"><div id="graph"></div></section>
+    <aside class="detail" id="home-detail"><p class="hint">노드를 누르면 자세한 내용이 여기 보여요.</p></aside>
+  </main>
 
-    <main class="graph-wrap">
-      <div id="graph" aria-label="논문 그래프"></div>
-      <div class="legend" id="legend"></div>
-      <div class="empty" id="empty" hidden>조건에 맞는 논문이 없어요.</div>
-    </main>
+  <!-- Evidences -->
+  <main class="view" id="view-evidences" hidden>
+    <section class="list">
+      <div class="filters">
+        <input type="search" id="ev-search" placeholder="제목, 인용, 출처 검색">
+        <select id="ev-kind"><option value="">모든 종류</option></select>
+        <select id="ev-claim"><option value="">모든 주장</option></select>
+        <select id="ev-status"><option value="">모든 상태</option></select>
+        <select id="ev-stance"><option value="">모든 관계</option>
+          <option>supports</option><option>limits</option><option>contradicts</option></select>
+        <span class="meta" id="ev-count"></span>
+      </div>
+      <table class="table" id="ev-table">
+        <thead><tr><th>ID</th><th>종류</th><th>출처</th><th>주장</th><th>관계</th><th>상태</th><th>확인</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <aside class="detail" id="ev-detail"><p class="hint">행을 누르면 원문 인용과 확인 버튼이 보여요.</p></aside>
+  </main>
 
-    <div class="resizer" data-var="--detail-w" title="끌어서 너비 조절"></div>
-    <aside class="detail" id="detail">
-      <p class="hint">논문 노드를 누르거나, 왼쪽에서 연구 주제를 고르면 여기에 내용이 보여요.</p>
-    </aside>
-  </div>
-
-  <!-- 논문 목록 -->
-  <div class="tabview two" id="view-papers" hidden>
-    <aside class="sidebar" id="list-filters"></aside>
-    <main class="listwrap">
-      <div class="list-head" id="list-head"></div>
-      <div id="paper-list"></div>
-    </main>
-  </div>
-
-  <!-- 연구 주제 -->
-  <div class="tabview two-right" id="view-topics" hidden>
-    <main class="listwrap">
-      <div class="list-head" id="topic-head"></div>
-      <div id="topic-list"></div>
-    </main>
-    <div class="resizer" data-var="--topic-w" title="끌어서 너비 조절"></div>
-    <aside class="detail" id="topic-detail">
-      <p class="hint">연구 주제를 누르면 여기에 내용이 보여요.</p>
-    </aside>
-  </div>
+  <!-- Claims -->
+  <main class="view" id="view-claims" hidden>
+    <section class="claims" id="claims-list"></section>
+    <aside class="detail" id="claim-detail"><p class="hint">근거 ID를 누르면 여기 보여요.</p></aside>
+  </main>
 
   <dialog id="connect-dialog">
     <form method="dialog" id="connect-form">
-      <h2>내 데이터 저장소 연결</h2>
-      <label>저장소 (owner/name)
-        <input name="repo" placeholder="hanslelee/research-dump-data" required>
-      </label>
-      <label>Branch
-        <input name="branch" value="main" required>
-      </label>
-      <label>GitHub fine-grained token
-        <input name="token" type="password" autocomplete="off" required>
-      </label>
-      <p class="hint">토큰은 이 브라우저에만 저장되고 api.github.com 말고는 어디에도 보내지 않아요. 공용 컴퓨터에서는 다 쓰고 로그아웃하세요.</p>
-      <div class="dialog-actions">
-        <button value="cancel" type="button" id="connect-cancel" class="quiet">취소</button>
-        <button value="ok" type="submit">연결</button>
+      <h2>저장소 연결</h2>
+      <p class="hint">연결하면 근거 확인, 결론 저장, 엑셀 다시 만들기를 이 화면에서 할 수 있어요. 토큰은 이 브라우저에만 저장돼요.</p>
+      <label>저장소 <input name="repo" placeholder="hanslelee/research-market-dump" required></label>
+      <label>branch <input name="branch" value="main"></label>
+      <label>토큰 (fine-grained, Contents: Read and write) <input name="token" type="password" required></label>
+      <label>확인자 이름 <input name="name" value="Hansle"></label>
+      <div class="actions">
+        <button value="cancel" formnovalidate class="quiet">취소</button>
+        <button type="button" id="btn-disconnect" class="quiet">연결 해제</button>
+        <button value="ok" class="primary">연결</button>
       </div>
     </form>
   </dialog>
 
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script src="i18n.js"></script>
-  <script src="app.js"></script>
+  <div class="toast" id="toast" hidden></div>
+  <footer class="foot">Fictional case (MathBridge AI) · public sources only · <a href="../viewer-legacy/">이전 화면</a> · <a id="repo-link" href="#">저장소</a></footer>
+  <script src="market.js"></script>
 </body>
 </html>

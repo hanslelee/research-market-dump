@@ -31,38 +31,54 @@ human:  market/review.csv (VERIFIED / PARTIAL)   market/conclusions.json (conclu
 2. Settings → Secrets → Actions: `GEMINI_API_KEY`, `S2_API_KEY`. Optional web search: `TAVILY_API_KEY`
    (then set `config.json → market.search.provider` to `"tavily"`) or `BRAVE_API_KEY` (`"brave"`, `key_name: "BRAVE_API_KEY"`).
    With provider `"none"` the agent still reads `seed_urls` and each competitor's `urls`.
-3. Settings → Pages: deploy from `main`, root. The web page is `https://<you>.github.io/research-market-dump/viewer/`;
-   connect it to this same repository (owner/name, branch main, a fine-grained token with contents write).
+3. Settings → Pages: deploy from `main`, root (see Web page below).
+
+## Web page
+
+`https://<you>.github.io/research-market-dump/viewer/` (Settings → Pages: main, root).
+
+- **홈**: team claims, sub-claims and evidence as a graph. Evidence shape = source kind (paper, news, government
+  statistics, company page, research report, book, other); edge colour = supports / limits / contradicts; dashed = not reviewed.
+- **Evidences**: every evidence row with filters; the detail shows the copied quote, the saved snapshot and review buttons.
+- **Claims**: MKT-01 / MKT-02 with their sub-claims, status, action, limitation, evidence chips and your conclusion.
+- **저장소 연결** (repo, branch, fine-grained token with Contents read/write) enables: review buttons
+  (PARTIAL / VERIFIED / NOT APPLICABLE, stance correction) → `market/review.csv`; conclusions → `market/conclusions.json`;
+  each save is one commit plus an export request, and Actions rebuilds `viewer.json` and the workbook in 1 to 2 minutes.
+- **엑셀 받기 / 엑셀 다시 만들기**: download or rebuild `market/out/01_Hansle_Market_Research.xlsx`.
 
 ## Run
 
 Actions → **market** → Run workflow → `all` (or `academic`, `web`, `export`). Then:
 
-1. Web page → 연구 주제 tab → approve or reject the paper relation drafts (new → approved = PARTIAL).
-2. Open the workbook (`market/out/`, or the run's `market-workbook` artifact). For rows you checked against the
-   original page, add a line to `market/review.csv`: `MKT-E004,VERIFIED,Hansle,2026-11-04,quote and price on page`.
-3. Write your conclusions in `market/conclusions.json`, then run `export` again.
+1. Web page → Evidences → open each row, check the original, press PARTIAL / VERIFIED / NOT APPLICABLE
+   (or edit `market/review.csv` by hand: `MKT-E004,VERIFIED,Hansle,2026-11-04,quote and price on page,contradicts`).
+2. Web page → Claims → write a conclusion per sub-claim (or edit `market/conclusions.json`).
+3. The workbook rebuilds after each save; 엑셀 받기 downloads it.
 
 Local: `python market/run.py all --data .` (needs the same environment variables).
 
 ## Status policy
 
-| Status | Meaning |
-|---|---|
-| UNVERIFIED | drafted by an agent; nobody has looked |
-| PARTIAL | a person looked (relation approved or review.csv), but abstract-level, indirect or only part of the claim |
-| VERIFIED | only via review.csv, with checked_by + checked_date, and a real saved page (not a pilot excerpt) |
-| MISSING | claim level: no usable evidence |
+Evidence rows (Market Evidence): UNVERIFIED = drafted by an agent, nobody has looked; PARTIAL = a person looked, but
+abstract-level, indirect or only part of the claim; VERIFIED = a person opened the original and the quote is there
+(checked_by + checked_date, a real saved page, not a pilot excerpt); NOT APPLICABLE = wrong or irrelevant, kept in the
+list but left out of every claim. "EDU related" rows (`market/edu_related.json`) belong to Zixuan's education check:
+listed, left out of MKT status, exported to `edu_candidates.csv`.
 
-Claim action (rule default; you can override in conclusions.json, which is logged as R7 when it overrides a HOLD):
-HIGH + MISSING/UNVERIFIED → HOLD; any blocking rule → HOLD; PARTIAL → ACCEPT_WITH_LIMITATION; VERIFIED → ACCEPT.
+Claims, four levels, weakest first: MISSING < SYNTHETIC < PARTIAL < VERIFIED.
+- Sub-claim (Market Conclusions): SYNTHETIC when fixed so (MKT-02-B: MathBridge's features are fictional); otherwise
+  none of its reviewed supporting evidence → MISSING, all VERIFIED → VERIFIED, else PARTIAL. UNVERIFIED rows do not count.
+- Team claim (Market Handoff): the weakest of its sub-claims. Any MISSING sub-claim → HOLD, and the limitation names it.
+- Actions: MISSING or a blocking rule → HOLD; VERIFIED → ACCEPT; otherwise ACCEPT_WITH_LIMITATION.
+  A human action in conclusions.json that overrides a rule HOLD is logged as R7 for Kaizhen's adjudication.
 
 ## Rules (no model)
 
 R1 status vocabulary · R2 evidence ids resolve · R3 quote found in the saved text · R4 unit leap (a count of X cannot
 support a claim counted in Y unless `market.unit_conversions` has an assumption converting X→Y; T03) ·
 R5 competitor features and price found in the saved page · R6 no VERIFIED without a person's check and a real page ·
-R7 human action overrides a rule HOLD · R8 a HIGH claim may not rest only on "Other" sources.
+R7 human action overrides a rule HOLD · R8 a HIGH claim may not rest only on "Other" sources ·
+R9 ids from other members' files (EDU-, FIN-, INT-) are checked at integration (T07), not here.
 
 ## The agent may not
 

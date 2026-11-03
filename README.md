@@ -18,7 +18,8 @@ collect → screening agent → summary agent → you confirm → compare agent 
 
 | Path | What |
 | --- | --- |
-| `viewer/` | web viewer (static, GitHub Pages) |
+| `viewer/` | market evidence web page: 홈 (graph) / Evidences / Claims (reads `market/out/viewer.json`) |
+| `viewer-legacy/` | the original research-dump viewer (papers, relations, audit) |
 | `pipeline/` | agents and scripts (`llm.py`: one call shape for any OpenAI-compatible LLM) |
 | `schemas/` | JSON formats for paper, claim, relation, author, config |
 | `sample-data/` | demo data: public papers only, demo claims |
@@ -28,7 +29,7 @@ collect → screening agent → summary agent → you confirm → compare agent 
 
 Each researcher runs their own copy. Code is public; **your data lives in your own private repository**. See [docs/setup.md](docs/setup.md).
 
-Try the demo: open `viewer/` with the sample data (no token needed).
+Open `viewer/` (GitHub Pages) to see this project's evidence; no token needed to read.
 
 ## Status
 

@@ -1,0 +1,13 @@
+{
+  "id": "rel:9b8a0bda6768",
+  "from": "doi:10.3390/educsci15010102",
+  "to": "claim:MKT-02-C",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The study finds that AI-generated instructional tools enhance learning outcomes and task performance, supporting the broader premise that educational technology delivers functional utility to instructors.",
+  "limitation": "It examines pre-service science teacher education rather than commercial math diagnostic tools used by private tutors.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

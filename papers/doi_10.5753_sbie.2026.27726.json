@@ -1,0 +1,59 @@
+{
+  "id": "doi:10.5753/sbie.2026.27726",
+  "title": "Mutation-Based Error Diagnosis in a Web Intelligent Tutoring System for First-Degree Equations: A Quasi-Experimental Study",
+  "authors": [],
+  "author_names": [
+    "Alan de Oliveira Santana",
+    "T. R. da Silva",
+    "Eduardo Henrique da Silva Aranha"
+  ],
+  "ids": {
+    "doi": "10.5753/sbie.2026.27726",
+    "s2": "a02f392a013cfdc7f1650689cf2338aa4c33d7fc"
+  },
+  "published": "2026-10-05",
+  "year": 2026,
+  "venue": "Anais do XXXVII Simpósio Brasileiro de Informática na Educação (SBIE 2026)",
+  "url": "https://www.semanticscholar.org/paper/a02f392a013cfdc7f1650689cf2338aa4c33d7fc",
+  "abstract": "This paper investigates the use of mutation analysis as a mechanism for diagnosing student errors in a Web-based Intelligent Tutoring System for first-degree equations. The proposed module generates alternative solution trajectories by injecting atomic error patterns into correct solution steps and comparing the resulting answers with student responses. A quasi-experimental study involving 113 participants was conducted using a simulated test with ten procedurally generated problems. The mutation engine identified 70 of 387 incorrect answers (18.09%), while the guided step-by-step interaction achieved a 75.94% accuracy rate (101 correct responses out of 133). Results indicate that mutation-based reasoning reconstruction can provide interpretable diagnostic feedback and support guided problem solving. The paper discusses the potential, limitations, and future applications of mutation-based diagnosis in Intelligent Tutoring Systems.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "diagnostic-assessment",
+      "misconception",
+      "adaptive-learning"
+    ]
+  },
+  "summary": {
+    "claim": "The paper proposes a mutation analysis mechanism for diagnosing student errors in a Web-based Intelligent Tutoring System for first-degree equations, which identified 18.09% of incorrect answers (70 out of 387) and achieved a 75.94% accuracy rate in guided step-by-step interaction.",
+    "condition": "A quasi-experimental study involving 113 participants using a simulated test with ten procedurally generated problems for first-degree equations.",
+    "gap": "(추론) The study is limited to a simulated test with a specific set of procedurally generated problems for first-degree equations, leaving open how the mutation-based approach performs in real-world classroom settings and across more diverse mathematical domains."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Mutation-Based Error Diagnosis in a Web Intelligent Tutoring System for First-Degree Equations: A Quasi-Experimental Study",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

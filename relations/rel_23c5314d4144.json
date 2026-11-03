@@ -1,0 +1,13 @@
+{
+  "id": "rel:23c5314d4144",
+  "from": "doi:10.1007/s40593-025-00484-8",
+  "to": "claim:MKT-02-C",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "This study showed that human experts offered more nuanced feedback than AI models, bearing on the claim by highlighting the limits of automated tools in delivering the depth of value customers expect.",
+  "limitation": "It investigates teacher training via mixed reality simulations rather than commercial math diagnostics for tuition centres.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

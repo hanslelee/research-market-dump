@@ -1,0 +1,57 @@
+{
+  "id": "doi:10.30831/akukeg.1323295",
+  "title": "Examining the Process of Middle School Math Teachers Diagnosing and Eliminating Student Misconceptions in Algebra",
+  "authors": [],
+  "author_names": [
+    "Hüseyin Kabadaş",
+    "Hayal Yavuz Mumcu"
+  ],
+  "ids": {
+    "doi": "10.30831/akukeg.1323295",
+    "s2": "31f0c7bbbad769a16c17f634014c06023450f804"
+  },
+  "published": "2024-07-25",
+  "year": 2024,
+  "venue": "Kuramsal Eğitimbilim",
+  "url": "https://www.semanticscholar.org/paper/31f0c7bbbad769a16c17f634014c06023450f804",
+  "abstract": "The aim of this study is to examine how middle school mathematics teachers diagnose and attempt to eliminate students' misconceptions in algebra. The study employed a case study method and embedded single-case design within its scope. The research was conducted with three mathematics teachers working in different state schools and having different professional experiences, as well as ten students from the eighth-grade classes of the same schools. The data collection instruments used in the study included the Diagnostic Test developed by researchers to identify students with misconceptions, the Assessment Framework prepared for the evaluation of teacher performances in diagnosing and eliminating student misconceptions, and Semi-Structured Interviews conducted between students and teachers, which were recorded and made available in audio/video format. The study revealed that teachers generally resorted to conventional methods in the process of diagnosing and eliminating students' misconceptions. In most cases, teachers superficially addressed students' errors and did not fully focus on students' thinking. Regarding the processes aimed at eliminating student misconceptions, it was observed that teachers preferred to directly inform students that their answers were incorrect, rather than facilitating students in recognizing their own errors. The findings of this study highlight the need to increase teachers' awareness and student knowledge regarding misconceptions in algebra.",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "diagnostic-assessment",
+      "misconception",
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "The study reveals that middle school math teachers generally resort to conventional methods, superficially addressing algebra misconceptions and directly telling students their answers are incorrect rather than fostering self-recognition.",
+    "condition": "Case study method with an embedded single-case design involving three mathematics teachers and ten eighth-grade students across different state schools, focusing on algebra misconceptions.",
+    "gap": "(추론) The study does not evaluate the effectiveness of alternative pedagogical interventions or professional development programs designed to improve teachers' ability to diagnose and eliminate student misconceptions."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Examining the Process of Middle School Math Teachers Diagnosing and Eliminating Student Misconceptions in Algebra",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

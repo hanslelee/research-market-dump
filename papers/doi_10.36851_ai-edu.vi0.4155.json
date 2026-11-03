@@ -1,0 +1,50 @@
+{
+  "id": "doi:10.36851/ai-edu.vi0.4155",
+  "title": "Preservice Teachers’ Perceptions of AI in Education",
+  "authors": [],
+  "author_names": [
+    "Chia-Jung Chung"
+  ],
+  "ids": {
+    "doi": "10.36851/ai-edu.vi0.4155",
+    "s2": "cae4bf3ded0b114f3c5d06f683ec8497985961c7"
+  },
+  "published": "2024-05-08",
+  "year": 2024,
+  "venue": "AI-EDU Arxiv",
+  "url": "https://www.semanticscholar.org/paper/cae4bf3ded0b114f3c5d06f683ec8497985961c7",
+  "abstract": "This study explores the integration of generative AI tools into multiple-subject and single-subject teaching credential courses at California State University Sacramento during the Fall 2023 and Spring 2024 semesters. The study involved 210 teacher candidates per semester, most of whom had no prior experience with AI in education. Through a series of AI-focused assignments and a survey, the study investigated preservice teachers' perceptions, experiences, and concerns regarding the use of AI tools in educational settings. The assignments aimed to introduce AI tools, encourage experimentation, and facilitate discussions on the potential benefits and challenges of AI in education. The survey results revealed that a significant majority of participants (88.9%) used generative AI tools for personal learning or teaching preparation, with 92% using text generators like ChatGPT. However, opinions were mixed regarding the adoption of AI in future classrooms, with 49% in favor, 41.2% uncertain, and 9.8% opposed. Key concerns included overreliance on technology and ethical issues. The study concludes that while preservice teachers show enthusiasm for experimenting with AI tools and acknowledge their potential to enhance learning experiences, there is a need for ongoing training and support to ensure ethical and effective implementation. The findings suggest that incorporating AI assignments into the curriculum can provide valuable experiences and prepare preservice teachers for the growing role of AI in education.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "This study explores preservice teachers' perceptions, experiences, and concerns regarding generative AI in education, revealing that 88.9% used AI tools for personal learning or teaching preparation, while opinions on future classroom adoption were mixed (49% in favor, 41.2% uncertain, 9.8% opposed).",
+    "condition": "Data from 210 teacher candidates per semester across multiple-subject and single-subject teaching credential courses at California State University Sacramento during the Fall 2023 and Spring 2024 semesters, using AI-focused assignments and a survey.",
+    "gap": "(추론) The study does not evaluate the long-term impact of ongoing AI training on actual classroom teaching practices or student learning outcomes once these preservice teachers enter the profession."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Preservice Teachers’ Perceptions of AI in Education",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

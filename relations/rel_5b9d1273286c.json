@@ -1,0 +1,13 @@
+{
+  "id": "rel:5b9d1273286c",
+  "from": "doi:10.5753/sbie.2026.27726",
+  "to": "claim:MKT-02-A",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The paper investigates a Web-based Intelligent Tutoring System utilizing automated mutation-based error diagnosis for first-degree equations, which bears on the claim by demonstrating automated diagnostic features in math systems, though it lacks tutor review and commercial focus on tuition centres.",
+  "limitation": "It does not evaluate human-tutor-reviewed or traceably evidenced reports tailored for tuition centres in Singapore.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "rel:79bed0efdbf4",
+  "from": "doi:10.62345/jads.2024.13.4.16",
+  "to": "claim:MKT-01-B",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "Results show that automated grading and feedback systems decreased teacher grading time from 15 to 9.75 hours per week, aligning with the premise that educators benefit from and adopt workload-reducing technologies.",
+  "limitation": "The research studies general classroom automated grading rather than diagnostic software specifically targeted at primary mathematics learning gaps in tuition centres.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

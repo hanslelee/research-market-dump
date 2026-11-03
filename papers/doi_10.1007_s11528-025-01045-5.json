@@ -1,0 +1,51 @@
+{
+  "id": "doi:10.1007/s11528-025-01045-5",
+  "title": "K-12 Teachers’ Acceptance and Resistance Perceptions of Learning Analytics Adoption: A Mixed-Methods Approach",
+  "authors": [],
+  "author_names": [
+    "Dimitrios E. Tzimas",
+    "Stavros N. Demetriadis"
+  ],
+  "ids": {
+    "doi": "10.1007/s11528-025-01045-5",
+    "s2": "c02eb41be8e07b8d5ca660a165e19ff21f8c1183"
+  },
+  "published": "2025-02-03",
+  "year": 2025,
+  "venue": "TechTrends",
+  "url": "https://www.semanticscholar.org/paper/c02eb41be8e07b8d5ca660a165e19ff21f8c1183",
+  "abstract": "Learning analytics (LA) is an educational innovation that enhances teaching practices and facilitates student learning. However, the degree of LA adoption across schools remains limited, and teachers who adopt LA do not engage with it consistently. Based on the unified theory of acceptance and use of technology (UTAUT) as a framework, we conducted a perception survey and five focus group interviews with K-12 teachers, aiming to identify their expectations, needs, and perceptions of LA adoption. This study focuses on aspects related to LA’s technology acceptance in school education. The research question is, “Using the UTAUT framework as a theoretical perspective, which factors explain the adoption of LA in schools? How do teachers describe their motivation and readiness for LA adoption?” The findings indicated that the factors facilitating LA adoption were performance expectancy, social influence, and feelings. Furthermore, the factors inhibiting the adoption of LA were effort expectancy, self-efficacy, facilitating conditions, and culture change. The implications and potential future research for adopting LA in schools are discussed.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "Using the UTAUT framework, this study identifies that performance expectancy, social influence, and feelings facilitate learning analytics (LA) adoption in K-12 schools, while effort expectancy, self-efficacy, facilitating conditions, and culture change inhibit it.",
+    "condition": "K-12 teachers based on a perception survey and five focus group interviews.",
+    "gap": "(추론) The study does not evaluate the actual long-term classroom implementation of learning analytics or measure the direct impact of these facilitating and inhibiting factors on student learning outcomes."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "K-12 Teachers’ Acceptance and Resistance Perceptions of Learning Analytics Adoption: A Mixed-Methods Approach",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

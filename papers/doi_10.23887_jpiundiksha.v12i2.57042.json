@@ -1,0 +1,57 @@
+{
+  "id": "doi:10.23887/jpiundiksha.v12i2.57042",
+  "title": "Mathematics Teachers’ Interviewing Strategies for Diagnosing Students’ Learning Obstacles",
+  "authors": [],
+  "author_names": [
+    "Marfuah",
+    "D. Suryadi",
+    "Turmudi"
+  ],
+  "ids": {
+    "doi": "10.23887/jpiundiksha.v12i2.57042",
+    "s2": "772cc9c8934de5ccbbcef9ab3b5778c95a616a35"
+  },
+  "published": "2023-06-27",
+  "year": 2023,
+  "venue": "JPI (Jurnal Pendidikan Indonesia)",
+  "url": "https://www.semanticscholar.org/paper/772cc9c8934de5ccbbcef9ab3b5778c95a616a35",
+  "abstract": "The teachers' awareness of students' learning obstacles is crucial in the reflective practice of developing effective didactic designs. The reflective practice of in-service Indonesian mathematics teachers in diagnosing students' learning obstacles is rising. However, despite the importance of diagnosing students’ learning obstacles for developing the teaching profession, there is little research evidence supporting strategies for mathematics teachers in Indonesia in diagnosing student learning barriers through the interview process. The purpose of this study is to analyze the interviewing strategies that mathematics teachers use in order to diagnose students’ learning obstacles. This research is a qualitative case study and employs thematic-content analysis. In-service high school mathematics teachers from three provinces in Indonesia to participate in this study. This study used video recordings of teachers conducting interviews to investigate students' learning obstacles, triangulated with teachers' reports. This findings show that the teachers' two main strategies are social-emotional and didactical-pedagogical strategies. This study present our expanded explanation of each strategy, as well as some suggestions for further research, intending to assist in establishing a culture of reflective practice among mathematics teachers as part of teachers' professional development.",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "diagnostic-assessment",
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "This qualitative study shows that in-service Indonesian mathematics teachers primarily use two main strategies during interviews to diagnose students' learning obstacles: social-emotional strategies and didactical-pedagogical strategies.",
+    "condition": "In-service high school mathematics teachers from three provinces in Indonesia, using video recordings of teacher-student interviews triangulated with teacher reports and analyzed via thematic-content analysis.",
+    "gap": "(추론) The study does not evaluate the direct impact of these interviewing strategies on student learning outcomes or test their effectiveness in improving didactic designs."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Mathematics Teachers’ Interviewing Strategies for Diagnosing Students’ Learning Obstacles",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite"
+  }
+}

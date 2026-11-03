@@ -1,0 +1,58 @@
+{
+  "id": "doi:10.1145/3506860.3506861",
+  "title": "Empowering Teachers with AI: Co-Designing a Learning Analytics Tool for Personalized Instruction in the Science Classroom",
+  "authors": [],
+  "author_names": [
+    "Tanya Nazaretsky",
+    "Carmel Bar",
+    "M. Walter",
+    "Giora Alexandron"
+  ],
+  "ids": {
+    "doi": "10.1145/3506860.3506861",
+    "s2": "fac2482955d406b2d8540daf482b514d39c41997"
+  },
+  "published": "2021-12-13",
+  "year": 2021,
+  "venue": "International Conference on Learning Analytics and Knowledge",
+  "url": "https://www.semanticscholar.org/paper/fac2482955d406b2d8540daf482b514d39c41997",
+  "abstract": "AI-powered educational technology that is designed to support teachers in providing personalized instruction can enhance their ability to address the needs of individual students, hopefully leading to better learning gains. This paper presents results from a participatory research aimed at co-designing with science teachers a learning analytics tool that will assist them in implementing a personalized pedagogy in blended learning contexts. The development process included three stages. In the first, we interviewed a group of teachers to identify where and how personalized instruction may be integrated into their teaching practices. This yielded a clustering-based personalization strategy. Next, we designed a mock-up of a learning analytics tool that supports this strategy and worked with another group of teachers to define an ‘explainable learning analytics’ scheme that explains each cluster in a way that is both pedagogically meaningful and can be generated automatically. Third, we developed an AI algorithm that supports this ‘explainable clusters’ pedagogy and conducted a controlled experiment that evaluated its contribution to teachers’ ability to plan personalized learning sequences. The planned sequences were evaluated in a blinded fashion by an expert, and the results demonstrated that the experimental group – teachers who received the clusters with the explanations – designed sequences that addressed the difficulties exhibited by different groups of students better than those designed by teachers who received the clusters without explanations. The main contribution of this study is twofold. First, it presents an effective personalization approach that fits blended learning in the science classroom, which combines a real-time clustering algorithm with an explainable-AI scheme that can automatically build pedagogically meaningful explanations from item-level meta-data (Q Matrix). Second, it demonstrates how such an end-to-end learning analytics solution can be built with teachers through a co-design process and highlights the types of knowledge that teachers add to system-provided analytics in order to apply them to their local context. As a practical contribution, this process informed the design of a new learning analytics tool that was integrated into a free online learning platform that is being used by more than 1000 science teachers.",
+  "tags": {
+    "method": [
+      "eval"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "adaptive-learning",
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "This paper presents a co-designed learning analytics tool combining real-time clustering with explainable AI, demonstrating through a controlled experiment that teachers receiving clusters with explanations designed significantly better personalized learning sequences than those without explanations.",
+    "condition": "Blended learning contexts in the science classroom, using a clustering-based personalization strategy and item-level meta-data (Q Matrix).",
+    "gap": "(추론) The study does not evaluate the long-term impact of the tool on actual student learning gains in live classrooms, nor does it explore the generalizability of the co-design approach to non-science subjects."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Empowering Teachers with AI: Co-Designing a Learning Analytics Tool for Personalized Instruction in the Science Classroom",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "doi:10.62345/jads.2024.13.4.16",
+  "title": "Automated Grading and Feedback Systems: Reducing Teacher Workload and Improving Student Performance",
+  "authors": [],
+  "author_names": [
+    "Shabir Ahmed Langove",
+    "A. Khan"
+  ],
+  "ids": {
+    "doi": "10.62345/jads.2024.13.4.16",
+    "s2": "b72b9285b94d731637482b59843bb89613456c5c"
+  },
+  "published": "2024-12-01",
+  "year": 2024,
+  "venue": "Journal of Asian development studies",
+  "url": "https://www.semanticscholar.org/paper/b72b9285b94d731637482b59843bb89613456c5c",
+  "abstract": "With rising expectations on teacher workload due to grading and providing feedback, the innovative use of automated grading is a possible solution. Such systems are designed to make grading systems more efficient in the same regard as increasing students' interest. In this research, the effect of automated grading and feedback on the reduction of teacher burden and enhancement of students' performance is critically analyzed, and recommendations, based on the findings of this study, for educators, as well as policymakers, implementing the technologies will be provided. An exploratory technique was followed for the study, and quantitative data were collected through classroom observation before and after the post-integration of automated grading systems. For instance, the teacher grading hours and the percentage of the students completing the assignments were included as main measures besides the classroom participation rate. The results clearly show that grading time was reduced, and it was found to have decreased from 15 hours per week to 9.75 hours per week – a reduction of 35%. Also, there was a significant enhancement in student interaction; assignment submission rates went up from 70% to 88%, and class contribution from 65% to 81%. The use of automated grading and feedback systems is the utilization of the best strategies because it relieves the teacher of so much work and makes the students more focused and interested in their work. These studies should be seen as an opportunity for the development and implementation of such technologies because of the demonstrated ability of the given technologies to change the practices of education and enhance learning achievement.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "Automated grading and feedback systems reduced teacher grading time from 15 hours per week to 9.75 hours per week (a 35% reduction), while increasing student assignment submission rates from 70% to 88% and class contributions from 65% to 81%.",
+    "condition": "An exploratory research technique using quantitative data collected through classroom observation before and after the post-integration of automated grading systems.",
+    "gap": "(추론) The study does not evaluate the long-term retention of student knowledge, the quality or depth of the automated feedback provided, or the effectiveness of the system across different academic subjects and diverse student demographics."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Automated Grading and Feedback Systems: Reducing Teacher Workload and Improving Student Performance",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

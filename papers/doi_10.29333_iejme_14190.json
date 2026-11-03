@@ -1,0 +1,60 @@
+{
+  "id": "doi:10.29333/iejme/14190",
+  "title": "Elementary teachers’ use of adaptive diagnostic assessment to improve mathematics teaching and learning: A case study",
+  "authors": [],
+  "author_names": [
+    "Dalal H. Alfageh",
+    "Cindy S. York",
+    "Angie Hodge-Zickerman",
+    "Ying Xie"
+  ],
+  "ids": {
+    "doi": "10.29333/iejme/14190",
+    "s2": "7c14867cc61d43ae1868e359851eba0c3058900a"
+  },
+  "published": "2024-02-10",
+  "year": 2024,
+  "venue": "International Electronic Journal of Mathematics Education",
+  "url": "https://www.semanticscholar.org/paper/7c14867cc61d43ae1868e359851eba0c3058900a",
+  "abstract": "This case study examined teachers’ perceptions and use of adaptive diagnostic assessment for improving teaching and learning of elementary-level mathematics. The purpose was to understand how the teaching and learning of mathematics occurred in the classroom and changes that transpired due to the implementation of diagnostic assessments. Findings illustrate that diagnostic assessment can be a critical tool for improving pedagogical practice by enhancing mathematics teaching and learning by creating groups of students, planning lesson time, focused pedagogy, giving student feedback, communicating with stakeholders, and improving teacher efficiency. Participants demonstrated satisfaction with the benefits offered by diagnostic assessment for improving mathematics teaching and learning. Participants described challenges that hindered their effective use of diagnostic assessment tools. The findings of this study support a case for the adoption of diagnostic assessments to improve pedagogical practice and promote mathematics learning among elementary-level students.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "diagnostic-assessment",
+      "adaptive-learning",
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "This case study shows that adaptive diagnostic assessment improves elementary mathematics teaching and learning by enhancing pedagogical practices such as student grouping, lesson planning, focused pedagogy, feedback, communication, and teacher efficiency.",
+    "condition": "Elementary-level mathematics classrooms using adaptive diagnostic assessments, based on teacher perceptions and case study methodology.",
+    "gap": "(추론) The study does not cover quantitative measurements of student learning outcomes or the long-term impacts of adaptive diagnostic assessments beyond the participants' reported perceptions and experiences."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Elementary teachers’ use of adaptive diagnostic assessment to improve mathematics teaching and learning: A case study",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

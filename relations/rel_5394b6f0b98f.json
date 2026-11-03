@@ -1,0 +1,13 @@
+{
+  "id": "rel:5394b6f0b98f",
+  "from": "doi:10.3390/math13172828",
+  "to": "claim:MKT-01-B",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "This review highlights that AI-powered automated grading systems enhance grading efficiency, provide instant feedback, and reduce educators' workloads in STEM education.",
+  "limitation": "It provides a broad review of mathematical modeling in STEM automated grading rather than empirical evidence of tuition centres spending money on math diagnostic tools.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

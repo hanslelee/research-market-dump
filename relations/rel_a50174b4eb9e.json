@@ -1,0 +1,13 @@
+{
+  "id": "rel:a50174b4eb9e",
+  "from": "doi:10.54437/urwatulwutsqo.v14i2.2141",
+  "to": "claim:MKT-01-A",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The study identifies initial diagnostic assessment as a key stage of the TaRL approach in primary learning and notes that it creates increased teacher workload and time constraints, which supports the claim that diagnosing learning gaps takes substantial effort.",
+  "limitation": "This study examines general literacy and numeracy diagnostic approaches in Indonesian public primary schools rather than specifically focusing on primary mathematics tutoring centres in Singapore.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

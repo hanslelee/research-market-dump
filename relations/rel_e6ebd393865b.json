@@ -1,0 +1,13 @@
+{
+  "id": "rel:e6ebd393865b",
+  "from": "doi:10.5220/0014833000004021",
+  "to": "claim:MKT-02-A",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The paper presents a multi-agent AI architecture for automated error diagnosis and formative assessment in grade-school mathematics, supporting the feasibility of diagnostic tools, but it evaluates automated generation rather than tutor-reviewed, evidence-traceable reports specifically deployed in tuition centres.",
+  "limitation": "It does not evaluate commercial market offerings or human-tutor-reviewed reports in tuition centres in Singapore.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

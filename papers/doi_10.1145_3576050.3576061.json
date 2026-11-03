@@ -1,0 +1,53 @@
+{
+  "id": "doi:10.1145/3576050.3576061",
+  "title": "Predictive Learning Analytics and University Teachers: Usage and perceptions three years post implementation",
+  "authors": [],
+  "author_names": [
+    "C. Herodotou",
+    "C. Maguire",
+    "Martin Hlosta",
+    "P. Mulholland"
+  ],
+  "ids": {
+    "doi": "10.1145/3576050.3576061",
+    "s2": "5148f7fe49ac78f319f9681a5f86569a8c233714"
+  },
+  "published": "2023-03-13",
+  "year": 2023,
+  "venue": "International Conference on Learning Analytics and Knowledge",
+  "url": "https://www.semanticscholar.org/paper/5148f7fe49ac78f319f9681a5f86569a8c233714",
+  "abstract": "Predictive learning analytics (PLA) dashboards have been used by teachers to identify students at risk of failing their studies and provide proactive support. Yet, very few of them have been deployed at a large scale or had their use studied at a mature level of implementation. In this study, we surveyed 366 distance learning university teachers across four faculties three years after PLA has been made available across university as business as usual. Informed by the Unified Theory of Acceptance and Use of Technology (UTAUT), we present a context-specific version of UTAUT that reflects teachers’ perceptions of PLA in distance learning higher education. The adoption and use of PLA was shown to be positively influenced by less experience in teaching, performance expectancy, self-efficacy, positive attitudes, and low anxiety, while negatively influenced by a lack of facilitating conditions and low effort expectancy, indicating that the type of technology and context within which it is used are significant factors determining our understanding of technology usage and adoption. This study provides significant insights as to how to design, apply and implement PLA with teachers in higher education.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "A survey of 366 distance learning university teachers three years after implementing predictive learning analytics (PLA) dashboards shows that adoption and use are positively influenced by less teaching experience, performance expectancy, self-efficacy, positive attitudes, and low anxiety, while negatively influenced by a lack of facilitating conditions and low effort expectancy.",
+    "condition": "366 distance learning university teachers across four faculties three years post-implementation, analyzed using a context-specific version of the Unified Theory of Acceptance and Use of Technology (UTAUT).",
+    "gap": "(추론) The study does not measure the actual impact of PLA usage on student retention or academic performance, nor does it evaluate settings outside of distance learning higher education institutions."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Predictive Learning Analytics and University Teachers: Usage and perceptions three years post implementation",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

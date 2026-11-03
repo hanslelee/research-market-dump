@@ -1,0 +1,61 @@
+{
+  "id": "doi:10.54437/urwatulwutsqo.v14i2.2141",
+  "title": "Identifying Teaching at the Right Level (TaRL) Approach Practices in Primary School Learning",
+  "authors": [],
+  "author_names": [
+    "Sefriyana Sefriyana",
+    "H. Herlina",
+    "A. Asriani",
+    "Rizal Rizal",
+    "R. Pratama"
+  ],
+  "ids": {
+    "doi": "10.54437/urwatulwutsqo.v14i2.2141",
+    "s2": "b2fdf7f5abe54236e09dfaeaa9ed9e39594f78d4"
+  },
+  "published": "2025-06-14",
+  "year": 2025,
+  "venue": "Urwatul Wutsqo: Jurnal Studi Kependidikan dan Keislaman",
+  "url": "https://www.semanticscholar.org/paper/b2fdf7f5abe54236e09dfaeaa9ed9e39594f78d4",
+  "abstract": "This study aims to identify the implementation of the Teaching at the Right Level (TaRL) approach in sixth-grade learning at SD Negeri Model Terpadu Madani. Using a descriptive qualitative method, data were collected through in-depth interviews, classroom observations, and document analysis. The results indicate that TaRL is implemented through three key stages: initial diagnostic assessment to map student ability levels, grouping based on literacy and numeracy levels, and level-based differentiated instruction accompanied by ongoing formative evaluation. Triangulated data from multiple sources strengthens the finding that this approach enhances learning relevance and accommodates student diversity. The main challenges include increased teacher workload, time constraints, and the need for ongoing institutional support and professional training. This research contributes to the development of level-based instructional strategies in Indonesian primary education and recommends the systemic integration of the TaRL approach into teacher training programs and the Merdeka curriculum framework",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment",
+      "diagnostic-assessment",
+      "teacher-workload",
+      "adaptive-learning"
+    ]
+  },
+  "summary": {
+    "claim": "This study identifies that the Teaching at the Right Level (TaRL) approach is implemented in sixth-grade learning through three key stages: initial diagnostic assessment, ability-based grouping, and level-based differentiated instruction with ongoing formative evaluation.",
+    "condition": "Descriptive qualitative method using in-depth interviews, classroom observations, and document analysis at SD Negeri Model Terpadu Madani in Indonesian primary education.",
+    "gap": "(추론) The study does not quantitatively measure the long-term academic impact of the TaRL approach on student learning outcomes across a broader sample of schools."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Identifying Teaching at the Right Level (TaRL) Approach Practices in Primary School Learning",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

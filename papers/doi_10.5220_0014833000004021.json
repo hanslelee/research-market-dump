@@ -1,0 +1,60 @@
+{
+  "id": "doi:10.5220/0014833000004021",
+  "title": "Multi-Agent Architecture for Formative Assessment: An Integrated Approach to Error Diagnosis and Diagnostic Feedback",
+  "authors": [],
+  "author_names": [
+    "Cristina Alameda",
+    "R. Hervás",
+    "Gonzalo Méndez"
+  ],
+  "ids": {
+    "doi": "10.5220/0014833000004021",
+    "s2": "6e82e01bfe24e86d8a2004cb81e4f9096a9af3ad"
+  },
+  "published": "2026-01-01",
+  "year": 2026,
+  "venue": "International Conference on Computer Supported Education",
+  "url": "https://www.semanticscholar.org/paper/6e82e01bfe24e86d8a2004cb81e4f9096a9af3ad",
+  "abstract": ": Intelligent Tutoring Systems demonstrate significant learning gains in mathematics education. However, existing LLM-based approaches, while pedagogically promising, depend on high API expenses and cloud connectivity, limiting deployment in under-resourced contexts. We present a multi-agent cognitive architecture for automated formative assessment that operates using a sub-2B parameter language model (Qwen3-1.7B), allowing low resources and local execution. The system coordinates three specialized reasoning agents (abductive, deductive, and inductive) through majority voting, followed by expert student solution analysis and adaptive feedback generation incorporating student modeling and learning history. Evaluation on 1,024 grade-school mathematics problems demonstrates substantial improvements over single-agent baselines: F1-score of 0.907 vs. 0.738 (+22.9), with precision rising from 60.8% to 89.0% (+28.2), and critically reducing false positives from 31.2% to 5.9%, a pedagogically essential improvement for maintaining learners trust. Expert validation by computer scientists and educators confirms superior feedback quality (mean rating 5.2 vs. 3.6 out of 6, p < 0 . 001) across dimensions including diagnostic accuracy, clarity, and pedagogical value, with 63% expert preference for multi-agent feedback comparing to a non-agents feedback generation. These results challenge the prevailing assumption that effective educational AI requires massive frontier models, demonstrating that thoughtfully orchestrated small language models can deliver pedagogically reliable formative assessment while operating on commodity hardware. By addressing cost and infrastructure barriers, this work aims to democratize adaptive tutoring technologies for global educational equity.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "agent",
+    "topic": [
+      "formative-assessment",
+      "diagnostic-assessment",
+      "adaptive-learning",
+      "misconception"
+    ]
+  },
+  "summary": {
+    "claim": "The paper presents a multi-agent cognitive architecture using a sub-2B parameter language model (Qwen3-1.7B) for automated formative assessment, achieving an F1-score of 0.907 and reducing false positives to 5.9% on 1,024 grade-school mathematics problems.",
+    "condition": "Evaluated on 1,024 grade-school mathematics problems using a sub-2B parameter language model (Qwen3-1.7B) running locally with three specialized reasoning agents.",
+    "gap": "(추론) The study does not cover the deployment and scalability of the architecture in real-world, large-scale classrooms with diverse subjects beyond grade-school mathematics."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Multi-Agent Architecture for Formative Assessment: An Integrated Approach to Error Diagnosis and Diagnostic Feedback",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "doi:10.36526/sosioedukasi.v15i2.7796",
+  "title": "DEVELOPMENT OF AN ARTICULATE STORYLINE-BASED COGNITIVE INTERACTIVE DIAGNOSTIC ASSESSMENT IN VOCATIONAL HIGH SCHOOL MATHEMATICS: A NEEDS ANALYSIS",
+  "authors": [],
+  "author_names": [
+    "L. Rahmawati",
+    "Munadi",
+    "Dewi Amaliah Nafiati"
+  ],
+  "ids": {
+    "doi": "10.36526/sosioedukasi.v15i2.7796",
+    "s2": "9f01857a0bd9c2a98b7b2df65dfa1affd41da405"
+  },
+  "published": "2026-04-30",
+  "year": 2026,
+  "venue": "SOSIOEDUKASI : JURNAL ILMIAH ILMU PENDIDIKAN DAN SOSIAL",
+  "url": "https://www.semanticscholar.org/paper/9f01857a0bd9c2a98b7b2df65dfa1affd41da405",
+  "abstract": "This study aimed to analyze the needs for developing an interactive cognitive diagnostic assessment based on Articulate Storyline for mathematics learning in vocational high schools. The study employed a research and development approach focused on the needs analysis stage, using a mixed-methods design with a sequential exploratory strategy. Qualitative data were collected through interviews with mathematics teachers selected using purposive sampling, while quantitative data were obtained from a needs-analysis questionnaire administered to 420 tenth-grade students from seven public vocational high schools in Tegal Regency selected using proportional sampling techniques. The findings show that both teachers and students strongly need an assessment tool that is interactive, digital, capable of providing immediate feedback, answer review features, and follow-up of assessment results. Students also expressed a high need for contextual items, visual appeal, and opportunities for independent learning. The results indicate that conventional assessment practices are not yet sufficient to identify students’ prior knowledge comprehensively. Therefore, the development of an Articulate Storyline-based cognitive diagnostic assessment is highly relevant to support more accurate diagnosis of students’ mathematical understanding, strengthen learning readiness, and promote more meaningful and independent learning.",
+  "tags": {
+    "method": [
+      "eval"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "diagnostic-assessment",
+      "formative-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "The study demonstrates through a needs analysis of 420 tenth-grade students and mathematics teachers that there is a strong demand for an interactive, digital, Articulate Storyline-based cognitive diagnostic assessment in vocational high schools to provide immediate feedback, contextual items, and better identification of prior knowledge.",
+    "condition": "Tenth-grade students from seven public vocational high schools in Tegal Regency and their mathematics teachers, using a mixed-methods design with a sequential exploratory strategy.",
+    "gap": "(추론) The study only performs a needs analysis and does not actually develop, implement, or evaluate the effectiveness of the proposed Articulate Storyline-based cognitive diagnostic assessment in improving student learning outcomes."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "DEVELOPMENT OF AN ARTICULATE STORYLINE-BASED COGNITIVE INTERACTIVE DIAGNOSTIC ASSESSMENT IN VOCATIONAL HIGH SCHOOL MATHEMATICS: A NEEDS ANALYSIS",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "rel:05cdb0987047",
+  "from": "doi:10.1177/14727978251314556",
+  "to": "claim:MKT-01-A",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The paper finds that manual evaluation and feedback production take significant time (average 62.2 seconds per instance), supporting the claim that assessment demands substantial effort, though it focuses on general online education rather than primary mathematics diagnosis by tutors in Singapore.",
+  "limitation": "It does not examine primary mathematics learning-gap diagnosis or tuition centres in Singapore.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

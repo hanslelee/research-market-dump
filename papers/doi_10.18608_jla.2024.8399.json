@@ -1,0 +1,66 @@
+{
+  "id": "doi:10.18608/jla.2024.8399",
+  "title": "Following the Impact Chain of the LA Cockpit: An Intervention Study Investigating a Teacher Dashboard's Effect on Student Learning",
+  "authors": [],
+  "author_names": [
+    "Onur Karademir",
+    "Lena Borgards",
+    "Daniele Di Mitri",
+    "Sebastian Strauß",
+    "M. Kubsch",
+    "Markus Brobeil",
+    "Adrian Grimm",
+    "Sebastian Gombert",
+    "N. Rummel",
+    "Knut Neumann",
+    "Hendrik Drachsler"
+  ],
+  "ids": {
+    "doi": "10.18608/jla.2024.8399",
+    "s2": "00f00448168382a1c01ed96cf5e2387ed293ba8c"
+  },
+  "published": "2024-07-25",
+  "year": 2024,
+  "venue": "Journal of Learning Analytics",
+  "url": "https://www.semanticscholar.org/paper/00f00448168382a1c01ed96cf5e2387ed293ba8c",
+  "abstract": "This paper presents a teacher dashboard intervention study in secondary school practice involving teachers (n = 16) with their classes (n = 22) and students (n = 403). A quasi-experimental treatment-control group design was implemented to compare student learning outcomes between classrooms where teachers did not have access to the dashboard and classrooms where teachers had access to the dashboard. We examined different points in the impact chain of the “LA Cockpit,” a teacher dashboard with a feedback system through which teachers can send feedback to their students on student learning. To investigate this impact chain from teacher use of dashboards to student learning, we analyzed 1) teachers’ perceived technology acceptance of the LA Cockpit, 2) teacher feedback practices using the LA Cockpit, and 3) student knowledge gains as measured by pre- and post-tests. The analysis of n = 355 feedback messages sent by teachers through the LA Cockpit revealed that the dashboard assists teachers in identifying students facing difficulties and that teachers mostly provided process feedback, which is known to be effective for student learning. For student learning, significantly higher knowledge gains were found in the teacher dashboard condition compared to the control condition.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment",
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "The LA Cockpit teacher dashboard intervention study shows that access to the dashboard significantly increases student knowledge gains compared to a control condition, alongside assisting teachers in identifying struggling students and facilitating process feedback.",
+    "condition": "Secondary school practice involving 16 teachers, 22 classes, and 403 students using a quasi-experimental treatment-control group design.",
+    "gap": "(추론) The study does not cover the long-term retention of student knowledge gains beyond immediate post-tests, nor does it explore the specific mechanisms of how different types of teacher feedback individually mediate student learning outcomes."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Following the Impact Chain of the LA Cockpit: An Intervention Study Investigating a Teacher Dashboard's Effect on Student Learning",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

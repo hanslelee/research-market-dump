@@ -1,0 +1,56 @@
+{
+  "id": "doi:10.1177/14727978251314556",
+  "title": "Leveraging natural language processing for automated assessment and feedback production in virtual education settings",
+  "authors": [],
+  "author_names": [
+    "M. Liang"
+  ],
+  "ids": {
+    "doi": "10.1177/14727978251314556",
+    "s2": "cfb6e408a7e592524470a5abfededc7ebf541826"
+  },
+  "published": "2025-01-13",
+  "year": 2025,
+  "venue": "J. Comput. Methods Sci. Eng.",
+  "url": "https://www.semanticscholar.org/paper/cfb6e408a7e592524470a5abfededc7ebf541826",
+  "abstract": "With the rapid development of online teaching, the traditional teacher face-to-face evaluation and feedback model in online teaching faces problems such as high labor costs, low efficiency, and insufficient personalization. The application of natural language processing technology in the field of education has become a trend. Based on this choice, this article applied natural language processing to achieve automated evaluation and personalized feedback of online teaching processes. This article chose to use recurrent neural network (RNN) algorithm for text generation, and adopted Seq2Seq-based (Sequence-to-Sequence) recurrent neural network framework for automatic text feedback generation. Then, a group of student performance data was collected and divided into a control group and an experimental group, and comparisons were made between manual feedback and automatically generated feedback, respectively. Finally, the effectiveness and impact of automatic evaluation and feedback generation were evaluated by comparing the performance data and analysis results of two groups of students. The average accuracy of the automatic evaluation system designed in this article was 95.6%, which was higher than the 84.5% of manual evaluation. The accuracy of the automatic evaluation system designed in this article was higher, and the time spent on manual evaluation and automatic evaluation was compared. The average time spent on manual evaluation was 62.2 seconds, while automatic evaluation shortened the time to 36.98 seconds. For the feedback results, the graphical curves of the manually generated and automatically generated feedback results in terms of feedback on student grades were basically consistent, which can fully prove that the automatically generated feedback results have high accuracy. The remarkable efficacy of natural language processing (NLP) in online education is vividly illustrated by a recent study, where an NLP model notched an impressive average ROUGE score of 93.8 points. This achievement outstrips the performance of three other algorithmic models in the realm of automatic assessment and feedback generation. Such comparative experiments underscore the transformative potential of NLP technology, significantly boosting teaching efficiency and enriching the learning experience by adeptly tackling the perennial challenges of evaluation and feedback in online education settings.",
+  "tags": {
+    "method": [
+      "eval",
+      "inference"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "teacher-workload",
+      "formative-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "The article applied natural language processing using a Seq2Seq-based recurrent neural network framework for automated evaluation and personalized feedback in virtual education, achieving an average evaluation accuracy of 95.6% and shortening evaluation time to 36.98 seconds.",
+    "condition": "Online teaching settings using student performance data, comparing a control group and an experimental group with recurrent neural network algorithms for text generation.",
+    "gap": "(추론) The study does not evaluate the long-term impact of automated feedback on student learning outcomes or its generalizability across different academic subjects and educational levels."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Leveraging natural language processing for automated assessment and feedback production in virtual education settings",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite"
+  }
+}

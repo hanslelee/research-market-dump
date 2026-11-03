@@ -1,0 +1,54 @@
+{
+  "id": "doi:10.1007/s40593-025-00484-8",
+  "title": "AI Versus Human Feedback in Mixed Reality Simulations: Comparing LLM and Expert Mentoring in Preservice Teacher Education on Controversial Issues",
+  "authors": [],
+  "author_names": [
+    "T. Nygren",
+    "Marcus Samuelsson",
+    "Pernilla Hansson",
+    "E. Efimova",
+    "Steven Bachelder"
+  ],
+  "ids": {
+    "doi": "10.1007/s40593-025-00484-8",
+    "s2": "772f63d299052dad4e473d34357952683a4fd7f2"
+  },
+  "published": "2025-06-04",
+  "year": 2025,
+  "venue": "International Journal of Artificial Intelligence in Education",
+  "url": "https://www.semanticscholar.org/paper/772f63d299052dad4e473d34357952683a4fd7f2",
+  "abstract": "This study explores the potential role of AI-generated mentoring within simulated environments designed for teacher education, specifically focused on the challenges of teaching controversial issues. Using a mixed-methods approach, we empirically investigate the potential and challenges of AI-generated feedback compared to that provided by human experts when mentoring preservice teachers in the context of mixed reality simulations. Findings reveal that human experts offered more mixed and nuanced feedback than ChatGPT-4o and Perplexity, especially when identifying missed teaching opportunities and balancing classroom discussions. The AI models evaluated were publicly available pro versions of LLMs and were tested using detailed prompts and coding schemes aligned with educational theories. AI systems were not very good at identifying aspects of general, pedagogical or content knowledge based on Shulman’s theories but were still quite effective in generating feedback in line with human experts. The study highlights the promise of AI to enhance teacher training but underscores the importance of combining AI feedback with expert insights to address the complexities of real-world teaching. This research contributes to a growing understanding of AI's potential role and limitations in education. It suggests that, while AI can be valuable to scale mixed reality simulations, it should be carefully evaluated and balanced by human expertise in teacher education.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "This study investigates the potential and challenges of AI-generated feedback compared to human expert mentoring in mixed reality simulations for preservice teacher education on controversial issues, finding that AI models are effective yet less nuanced than human experts.",
+    "condition": "Preservice teachers in mixed reality simulations using publicly available pro versions of LLMs (ChatGPT-4o and Perplexity) tested with detailed prompts and coding schemes aligned with educational theories.",
+    "gap": "(추론) The study does not evaluate the long-term impact of combined AI and human mentoring on actual classroom teaching performance or student learning outcomes."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "AI Versus Human Feedback in Mixed Reality Simulations: Comparing LLM and Expert Mentoring in Preservice Teacher Education on Controversial Issues",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

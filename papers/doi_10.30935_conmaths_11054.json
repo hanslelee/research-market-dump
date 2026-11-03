@@ -16,13 +16,18 @@
   "abstract": "The likelihood of misunderstanding and misrepresenting trigonometric ideas motivated an investigation of implicit misconceptions in prospective mathematics teachers’ reasoning about particular trigonometric concepts. To access the participants’ implicit misconceptions, a qualitative approach and case study design in particular were employed. Three prospective teachers chosen purposefully composed the sample. The student teachers majored in mathematics and were in the final year of training. Four diagnostic questions based on trigonometry were administered followed by semi-structured interviews. Qualitative analyses of calculations and interview transcripts revealed implicit misconceptions in participants’ reasoning. The prospective teachers reasoned that trigonometric equations can be resolved in the same way as conventional algebraic equations. Likewise, they demonstrated an erroneous notion that inverse trigonometric functions are evaluated just like indices. Besides, the participants incorrectly considered elements of domains of trigonometric functions to be synonymous with such functions’ extreme values. Overall, prospective teachers’ reasoning demonstrated didactical obstacles. It is therefore proposed that mathematics teacher education should include opportunities for prospective teachers to reason about mathematics concepts in a manner that prevents didactical obstacles. Furthermore, mathematics educators should engage in instructional practices which facilitate prospective teachers’ acquisition of in-depth understanding of mathematics conceptual relationships and differences.",
   "tags": {
     "method": [
-      "other"
+      "analysis"
     ],
-    "main_method": "other",
-    "goal": [],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
     "modal": "text",
     "setting": "standalone",
-    "topic": []
+    "topic": [
+      "misconception",
+      "diagnostic-assessment"
+    ]
   },
   "summary": {
     "claim": "The study reveals implicit misconceptions in prospective mathematics teachers' reasoning regarding trigonometric concepts, including treating trigonometric equations like conventional algebraic equations and viewing inverse trigonometric functions like indices.",
@@ -38,13 +43,13 @@
   "entered_at": "2026-11-03",
   "source": "manual",
   "provenance": {
-    "needs_tags": true,
     "added_by": "web",
     "query": "Implicit Misconceptions in Prospective Mathematics Teachers’ Reasoning About Trigonometric Concepts",
     "created_at": "2026-11-03",
     "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
     "summary_from": "abstract",
     "summarized_at": "2026-11-03",
-    "summary_check": "ok"
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite"
   }
 }

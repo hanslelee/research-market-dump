@@ -1,0 +1,57 @@
+{
+  "id": "doi:10.3390/math13172828",
+  "title": "A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques",
+  "authors": [],
+  "author_names": [
+    "Le-Ying Tan",
+    "Shi-Yu Hu",
+    "Darren J. Yeo",
+    "K. Cheong"
+  ],
+  "ids": {
+    "doi": "10.3390/math13172828",
+    "s2": "254083ac10591ca5fde0c1f2eb21af6431a48f72"
+  },
+  "published": "2025-09-02",
+  "year": 2025,
+  "venue": "Mathematics",
+  "url": "https://www.semanticscholar.org/paper/254083ac10591ca5fde0c1f2eb21af6431a48f72",
+  "abstract": "This paper presents a comprehensive analysis of artificial intelligence-powered automated grading systems (AI AGSs) in STEM education, systematically examining their algorithmic foundations, mathematical modeling approaches, and quantitative evaluation methodologies. AI AGSs enhance grading efficiency by providing large-scale, instant feedback and reducing educators’ workloads. Compared to traditional manual grading, these systems improve consistency and scalability, supporting a wide range of assessment types, from programming assignments to open-ended responses. This paper provides a structured taxonomy of AI techniques including logistic regression, decision trees, support vector machines, convolutional neural networks, transformers, and generative models, analyzing their mathematical formulations and performance characteristics. It further examines critical challenges, such as user trust issues, potential biases, and students’ over-reliance on automated feedback, alongside quantitative evaluation using precision, recall, F1-score, and Cohen’s Kappa metrics. The analysis includes feature engineering strategies for diverse educational data types and prompt engineering methodologies for large language models. Lastly, we highlight emerging trends, including explainable AI and multimodal assessment systems, offering educators and researchers a mathematical foundation for understanding and implementing AI AGSs into educational practices.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "teacher-workload",
+      "adaptive-learning"
+    ]
+  },
+  "summary": {
+    "claim": "This paper presents a comprehensive analysis of artificial intelligence-powered automated grading systems in STEM education, examining algorithmic foundations, mathematical modeling approaches, and quantitative evaluation methodologies across various AI techniques.",
+    "condition": "STEM education assessment types ranging from programming assignments to open-ended responses, evaluated using metrics such as precision, recall, F1-score, and Cohen's Kappa.",
+    "gap": "(추론) The paper reviews existing AI-based automated grading techniques and challenges, but does not provide empirical validation or new experimental results on novel grading models."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "A Comprehensive Review on Automated Grading Systems in STEM Using AI Techniques",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

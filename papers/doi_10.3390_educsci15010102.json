@@ -1,0 +1,50 @@
+{
+  "id": "doi:10.3390/educsci15010102",
+  "title": "The Impact of AI-Generated Instructional Videos on Problem-Based Learning in Science Teacher Education",
+  "authors": [],
+  "author_names": [
+    "Nikolaos Pellas"
+  ],
+  "ids": {
+    "doi": "10.3390/educsci15010102",
+    "s2": "b19c76482151639f999fc3ff6b8d0cec90d87665"
+  },
+  "published": "2025-01-18",
+  "year": 2025,
+  "venue": "Education sciences",
+  "url": "https://www.semanticscholar.org/paper/b19c76482151639f999fc3ff6b8d0cec90d87665",
+  "abstract": "Artificial Intelligence (AI) has gained significant prominence in science education, yet its practical applications, particularly in teacher training, remain underexplored. Specifically, there is a lack of research on AI’s potential to support personalized professional development through automated analysis of classroom interactions and tailored feedback. As science teacher education requires skill development in complex scientific concepts within problem-based learning (PBL) contexts, there is a growing need for innovative, technology-driven instructional tools. AI-generated instructional videos are increasingly recognized as powerful tools for enhancing educational experiences. This study investigates the impact of AI-generated instructional videos, designed using established instructional design principles, on self-efficacy, task performance, and learning outcomes in science teacher education. Employing a within-subjects design, the current study included pre-test, post-test, and transfer assessments to evaluate learning durability and transferability, consistent with design-based research methodology. Moreover, this study compares the effectiveness of two AI-generated instructional video formats: one with an embedded preview feature allowing learners to preview key concepts before detailed instruction (video-with-preview condition) and another without this feature (video-without-preview condition). It specifically examines the role of preview features in enhancing these outcomes during training on scientific concepts with 55 Greek pre-service science teachers (n = 55; mean age 27.3 years; range 22–35). The results demonstrated that the videos effectively supported self-efficacy, task performance, and knowledge retention. However, no significant differences were observed between videos with and without preview features across all assessed metrics and tests. These findings also indicate that AI-generated instructional videos can effectively enhance knowledge retention, transfer, and self-efficacy, positioning them as promising assets in science teacher education. The limited impact of the preview feature highlights the need for careful design and evaluation of instructional elements, such as interactivity and adaptive learning algorithms, to fully realize their potential.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "The study demonstrates that AI-generated instructional videos effectively support self-efficacy, task performance, and knowledge retention in science teacher education, although no significant differences were observed between video formats with and without preview features.",
+    "condition": "Evaluated with 55 Greek pre-service science teachers (mean age 27.3 years, range 22-35) using a within-subjects design with pre-test, post-test, and transfer assessments.",
+    "gap": "(저자) The limited impact of the preview feature highlights the need for careful design and evaluation of instructional elements, such as interactivity and adaptive learning algorithms, to fully realize their potential."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "The Impact of AI-Generated Instructional Videos on Problem-Based Learning in Science Teacher Education",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

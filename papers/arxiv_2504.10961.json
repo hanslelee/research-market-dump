@@ -1,0 +1,55 @@
+{
+  "id": "arxiv:2504.10961",
+  "title": "Evaluating Trust in AI, Human, and Co-produced Feedback Among Undergraduate Students",
+  "authors": [],
+  "author_names": [
+    "Audrey Zhang",
+    "Yifei Gao",
+    "Wannapon Suraworachet",
+    "Tanya Nazaretsky",
+    "M. Cukurova"
+  ],
+  "ids": {
+    "arxiv": "2504.10961",
+    "doi": "10.48550/arXiv.2504.10961",
+    "s2": "6d22efd937367a29fc980df3d22e237e9da1f4d9"
+  },
+  "published": "2025-04-15",
+  "year": 2025,
+  "venue": "arXiv.org",
+  "url": "https://www.semanticscholar.org/paper/6d22efd937367a29fc980df3d22e237e9da1f4d9",
+  "abstract": "As generative AI models, particularly large language models (LLMs), transform educational feedback practices in higher education (HE) contexts, understanding students'perceptions of different sources of feedback becomes crucial for their effective implementation and adoption. This study addresses a critical gap by comparing undergraduate students'trust in LLM, human, and human-AI co-produced feedback in their authentic HE context. More specifically, through a within-subject experimental design involving 91 participants, we investigated factors that predict students'ability to distinguish between feedback types, their perceptions of feedback quality, and potential biases related to the source of feedback. Findings revealed that when the source was blinded, students generally preferred AI and co-produced feedback over human feedback regarding perceived usefulness and objectivity. However, they presented a strong bias against AI when the source of feedback was disclosed. In addition, only AI feedback suffered a decline in perceived genuineness when feedback sources were revealed, while co-produced feedback maintained its positive perception. Educational AI experience improved students'ability to identify LLM-generated feedback and increased their trust in all types of feedback. More years of students'experience using AI for general purposes were associated with lower perceived usefulness and credibility of feedback. These insights offer substantial evidence of the importance of source credibility and the need to enhance both feedback literacy and AI literacy to mitigate bias in student perceptions for AI-generated feedback to be adopted and impact education.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "Undergraduate students preferred blinded AI and co-produced feedback over human feedback for usefulness and objectivity, but exhibited a strong bias against AI when the source was disclosed.",
+    "condition": "Within-subject experimental design involving 91 undergraduate participants in an authentic higher education context, comparing LLM, human, and human-AI co-produced feedback.",
+    "gap": "(추론) The study does not evaluate long-term educational outcomes or academic performance resulting from the different feedback types, nor does it examine graduate students or diverse disciplinary contexts."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Evaluating Trust in AI, Human, and Co-produced Feedback Among Undergraduate Students",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

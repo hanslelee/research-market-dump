@@ -1,0 +1,11 @@
+{
+  "_how": "MKT-E ids of evidence that belongs to Zixuan's education check. Kept in the Market Evidence list with topic 'EDU related', left out of MKT status, exported to edu_candidates.csv. Add the EDU-E id once Zixuan assigns one.",
+  "items": {
+    "MKT-E001": {
+      "edu_id": ""
+    },
+    "MKT-E013": {
+      "edu_id": ""
+    }
+  }
+}

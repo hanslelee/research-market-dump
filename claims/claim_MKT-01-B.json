@@ -1,0 +1,18 @@
+{
+  "id": "claim:MKT-01-B",
+  "text": "Tuition centres or teachers already spend, or are willing to spend, on tools that reduce diagnosis time.",
+  "status": "active",
+  "version": 1,
+  "parent": "MKT-01",
+  "origin": "manual",
+  "created_at": "2026-11-03",
+  "basis": "Sub-claim of MKT-01, chosen by Hansle to make MKT-01 checkable.",
+  "materiality": "HIGH",
+  "unit": "",
+  "assumption_ids": [],
+  "market_queries": [
+    "Singapore tuition centres education technology spending",
+    "Singapore household spending private tuition 2023 survey",
+    "tuition centre software subscription Singapore AI marking"
+  ]
+}

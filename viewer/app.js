@@ -201,6 +201,33 @@
   }
   $('#lang').onclick = e => { const b = e.target.closest('button[data-lang]'); if (b) setLang(b.dataset.lang); };
   $('#btn-translate').onclick = e => translateNow(e.currentTarget);
+
+  // ---------- research-market-dump: market workbook ----------
+  const WORKBOOK = 'market/out/01_Hansle_Market_Research.xlsx';
+  async function downloadWorkbook(btn) {
+    const repo = state.source === 'github' && gh.conn ? gh.conn.repo : publicRepo();
+    const branch = state.source === 'github' && gh.conn ? gh.conn.branch : 'main';
+    const headers = { Accept: 'application/vnd.github.raw+json', 'X-GitHub-Api-Version': '2022-11-28' };
+    if (state.source === 'github' && gh.conn?.token) headers.Authorization = `Bearer ${gh.conn.token}`;
+    btn.disabled = true;
+    try {
+      const r = await fetch(`https://api.github.com/repos/${repo}/contents/${WORKBOOK}?ref=${encodeURIComponent(branch)}`, { headers, cache: 'no-store' });
+      if (!r.ok) throw new Error(`GitHub ${r.status}`);
+      const blob = await r.blob();
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `01_Hansle_Market_Research_${today()}.xlsx`;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+    } catch (err) {
+      toast(`엑셀을 받지 못했어요 (${err.message}). 저장소의 ${WORKBOOK}에서 직접 받을 수 있어요.`, true);
+    } finally { btn.disabled = false; }
+  }
+  $('#btn-excel').onclick = e => downloadWorkbook(e.currentTarget);
+  $('#btn-excel-rebuild').onclick = () => {
+    if ([...state.requests.values()].some(r => r.kind === 'export' && r.status === 'pending')) { toast('이미 다시 만드는 중이에요.'); return; }
+    makeRequest('export');
+  };
   document.addEventListener('click', e => { const b = e.target.closest('.btn-translate'); if (b) translateNow(b); });
 
   // ---------- storage (best effort) ----------
@@ -221,7 +248,7 @@
   }
 
   // ---------- data loading ----------
-  const demoBase = () => new URL('../sample-data/', location.href);
+  const demoBase = () => new URL('../', location.href);  // research-market-dump: data lives at the repository root
   async function demoJSON(p) {
     const r = await fetch(new URL(p, demoBase()));
     if (!r.ok) throw new Error(`${p}: ${r.status}`);
@@ -769,8 +796,8 @@
       <button type="button" data-action="request" data-kind="topics" data-id="${esc(p.id)}" ${busy('topics') ? 'disabled' : ''}>${busy('topics') ? '추천 받는 중...' : '연구 주제 추천'}</button>`;
   }
 
-  const REQUEST_LABEL = { summarize: '지금 요약하기', audit: '감사', refs: '참고문헌 불러오기', topics: '연구 주제 추천', relations: '관계 찾기', claim_papers: '저장소에서 관련 논문 찾기', claim_web: '관련 논문 웹 검색', add_paper: '논문 추가' };
-  const REQUEST_DONE = { topics: '연구 주제 추천 결과가 들어왔어요.', relations: '관계 찾기 결과가 들어왔어요.',
+  const REQUEST_LABEL = { export: '엑셀 다시 만들기', summarize: '지금 요약하기', audit: '감사', refs: '참고문헌 불러오기', topics: '연구 주제 추천', relations: '관계 찾기', claim_papers: '저장소에서 관련 논문 찾기', claim_web: '관련 논문 웹 검색', add_paper: '논문 추가' };
+  const REQUEST_DONE = { export: '엑셀을 다시 만들었어요. "엑셀 받기"로 받으세요.', topics: '연구 주제 추천 결과가 들어왔어요.', relations: '관계 찾기 결과가 들어왔어요.',
     summarize: '요약이 끝났어요.', audit: '감사 결과가 들어왔어요.', refs: '참고문헌을 불러왔어요.', claim_papers: '관련 논문 찾기 결과가 들어왔어요.', claim_web: '웹 추천 논문이 들어왔어요.', add_paper: '논문을 추가하고 요약과 관계 초안까지 만들었어요.' };
 
   function requestNoteList(filter) {
@@ -1140,7 +1167,7 @@
   // Where the web page itself is published: <owner>.github.io/<repo>/ -> owner/repo (the public code repository)
   const publicRepo = () => {
     const owner = location.hostname.endsWith('.github.io') ? location.hostname.split('.')[0] : 'hanslelee';
-    const repo = location.pathname.split('/').filter(Boolean)[0] || 'research-dump';
+    const repo = location.pathname.split('/').filter(Boolean)[0] || 'research-market-dump';
     return `${owner}/${repo}`;
   };
 
@@ -1598,6 +1625,7 @@ Reply with JSON only: {"claim": "...", "condition": "...", "gap": "..."}`;
       audit: '감사를 요청했어요. 논문 한 편에 1분 안팎이에요. 끝나면 이 화면에 플래그가 보여요.',
       refs: '브라우저에서 바로 불러오지 못해서 GitHub Actions로 요청했어요. 1분쯤 걸려요.',
       add_paper: '논문 추가를 요청했어요. 저장, 요약, 관계 초안까지 1~3분 걸려요.',
+      export: '엑셀 다시 만들기를 요청했어요. 1~2분 뒤 "엑셀 받기"로 받으세요.',
     }[kind]);
     afterRequestChange(r);
     watchRequest(r);

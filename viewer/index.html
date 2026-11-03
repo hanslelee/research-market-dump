@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">research-dump</div>
+    <div class="brand">research-market-dump</div>
     <nav class="tabs" id="tabs">
       <button type="button" data-tab="home" class="on">홈</button>
       <button type="button" data-tab="papers">논문 목록</button>
@@ -17,6 +17,8 @@
     </nav>
     <div class="scope" id="scope"></div>
     <div class="source" id="source-label"></div>
+    <button type="button" id="btn-excel" class="mini" title="Download the latest market workbook (market/out/01_Hansle_Market_Research.xlsx)">엑셀 받기</button>
+    <button type="button" id="btn-excel-rebuild" class="mini" title="Rebuild the workbook from the current data (GitHub Actions, about 1 to 2 minutes; needs your repository connected)">엑셀 다시 만들기</button>
     <button type="button" id="btn-translate" class="mini" hidden title="Translate the Korean summaries and notes on screen with your summary model key">Translate</button>
     <div class="lang" id="lang" role="group" aria-label="Language">
       <button type="button" data-lang="ko">KO</button><button type="button" data-lang="en">EN</button>

@@ -9,7 +9,7 @@
     "ok": true,
     "reason": "",
     "extracted_for": [
-      "MKT-01"
+      "MKT-01-B"
     ]
   },
   "https://link.springer.com/article/10.1007/s11858-025-01696-x": {
@@ -20,7 +20,8 @@
     "path": "market/snapshots/cc932f3617e8.txt",
     "chars": 209,
     "ok": false,
-    "reason": "too little text"
+    "reason": "too little text",
+    "extracted_for": []
   },
   "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051": {
     "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051",
@@ -32,7 +33,7 @@
     "ok": true,
     "reason": "",
     "extracted_for": [
-      "MKT-02"
+      "MKT-02-A"
     ]
   },
   "https://www.seab.gov.sg/seab-link-issue-2-2026/seab-adaptive-assessment-tools": {
@@ -78,7 +79,7 @@
     "ok": true,
     "reason": "",
     "extracted_for": [
-      "MKT-02"
+      "MKT-02-A"
     ]
   },
   "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf": {
@@ -91,7 +92,7 @@
     "ok": true,
     "reason": "",
     "extracted_for": [
-      "MKT-03"
+      "MKT-01-D"
     ]
   },
   "https://www.moe.gov.sg/private-education/register-school": {
@@ -102,7 +103,8 @@
     "path": "market/snapshots/b98875df295a.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text"
+    "reason": "too little text",
+    "extracted_for": []
   },
   "https://www.moe.gov.sg/primary/p1-registration": {
     "url": "https://www.moe.gov.sg/primary/p1-registration",
@@ -112,7 +114,8 @@
     "path": "market/snapshots/f71f2ecc4042.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text"
+    "reason": "too little text",
+    "extracted_for": []
   },
   "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry": {
     "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry",
@@ -122,7 +125,8 @@
     "path": "market/snapshots/9d72d49c4bd0.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text"
+    "reason": "too little text",
+    "extracted_for": []
   },
   "https://www.koobits.com/plans?k20plan=3": {
     "url": "https://www.koobits.com/plans?k20plan=3",
@@ -154,7 +158,8 @@
     "path": "",
     "chars": 0,
     "ok": false,
-    "reason": "fetch failed: HTTP Error 403: Forbidden"
+    "reason": "fetch failed: HTTP Error 403: Forbidden",
+    "extracted_for": []
   },
   "https://geniebook.com/plans": {
     "url": "https://geniebook.com/plans",
@@ -186,7 +191,8 @@
     "path": "market/snapshots/6c02cc3e4a92.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text"
+    "reason": "too little text",
+    "extracted_for": []
   },
   "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system": {
     "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system",
@@ -242,7 +248,7 @@
     "ok": true,
     "reason": "",
     "extracted_for": [
-      "MKT-01"
+      "MKT-01-B"
     ]
   },
   "https://www.mdpi.com/2079-3200/13/9/114": {
@@ -253,7 +259,8 @@
     "path": "",
     "chars": 0,
     "ok": false,
-    "reason": "fetch failed: HTTP Error 403: Forbidden"
+    "reason": "fetch failed: HTTP Error 403: Forbidden",
+    "extracted_for": []
   },
   "https://data.worldbank.org/indicator/SE.PRM.ENRR?locations=SG": {
     "url": "https://data.worldbank.org/indicator/SE.PRM.ENRR?locations=SG",

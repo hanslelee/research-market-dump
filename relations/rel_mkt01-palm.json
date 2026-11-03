@@ -1,7 +1,7 @@
 {
   "id": "rel:mkt01-palm",
   "from": "manual:palm-2017-nomad",
-  "to": "claim:MKT-01",
+  "to": "claim:MKT-01-A",
   "layer": "0-1",
   "type": "narrow",
   "reason": "Formative assessment is positively related to maths achievement, which supports the value of diagnosis but not that centres would pay for a tool.",

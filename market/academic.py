@@ -23,7 +23,8 @@ from common import load_dir
 def run(data: Path, today: str, log=print, chat=None, only=None, ws_kwargs=None, find=None):
     config = json.loads((data / "config.json").read_text())
     n = (M.mcfg(config).get("academic") or {}).get("add_per_claim", 4)
-    claims = [c for c in load_dir(data / "claims").values() if M.short_id(c["id"]).startswith("MKT") and c.get("status") != "retired"]
+    claims = [c for c in load_dir(data / "claims").values() if M.short_id(c["id"]).startswith("MKT") and c.get("status") != "retired"
+              and c.get("role") != "parent" and not c.get("fixed_status")]
     out = {}
     for c in claims:
         cid = M.short_id(c["id"])

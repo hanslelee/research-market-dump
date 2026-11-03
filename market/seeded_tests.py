@@ -61,7 +61,7 @@ def t_clean(d, base):
 def t_unit_leap(d, base):
     ev = _ev(d)
     key = "web:seed-t03"
-    ev[key] = {"key": key, "lane": "web", "claim_id": "MKT-03", "url": "https://example.gov.sg/seed", "title": "seed",
+    ev[key] = {"key": key, "lane": "web", "claim_id": "MKT-01-D", "url": "https://example.gov.sg/seed", "title": "seed",
                "publisher": "seed", "publication_date": "", "quote": "Primary enrolment 2024: 237,966 students.",
                "finding": "MathBridge can reach 237,966 paying customers.", "stance": "supports", "unit": "students",
                "limitation": "", "tier": "government", "source_type": "Government statistics", "snapshot": "market/snapshots/manual/seed_t03.txt",
@@ -70,8 +70,8 @@ def t_unit_leap(d, base):
     (M.mdir(d) / "snapshots" / "manual" / "seed_t03.txt").write_text("Primary enrolment 2024: 237,966 students.")
     _put_ev(d, ev)
     res = B.build(d)
-    ok = "R4_unit_leap" in _rules(res, "MKT-03") and _action(res, "MKT-03") == "HOLD"
-    return f"rules on MKT-03: {sorted(_rules(res, 'MKT-03'))}; action {_action(res, 'MKT-03')}", ok
+    ok = "R4_unit_leap" in _rules(res, "MKT-01-D") and _action(res, "MKT-01-D") == "HOLD"
+    return f"rules on MKT-01-D: {sorted(_rules(res, 'MKT-01-D'))}; action {_action(res, 'MKT-01-D')}", ok
 
 
 def t_fake_feature(d, base):
@@ -91,7 +91,7 @@ def t_fake_citation(d, base):
         "claim_id": "MKT-99", "claim_text": "Centres report a 40% time saving from AI diagnosis (Tan et al., 2025).",
         "market_conclusion": "seed", "supporting_evidence_ids": ["MKT-E999"], "counter_evidence_ids": [], "assumption_ids": [],
         "verification_status": "PARTIAL", "materiality": "HIGH", "limitations": "", "proposed_action": "", "review_status": "DRAFT",
-        "unit": "", "owner": "Hansle", "version": "seed"}])
+        "unit": "", "owner": "Hansle", "version": "seed", "parent": ""}])
     ok = "R2_dangling_evidence_id" in _rules(res, "MKT-99") and _action(res, "MKT-99") == "HOLD"
     return f"rules on MKT-99: {sorted(_rules(res, 'MKT-99'))}; action {_action(res, 'MKT-99')}", ok
 
@@ -127,11 +127,11 @@ def t_agent_invented_quote(d, base):
         {"quote": "Proficiency Reports with KooBits Parent App.", "finding": "x", "stance": "limits", "unit": "", "limitation": ""}]}
     chat = lambda *a, **k: {"text": json.dumps(reply), "model": "mock"}
     cfg = json.loads((d / "config.json").read_text())
-    cfg["market"]["seed_urls"] = [{"url": "https://www.koobits.com/seed-page", "claim_id": "MKT-02"}]
+    cfg["market"]["seed_urls"] = [{"url": "https://www.koobits.com/seed-page", "claim_id": "MKT-02-A"}]
     cfg["market"]["search"]["provider"] = "none"
     (d / "config.json").write_text(json.dumps(cfg))
     _put_ev(d, {})
-    A.run(d, "2026-11-03", log=lambda *a: None, chat=chat, getter=lambda u: ("text/html", page.encode()), only={"MKT-02"})
+    A.run(d, "2026-11-03", log=lambda *a: None, chat=chat, getter=lambda u: ("text/html", page.encode()), only={"MKT-02-A"})
     quotes = [e["quote"] for e in _ev(d).values()]
     ok = quotes == ["Proficiency Reports with KooBits Parent App."]
     return f"kept quotes: {quotes}", ok
@@ -144,14 +144,14 @@ def t_blocked_domain(d, base):
     hits = lambda q, sc, log: [{"url": "https://s3.amazonaws.com/singaporeweb/math-tuition/x.html", "title": "spam"},
                                {"url": "https://www.moe.gov.sg/x", "title": "gov"}]
     mc["seed_urls"] = []
-    urls = A.candidate_urls("MKT-01", ["q"], mc, store, lambda *a: None, hits)
+    urls = A.candidate_urls("MKT-01-A", ["q"], mc, store, lambda *a: None, hits)
     ok = [u for u, _ in urls] == ["https://www.moe.gov.sg/x"]
     return f"kept: {urls}", ok
 
 
 TESTS = [
     ("CT-01", "Clean baseline: current data has no integrity failures (clean case must not be falsely blocked)", "No R1/R2/R3/R5/R6 issue", t_clean),
-    ("CT-02", "T03 seed: student enrolment used as paying customers for the centres-based market claim", "R4_unit_leap and MKT-03 = HOLD", t_unit_leap),
+    ("CT-02", "T03 seed: student enrolment used as paying customers for the centres-based market claim (MKT-01-D)", "R4_unit_leap and MKT-01-D = HOLD", t_unit_leap),
     ("CT-03", "Seed a competitor feature that is not on the saved page", "R5_competitor_feature_unsourced", t_fake_feature),
     ("CT-04", "Seed a conclusion citing an evidence id that does not exist (fake citation, T07-like)", "R2_dangling_evidence_id and HOLD", t_fake_citation),
     ("CT-05", "Seed a changed number inside a logged quote", "R3_quote_not_in_source", t_altered_quote),

@@ -2,7 +2,7 @@
   "web:95028705b6a4": {
     "key": "web:95028705b6a4",
     "lane": "web",
-    "claim_id": "MKT-03",
+    "claim_id": "MKT-01-D",
     "url": "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf",
     "title": "Education Statistics Digest 2025, Section 1 Table 4",
     "publisher": "Ministry of Education Singapore",
@@ -23,7 +23,7 @@
   "web:1bfdc89eda0d": {
     "key": "web:1bfdc89eda0d",
     "lane": "web",
-    "claim_id": "MKT-01",
+    "claim_id": "MKT-01-B",
     "url": "https://www.malaymail.com/news/malaysia/2025/01/20/singapore-families-spent-s18-billion-on-private-tuition-in-2023-with-the-richest-spending-over-s162-per-month/163937",
     "title": "Singapore families spent S$1.8 billion on private tuition in 2023",
     "publisher": "Malay Mail (citing Straits Times / SingStat household expenditure survey)",
@@ -44,7 +44,7 @@
   "web:4ee018643b7f": {
     "key": "web:4ee018643b7f",
     "lane": "web",
-    "claim_id": "MKT-02",
+    "claim_id": "MKT-02-A",
     "url": "https://geniebook.com/blog/online-education-singapore-how-geniebook-supports-academic-success",
     "title": "Online Education in Singapore: How Geniebook Supports Academic Success",
     "publisher": "Geniebook",
@@ -65,7 +65,7 @@
   "web:7a011e2fae32": {
     "key": "web:7a011e2fae32",
     "lane": "web",
-    "claim_id": "MKT-01",
+    "claim_id": "MKT-01-B",
     "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1101192/full",
     "title": "The effect of a formative assessment practice on student achievement in mathematics",
     "publisher": "Frontiers",
@@ -86,7 +86,7 @@
   "web:ce54a23ad257": {
     "key": "web:ce54a23ad257",
     "lane": "web",
-    "claim_id": "MKT-02",
+    "claim_id": "MKT-02-A",
     "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051",
     "title": "Singapore's Education Ministry to deploy more AI in schools after success of primary 5 maths tool",
     "publisher": "Malay Mail",
@@ -107,7 +107,7 @@
   "web:d15f8a509b69": {
     "key": "web:d15f8a509b69",
     "lane": "web",
-    "claim_id": "MKT-02",
+    "claim_id": "MKT-02-A",
     "url": "https://geniebook.com/blog/online-education-singapore-how-geniebook-supports-academic-success",
     "title": "Online Education in Singapore: How Geniebook Supports Academic Success",
     "publisher": "Geniebook",

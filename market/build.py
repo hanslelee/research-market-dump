@@ -1,15 +1,24 @@
 """Turn both lanes into the five sheets of 01_Hansle_Market_Research.xlsx, then check them with rules (no model).
 
-Status policy (one place, so it can be argued with):
+Claims: two team claims (MKT-01, MKT-02, "role": "parent") judged through Hansle's sub-claims (MKT-01-A ... MKT-02-C).
+  Market Conclusions sheet = one row per sub-claim. Market Handoff sheet = one row per team claim.
+
+Evidence row status (Market Evidence sheet):
   UNVERIFIED  drafted by an agent (web quote, or a paper relation still "new"); no person has looked
   PARTIAL     a person looked (relation approved, or review.csv) but it is abstract-level, indirect or only part of the claim
   VERIFIED    only from review.csv: a person opened the original, the quote is there, checked_by and checked_date set,
               and the snapshot is a real page (fetched or manual), not a pilot excerpt
-  MISSING     claim level: no usable evidence
+
+Claim status (Conclusions and Handoff), four levels: VERIFIED > PARTIAL > SYNTHETIC > MISSING
+  sub-claim   SYNTHETIC when fixed so (MathBridge's own features are fictional); else from its reviewed supporting
+              evidence: none -> MISSING, all VERIFIED -> VERIFIED, otherwise PARTIAL. UNVERIFIED rows do not count.
+  team claim  the weakest of its sub-claims; any MISSING sub-claim (or any sub-claim on HOLD) -> HOLD, and the
+              limitation names the empty sub-claims.
+Evidence marked "EDU related" (market/edu_related.json) stays in the evidence list but is left out of MKT status.
 
 Human inputs (never written by an agent):
   market/review.csv        evidence_id, verification_status, checked_by, checked_date, note
-  market/conclusions.json  {"MKT-01": {"conclusion": "...", "proposed_action": "...", "review_status": "..."}}
+  market/conclusions.json  {"MKT-01-A": {"conclusion": "...", "proposed_action": "", "review_status": "DRAFT", "cross_refs": ["EDU-E001"]}}
 """
 import csv
 import json
@@ -103,9 +112,10 @@ def competitor_rows(data: Path):
     return comps
 
 
-def competitor_evidence(comps, mc, claim_id="MKT-02"):
+def competitor_evidence(comps, mc, claim_id=None):
     """One Market Evidence row per competitor page, so the matrix points at a logged source (differentiation claim)."""
     rows = []
+    claim_id = claim_id or mc.get("competitor_claim", "MKT-02-A")
     for c in comps:
         t = M.tier(c.get("url", ""), mc, M.competitor_domains(mc))
         t = "company" if t in ("other", "blocked") else t
@@ -123,37 +133,54 @@ def competitor_evidence(comps, mc, claim_id="MKT-02"):
     return rows
 
 
-def claim_status(ev):
-    sup = [e for e in ev if e["stance"] in ("supports", "limits")]
+LADDER = ["MISSING", "SYNTHETIC", "PARTIAL", "VERIFIED"]  # weakest first
+
+
+def counts(r):
+    """Evidence that counts toward MKT status: reviewed (PARTIAL/VERIFIED), not EDU related."""
+    return r["verification_status"] in ("PARTIAL", "VERIFIED") and not r.get("edu_related")
+
+
+def sub_status(claim, ev):
+    if claim.get("fixed_status") in LADDER:
+        return claim["fixed_status"]
+    sup = [e for e in ev if e["stance"] in ("supports", "limits") and counts(e)]
     if not sup:
         return "MISSING"
-    st = {e["verification_status"] for e in sup}
-    if st == {"VERIFIED"}:
-        return "VERIFIED"
-    if st & {"VERIFIED", "PARTIAL"}:
-        return "PARTIAL"
-    return "UNVERIFIED"
+    return "VERIFIED" if all(e["verification_status"] == "VERIFIED" for e in sup) else "PARTIAL"
 
 
 def conclusions(data: Path, config, rows):
+    """One row per sub-claim (Market Conclusions)."""
     mc = M.mcfg(config)
     human = M.read(M.mdir(data) / "conclusions.json", {})
     out = []
     for c in sorted(load_dir(data / "claims").values(), key=lambda c: c["id"]):
         cid = M.short_id(c["id"])
-        if not cid.startswith("MKT") or c.get("status") == "retired":
+        if not cid.startswith("MKT") or c.get("status") == "retired" or c.get("role") == "parent":
             continue
-        ev = [r for r in rows if r["claim_id"] == cid]
-        st = claim_status(ev)
+        ev = [r for r in rows if r["claim_id"] == cid and not r.get("edu_related")]
         hc = human.get(cid, {})
-        lim = "; ".join(dict.fromkeys(r["limitation"] for r in ev if r.get("limitation")))
+        st = sub_status(c, ev)
+        unreviewed = sum(1 for r in ev if r["verification_status"] == "UNVERIFIED")
+        counter = [r for r in ev if r["stance"] == "contradicts" and counts(r)]
+        lim = "; ".join(dict.fromkeys(r["limitation"] for r in ev if r.get("limitation") and counts(r)))
+        notes = []
+        if c.get("fixed_status"):
+            notes.append(f"{c['fixed_status']} by design: {c.get('basis', '')}")
+        if counter:
+            notes.append(f"{len(counter)} reviewed counter-evidence row(s).")
+        if unreviewed:
+            notes.append(f"{unreviewed} evidence row(s) not reviewed yet (UNVERIFIED, not counted).")
         out.append({
-            "claim_id": cid, "claim_text": c["text"],
+            "claim_id": cid, "parent": c.get("parent", ""), "claim_text": c["text"],
             "market_conclusion": hc.get("conclusion") or f"[DRAFT - write after reading the evidence] {c['text']}",
-            "supporting_evidence_ids": sorted(r["evidence_id"] for r in ev if r["stance"] in ("supports", "limits")),
+            "supporting_evidence_ids": sorted(r["evidence_id"] for r in ev if r["stance"] in ("supports", "limits"))
+                                       + list(hc.get("cross_refs", [])),
             "counter_evidence_ids": sorted(r["evidence_id"] for r in ev if r["stance"] == "contradicts"),
             "assumption_ids": c.get("assumption_ids", []), "verification_status": st,
-            "materiality": c.get("materiality", "HIGH"), "limitations": lim[:1500] or "No usable public evidence found yet.",
+            "materiality": c.get("materiality", "HIGH"),
+            "limitations": (" ".join(notes) + (" " + lim if lim else ""))[:1500] or "No usable public evidence found yet.",
             "proposed_action": hc.get("proposed_action", ""), "review_status": hc.get("review_status", "DRAFT"),
             "unit": c.get("unit", ""), "owner": mc.get("owner", "Hansle"), "version": mc.get("version", "v0.1"),
         })
@@ -161,15 +188,49 @@ def conclusions(data: Path, config, rows):
 
 
 def default_action(c, blocked):
-    if c["claim_id"] in blocked or (c["materiality"] == "HIGH" and c["verification_status"] in ("MISSING", "UNVERIFIED")):
+    if c["claim_id"] in blocked or c["verification_status"] == "MISSING":
         return "HOLD"
     return "ACCEPT" if c["verification_status"] == "VERIFIED" else "ACCEPT_WITH_LIMITATION"
+
+
+def roll_up(data: Path, config, concl):
+    """One row per team claim (Market Handoff): weakest sub-claim; any MISSING or HOLD sub-claim -> HOLD."""
+    mc = M.mcfg(config)
+    human = M.read(M.mdir(data) / "conclusions.json", {})
+    out = []
+    for c in sorted(load_dir(data / "claims").values(), key=lambda c: c["id"]):
+        if c.get("role") != "parent" or c.get("status") == "retired":
+            continue
+        pid = M.short_id(c["id"])
+        subs = [s for s in concl if s.get("parent") == pid]
+        if not subs:
+            st, action, lim = "MISSING", "HOLD", "No sub-claims defined."
+        else:
+            st = min((s["verification_status"] for s in subs), key=LADDER.index)
+            empty = [s["claim_id"] for s in subs if s["verification_status"] == "MISSING"]
+            held = [s["claim_id"] for s in subs if s["proposed_action"] == "HOLD" and s["claim_id"] not in empty]
+            action = "HOLD" if empty or held else ("ACCEPT" if st == "VERIFIED" else "ACCEPT_WITH_LIMITATION")
+            lim = "Sub-claims: " + ", ".join(f"{s['claim_id']} {s['verification_status']}" for s in subs) + "."
+            if empty:
+                lim += " Empty (MISSING): " + ", ".join(empty) + "."
+            if held:
+                lim += " On HOLD by rule or reviewer: " + ", ".join(held) + "."
+        hc = human.get(pid, {})
+        ids = list(dict.fromkeys(i for s in subs for i in s["supporting_evidence_ids"] + s["counter_evidence_ids"]))
+        out.append({"claim_id": pid, "owner": mc.get("owner", "Hansle"), "claim_text": c["text"], "evidence_ids": ids,
+                    "assumption_ids": list(dict.fromkeys(a for s in subs for a in s["assumption_ids"])),
+                    "evidence_status": st, "materiality": c.get("materiality", "HIGH"), "limitation": lim,
+                    "proposed_action": action, "version": mc.get("version", "v0.1"),
+                    "review_status": hc.get("review_status", "DRAFT")})
+    return out
 
 
 # ---------- rules ----------
 def validate(rows, comps, concl, config):
     issues = []
+    mc = M.mcfg(config)
     ev = {r["evidence_id"]: r for r in rows}
+    external = tuple(mc.get("cross_file_prefixes", ["EDU-", "FIN-", "INT-"]))
     flag = lambda rule, where, msg: issues.append({"rule": rule, "where": where, "issue": msg})
     for r in rows:
         if r.get("check_text") and not M.contains(r["check_text"], r["quote"], min_len=8):
@@ -183,20 +244,21 @@ def validate(rows, comps, concl, config):
             flag("R1_bad_status", r["claim_id"], f"{r['evidence_id']}: {r['verification_status']!r}")
     for c in concl:
         for eid in c["supporting_evidence_ids"] + c["counter_evidence_ids"]:
-            if eid not in ev:
+            if eid.startswith(external):
+                flag("R9_cross_file_reference", c["claim_id"], f"{eid} is in another member's file: check at integration (T07)")
+            elif eid not in ev:
                 flag("R2_dangling_evidence_id", c["claim_id"], f"{eid} is not in Market Evidence")
         if c.get("unit"):  # T03: a count of X cannot support a claim counted in Y without an assumption converting it
-            conv = M.mcfg(config).get("unit_conversions") or {}
+            conv = mc.get("unit_conversions") or {}
             for eid in c["supporting_evidence_ids"]:
                 u = (ev.get(eid) or {}).get("unit", "")
                 ok = any(a in conv and M.norm(conv[a].get("from", "")) == M.norm(u) and M.norm(conv[a].get("to", "")) == M.norm(c["unit"])
                          for a in c.get("assumption_ids", []))
                 if u and M.norm(u) != M.norm(c["unit"]) and not ok:
                     flag("R4_unit_leap", c["claim_id"], f"claim counts {c['unit']} but {eid} counts {u}; no assumption converts {u} -> {c['unit']}")
-        if c["materiality"] == "HIGH":
-            sup = [ev[e] for e in c["supporting_evidence_ids"] if e in ev]
-            if sup and all(s.get("tier") == "other" for s in sup):
-                flag("R8_weak_sources_only", c["claim_id"], "HIGH claim rests only on 'Other' sources")
+        sup = [ev[e] for e in c["supporting_evidence_ids"] if e in ev]
+        if c["materiality"] == "HIGH" and sup and all(s.get("tier") == "other" for s in sup):
+            flag("R8_weak_sources_only", c["claim_id"], "HIGH claim rests only on 'Other' sources")
     for c in comps:
         txt = c.get("check_text", "")
         for f in c.get("features", []):
@@ -208,7 +270,7 @@ def validate(rows, comps, concl, config):
 
 
 def build(data: Path, extra_claims=None):
-    """Returns dict with rows, competitors, conclusions, handoff, issues, pending (relations awaiting approval)."""
+    """Returns rows, competitors, conclusions (sub-claims), handoff (team claims), issues, pending, edu."""
     config = json.loads((data / "config.json").read_text())
     mc = M.mcfg(config)
     comps = competitor_rows(data)
@@ -225,6 +287,11 @@ def build(data: Path, extra_claims=None):
     rows = assign_ids(data, academic_rows(data) + web + comp_ev)
     by_key = {r["key"]: r for r in rows}
     apply_review(data, rows, [])
+    edu = (M.read(M.mdir(data) / "edu_related.json", {}).get("items") or {})
+    for r in rows:
+        if r["evidence_id"] in edu:
+            r["edu_related"] = True
+            r["edu_id"] = edu[r["evidence_id"]].get("edu_id", "")
     for c in comps:
         r = by_key[c["key"]]
         c["evidence_id"], c["verification_status"] = r["evidence_id"], r["verification_status"]
@@ -241,11 +308,7 @@ def build(data: Path, extra_claims=None):
         elif c["proposed_action"] != "HOLD" and auto == "HOLD":
             issues.append({"rule": "R7_human_action_overrides_hold", "where": c["claim_id"],
                            "issue": f"rules say HOLD, conclusions.json says {c['proposed_action']}: needs Kaizhen's adjudication"})
-    handoff = [{"claim_id": c["claim_id"], "owner": c["owner"], "claim_text": c["claim_text"],
-                "evidence_ids": c["supporting_evidence_ids"] + c["counter_evidence_ids"], "assumption_ids": c["assumption_ids"],
-                "evidence_status": c["verification_status"], "materiality": c["materiality"], "limitation": c["limitations"],
-                "proposed_action": c["proposed_action"], "version": c["version"], "review_status": c["review_status"]}
-               for c in concl]
+    handoff = roll_up(data, config, concl)
     pending = sum(1 for r in rows if r.get("relation_status") == "new")
     return {"rows": rows, "competitors": comps, "conclusions": concl, "handoff": handoff, "issues": issues,
-            "pending": pending, "config": config}
+            "pending": pending, "config": config, "edu": [r for r in rows if r.get("edu_related")]}

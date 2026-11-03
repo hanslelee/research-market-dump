@@ -144,6 +144,8 @@ def run(data_dir: Path, today: str, log=print, chat=None, fetch=None, find=None,
                 kw = {"fetch": fetch} if fetch else {}
                 claims = topics.recommend(data_dir, pid, today, log, chat=chat, **kw)
                 msg = f"<b>연구 주제 추천</b> · {title}\n" + "\n".join(f"• {html.escape(c['text'])}" for c in claims)
+            elif kind == "export":  # research-market-dump: the requests workflow rebuilds the workbook right after this
+                msg = "<b>엑셀 다시 만들기</b> · market/out/01_Hansle_Market_Research.xlsx"
             else:
                 raise ValueError(f"unknown request kind {kind!r}")
         except audit.OutOfTime as e:  # progress is saved; the request stays pending for the next run

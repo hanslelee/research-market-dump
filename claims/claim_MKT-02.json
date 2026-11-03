@@ -1,32 +1,11 @@
 {
   "id": "claim:MKT-02",
-  "text": "Existing primary mathematics EdTech in Singapore (e.g. KooBits, Geniebook, MOE Student Learning Space) does not offer tutor-reviewed, evidence-traceable learning-gap reports sold to tuition centres.",
+  "text": "MathBridge AI is differentiated from existing EdTech alternatives.",
   "status": "active",
   "version": 1,
-  "basis": "Differentiation. Packet v0.1 MKT-02 (UNK). Counter-evidence matters as much as support.",
+  "role": "parent",
   "origin": "manual",
   "created_at": "2026-11-03",
-  "materiality": "HIGH",
-  "unit": "",
-  "assumption_ids": [],
-  "market_queries": [
-    "Singapore primary math adaptive learning platform diagnostic report",
-    "Student Learning Space adaptive learning system mathematics",
-    "AI tuition centre software Singapore learning gaps"
-  ],
-  "web_suggestions": {
-    "searched_at": "2026-11-03",
-    "queries": [
-      "singapore primary mathematics edtech platforms",
-      "evidence traceable learning gap reports",
-      "automated tutor reviewed feedback systems",
-      "mathematics adaptive learning analytics evaluation"
-    ],
-    "concepts": [
-      "learning analytics",
-      "EdTech Singapore"
-    ],
-    "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
-    "items": []
-  }
+  "basis": "Team claim from the MathBridge evidence packet v0.1 (Appendix A). Judged by its sub-claims: status = the weakest sub-claim; any MISSING sub-claim -> HOLD.",
+  "materiality": "HIGH"
 }

@@ -1,0 +1,18 @@
+{
+  "id": "claim:MKT-01-C",
+  "text": "Singapore tuition centres show actual demand to adopt diagnosis-automation tools.",
+  "status": "active",
+  "version": 1,
+  "parent": "MKT-01",
+  "origin": "manual",
+  "created_at": "2026-11-03",
+  "basis": "Sub-claim of MKT-01, chosen by Hansle to make MKT-01 checkable.",
+  "materiality": "HIGH",
+  "unit": "",
+  "assumption_ids": [],
+  "market_queries": [
+    "Singapore tuition centres adopt AI tools",
+    "tuition centre AI learning analytics Singapore survey",
+    "Singapore enrichment centres digital transformation AI"
+  ]
+}

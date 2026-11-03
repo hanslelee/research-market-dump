@@ -7,7 +7,7 @@
     python market/run.py all --data .               # academic, web, tests, export
     python market/run.py snapshot-name <url>        # file name for a hand-made snapshot of a page
 
---only MKT-01,MKT-03,competitors limits which claims (and whether competitors) are processed.
+--only MKT-01-A,MKT-02-A,competitors limits which claims (and whether competitors) are processed.
 """
 import argparse
 import sys

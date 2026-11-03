@@ -18,7 +18,10 @@ import build as B
 import mcommon as M
 
 FIRST_ROW = 5
-TOPIC = {"MKT-01": "Demand", "MKT-02": "Differentiation", "MKT-03": "Market size"}
+def topic(r):
+    if r.get("edu_related"):
+        return f"EDU related ({r['claim_id']}, {r['stance']})" + (f" = {r['edu_id']}" if r.get("edu_id") else "")
+    return f"{r['claim_id']} ({r['stance']})"
 
 
 def j(xs):
@@ -26,8 +29,7 @@ def j(xs):
 
 
 def sheet_rows(res, tests):
-    claims = {c["claim_id"]: c for c in res["conclusions"]}
-    ev = [[r["evidence_id"], f"{TOPIC.get(r['claim_id'], r['claim_id'])} ({r['claim_id']}, {r['stance']})", r["title"],
+    ev = [[r["evidence_id"], topic(r), r["title"],
            r["publisher"], r["publication_date"], r["url"], r["quote"], r["finding"], r["source_type"],
            r["verification_status"], r["limitation"], r.get("checked_by", ""), r.get("checked_date", "")]
           for r in sorted(res["rows"], key=lambda r: r["evidence_id"])]
@@ -88,6 +90,11 @@ def export(data: Path, tests=None):
         "Pages the agent could not read (JavaScript, bot protection or login). Open each in a browser, copy the visible\n"
         "text into the file named below, commit, and run the market workflow with step=web again.\n\n" + "\n".join(manual) + "\n")
     M.write(out / "validation_issues.json", res["issues"])
+    with open(out / "edu_candidates.csv", "w", newline="") as f:  # for Zixuan: evidence that belongs to the education check
+        w = csv.writer(f)
+        w.writerow(["market_evidence_id", "edu_id", "title", "url", "exact_quote_or_excerpt", "finding", "verification_status", "limitations"])
+        for r in res["edu"]:
+            w.writerow([r["evidence_id"], r.get("edu_id", ""), r["title"], r["url"], r["quote"], r["finding"], r["verification_status"], r["limitation"]])
     return res, out
 
 

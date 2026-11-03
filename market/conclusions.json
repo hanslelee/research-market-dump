@@ -1,18 +1,51 @@
 {
-  "_how": "Write your own conclusion per claim; leave proposed_action empty to let the rules decide. review_status: DRAFT / READY FOR REVIEW / APPROVED / HOLD / RETURN",
-  "MKT-01": {
+  "_how": "Your words per sub-claim (MKT-01-A ...). Leave proposed_action empty to let the rules decide. review_status: DRAFT / READY FOR REVIEW / APPROVED / HOLD / RETURN. cross_refs: ids in other members' files, e.g. EDU-E001.",
+  "MKT-01-A": {
     "conclusion": "",
     "proposed_action": "",
+    "review_status": "DRAFT",
+    "cross_refs": []
+  },
+  "MKT-01-B": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT",
+    "cross_refs": []
+  },
+  "MKT-01-C": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT",
+    "cross_refs": []
+  },
+  "MKT-01-D": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT",
+    "cross_refs": []
+  },
+  "MKT-02-A": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT",
+    "cross_refs": []
+  },
+  "MKT-02-B": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT",
+    "cross_refs": []
+  },
+  "MKT-02-C": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT",
+    "cross_refs": []
+  },
+  "MKT-01": {
     "review_status": "DRAFT"
   },
   "MKT-02": {
-    "conclusion": "",
-    "proposed_action": "",
-    "review_status": "DRAFT"
-  },
-  "MKT-03": {
-    "conclusion": "",
-    "proposed_action": "",
     "review_status": "DRAFT"
   }
 }

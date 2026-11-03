@@ -184,25 +184,31 @@
     "seed_urls": [
       {
         "url": "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf",
-        "claim_id": "MKT-03"
+        "claim_id": "MKT-01-D"
       },
       {
         "url": "https://www.malaymail.com/news/malaysia/2025/01/20/singapore-families-spent-s18-billion-on-private-tuition-in-2023-with-the-richest-spending-over-s162-per-month/163937",
-        "claim_id": "MKT-01"
+        "claim_id": "MKT-01-B"
       },
       {
         "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051",
-        "claim_id": "MKT-02"
+        "claim_id": "MKT-02-A"
       },
       {
         "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry",
-        "claim_id": "MKT-03"
+        "claim_id": "MKT-01-D"
       }
     ],
     "proposed_actions": [
       "ACCEPT",
       "ACCEPT_WITH_LIMITATION",
       "HOLD"
+    ],
+    "competitor_claim": "MKT-02-A",
+    "cross_file_prefixes": [
+      "EDU-",
+      "FIN-",
+      "INT-"
     ]
   }
 }

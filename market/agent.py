@@ -175,7 +175,8 @@ def run(data: Path, today: str, log=print, chat=None, search_fn=S.search, getter
     agent = agent_cfg(config)
     store = Store(data)
     from common import load_dir  # pipeline/common.py
-    claims = [c for c in load_dir(data / "claims").values() if M.short_id(c["id"]).startswith("MKT") and c.get("status") != "retired"]
+    claims = [c for c in load_dir(data / "claims").values() if M.short_id(c["id"]).startswith("MKT") and c.get("status") != "retired"
+              and c.get("role") != "parent" and not c.get("fixed_status")]
     summary = {"pages": 0, "evidence": 0, "competitor_features": 0, "skipped_pages": 0}
 
     for claim in claims:

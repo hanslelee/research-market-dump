@@ -15,7 +15,7 @@ on:
         options: [all, academic, web, tests, export]
         default: all
       only:
-        description: "Optional: MKT-01,MKT-03,competitors"
+        description: "Optional: MKT-01-A,MKT-02-A,competitors"
         type: string
         default: ""
 

@@ -1,0 +1,20 @@
+{
+  "id": "claim:MKT-01-D",
+  "text": "Potential customers in Singapore are counted in tuition centres, and their number is X.",
+  "status": "active",
+  "version": 1,
+  "parent": "MKT-01",
+  "origin": "manual",
+  "created_at": "2026-11-03",
+  "basis": "Sub-claim of MKT-01, chosen by Hansle to make MKT-01 checkable.",
+  "materiality": "HIGH",
+  "unit": "centres",
+  "assumption_ids": [
+    "FIN-A01"
+  ],
+  "market_queries": [
+    "number of tuition centres Singapore MOE registered",
+    "Singapore private tuition and enrichment centres count",
+    "Singapore primary school enrolment by level"
+  ]
+}

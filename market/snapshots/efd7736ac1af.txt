@@ -1,0 +1,702 @@
+0    
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+•  
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Results from TALIS 2024: Singapore 
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PUBE 
+ 
+ 
+
+   1 
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+The OECD Teaching and Learning International Survey (TALIS) is the largest international survey of 
+teachers and principals. By collecting internationally comparable information, it ensures their voices are 
+represented in education policy making. 
+TALIS relies solely on self -reports, which reflect perceptions but may be shaped by social and cultural 
+context. Therefore, cross-country comparisons should be interpreted with caution. 
+This note presents findings based on responses collected in 2024 from lower secondary teachers and 
+principals. It only comments on statistically significant differences or changes.  
+Teachers’ background 
+Figure 1. Teachers’ age 
+Percentage of lower secondary teachers, by age group 
+ 
+Note: * Estimates should be interpreted with caution due to higher risk of non-response bias. 
+Source: OECD, TALIS 2024 Database, Table 1.3. 
+ 
+Age 
+• In Singapore, teachers  are, on average, 42 years old, which is lower than the average age of 
+teachers across OECD countries and territories with available data (hereafter, “OECD average”) 
+0
+25
+50
+75
+%
+100
+Lithuania
+Portugal
+Latvia
+Hungary
+Estonia
+Italy
+Bulgaria
+Poland
+Sweden
+Montenegro
+Finland
+Iceland
+Serbia
+OECD average-27
+Kosovo
+Azerbaijan
+Czechia
+France
+Spain
+New Zealand*
+Colombia
+Denmark
+Slovenia
+Slovak Republic
+South Africa
+Romania
+Albania
+United States
+Austria
+Israel
+Japan
+Australia
+Netherlands*
+Norway*
+North Macedonia
+Croatia
+Kazakhstan
+Singapore
+Korea
+Brazil
+French Comm. (Belgium)
+Chile
+Uzbekistan
+Belgium
+Flemish Comm. (Belgium)
+Alberta (Canada)*
+Morocco
+Shanghai (China)
+Malta
+Saudi Arabia
+Costa Rica
+Bahrain
+Viet Nam
+United Arab Emirates
+Türkiye
+Under age 30 Age 30 to 49 Age 50 and above
+Singapore 
+2    
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+(45 years old). Furthermore, 24% of teachers are aged 50 and above (lower than the OECD 
+average: 37%) and 12% of teachers are aged below 30 (higher than the OECD average: 10%). 
+Since 2018, the share of teachers aged 50 and above has increased by 12 percentage points. 
+Gender 
+• 64% of teachers are women (lower than the OECD average: 70%). The perce ntage of female 
+teachers did not change between 2018 and 2024. 
+Experience 
+• 48% of teachers have non -teaching work experience (lower than the OECD average: 57%). The 
+share of second-career teachers (those with at least ten years of work experience in non-education 
+roles and for whom teaching was not their first career choice) is 3% (lower than the OECD average: 
+8%). 
+Teaching for today’s world 
+Figure 2. Teaching for today’s world 
+Percentage of lower secondary teachers 
+ 
+Statistically significant differences from the OECD average are highlighted with filled circles. 
+Source: OECD, TALIS 2024 Database, Tables 1.25, 1.42 and 1.59. 
+ 
+Student diversity 
+• In Singapore, 56% of teachers work in schools where the share of students whose first langu age 
+is not the language of instruction is above 10% (higher than the OECD average: 25%) and 0% 
+teach in schools with at least 1% of students who are refugees (lower than the OECD average: 
+47%). Compared to 2018, the share of teachers in schools where more than 10% of students are 
+non‑native speakers has decreased by 26  percentage points, while the share of teachers in 
+schools with at least 1% of students who are refugees has not changed. 
+||
+| |
+| |
+| |
+63
+30
+75
+56
+In schools where more than 10% of
+students are non-native speakers
+Used AI in their work in the
+12 months prior to the survey
+In schools where more than 10% of
+students have special education needs
+“Frequently” or “always” developing students’
+skills in understanding their own emotions,
+thoughts or behaviour
+0 10 20 30 40 50 60 70 80 90 100
+%
+○● Singapore ● OECD average ● Education systems | Lowest value | Highest value
+   3 
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+• The share of teachers who feel they can adapt their teaching to the cu ltural diversity of students 
+“quite a bit” or “a lot” is 67% (higher than the OECD average: 63%), and the share of those who 
+can ensure that students with different cultural or ethnic backgrounds work together “quite a bit” or 
+“a lot” is 80% (higher than the OECD average: 74%). 
+Special education needs 
+• The share of teachers who teach in schools where more than 10% of students have special 
+education needs is 30% (lower than the OECD average: 46%). The share of teachers in these 
+schools increased by 16 percentage points between 2018 and 2024. To note, in certain countries, 
+the term has shifted from special education needs to learning support needs. This needs to be 
+considered when examining trend data on special education needs in schools.  
+• The share of teachers  who feel they can design learning tasks to accommodate students with 
+special education needs “quite a bit” or “a lot” is 38% (lower than the OECD average: 62%), while 
+the share of those reporting that they can work jointly with other professionals and sta ff to teach 
+students with special education needs in the classroom “quite a bit” or “a lot” is 55% (lower than 
+the OECD average: 72%). 
+Social and emotional skills 
+• Social and emotional skills are vital for academic, professional, health, and societal outcom es, 
+making it essential to understand teachers’ competencies and confidence in teaching them. In 
+Singapore, 77% of teachers feel they can support students’ social and emotional learning “quite a 
+bit” or “a lot” (higher than the OECD average: 73%), and 93% report being comfortable providing 
+instruction on social and emotional skills to students (higher than the OECD average: 86%).  
+• 63% of teachers report “frequently” or “always” developing students’ skills in understanding their 
+own emotions, thoughts or beha viour (lower than the OECD average: 68%), and 78% report that 
+they “frequently” or “always” focus on developing student skills in empathising with others (lower 
+than the OECD average: 82%). 
+Technology 
+• Many education systems were forced to use online or hyb rid learning during the COVID -19 
+pandemic, and some systems have maintained those methods. In Singapore, 81% of teachers 
+work in schools where at least one lesson was taught as hybrid or on line in the last month (higher 
+than the OECD average: 16%). 
+• 75% of teachers report having used artificial intelligence (AI) in their work (higher than the OECD 
+average: 36%). Teachers tend to use AI to efficiently learn about and summarise a topic (77%), 
+generate text for student feedback or parent/guardian communications (69%), and generate lesson 
+plans or activities (65%). The least frequent use of AI is to assess or mark student work (34%), 
+review data on student participation or performance (28%), and support students with special 
+education needs (16%). 
+• Among teachers who report that they have not used AI in their teaching in the 12 months prior to 
+the survey, 65% report that they do not have the knowledge and skills to teach using AI (lower than 
+the OECD average: 75%) and 24% say that their schools lack the infrastruc ture to use AI (lower 
+than the OECD average: 37%). 
+4    
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+Teachers’ learning opportunities 
+Figure 3. Opportunities to learn 
+Percentage of lower secondary teachers 
+ 
+Statistically significant differences from the OECD average are highlighted with filled circles. 
+Source: OECD, TALIS 2024 Database, Tables 4.3, 4.7, 4.10 and 4.24. 
+ 
+Initial teacher education 
+• In Singapore, 88% of recent graduates (teachers who have completed their initial teacher 
+education in the five years prior to the survey) “agree” or “strongly agr ee” that the quality of their 
+initial education was high overall (higher than the OECD average: 75%).  
+• The following shares of recent graduates report that their initial teacher education prepared them 
+well for: subject content (71%), general pedagogy (75%), teaching in a multicultural or multilingual 
+setting (52%), using digital resources and tools for teaching (63%), and supporting students’ social 
+and emotional development (49%). 
+Induction and mentoring 
+• Among teachers who have recently joined their current school (within five years prior to the survey), 
+97% report having taken part in either formal or informal induction in their school (higher than the 
+OECD average: 72%). Rates of participation in any induction programme (whether formal or 
+informal) have i ncreased by 7  percentage points between 2018 and 2024 (the OECD average 
+increased by 31 percentage points). 
+• 42% of novice teachers (with up to five years of teaching experience) have an assigned mentor 
+(higher than the OECD average: 26%), and 100% work in schools offering some mentoring 
+programmes (higher than the OECD average: 81%). Between 2018 and 2024, the share of novice 
+teachers with an assigned mentor decreased by 12 percentage points. 
+||
+| |
+||
+| |
+88
+97
+56
+42
+Novice teachers having an
+assigned mentor
+Participated in impactful professional
+learning during the 12 months
+preceding the survey
+Novice teachers having taken part
+in any type of induction
+activity in their current school
+Recent graduates agreeing that the
+overall quality of their first
+teaching qualification was high
+0 10 20 30 40 50 60 70 80 90 100
+%
+○● Singapore ● OECD average ● Education systems | Lowest value | Highest value
+   5 
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+Continuous professional learning 
+• 56% of teachers report that the professional learning activities they participated in during the 12 
+months preceding the survey had a positive impact on their teaching (similar to the OECD average: 
+55%). The share of novice teachers who find professional learning impactful is similar to what 
+experienced teachers report. 
+• The areas for which teachers most commonly report high level of professional learning needs 
+include: skills for using artificial intelligence for teaching and learning (31%), pedagogical skills for 
+incorporating digital re sources and tools into teaching (17%), and technical skills for the use of 
+digital resources and tools (16%). The areas most commonly indicated by novice teachers in 
+relation to high level of professional learning needs are: skills for using artificial int elligence for 
+teaching and learning (21%), teaching students with special education needs (18%), and 
+classroom management for student behaviour (17%). 
+• Teachers most commonly identify the following barriers to engaging in professional learning: not 
+having time due to other commitments or responsibilities (75%), professional learning conflicts with 
+work schedule (72%), and lack of incentives for participating in professional learning (37%). The 
+barriers that novice teachers are most likely to report as preven ting them from participating in 
+professional learning include: not having time due to other commitments or responsibilities (75%), 
+professional learning conflicts with work schedule (74%), and lack of incentives for participating in 
+professional learning (39%). 
+6    
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+Teacher leadership and autonomy 
+Figure 4. Teachers’ decision making authority 
+Percentage of lower secondary teachers 
+ 
+Statistically significant differences from the OECD average are highlighted with filled circles. 
+Source: OECD, TALIS 2024 Database, Tables 5.1, 5.2, 5.3 and 5.31. 
+ 
+• In Singapore, levels of instructional autonomy – reported by teachers – and involvement in 
+school‑level decision making on curriculum, instruction, and other school policies – reported by 
+principals – are close to the OECD average, with no consistent pattern of being above or below it 
+across items. 
+Instructional
+autonomy
+School
+decision-making
+on curriculum
+and instruction
+School
+decision-making
+on school
+policies
+Choosing
+assessment
+activities Selecting
+teaching
+methods and
+strategies
+Implementing
+the
+curriculum
+in a
+flexible way
+Selecting
+learning
+objectives
+Designing
+and
+preparing
+lessons
+Choosing
+which
+learning
+materials
+are used
+Determining
+course
+contentDeciding
+which
+courses are
+offered
+Deciding
+on the use
+of digital
+resources
+for teaching
+Establishing
+student
+disciplinary
+policies and
+procedures
+Establishing
+student
+assessment
+policies
+Deciding
+policies
+on student
+diversity
+Deciding
+on budget
+allocations
+within the
+school
+Facilitating
+teacher
+learning
+for student
+social-
+emotional
+aid
+Defining
+school
+improvement
+priorities
+0
+25
+50
+75
+%
+100
+Singapore
+▀▀ Above ▀▀ Below or ▀▀ Not statistically different from the ●OECD average
+   7 
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+• Teacher appraisal not only serves a formative role by supporting professional growth but also a 
+summative role by assessing effectiveness and ensuring accountability. Among teache rs who 
+report having “substantial” or “full” autonomy in curriculum implementation in Singapore, 1% work 
+in schools where they are appraised less than once per year, or not at all.  
+Teachers’ professional relationships 
+Figure 5. Professional relationships 
+Percentage of lower secondary teachers 
+ 
+Statistically significant differences from the OECD average are highlighted with filled circles. 
+Source: OECD, TALIS 2024 Database, Tables 6.8, 6.17, 6.27 and 6.36. 
+ 
+Between teachers 
+• In Singapore, the most frequent forms of collaboration among teachers include: exchanging 
+teaching materials with colleagues (61%), engaging in discussions about the learning development 
+of specific students (60%), and working with other teachers in the sc hool to ensure common 
+standards in evaluations for assessing student progress (50%). Between 2018 and 2024, the share 
+of teachers engaging in deeper forms of collaboration evolved the following way: team teaching 
+decreased by 12  percentage points; providin g feedback based on classroom observations 
+decreased by 5 percentage points; engaging in joint activities across different classes decreased 
+by 2  percentage points; and participating in collaborative professional learning decreased by 
+12 percentage points. 
+• 94% of teachers “agree” or “strongly agree” that, at their school, teachers can rely on each other 
+(higher than the OECD average: 86%). This share has not changed since 2018.  
+With the principal 
+• 92% of teachers “agree” or “strongly agree” that their principal has good professional relationships 
+with staff (higher than the OECD average: 86%), 85% report that their principal provides useful 
+feedback to teachers and staff (higher than the OECD average: 77%), and 92% agree that their 
+| |
+||
+||
+| |
+98
+92
+94
+16
+Collaborating with parents and guardians
+at least once a month to enrich students’
+learning activities
+Agreeing that they can rely on each other
+Agreeing that their principal has good
+professional relationships with staff
+Agreeing that students and teachers
+usually get along well with each other
+0 10 20 30 40 50 60 70 80 90 100
+%
+○● Singapore ● OECD average ● Education systems | Lowest value | Highest value
+8    
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+principal has confidence in  the expertise of the teachers at their school (similar to the OECD 
+average: 92%). 
+With students 
+• 98% of teachers “agree” or “strongly agree” that students and teachers usually get along well with 
+each other (higher than the OECD average: 96%), while 78% ag ree that, in their school, teachers 
+are valued by students (higher than the OECD average: 71%). 
+With parents and guardians 
+• While 76% “agree” or “strongly agree” that in their school, teachers are valued by parents and 
+guardians (higher than the OECD average: 65%), 16% of teachers report collaborating with parents 
+and guardians to enrich students’ learning activities at least once a month (lower than the OECD 
+average: 25%). 
+Status of the teaching profession 
+Figure 6. Status of the teaching profession 
+Percentage of lower secondary teachers 
+ 
+Statistically significant differences from the OECD average are highlighted with filled circles. 
+Source: OECD, TALIS 2024 Database, Tables 7.24 and 7.31. 
+ 
+• Higher social status of the teaching profession can help attract hi gh-calibre candidates to the 
+profession and retain experienced teachers. In Singapore, 71% of teachers “agree” or “strongly 
+agree” that teachers are valued in society (higher than the OECD average: 22%). Between 2018 
+and 2024, this share did not change. 
+• 57% of teachers “agree” or “strongly agree” that teachers’ views are valued by policymakers in 
+their country/region (higher than the OECD average: 16%). This share has increased by 
+7 percentage points since 2018. 
+| |
+| |
+| |
+79
+71
+57
+Agreeing that teachers’ views
+are valued by policymakers in
+their country/region
+Agreeing that teachers are
+valued in society
+Novice teachers reporting
+that teaching was their first
+choice as a career
+0 10 20 30 40 50 60 70 80 90 100
+%
+○● Singapore ● OECD average ● Education systems | Lowest value | Highest value
+   9 
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+• 79% of novice teachers report that teaching w as their first choice as a career (higher than the 
+OECD average: 58%). This share has increased by 8 percentage points since 2018. 
+Teachers’ terms of employment 
+Figure 7. Terms of employment 
+Percentage of lower secondary teachers 
+ 
+Statistically significant differences from the OECD average are highlighted with filled circles. 
+Source: OECD, TALIS 2024 Database, Tables 7.35, 7.50, 7.52 and 7.63. 
+ 
+Contracts and hours 
+• In Singapore, 83% of teachers have a permanent contract (similar to the OECD average: 81%). 
+Between 2018 and 2024, the share of teachers with a permanent contract did not change. Novice 
+teachers are equally likely to have a fixed -term contract as their experienced peers. The share of 
+teachers who are employed on a fixed-term contract while reporting job security as highly important 
+is 8% (similar to the OECD average: 9%). 
+• 5% of teachers are employed part-time (working up to 90% of full-time hours) (lower than the OECD 
+average: 19%). Since 2018, the share of teachers working part -time has not  changed. Novice 
+teachers are less likely to be employed part -time than their experienced colleagues. The share of 
+teachers who work part -time but do not consider job flexibility highly important is 1% (lower than 
+the OECD average: 7%). 
+• 68% of teachers “agree” or “strongly agree” that they are satisfied with their terms of employment 
+(barring salaries) (similar to the OECD average: 68%). Teachers’ satisfaction with their terms of 
+employment (barring salaries) has decreased by 7 percentage points since 2018. 
+Salary 
+• 55% of teachers “agree” or “strongly agree” that they are satisfied with their salaries (higher than 
+the OECD average: 39%). Between 2018 and 2024, teachers’ satisfaction with their salaries 
+decreased by 17 percentage points. 
+||
+||
+| |
+| |
+83
+68
+55
+1
+Working part-time involuntarily
+Being satisfied with their salaries
+Being satisfied with their terms
+of employment (barring salaries)
+Having a permanent contract
+0 10 20 30 40 50 60 70 80 90 100
+%
+○● Singapore ● OECD average ● Education systems | Lowest value | Highest value
+10    
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+Demands of teaching 
+Figure 8. Most common sources of teachers’ stress in Singapore  
+Percentage of lower secondary teachers who report that the following are sources of stress “quite a bit” or “a lot” 
+ 
+Statistically significant differences from the OECD average are highlighted with filled circles. 
+Source: OECD, TALIS 2024 Database, Table 3.16. 
+ 
+Sources of stress 
+• In Singapore, the most commonly reported sources of stress are: having too much administrative 
+work to do (53%), having too much marking (49%), and being held responsibl e for student 
+achievement (45%). 
+Working hours 
+• Full-time teachers report that their total working hours per week is 47.3 hours (higher than the 
+OECD average: 41). Teachers’ total working hours have not changed since 2018.  
+• Full-time teachers report spending  17.7 hours per week on teaching (lower than the OECD 
+average: 22.7). Teachers’ time spent on teaching has not changed since 2018.  
+• Full-time teachers report spending 8.2 hours per week on preparing lessons (higher than the OECD 
+average: 7.4). The time spent on preparing lessons has increased by 0.9 hours since 2018. 
+• Full-time teachers report spending 6.4 hours per week on marking and correcting of student work 
+(higher than the OECD average: 4.6). Teachers’ time spent on marking and correcting of student 
+work has decreased by 1.1 hours since 2018. 
+• Full-time teachers report spending 4 hours per week on administrative work (higher than the OECD 
+average: 3). The time spent on administrative work has not changed since 2018.  
+| |
+| |
+| |
+53
+45
+49
+Having too much marking
+Being held responsible for
+student achievement
+Having too much administrative
+work to do
+20 30 40 50 60 70 80
+%
+○● Singapore ● OECD average ● Education systems | Lowest value | Highest value
+   11 
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+Appraisal 
+• The most commonly reported ap praisal methods (as reported by principals) are: observations of 
+classroom teaching (98%), assessments of teachers’ content knowledge (95%), and school-based 
+and classroom-based results (82%). 
+• The most frequently reported consequences of appraisal include:  discussing with the teacher 
+measures to remedy any weaknesses in teaching (87%), developing a development/training plan 
+(68%), and appointing a mentor to help the teacher improve his/her teaching (41%).  
+Teachers’ professional outcomes 
+Figure 9. Professional outcomes 
+Percentage of lower secondary teachers 
+ 
+Statistically significant differences from the OECD average are highlighted with filled circles. 
+Source: OECD, TALIS 2024 Database, Tables 2.1, 2.3, 2.14 and 7.1. 
+ 
+Achieving lesson aims 
+• In Singapore, 43% of teachers report meeting their lesson aims “quite a bit” or “a lot” across all 
+seven areas – teaching clarity, cognitive activation, feedback, support for consolidation, adapting 
+teaching to the different needs of students, supporting stud ents’ social and emotional learning, 
+classroom management – covered by TALIS (similar to the OECD average: 44%). Among 
+teachers’ lesson goals, helping students to manage their own emotions as well as their thoughts 
+and behaviour (64%) is the least likely to be achieved. 
+• The share of novice teachers (with up to five years of teaching experience) who report fulfilling 
+lesson aims across all seven areas covered by TALIS (36%) is 7  percentage points lower 
+compared to that of experienced teachers (43%). 
+||
+||
+||
+| |
+87
+43
+40
+27
+Experiencing stress “a lot” in their work
+Teachers under age 30 intending
+to leave teaching within the
+next five years
+Fulfilling their lesson aims
+"quite a bit" or "a lot"
+Being satisfied with their jobs
+0 10 20 30 40 50 60 70 80 90 100
+%
+○● Singapore ● OECD average ● Education systems | Lowest value | Highest value
+12    
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+Well-being 
+• 27% of teachers experience stress “a lot” in their work (higher than the OECD average: 19%); 10% 
+say their job negatively impacts their mental health “a lot” (similar to the OECD average: 10%), and 
+10% report that it negatively impacts their physical he alth “a lot” (higher than the OECD average: 
+8%). Between 2018 and 2024, the share of teachers experiencing stress “a lot” in their work 
+increased by 4 percentage points. 
+• Teachers under age 30 are more likely to report feeling stressed “a lot” than their colleagues aged 
+50 and above. 
+Satisfaction and retention 
+• The share of teachers who report that, all in all, they are satisfied with their jobs is 87% (lower than 
+the OECD average: 89%). The share of teachers satisfied with their jobs has decreased by 
+2 percentage points since 2018.  
+ 
+• The share of teachers who are satisfied with their jobs is the same in privately managed schools 
+as in publicly managed schools. 
+• 40% of teachers under age 30 express their intention of leaving teaching within the next five years 
+(higher than the OECD average: 20%). This share has decreased by 9  percentage points since 
+2018. 
+Data sources 
+All data reported in this note come from the tables accompanying the report (OECD, 2025):  
+• Teachers’ background: Tables 1.1, 1.2, 1.3, 1.5, 1.12 and 1.14. 
+• Teaching for today’s world: Tables 1.25, 1.26, 1.27, 1.29, 1.42, 1.45, 1.53, 1.59, 1.60 and 1.63.  
+• Teachers’ learning opportunities: Tables 4.3, 4.5, 4.6, 4.7, 4.10, 4.11, 4.24, 4.27 and 4.41.  
+• Teacher leadership and autonomy: Tables 5.1, 5.2, 5.3, 5.31 and 5.40. 
+• Teachers’ professional relationships: Tables 6.3, 6.7, 6.8, 6.9, 6.17, 6.18, 6.27, 6.29, 6.30, 6.36 
+and 6.38. 
+• Status of the teaching profession: Tables 7.24, 7.26, 7.29, 7.31 and 7.32.  
+• Teachers’ terms of employment: Tables 7.35, 7.36, 7.37, 7. 41, 7.44, 7.46, 7.47, 7.50, 7.52, 7.54, 
+7.63 and 7.67. 
+• Demands of teaching: Tables 3.8, 3.10, 3.16, 3.20, 3.34, 3.36, 3.37, 3.38, 3.48, 3.50 and 3.54.  
+• Teachers’ professional outcomes: Tables 2.1, 2.3, 2.4, 2.7, 2.13, 2.14, 2.15, 2.27, 7.1 and 7.2.  
+References 
+OECD (2025), Results from TALIS 2024: The State of Teaching , TALIS, OECD Publishing, Paris, 
+https://doi.org/10.1787/90df6235-en. 
+OECD (forthcoming), Teaching and Learning International Survey (TALIS) 2024 Technical Report, OECD 
+Publishing, Paris. 
+OECD (forthcoming), Teaching and Learning International Survey (TALIS) 2024 User Guide , OECD 
+Publishing, Paris. 
+   13 
+RESULTS FROM TALIS 2024: SINGAPORE © OECD 2025 
+  
+For more information about TALIS 2024 visit www.oecd.org/en/about/programmes/talis.  
+Explore, compare and visualise more data and analysis using http://gpseducation.oecd.org. 
+Questions can be  directed to the TALIS team at the Directorate for Education and Skills: 
+edutaliscontact@oecd.org. 
+This note was written by Gabor Fülöp and Rodolfo Ilizaliturri, Directorate for Education and Skills.  
+ 
+This work is published under the responsibility of the Secretary -General of the OECD. The opinions expressed and arguments employed 
+herein do not necessarily reflect the official views of the Member countries of the OECD. 
+This document, as well as any data and  map included herein, are without prejudice to the status of or sovereignty over any territory, to the 
+delimitation of international frontiers and boundaries and to the name of any territory, city or area. 
+The statistical data for Israel are supplied by and under the responsibility of the relevant Israeli authorities. The use of such data by the OECD 
+is without prejudice to the status of the Golan Heights, East Jerusalem and Israeli settlements in the West Bank under the terms of international 
+law. 
+Note by the Republic of Türkiye 
+The information in this document with reference to “Cyprus” relates to the southern part of the Island. There is no single authority representing 
+both Turkish and Greek Cypriot people on the Island. Türkiye recognises the Turkish Republic of Northern Cyprus (TRNC). Until a lasting and 
+equitable solution is found within the context of the United Nations, Türkiye shall preserve its position concerning the “Cyprus issue”. 
+Note by all the European Union Member States of the OECD and the European Union 
+The Republic of Cyprus is recognised by all members of the United Nations with the exception of Türkiye. The information in t his document 
+relates to the area under the effective control of the Government of the Republic of Cyprus. 
+Kosovo: This designation is without prejudice to positions on status, and is in line with United Nations Security Council Resolution 1244/99 
+and the Advisory Opinion of the International Court of Justice on Kosovo’s declaration of independence. 
+The full book is a vailable in English: OECD (2025), Results from TALIS 2024: The State of Teaching, TALIS, OECD Publishing, Paris, 
+https://doi.org/10.1787/90df6235-en 
+ 
+© OECD 2025 
+ Attribution 4.0 International (CC BY 4.0) 
+This work is made available under the Creative Commons Attribution 4.0 International licence. By using this work, you accept to be bound by 
+the terms of this licence (https://creativecommons.org/licenses/by/4.0/). 
+Attribution – you must cite the work. 
+Translations – you must cite the original work, identify changes to the original and add the following text: In the event of any discrepancy  
+between the original work and the translation, only the text of the original work should be considered valid. 
+Adaptations – you must cite the original work and add the following text: This is an adaptation of an original work by the OECD. The opinions 
+expressed and arguments employed in this adaptation should not be reported as representing the official views of the OECD or of its Member 
+countries. 
+Third-party material – the licence does not apply to third-party material in the work. If using such material, you are responsible for obtaining 
+permission from the third party and for any claims of infringement. 
+You must not use the OECD logo, visual identity or cover image without express permission or suggest the OECD endorses your use of the 
+work. 
+Any dispute arising under this licence shall be settled by arbitration in accordance with the Permanent Court of Arbitration (PCA) Arbitration 
+Rules 2012. The seat of arbitration shall be Paris (France). The number of arbitrators shall be one. 
+ 

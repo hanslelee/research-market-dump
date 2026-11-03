@@ -55,8 +55,7 @@
     "path": "market/snapshots/f1a0c151164f.txt",
     "chars": 3101,
     "ok": true,
-    "reason": "",
-    "extracted_for": []
+    "reason": ""
   },
   "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/access-adaptive-learning-system": {
     "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/access-adaptive-learning-system",
@@ -67,7 +66,9 @@
     "chars": 3875,
     "ok": true,
     "reason": "",
-    "extracted_for": []
+    "extracted_for": [
+      "MKT-02-A"
+    ]
   },
   "https://geniebook.com/blog/online-education-singapore-how-geniebook-supports-academic-success": {
     "url": "https://geniebook.com/blog/online-education-singapore-how-geniebook-supports-academic-success",
@@ -136,8 +137,7 @@
     "path": "market/snapshots/manual/96511fcc0f74.txt",
     "chars": 181,
     "ok": true,
-    "reason": "",
-    "extracted_for": []
+    "reason": ""
   },
   "https://www.koobits.com/math": {
     "url": "https://www.koobits.com/math",
@@ -147,8 +147,7 @@
     "path": "market/snapshots/7d3d6373651f.txt",
     "chars": 15586,
     "ok": true,
-    "reason": "",
-    "extracted_for": []
+    "reason": ""
   },
   "https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan": {
     "url": "https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan",
@@ -169,8 +168,7 @@
     "path": "market/snapshots/manual/625474d4dbb2.txt",
     "chars": 260,
     "ok": true,
-    "reason": "",
-    "extracted_for": []
+    "reason": ""
   },
   "https://geniebook.com": {
     "url": "https://geniebook.com",
@@ -180,8 +178,7 @@
     "path": "market/snapshots/d21b6a5b2942.txt",
     "chars": 56451,
     "ok": true,
-    "reason": "",
-    "extracted_for": []
+    "reason": ""
   },
   "https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning": {
     "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning",
@@ -191,8 +188,7 @@
     "path": "market/snapshots/6c02cc3e4a92.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text",
-    "extracted_for": []
+    "reason": "too little text"
   },
   "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system": {
     "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system",
@@ -202,8 +198,7 @@
     "path": "market/snapshots/454c2686f8fc.txt",
     "chars": 1790,
     "ok": true,
-    "reason": "",
-    "extracted_for": []
+    "reason": ""
   },
   "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/02/how-much-time-do-teachers-spend-on-teaching-and-non-teaching-activities_g17a25d2/5js64kndz1f3-en.pdf": {
     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/02/how-much-time-do-teachers-spend-on-teaching-and-non-teaching-activities_g17a25d2/5js64kndz1f3-en.pdf",
@@ -225,7 +220,9 @@
     "chars": 147516,
     "ok": true,
     "reason": "",
-    "extracted_for": []
+    "extracted_for": [
+      "MKT-01-A"
+    ]
   },
   "https://tntp.org/publication/teachers-time-use": {
     "url": "https://tntp.org/publication/teachers-time-use",
@@ -272,5 +269,219 @@
     "ok": true,
     "reason": "",
     "extracted_for": []
+  },
+  "https://www.oecd.org/en/publications/2025/10/results-from-talis-2024_28fbde1d/full-report/the-demands-of-teaching_0e941e2f.html": {
+    "url": "https://www.oecd.org/en/publications/2025/10/results-from-talis-2024_28fbde1d/full-report/the-demands-of-teaching_0e941e2f.html",
+    "hash": "658f20658bf4",
+    "fetched_at": "2026-11-03",
+    "kind": "none",
+    "path": "",
+    "chars": 0,
+    "ok": false,
+    "reason": "fetch failed: HTTP Error 403: Forbidden",
+    "extracted_for": []
+  },
+  "https://www.channelnewsasia.com/singapore/7-day-work-weeks-marking-while-home-singapore-teachers-say-theyre-busy-ever-if-not-more-5394291": {
+    "url": "https://www.channelnewsasia.com/singapore/7-day-work-weeks-marking-while-home-singapore-teachers-say-theyre-busy-ever-if-not-more-5394291",
+    "hash": "d758f1ea8079",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/d758f1ea8079.txt",
+    "chars": 20134,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-A"
+    ]
+  },
+  "https://www.moe.gov.sg/news/press-releases/20251007-singapore-teachers-embrace-digital-technologies-and-benefit-from-strong-professional-development-oecd-talis-2024-study": {
+    "url": "https://www.moe.gov.sg/news/press-releases/20251007-singapore-teachers-embrace-digital-technologies-and-benefit-from-strong-professional-development-oecd-talis-2024-study",
+    "hash": "96b42a14c999",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/96b42a14c999.txt",
+    "chars": 0,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot",
+    "extracted_for": []
+  },
+  "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/results-from-talis-2024-country-notes_eafd703e/singapore_f09da5a5/8e88e29a-en.pdf": {
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/results-from-talis-2024-country-notes_eafd703e/singapore_f09da5a5/8e88e29a-en.pdf",
+    "hash": "efd7736ac1af",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/efd7736ac1af.txt",
+    "chars": 29664,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-A"
+    ]
+  },
+  "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/results-from-talis-2024_28fbde1d/90df6235-en.pdf": {
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/results-from-talis-2024_28fbde1d/90df6235-en.pdf",
+    "hash": "dd206d54ec62",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/dd206d54ec62.txt",
+    "chars": 0,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot",
+    "extracted_for": []
+  },
+  "https://www.ntu.edu.sg/business/news-events/news/story-detail/lessons-from-the-business-of-tuition-are-we-paying-attention": {
+    "url": "https://www.ntu.edu.sg/business/news-events/news/story-detail/lessons-from-the-business-of-tuition-are-we-paying-attention",
+    "hash": "ab9b002bb921",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/ab9b002bb921.txt",
+    "chars": 14380,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-B"
+    ]
+  },
+  "https://unesdoc.unesco.org/ark:/48223/pf0000387744": {
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000387744",
+    "hash": "a6b3d7062bdc",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/a6b3d7062bdc.txt",
+    "chars": 0,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot",
+    "extracted_for": []
+  },
+  "https://www.straitstimes.com/singapore/spore-families-spent-1-8-billion-on-private-tuition-for-children-in-2023": {
+    "url": "https://www.straitstimes.com/singapore/spore-families-spent-1-8-billion-on-private-tuition-for-children-in-2023",
+    "hash": "e38520ea9219",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/e38520ea9219.txt",
+    "chars": 7212,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-B"
+    ]
+  },
+  "https://www.singstat.gov.sg/news/parents-seem-persuaded-that-tuition-is-necessary-and-not-optional": {
+    "url": "https://www.singstat.gov.sg/news/parents-seem-persuaded-that-tuition-is-necessary-and-not-optional",
+    "hash": "5d091a47eba1",
+    "fetched_at": "2026-11-03",
+    "kind": "none",
+    "path": "",
+    "chars": 0,
+    "ok": false,
+    "reason": "fetch failed: HTTP Error 403: Forbidden",
+    "extracted_for": []
+  },
+  "https://www.myskillsfuture.gov.sg/content/portal/en/career-resources/career-resources/education-career-personal-development/redeem-ai-subscription.html": {
+    "url": "https://www.myskillsfuture.gov.sg/content/portal/en/career-resources/career-resources/education-career-personal-development/redeem-ai-subscription.html",
+    "hash": "2ac29a87a847",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/2ac29a87a847.txt",
+    "chars": 15332,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-B"
+    ]
+  },
+  "https://www.tech.gov.sg/technews/inside-singapore-digital-classroom-how-ai-is-supporting-teachers-and-students": {
+    "url": "https://www.tech.gov.sg/technews/inside-singapore-digital-classroom-how-ai-is-supporting-teachers-and-students",
+    "hash": "9d2f7dd6a2fb",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/9d2f7dd6a2fb.txt",
+    "chars": 8946,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-C"
+    ]
+  },
+  "https://link.springer.com/rwe/10.1007/978-981-96-3901-4_5-1": {
+    "url": "https://link.springer.com/rwe/10.1007/978-981-96-3901-4_5-1",
+    "hash": "f7a2a527e11b",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/f7a2a527e11b.txt",
+    "chars": 209,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot",
+    "extracted_for": []
+  },
+  "https://repository.nie.edu.sg/bitstreams/b864f4e6-a0d7-4f97-99a3-32492df679b7/download": {
+    "url": "https://repository.nie.edu.sg/bitstreams/b864f4e6-a0d7-4f97-99a3-32492df679b7/download",
+    "hash": "ae9088b8f452",
+    "fetched_at": "2026-11-03",
+    "kind": "none",
+    "path": "",
+    "chars": 0,
+    "ok": false,
+    "reason": "fetch failed: HTTP Error 405: Not Allowed",
+    "extracted_for": []
+  },
+  "https://www.stb.gov.sg": {
+    "url": "https://www.stb.gov.sg",
+    "hash": "3208521cb3ea",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/3208521cb3ea.txt",
+    "chars": 3264,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-C"
+    ]
+  },
+  "https://www.channelnewsasia.com/singapore/p1-registration-phase-2c-two-track-schools-6375426": {
+    "url": "https://www.channelnewsasia.com/singapore/p1-registration-phase-2c-two-track-schools-6375426",
+    "hash": "afe067c850fd",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/afe067c850fd.txt",
+    "chars": 15446,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-D"
+    ]
+  },
+  "https://www.straitstimes.com/singapore/parenting-education/st-explains-how-will-the-p1-registration-changes-affect-children-applying-for-primary-school": {
+    "url": "https://www.straitstimes.com/singapore/parenting-education/st-explains-how-will-the-p1-registration-changes-affect-children-applying-for-primary-school",
+    "hash": "c3b2be9e6547",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/c3b2be9e6547.txt",
+    "chars": 10880,
+    "ok": true,
+    "reason": "",
+    "extracted_for": [
+      "MKT-01-D"
+    ]
+  },
+  "https://www.koobits.com/plans/intl": {
+    "url": "https://www.koobits.com/plans/intl",
+    "hash": "2c93d639732b",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/2c93d639732b.txt",
+    "chars": 3050,
+    "ok": true,
+    "reason": ""
+  },
+  "https://geniebook.com/blog/real-teachers-or-ai-how-ai-tuition-works": {
+    "url": "https://geniebook.com/blog/real-teachers-or-ai-how-ai-tuition-works",
+    "hash": "c12701d5c208",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/c12701d5c208.txt",
+    "chars": 29069,
+    "ok": true,
+    "reason": ""
   }
 }

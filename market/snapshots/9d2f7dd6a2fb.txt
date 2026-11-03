@@ -1,0 +1,85 @@
+Skip to main content
+A Singapore Government Agency Website How to identify
+Official website links end with .gov.sg
+Government agencies communicate via .gov.sg websites (e.g. go.gov.sg/open). Trusted websites (opens in new tab)
+Secure websites use HTTPS
+Look for a lock () or https:// as an added precaution. Share sensitive information only on official, secure websites.
+Government officials will never ask you to transfer money or disclose bank log-in details over a phone call.
+Call the 24/7 ScamShield Helpline at 1799 if you are unsure if something is a scam.
+About us
+Careers
+Media
+Events
+TechNews
+Contact us
+Explore our products (opens in new tab)
+Home
+TechNews
+Inside Singapore’s digital classroom: How AI is supporting teachers and students
+Inside Singapore’s digital classroom: How AI is supporting teachers and students
+9 December 2025
+Category
+Tech for Public Good
+How is AI reshaping learning in Singapore? Discover how the EdTech Masterplan 2030 guides the use of AI tools on the Student Learning Space (SLS) to personalise education and support teachers, ensuring responsible adoption with clear safety guardrails.
+Artificial Intelligence (AI) is increasingly pervasive in education. Singapore’s “Transforming Education through Technology” Masterplan 2030 (EdTech Masterplan 2030) maps out the age- and developmentally appropriate use of AI, blended with other technologies to benefit students’ learning and to support teachers’ practices. Rather than using technology for its own sake, schools are adopting AI tools that strengthen teaching quality and create richer, more personalised learning experiences.
+This article explores how AI is already at work in Singapore’s classrooms, the safeguards guiding its use, and how GovTech collaborates closely with the Ministry of Education (MOE) (opens in new tab) to ensure responsible and meaningful adoption. To hear the full conversation behind these insights, watch the latest episode of GovTech Decoded:
+From e-learning to AI-powered classrooms
+Singapore’s digital learning journey began long before AI entered the picture. In 2018, MOE (opens in new tab) and GovTech launched the Singapore Student Learning Space (SLS), establishing a national digital learning platform for all MOE schools. This foundation proved vital in ensuring that learning continued during the COVID-19 pandemic.
+Building on this momentum, schools today are using EdTech for teaching and learning within and beyond classrooms. The Singapore’s Transforming Education Through Technology Masterplan 2030 (opens in new tab) guides these efforts, outlining how technology can deepen students’ learning, develop digital readiness, and support diverse learning needs.
+"E-learning is not just useful for home-based learning [...] It can complement teaching resources in the classroom, whereby the students can actually learn anytime, anywhere and then revisit what they have been taught." - Ms Thuhaila, HOD/ICT, Northoaks Primary School.
+When used effectively and safely, AI enables customised, personalised learning experiences and empowers student agency.
+AI tools in the classroom
+AI is already at work in Singapore’s classrooms, helping teachers teach more effectively and giving students new ways to learn. Here are a few examples of AI tools that are centrally developed and deployed to support students and teachers.
+AI tools on the Singapore Student Learning Space (SLS) include (opens in new tab):
+Student-focused tools
+Speech Evaluation Tool: Uses AI to analyse pronunciation, fluency, and clarity. It allows students to independently practice oral communication skills and receive immediate feedback anytime.
+Learning Assistant (LEA): Engages students in iterative questioning to sharpen their understanding of concepts by taking on different roles (e.g. writing assistant). It is currently available for students from Primary 4 onwards.
+Teacher-focused tools
+Authoring Copilot (ACP): Generates draft lesson ideas and learning resources, which teachers can adapt to as they think more deeply about lesson design and enactment to meet students’ needs.
+Data Assistant (DAT): Analyses students’ qualitative responses to identify common themes and misconceptions instantaneously to inform teaching and learning decisions
+Ensuring responsible and safe use of AI in schools
+It is essential to ensure that AI use is pedagogically sound, with appropriate guardrails. These tools must be designed and tested carefully to manage risks such as biases, data privacy, and inappropriate content outputs.
+To counter these risks, GovTech and MOE (opens in new tab) implement clear guidelines to schools on the use of AI in education, and guardrails for safe and ethical AI use such as human-in-the-loop or human-over-the-loop moderation.
+"We don’t shy away from using AI, to be honest. But we use it in a very deliberate and purposeful way, so that AI or any piece of technology doesn’t take away the essence of learning. This approach is further supported by the use of GovTech's AI products like Litmus and Sentinel (opens in new tab) as guardrails, that helps to detect and manage unsafe content, while ensuring that Generative AI applications meet our safety and security standards." - Harish (Student Learning Space Product Lead from GovTech).
+These efforts align with GovTech’s Responsible AI Playbook (opens in new tab) and complement national guidance such as the Model AI Governance Framework (opens in new tab), to support the safe deployment of AI tools in public-sector contexts.
+How AI supports, not replaces, teachers
+AI tools are designed to augment, not replace, educators. These technologies can automate administrative tasks, allowing teachers to spend more time considering how they can improve their lessons or have richer classroom interactions. Despite AI’s potential to support teaching and learning, it cannot replicate the empathy, encouragement, and nuanced guidance that a teacher provides.
+Balancing technology and human connection
+The guiding principle behind technology in education is simple: digital tools should complement, not replace, meaningful human connection.
+“With more tech, we need more human connections.” - Lin Yee (Divisional Director, Educational Technology Division)
+Students must continue to learn through:
+Discussion with peers to build communication and critical thinking
+Conversations with teacher to develop deeper understanding
+Diverse learning experiences that develop 21st century competencies, including digital literacy, technological skills and AI literacy, and other aspects of holistic growth
+GovTech contributes by strengthening the wider digital ecosystem that schools rely on—from authentication and secure access methods to infrastructure that ensures platforms like the Singapore Student Learning Space (SLS) remain stable even under high usage. This foundation allows educators to focus on teaching, knowing the underlying technology is dependable, safe, and built for learning.
+Shaping the Future of Teaching and Learning
+“AI is here to stay”— Ms Thuhalia, HOD/ICT, Northoaks Primary School.
+As Singapore explores the next chapter of digital learning, AI will continue to play a supportive role—enhancing personalisation, strengthening feedback loops, and giving teachers more time to focus on meaningful interactions with their students. However, its value ultimately depends on thoughtful adoption, clear guardrails, and strong guidance from educators.
+With GovTech developing secure, trusted platforms and advancing responsible AI practices across the public sector, schools can adopt new digital tools with confidence while keeping human connection at the heart of education.
+To hear firsthand how AI and digital tools support teaching and learning in real classrooms, tune in to the latest episode of GovTech Decoded (opens in new tab). For more stories on digital innovation and transformation, explore the full GovTech Decoded series on YouTube (opens in new tab).
+Connect with us!
+Subscribe to the TechNews email newsletter (opens in new tab)
+Join the Tech Kaki user-testing community (opens in new tab)
+Back to top
+Government Technology Agency of Singapore (GovTech Singapore)
+About usCareersOur communitiesExplore our products (opens in new tab)
+MediaEventsTechNews
+Reach us
+Contact
+© 2026 Government of Singapore, last updated on 3 November 2026
+Report Vulnerability (opens in new tab)Privacy StatementTerms of UseREACH (opens in new tab)
+Made with Isomer
+(opens in new tab)
+Built by Open Government Products
+(opens in new tab)
+Government Technology Agency of Singapore (GovTech Singapore)
+About usCareersOur communitiesExplore our products (opens in new tab)
+MediaEventsTechNews
+Reach us
+Contact
+© 2026 Government of Singapore, last updated on 3 November 2026
+Report Vulnerability (opens in new tab)Privacy StatementTerms of UseREACH (opens in new tab)
+Made with Isomer
+(opens in new tab)
+Built by Open Government Products
+(opens in new tab)

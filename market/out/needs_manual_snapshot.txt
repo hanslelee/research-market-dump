@@ -15,3 +15,17 @@ https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning
     -> save the visible page text as market/snapshots/manual/6c02cc3e4a92.txt  (too little text)
 https://www.mdpi.com/2079-3200/13/9/114
     -> save the visible page text as market/snapshots/manual/56bc17b2bbbb.txt  (fetch failed: HTTP Error 403: Forbidden)
+https://www.oecd.org/en/publications/2025/10/results-from-talis-2024_28fbde1d/full-report/the-demands-of-teaching_0e941e2f.html
+    -> save the visible page text as market/snapshots/manual/658f20658bf4.txt  (fetch failed: HTTP Error 403: Forbidden)
+https://www.moe.gov.sg/news/press-releases/20251007-singapore-teachers-embrace-digital-technologies-and-benefit-from-strong-professional-development-oecd-talis-2024-study
+    -> save the visible page text as market/snapshots/manual/96b42a14c999.txt  (too little text (page may need JavaScript or a login): add a manual snapshot)
+https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/results-from-talis-2024_28fbde1d/90df6235-en.pdf
+    -> save the visible page text as market/snapshots/manual/dd206d54ec62.txt  (too little text (page may need JavaScript or a login): add a manual snapshot)
+https://unesdoc.unesco.org/ark:/48223/pf0000387744
+    -> save the visible page text as market/snapshots/manual/a6b3d7062bdc.txt  (too little text (page may need JavaScript or a login): add a manual snapshot)
+https://www.singstat.gov.sg/news/parents-seem-persuaded-that-tuition-is-necessary-and-not-optional
+    -> save the visible page text as market/snapshots/manual/5d091a47eba1.txt  (fetch failed: HTTP Error 403: Forbidden)
+https://link.springer.com/rwe/10.1007/978-981-96-3901-4_5-1
+    -> save the visible page text as market/snapshots/manual/f7a2a527e11b.txt  (too little text (page may need JavaScript or a login): add a manual snapshot)
+https://repository.nie.edu.sg/bitstreams/b864f4e6-a0d7-4f97-99a3-32492df679b7/download
+    -> save the visible page text as market/snapshots/manual/ae9088b8f452.txt  (fetch failed: HTTP Error 405: Not Allowed)

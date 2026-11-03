@@ -124,5 +124,26 @@
     "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
     "created_at": "2026-11-03",
     "verification_status": "UNVERIFIED"
+  },
+  "web:239337c6fa53": {
+    "key": "web:239337c6fa53",
+    "lane": "web",
+    "claim_id": "MKT-01-A",
+    "url": "https://www.channelnewsasia.com/singapore/7-day-work-weeks-marking-while-home-singapore-teachers-say-theyre-busy-ever-if-not-more-5394291",
+    "title": "7-day work weeks, marking while at home: Singapore teachers say they're as busy as ever if not more",
+    "publisher": "CNA",
+    "publication_date": "14 Oct 2025",
+    "quote": "For a class of 20, she typically prepares three different sets of learning materials to account for students of different abilities, which doubles preparation time.",
+    "finding": "Differentiated learning and accommodating varying student ability levels in primary school classes requires preparing multiple sets of materials, doubling preparation time.",
+    "stance": "supports",
+    "unit": "students",
+    "limitation": "The quote discusses preparation time for differentiated learning in general rather than the specific process of diagnosing primary mathematics learning gaps.",
+    "tier": "news",
+    "source_type": "News",
+    "snapshot": "market/snapshots/d758f1ea8079.txt",
+    "snapshot_kind": "fetched",
+    "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "created_at": "2026-11-03",
+    "verification_status": "UNVERIFIED"
   }
 }

@@ -1,0 +1,2 @@
+EXCERPT (pilot 2026-11-02, text returned by a fetch tool, not the raw page; replace with a real snapshot)
+Primary enrolment, 2024: 237,966 students. Table 4, Enrolment, Number of Classes and Class Size by Level, 2024 (page 4). Number of primary schools, 2024: 177. Table 2 (page 2) lists a primary enrolment of 230,968; the document does not explain the difference.

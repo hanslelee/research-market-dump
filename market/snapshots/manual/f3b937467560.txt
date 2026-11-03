@@ -1,0 +1,3 @@
+EXCERPT (pilot 2026-11-02, text returned by a fetch tool, not the raw page; replace with a real snapshot)
+launched the Adaptive Learning System for mathematics, for three topics covered at the Primary 5 level. That followed a pilot involving 33 schools that began last year. uses machine learning to make customised learning recommendations for each student. This system is also integrated with the Singapore Student Learning Space.
+uses machine learning to make customised learning recommendations for each student

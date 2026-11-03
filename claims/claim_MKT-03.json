@@ -1,0 +1,19 @@
+{
+  "id": "claim:MKT-03",
+  "text": "The serviceable market is the number of Singapore tuition centres teaching primary mathematics times the annual licence price; the buyer unit is centres, not students.",
+  "status": "active",
+  "version": 1,
+  "basis": "Market size. Student enrolment is context only; a students->centres conversion needs its own source or assumption.",
+  "origin": "manual",
+  "created_at": "2026-11-03",
+  "materiality": "HIGH",
+  "unit": "centres",
+  "assumption_ids": [
+    "FIN-A01"
+  ],
+  "market_queries": [
+    "number of tuition centres Singapore registered",
+    "Singapore primary school enrolment by level",
+    "tuition enrichment centres count Singapore statistics"
+  ]
+}

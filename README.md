@@ -1,4 +1,7 @@
-# research-dump
+# research-market-dump
+
+> Fork of [research-dump](https://github.com/hanslelee/research-dump) for MSI5002 Gate 3 market research (MathBridge AI, fictional case).
+> Code and data share this public repository. Start with **[market/README.md](market/README.md)**.
 
 A personal research knowledge base for finding research gaps.
 

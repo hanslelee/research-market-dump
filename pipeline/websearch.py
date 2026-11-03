@@ -73,12 +73,15 @@ def s2_search(query, log):
     return out
 
 
+FIELDS_OF_STUDY = "Computer Science"  # overridden from config.collect.s2_fields_of_study in search()
+
+
 def s2_seminal(concept, log, top=15):
     """The most cited papers on a concept (Semantic Scholar bulk search sorted by citations)."""
     key = os.environ.get("S2_API_KEY", "")
     q = f'"{concept}"' if " " in concept else concept
     url = "https://api.semanticscholar.org/graph/v1/paper/search/bulk?" + urllib.parse.urlencode(
-        {"query": q, "fields": FIELDS, "sort": "citationCount:desc", "fieldsOfStudy": "Computer Science"})
+        {"query": q, "fields": FIELDS, "sort": "citationCount:desc", "fieldsOfStudy": FIELDS_OF_STUDY})
     try:
         data = collect.get_json(url, {"x-api-key": key} if key else {})
     except Exception as e:
@@ -101,6 +104,8 @@ def search(data_dir: Path, claim_id: str, today: str, log=print, chat=None, sear
            pause=1.1, seminal_fn=s2_seminal):
     chat = chat or llm.chat
     config = json.loads((data_dir / "config.json").read_text())
+    global FIELDS_OF_STUDY
+    FIELDS_OF_STUDY = (config.get("collect") or {}).get("s2_fields_of_study", "Computer Science")
     agent = agent_for(config, log)
     # judging relevance needs a careful reader: use the summary model when there is one
     judge = (config.get("llm") or {}).get("summary") or agent

@@ -1,0 +1,176 @@
+{
+  "scope": "Public evidence on demand, competitors and market size for a primary-mathematics learning-gap diagnostic sold to Singapore tuition centres (MathBridge AI, fictional case, MSI5002 Gate 3).",
+  "scope_include": [
+    "formative or diagnostic assessment in primary or elementary mathematics and its effect on learning",
+    "teacher or tutor workload and time cost of assessment, marking and diagnosis",
+    "AI or adaptive learning systems for school mathematics, including evaluations of their effect",
+    "misconception diagnosis in early arithmetic (addition and subtraction, number sense)"
+  ],
+  "scope_exclude": [
+    "higher education or adult learning only",
+    "subjects other than mathematics with no transferable finding on assessment",
+    "opinion pieces with no data"
+  ],
+  "topics": [
+    "formative-assessment",
+    "diagnostic-assessment",
+    "teacher-workload",
+    "adaptive-learning",
+    "misconception"
+  ],
+  "llm": {
+    "screening": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "key_name": "GEMINI_API_KEY",
+      "model": "gemini-3.5-flash-lite",
+      "min_interval": 6,
+      "fallback_model": "gemini-3.1-flash-lite"
+    },
+    "summary": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "key_name": "GEMINI_API_KEY",
+      "model": "gemini-3.8-flash",
+      "min_interval": 6,
+      "fallback_model": "gemini-3.5-flash-lite"
+    },
+    "compare": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "key_name": "GEMINI_API_KEY",
+      "model": "gemini-3.8-flash",
+      "min_interval": 6,
+      "fallback_model": "gemini-3.5-flash-lite"
+    }
+  },
+  "collect": {
+    "days": 3650,
+    "arxiv_categories": [
+      "cs.CY",
+      "cs.AI"
+    ],
+    "arxiv_keywords": [
+      "formative assessment",
+      "diagnostic assessment",
+      "mathematics education",
+      "intelligent tutoring",
+      "misconception"
+    ],
+    "s2_search": true,
+    "s2_citations_of": "liked",
+    "openalex_institutions": [],
+    "openalex_keywords": [
+      "formative assessment",
+      "mathematics"
+    ],
+    "max_per_source": 200,
+    "s2_fields_of_study": "Education,Psychology,Computer Science"
+  },
+  "summary": {
+    "language": "English",
+    "max_per_run": 50
+  },
+  "notify": {
+    "telegram": false,
+    "viewer_url": "https://hanslelee.github.io/research-market-dump/",
+    "hold_days": 3
+  },
+  "market": {
+    "version": "v0.1",
+    "owner": "Hansle",
+    "case_id": "MATHBRIDGE-BASE-v1",
+    "product": "MathBridge AI (fictional): primary mathematics learning-gap diagnostic for Singapore tuition centres; teacher-approved questions, response-to-objective mapping, evidence-linked candidate gap reports, tutor review; annual institution licence.",
+    "academic": {
+      "add_per_claim": 4
+    },
+    "search": {
+      "provider": "none",
+      "key_name": "TAVILY_API_KEY",
+      "per_query": 5,
+      "queries_per_claim": 3,
+      "country": "Singapore"
+    },
+    "max_pages_per_claim": 6,
+    "source_tiers": {
+      "government": [
+        "gov.sg"
+      ],
+      "academic": [
+        "doi.org",
+        "tidsskrift.dk",
+        "springer.com",
+        "sciencedirect.com",
+        "tandfonline.com",
+        "wiley.com",
+        "eric.ed.gov",
+        "arxiv.org",
+        "semanticscholar.org"
+      ],
+      "news": [
+        "straitstimes.com",
+        "channelnewsasia.com",
+        "todayonline.com",
+        "businesstimes.com.sg",
+        "malaymail.com",
+        "edsurge.com",
+        "techinasia.com",
+        "e27.co"
+      ]
+    },
+    "blocked_domains": [
+      "s3.amazonaws.com",
+      "macaubusiness.com",
+      "thailand-business-news.com",
+      "y0h0.c19.e2-5.dev",
+      "npm.vehikl.com",
+      "pressreader.com"
+    ],
+    "allow_other_tier": false,
+    "competitors": [
+      {
+        "name": "KooBits",
+        "domains": [
+          "koobits.com"
+        ],
+        "urls": [
+          "https://www.koobits.com/plans?k20plan=3",
+          "https://www.koobits.com/math"
+        ]
+      },
+      {
+        "name": "Geniebook",
+        "domains": [
+          "geniebook.com"
+        ],
+        "urls": [
+          "https://geniebook.com/plans"
+        ]
+      },
+      {
+        "name": "MOE Student Learning Space (Adaptive Learning System)",
+        "domains": [
+          "moe.gov.sg",
+          "learning.moe.edu.sg"
+        ],
+        "urls": []
+      }
+    ],
+    "seed_urls": [
+      {
+        "url": "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf",
+        "claim_id": "MKT-03"
+      },
+      {
+        "url": "https://www.malaymail.com/news/malaysia/2025/01/20/singapore-families-spent-s18-billion-on-private-tuition-in-2023-with-the-richest-spending-over-s162-per-month/163937",
+        "claim_id": "MKT-01"
+      },
+      {
+        "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051",
+        "claim_id": "MKT-02"
+      }
+    ],
+    "proposed_actions": [
+      "ACCEPT",
+      "ACCEPT_WITH_LIMITATION",
+      "HOLD"
+    ]
+  }
+}

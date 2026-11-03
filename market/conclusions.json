@@ -1,0 +1,18 @@
+{
+  "_how": "Write your own conclusion per claim; leave proposed_action empty to let the rules decide. review_status: DRAFT / READY FOR REVIEW / APPROVED / HOLD / RETURN",
+  "MKT-01": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT"
+  },
+  "MKT-02": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT"
+  },
+  "MKT-03": {
+    "conclusion": "",
+    "proposed_action": "",
+    "review_status": "DRAFT"
+  }
+}

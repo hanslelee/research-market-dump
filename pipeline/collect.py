@@ -40,6 +40,7 @@ DEFAULT_COLLECT = {
     "openalex_keywords": [],
     "max_per_source": 400,
     "overlap_days": 3,
+    "s2_fields_of_study": "Computer Science",  # e.g. "Education,Psychology,Computer Science"
 }
 
 
@@ -196,7 +197,7 @@ def collect_s2_search(cfg, since, log):
     items, token = [], None
     while len(items) < cfg["max_per_source"]:
         params = {"query": s2_bulk_query(keywords), "fields": S2_FIELDS, "publicationDateOrYear": f"{since}:",
-                  "fieldsOfStudy": "Computer Science", "sort": "publicationDate:desc"}
+                  "fieldsOfStudy": cfg.get("s2_fields_of_study", "Computer Science"), "sort": "publicationDate:desc"}
         if token:
             params["token"] = token
         data = get_json("https://api.semanticscholar.org/graph/v1/paper/search/bulk?" + urllib.parse.urlencode(params),

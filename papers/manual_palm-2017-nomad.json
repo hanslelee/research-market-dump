@@ -1,0 +1,43 @@
+{
+  "id": "manual:palm-2017-nomad",
+  "title": "A review of the impact of formative assessment on student achievement in mathematics",
+  "authors": [],
+  "year": 2017,
+  "venue": "NOMAD Nordic Studies in Mathematics Education 22(3)",
+  "url": "https://tidsskrift.dk/NOMAD/article/view/148889",
+  "abstract": "The results show positive relations between student achievement in mathematics and the ways of doing formative assessment.",
+  "summary": {
+    "claim": "Formative assessment approaches are positively related to mathematics achievement (journal articles 2005-2014, Web of Science).",
+    "condition": "Review of published studies; relations, not causal effects; no pooled effect size in abstract.",
+    "gap": "Does not address primary-level diagnosis tools or purchasing by tuition centres."
+  },
+  "source": "manual",
+  "provenance": {
+    "summary_model": "pilot (from abstract excerpt)",
+    "created_at": "2026-11-02"
+  },
+  "marks": {
+    "liked": true,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "entered_at": "2026-11-02",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment"
+    ]
+  },
+  "author_names": [
+    "T. Palm",
+    "C. Andersson",
+    "E. Boström",
+    "C. Vingsle"
+  ]
+}

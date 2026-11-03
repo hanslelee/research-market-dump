@@ -1,5 +1,5 @@
-# Never commit real research data here. It belongs in your private data repository.
-/data/
+# research-market-dump: code and data share this PUBLIC repository. Only public sources and the fictional case.
+# Never commit API keys, personal research topics or private data.
 /research-dump-data/
 *.local.json
 .env

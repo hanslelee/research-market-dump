@@ -1,0 +1,9 @@
+test_id,test_description,input_version,expected_result,observed_result,pass_fail,issue_id,run_date,evidence_file
+CT-01,Clean baseline: current data has no integrity failures (clean case must not be falsely blocked),fbce5de+data:9b32e945,No R1/R2/R3/R5/R6 issue,"integrity issues: none; actions: MKT-01=HOLD, MKT-02=HOLD, MKT-03=HOLD",PASS,,2026-11-03,market/test_results.json
+CT-02,T03 seed: student enrolment used as paying customers for the centres-based market claim,fbce5de+data:9b32e945,R4_unit_leap and MKT-03 = HOLD,rules on MKT-03: ['R4_unit_leap']; action HOLD,PASS,,2026-11-03,market/test_results.json
+CT-03,Seed a competitor feature that is not on the saved page,fbce5de+data:9b32e945,R5_competitor_feature_unsourced,R5 raised: True,PASS,,2026-11-03,market/test_results.json
+CT-04,"Seed a conclusion citing an evidence id that does not exist (fake citation, T07-like)",fbce5de+data:9b32e945,R2_dangling_evidence_id and HOLD,rules on MKT-99: ['R2_dangling_evidence_id']; action HOLD,PASS,,2026-11-03,market/test_results.json
+CT-05,Seed a changed number inside a logged quote,fbce5de+data:9b32e945,R3_quote_not_in_source,R3 raised on MKT-03: True,PASS,,2026-11-03,market/test_results.json
+CT-06,Seed VERIFIED with no checked_by / checked_date,fbce5de+data:9b32e945,R6_verified_without_check,R6 raised on MKT-03: True,PASS,,2026-11-03,market/test_results.json
+CT-07,Mock model returns one invented quote and one real quote from the page,fbce5de+data:9b32e945,"Invented quote dropped, real quote kept",kept quotes: ['Proficiency Reports with KooBits Parent App.'],PASS,,2026-11-03,market/test_results.json
+CT-08,Search returns an SEO-spam domain and a government page,fbce5de+data:9b32e945,Spam domain dropped before fetching,"kept: [('https://www.moe.gov.sg/x', 'government')]",PASS,,2026-11-03,market/test_results.json

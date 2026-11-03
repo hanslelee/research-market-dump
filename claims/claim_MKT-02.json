@@ -1,0 +1,17 @@
+{
+  "id": "claim:MKT-02",
+  "text": "Existing primary mathematics EdTech in Singapore (e.g. KooBits, Geniebook, MOE Student Learning Space) does not offer tutor-reviewed, evidence-traceable learning-gap reports sold to tuition centres.",
+  "status": "active",
+  "version": 1,
+  "basis": "Differentiation. Packet v0.1 MKT-02 (UNK). Counter-evidence matters as much as support.",
+  "origin": "manual",
+  "created_at": "2026-11-03",
+  "materiality": "HIGH",
+  "unit": "",
+  "assumption_ids": [],
+  "market_queries": [
+    "Singapore primary math adaptive learning platform diagnostic report",
+    "Student Learning Space adaptive learning system mathematics",
+    "AI tuition centre software Singapore learning gaps"
+  ]
+}

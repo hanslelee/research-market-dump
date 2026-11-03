@@ -1,0 +1,7 @@
+[
+  {
+    "rule": "R4_unit_leap",
+    "where": "MKT-03",
+    "issue": "claim counts centres but MKT-E006 counts students; no assumption converts students -> centres"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "id": "claim:MKT-01",
+  "text": "Singapore tuition centres need faster, evidence-linked diagnosis of primary mathematics learning gaps.",
+  "status": "active",
+  "version": 1,
+  "basis": "Demand. Needs public evidence that (a) diagnosing gaps is valuable for learning and (b) centres spend on it or would pay. Packet v0.1 MKT-01 (SYN hypothesis).",
+  "origin": "manual",
+  "created_at": "2026-11-03",
+  "materiality": "HIGH",
+  "unit": "",
+  "assumption_ids": [],
+  "market_queries": [
+    "Singapore tuition spending primary mathematics",
+    "tuition centre teachers time spent marking diagnosing students Singapore",
+    "formative assessment primary mathematics achievement evidence"
+  ]
+}

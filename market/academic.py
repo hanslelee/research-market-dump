@@ -10,7 +10,8 @@ formative assessment and AI-assisted learning." For each sub-claim with "academi
               "none" when it does not bear on it at all                                                (model, Rung 0)
   3. add      the top papers are added to papers/ (tagged and summarized by the existing agents)       (pipeline/addpaper.py)
   4. link     a relation draft paper -> sub-claim, status "new" (= UNVERIFIED in the workbook)
-Papers already in the repository are judged too, so earlier additions get linked.
+Papers already in the repository are judged too when this sub-claim's queries find them. At most N links per
+sub-claim (config market.academic.add_per_claim): support/conflict first, then narrow, then by citations.
 You confirm each paper on the web page (Evidences tab: PARTIAL / VERIFIED / NOT APPLICABLE), like web evidence.
 """
 import datetime as dt
@@ -30,10 +31,11 @@ JUDGE_SYSTEM = """You check academic papers as evidence for ONE claim in a marke
 (a primary-mathematics learning-gap diagnostic tool sold to tuition centres in Singapore).
 For each paper, from its title and abstract, decide how it bears on the CLAIM:
 - "support": its findings directly back the claim.
-- "narrow": it backs the claim only indirectly or partly (other country, school teachers instead of tutors,
-  general assessment instead of maths diagnosis, a related but different tool). Most useful academic evidence is here.
+- "narrow": it backs the claim only partly or indirectly (other country, school teachers instead of tutors, general
+  assessment instead of maths diagnosis), BUT its finding is about the claim's own subject: a reader would be more or
+  less confident in the claim after reading it.
 - "conflict": its findings go against the claim.
-- "none": it does not bear on the claim.
+- "none": anything else. Being about education, assessment or AI in general is "none". Be strict: most papers are "none".
 For every answer other than "none" give "evidence": one sentence naming the paper's specific finding and how it bears
 on the claim, and "limitation": one sentence on what it does NOT show for this market claim.
 Reply with JSON only: {"results": [{"id": "...", "type": "...", "evidence": "...", "limitation": ""}]}"""
@@ -80,17 +82,21 @@ def run(data: Path, today: str, log=print, chat=None, only=None, search_fn=None,
         rels = load_dir(data / "relations")
         linked = {r["from"] for r in rels.values() if r.get("to") == c["id"]}
         have_titles = {collect.norm_title(p.get("title")): pid for pid, p in papers.items()}
-        cands = {}
+        cands, found_titles = {}, set()
         for q in c["academic_queries"]:
             for it in search_fn(q, log):
-                if it.get("abstract") and collect.norm_title(it["title"]) not in have_titles:
+                t = collect.norm_title(it["title"])
+                found_titles.add(t)
+                if it.get("abstract") and t not in have_titles:
                     cands.setdefault(it["id"], it)
             time.sleep(pause)
-        existing = [p for pid, p in papers.items() if pid not in linked and p.get("abstract")]
+        # only papers this sub-claim's own queries found (new ones, and ones already in the repository)
+        existing = [papers[have_titles[t]] for t in found_titles if t in have_titles and have_titles[t] not in linked]
         verdicts = judge(c, list(cands.values()) + existing, chat, agent, log)
-        # papers already in the repository first, then new ones by citation count
-        new_hits = sorted((cands[i] for i in verdicts if i in cands), key=lambda x: -(x.get("citations") or 0))[:n]
-        targets = [(p["id"], verdicts[p["id"]]) for p in existing if p["id"] in verdicts]
+        order = {"support": 0, "conflict": 0, "narrow": 1}
+        ranked = sorted(verdicts, key=lambda i: (order[verdicts[i]["type"]], -((cands.get(i) or {}).get("citations") or 0)))[:n]
+        new_hits = [cands[i] for i in ranked if i in cands]
+        targets = [(p["id"], verdicts[p["id"]]) for p in existing if p["id"] in ranked]
         for it in new_hits:
             try:
                 pid, _ = addpaper.add(data, it["title"], today, log, chat=chat, find=find or (lambda q, lg, it=it: dict(it)))

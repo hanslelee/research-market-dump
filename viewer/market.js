@@ -88,7 +88,7 @@
     $('#generated').textContent = `업데이트 ${new Date(d.generated_at).toLocaleString()}`;
     $('#repo-link').href = `https://github.com/${repo()}`;
     $('#btn-connect').textContent = state.conn?.token ? `연결됨: ${state.conn.repo}` : '저장소 연결';
-    const unrev = d.evidence.filter(e => e.status === 'UNVERIFIED' && !e.edu_related).length;
+    const unrev = d.evidence.filter(e => e.status === 'UNVERIFIED').length;
     $('#banner').hidden = !unrev;
     $('#banner').textContent = unrev ? `확인 안 된 근거 ${unrev}개: Evidences 탭에서 원문을 보고 PARTIAL / VERIFIED / NOT APPLICABLE로 확인해 주세요. 확인 전 근거는 주장 판정에 들어가지 않아요.` : '';
     fillFilters();

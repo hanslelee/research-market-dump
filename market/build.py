@@ -14,7 +14,8 @@ Claim status (Conclusions and Handoff), four levels: VERIFIED > PARTIAL > SYNTHE
               evidence: none -> MISSING, all VERIFIED -> VERIFIED, otherwise PARTIAL. UNVERIFIED rows do not count.
   team claim  the weakest of its sub-claims; any MISSING sub-claim (or any sub-claim on HOLD) -> HOLD, and the
               limitation names the empty sub-claims.
-Evidence marked "EDU related" (market/edu_related.json) stays in the evidence list but is left out of MKT status.
+Evidence marked "EDU related" (market/edu_related.json) counts for MKT like any other row and is also exported to
+edu_candidates.csv for Zixuan (shared evidence, one MKT-E id).
 
 Human inputs (never written by an agent):
   market/review.csv        evidence_id, verification_status, checked_by, checked_date, note, stance
@@ -56,7 +57,8 @@ def academic_rows(data: Path):
             "key": "rel:" + r["id"], "lane": "academic", "claim_id": cid, "url": p.get("url", ""), "title": p.get("title", ""),
             "publisher": p.get("venue", "") or "", "publication_date": str(p.get("published") or p.get("year") or ""),
             "quote": quote, "finding": r.get("reason", ""), "stance": STANCE_FROM_REL.get(r["type"], "supports"), "unit": "",
-            "limitation": "Abstract-level; academic evidence on learning, not on purchasing by centres." + (f" Gap: {gap}" if gap else ""),
+            "limitation": (r.get("limitation") or "Academic study, abstract-level; not evidence of purchasing by Singapore tuition centres.")
+                          + (f" Gap: {gap}" if gap and not r.get("limitation") else ""),
             "source_type": "Academic paper", "tier": "academic", "snapshot": "", "snapshot_kind": "abstract",
             "check_text": abstract, "found_by": f"pipeline:{r.get('model', '')}",
             "verification_status": "PARTIAL" if r.get("status") == "approved" else "UNVERIFIED",
@@ -142,8 +144,8 @@ LADDER = ["MISSING", "SYNTHETIC", "PARTIAL", "VERIFIED"]  # weakest first
 
 
 def counts(r):
-    """Evidence that counts toward MKT status: reviewed (PARTIAL/VERIFIED), not EDU related."""
-    return r["verification_status"] in ("PARTIAL", "VERIFIED") and not r.get("edu_related")
+    """Evidence that counts toward MKT status: reviewed (PARTIAL/VERIFIED). EDU related rows count too (shared with Zixuan)."""
+    return r["verification_status"] in ("PARTIAL", "VERIFIED")
 
 
 def sub_status(claim, ev):
@@ -164,7 +166,7 @@ def conclusions(data: Path, config, rows):
         cid = M.short_id(c["id"])
         if not cid.startswith("MKT") or c.get("status") == "retired" or c.get("role") == "parent":
             continue
-        ev = [r for r in rows if r["claim_id"] == cid and not r.get("edu_related") and r["verification_status"] != "NOT APPLICABLE"]
+        ev = [r for r in rows if r["claim_id"] == cid and r["verification_status"] != "NOT APPLICABLE"]
         hc = human.get(cid, {})
         st = sub_status(c, ev)
         unreviewed = sum(1 for r in ev if r["verification_status"] == "UNVERIFIED")

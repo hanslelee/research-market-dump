@@ -19,7 +19,7 @@ human:  market/review.csv (VERIFIED / PARTIAL)   market/conclusions.json (conclu
 
 | Sheet | Filled by |
 |---|---|
-| Market Evidence | paper lane (academic rows) + market agent (statistics, news, competitor pages) |
+| Market Evidence | paper lane (Semantic Scholar: maths diagnostics, formative assessment, AI-assisted learning, per sub-claim `academic_queries`) + market agent (statistics, news, competitor pages) |
 | Competitor Matrix | market agent (features and price copied from the saved page, else NOT FOUND) |
 | Market Conclusions | built from the evidence; **conclusion text is yours** (`market/conclusions.json`) |
 | Market Handoff | built from Conclusions (CSV for Kaizhen: `market/out/market_handoff.csv`) |
@@ -62,8 +62,8 @@ Local: `python market/run.py all --data .` (needs the same environment variables
 Evidence rows (Market Evidence): UNVERIFIED = drafted by an agent, nobody has looked; PARTIAL = a person looked, but
 abstract-level, indirect or only part of the claim; VERIFIED = a person opened the original and the quote is there
 (checked_by + checked_date, a real saved page, not a pilot excerpt); NOT APPLICABLE = wrong or irrelevant, kept in the
-list but left out of every claim. "EDU related" rows (`market/edu_related.json`) belong to Zixuan's education check:
-listed, left out of MKT status, exported to `edu_candidates.csv`.
+list but left out of every claim. "EDU related" rows (`market/edu_related.json`) are shared with Zixuan's education check:
+they count for MKT like any other row and are also exported to `edu_candidates.csv`.
 
 Claims, four levels, weakest first: MISSING < SYNTHETIC < PARTIAL < VERIFIED.
 - Sub-claim (Market Conclusions): SYNTHETIC when fixed so (MKT-02-B: MathBridge's features are fictional); otherwise

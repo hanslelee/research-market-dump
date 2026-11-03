@@ -14,5 +14,10 @@
     "teachers time spent marking assessment diagnosing students Singapore",
     "teacher workload assessment feedback time OECD TALIS Singapore",
     "tuition teacher time marking worksheets Singapore"
+  ],
+  "academic_queries": [
+    "teacher time spent on assessment and feedback",
+    "diagnosing student misconceptions mathematics teachers",
+    "formative assessment teacher workload"
   ]
 }

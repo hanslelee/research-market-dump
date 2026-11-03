@@ -63,5 +63,42 @@ class TestSeeded(unittest.TestCase):
             self.assertTrue((out / "market_handoff.csv").exists())
 
 
+
+class TestAcademicLane(unittest.TestCase):
+    def test_judges_adds_and_links(self):
+        import academic as AC
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp) / "repo"
+            shutil.copytree(ROOT, d, ignore=shutil.ignore_patterns(".git", "out", "__pycache__"))
+            hits = [{"id": "doi:10.1/a", "title": "Teachers spend hours on assessment feedback", "abstract": "Teachers report 6 hours a week.", "citations": 50, "year": 2020},
+                    {"id": "doi:10.1/b", "title": "Protein folding with transformers", "abstract": "Unrelated.", "citations": 900, "year": 2021}]
+            reply = {"results": [{"id": "doi:10.1/a", "type": "narrow", "evidence": "Teachers report 6 hours a week on feedback.", "limitation": "School teachers, not tutors."},
+                                 {"id": "doi:10.1/b", "type": "none", "evidence": ""}]}
+            chat = lambda *a, **k: {"text": json.dumps(reply), "model": "mock"}
+            added = []
+
+            def fake_add(data, title, today, log, chat=None, find=None):
+                it = find(title, log)
+                added.append(it["id"])
+                (data / "papers").mkdir(exist_ok=True)
+                (data / "papers" / (it["id"].replace(":", "_").replace("/", "_") + ".json")).write_text(json.dumps({**it, "authors": []}))
+                return it["id"], True
+            orig = AC.addpaper.add
+            AC.addpaper.add = fake_add
+            try:
+                out = AC.run(d, "2026-11-03", log=lambda *a: None, chat=chat, only={"MKT-01-A"},
+                             search_fn=lambda q, log: [dict(h) for h in hits], pause=0)
+            finally:
+                AC.addpaper.add = orig
+            self.assertEqual(added, ["doi:10.1/a"])
+            self.assertEqual(out["MKT-01-A"]["relation_drafts"], 1)
+            rels = [json.loads(p.read_text()) for p in (d / "relations").glob("*.json")]
+            r = next(r for r in rels if r["from"] == "doi:10.1/a")
+            self.assertEqual((r["to"], r["type"], r["status"]), ("claim:MKT-01-A", "narrow", "new"))
+            res = B.build(d)
+            row = next(x for x in res["rows"] if x["key"] == "rel:" + r["id"])
+            self.assertEqual((row["stance"], row["verification_status"], row["limitation"]), ("limits", "UNVERIFIED", "School teachers, not tutors."))
+
+
 if __name__ == "__main__":
     unittest.main()

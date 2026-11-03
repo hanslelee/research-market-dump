@@ -1,0 +1,57 @@
+{
+  "id": "doi:10.18608/jla.2023.7935",
+  "title": "Effectiveness of a Learning Analytics Dashboard for Increasing Student Engagement Levels",
+  "authors": [],
+  "author_names": [
+    "Gomathy Ramaswami",
+    "Teo Sušnjak",
+    "A. Mathrani"
+  ],
+  "ids": {
+    "doi": "10.18608/jla.2023.7935",
+    "s2": "696a6c4c2437375c62dc80e9e97ec922bf5c1847"
+  },
+  "published": "2023-12-12",
+  "year": 2023,
+  "venue": "Journal of Learning Analytics",
+  "url": "https://www.semanticscholar.org/paper/696a6c4c2437375c62dc80e9e97ec922bf5c1847",
+  "abstract": "Learning Analytics Dashboards (LADs) are gaining popularity as a platform for providing students with insights into their learning behaviour patterns in online environments. Existing LAD studies are mainly centred on displaying students’ online behaviours with simplistic descriptive insights. Only a few studies have integrated predictive components, while none possess the ability to explain how the predictive models work and how they have arrived at specific conclusions for a given student. A further gap exists within existing LADs with respect to prescriptive analytics that generate data-driven feedback to students on how to adjust their learning behaviour. The LAD in this study attempts to address this gap and integrates a full spectrum of current analytics technologies for sense-making while anchoring them within theoretical educational frameworks. This study’s LAD (SensEnablr) was evaluated for its effectiveness in impacting learning in a student cohort at a tertiary institution. Our findings demonstrate that student engagement with learning technologies and course resources increased significantly immediately following interactions with the dashboard. Meanwhile, results showed that the dashboard boosted the respondents’ learning motivation levels and that the novel analytics insights drawn from predictive and prescriptive analytics were beneficial to their learning. This study, therefore, has implications for future research when investigating student outcomes and optimizing student learning using LAD technologies.",
+  "tags": {
+    "method": [
+      "eval"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "adaptive-learning",
+      "diagnostic-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "The proposed Learning Analytics Dashboard (SensEnablr) significantly increased student engagement with learning technologies and course resources immediately following interactions, and boosted learning motivation levels.",
+    "condition": "Student cohort at a tertiary institution in online learning environments.",
+    "gap": "(저자) Future research is needed when investigating student outcomes and optimizing student learning using LAD technologies."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Effectiveness of a Learning Analytics Dashboard for Increasing Student Engagement Levels",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite"
+  }
+}

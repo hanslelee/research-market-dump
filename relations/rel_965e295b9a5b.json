@@ -1,0 +1,13 @@
+{
+  "id": "rel:965e295b9a5b",
+  "from": "doi:10.1007/s40299-021-00583-9",
+  "to": "claim:MKT-01-B",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The study investigates how teachers adapt when introduced to digital assessment tools and online instructional technologies, noting changes in motivation and feedback design.",
+  "limitation": "It focuses on Chinese EFL teachers during COVID-19 rather than mathematics tutors in Singapore, and does not examine purchasing behavior or diagnosis time reduction specifically.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

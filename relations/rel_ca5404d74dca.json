@@ -1,0 +1,13 @@
+{
+  "id": "rel:ca5404d74dca",
+  "from": "doi:10.1038/s41598-025-03298-9",
+  "to": "claim:MKT-02-C",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The study analyzes teacher education students' adoption of large language models using an extended TAM, identifying factors like perceived time risk that influence the perceived usefulness of educational technology.",
+  "limitation": "It targets student teachers in China rather than commercial tuition centre stakeholders in Singapore.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

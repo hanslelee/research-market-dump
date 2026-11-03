@@ -1,0 +1,50 @@
+{
+  "id": "doi:10.30935/scimath/16596",
+  "title": "Students’ mathematics conceptual challenges: Exploring students’ thinking, understanding, and misconceptions in functions and graphs",
+  "authors": [],
+  "author_names": [
+    "Isaac Gyan Ayeh"
+  ],
+  "ids": {
+    "doi": "10.30935/scimath/16596",
+    "s2": "a5c12163e8e5d7a45dea9cea1386335ed6c8978a"
+  },
+  "published": "2025-07-12",
+  "year": 2025,
+  "venue": "European Journal of Science and Mathematics Education",
+  "url": "https://www.semanticscholar.org/paper/a5c12163e8e5d7a45dea9cea1386335ed6c8978a",
+  "abstract": "Functions and graphs are fundamental mathematical concepts in mathematics and are vital to helping students comprehend the relationship between variables and other advanced topics in higher-level mathematics. Research has shown that students continually possess misconceptions and inaccurate thinking about functions and function representations. Function concepts such as variations, covariations, and function notations are challenges students face in conceptualizing function concepts in the classroom. Sources of these misconceptions may stem from the way students think about functions. The contributing factor to this problem is the teaching approaches or methods teachers use in mathematics classrooms, which focus on students demonstrating their skill in solving mathematics problems without helping students develop the conceptual understanding of the mathematics they teach. Although function forms the foundation of understanding higher mathematics, students’ and teachers’ understanding of function concepts appears to be mixed with many misconceptions and wrong assumptions. The researcher engaged the student in five clinical interview sessions to assess the student’s conceptual understanding of selected topics on functions and graphs. The researcher developed and implemented an instructional intervention to strengthen such understanding. A qualitative research method through clinical interview was used to engage a senior high school student in grade 11 in five one-hour meetings to assess the student’s conceptual understanding of selected topics under functions. Over the five clinical interview sessions, the interviewer engaged the student’s conceptual understanding of topics on functions, such as the meaning of functions, variations, covariations, and function notations. The researcher developed function assessment questions and validated them by experts for restructuring. All clinical interview sessions were voice recorded and transcribed, and photocopies of the student’s worksheets were collected and analyzed quantitatively to support the results and findings of this study. Findings from the study show that students continually develop procedural competencies over conceptual understanding in the mathematics classroom. The student over-relied on the vertical line test concept to determine whether a graph diagram represents a function. The student’s solutions to the covariation task showed a graphic representation of discrete points with a line drawn through the points to represent a continuous covariation. The designed interventions strengthened the students’ understanding and provided a means of testing/validating assumptions about the function concepts and understanding.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "The study shows that students continually develop procedural competencies over conceptual understanding in mathematics and that designed interventions can strengthen students' understanding of function concepts.",
+    "condition": "A qualitative research method using five clinical interview sessions with a single grade 11 senior high school student.",
+    "gap": "(추론) The study is limited by its single-participant scope, leaving the broader applicability of the findings across diverse student populations and larger sample sizes untested."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Students’ mathematics conceptual challenges: Exploring students’ thinking, understanding, and misconceptions in functions and graphs",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

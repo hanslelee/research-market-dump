@@ -1,0 +1,57 @@
+{
+  "id": "doi:10.1186/s41239-023-00394-6",
+  "title": "A checklist to guide the planning, designing, implementation, and evaluation of learning analytics dashboards",
+  "authors": [],
+  "author_names": [
+    "Rogers Kaliisa",
+    "I. Jivet",
+    "P. Prinsloo"
+  ],
+  "ids": {
+    "doi": "10.1186/s41239-023-00394-6",
+    "s2": "c6061d18a7618732fe9164fa77348078675ce838"
+  },
+  "published": "2023-05-03",
+  "year": 2023,
+  "venue": "International Journal of Educational Technology in Higher Education",
+  "url": "https://www.semanticscholar.org/paper/c6061d18a7618732fe9164fa77348078675ce838",
+  "abstract": "Higher education institutions are moving to design and implement teacher-facing learning analytics (LA) dashboards with the hope that instructors can extract deep insights about student learning and make informed decisions to improve their teaching. While much attention has been paid to developing teacher-facing dashboards, less is known about how they are designed, implemented and evaluated. This paper presents a systematic literature review of existing studies reporting on teacher-facing LA dashboards. Out of the 1968 articles retrieved from several databases, 50 articles were included in the final analysis. Guided by several frameworks, articles were coded based on the following dimensions: purpose, theoretical grounding, stakeholder involvement, ethics and privacy, design, implementation, and evaluation criteria. The findings show that most dashboards are designed to increase teachers’ awareness but with limited actionable insights to allow intervention. Moreover, while teachers are involved in the design process, this is mainly at the exploratory/problem definition stage, with little input beyond this stage. Most dashboards were prescriptive, less customisable, and implicit about the theoretical constructs behind their designs. In addition, dashboards are deployed at prototype and pilot stages, and the evaluation is dominated by self-reports and users’ reactions with limited focus on changes to teaching and learning. Besides, only one study considered privacy as a design requirement. Based on the findings of the study and synthesis of existing literature, we propose a four-dimensional checklist for planning, designing, implementing and evaluating LA dashboards.",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "diagnostic-assessment",
+      "adaptive-learning"
+    ]
+  },
+  "summary": {
+    "claim": "The paper presents a systematic literature review of 50 studies on teacher-facing learning analytics dashboards and proposes a four-dimensional checklist for planning, designing, implementing, and evaluating such dashboards.",
+    "condition": "Higher education institutions using teacher-facing learning analytics dashboards, based on a review of 50 articles selected from 1968 retrieved articles.",
+    "gap": "(추론) The paper does not empirically test the proposed four-dimensional checklist in real-world higher education settings to measure its direct impact on dashboard effectiveness and teaching outcomes."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "A checklist to guide the planning, designing, implementation, and evaluation of learning analytics dashboards",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "doi:10.1038/s41598-025-03298-9",
+  "title": "Modeling teacher education students’ adoption of large language models through an extended technology acceptance framework",
+  "authors": [],
+  "author_names": [
+    "Yu-Lin Gong",
+    "Chengshu Xu",
+    "Su-Wen Luo",
+    "Jia-Xin Lin"
+  ],
+  "ids": {
+    "doi": "10.1038/s41598-025-03298-9",
+    "s2": "7e108e82231a4581d61b466119c8f68c008355a1"
+  },
+  "published": "2025-09-01",
+  "year": 2025,
+  "venue": "Scientific Reports",
+  "url": "https://www.semanticscholar.org/paper/7e108e82231a4581d61b466119c8f68c008355a1",
+  "abstract": "With the deepening integration of artificial intelligence (AI) technologies in the education sector, large language models (LLMs) have become essential tools for supporting writing tasks. As the future backbone of the teaching profession, the acceptance of these technologies by teacher education students not only influences their professional development but also plays a critical role in the digital transformation of future educational practices. However, existing research has yet to fully uncover the underlying mechanisms and influencing factors driving technology adoption behaviors within this group. This study extends the Technology Acceptance Model (TAM) by incorporating key variables such as learning motivation, perceived risks, self-efficacy, and usage experience. Using structural equation modeling (SEM), we analyzed survey data from 552 fourth-year teacher education students in China to test the proposed hypotheses. The empirical findings reveal that subjective norms are the strongest predictor of behavioral intention, while perceived ease of use significantly and positively influences attitudes toward using LLMs. Among the risk dimensions, perceived time risk exerts a significant negative effect on perceived usefulness, whereas perceived privacy risk negatively impacts perceived ease of use. Additionally, usage experience fosters technology adoption behaviors by enhancing learning motivation. These findings not only extend the application boundaries of the TAM within the field of educational technology but also provide empirical evidence for educational institutions to design technology training programs and for model developers to optimize user experiences. Furthermore, they offer a theoretical framework for building digital literacy training systems for teacher education students.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "By extending the Technology Acceptance Model with variables such as learning motivation, perceived risks, self-efficacy, and usage experience, structural equation modeling of 552 fourth-year teacher education students in China reveals that subjective norms are the strongest predictor of behavioral intention, while perceived ease of use positively influences attitudes toward using large language models.",
+    "condition": "Survey data from 552 fourth-year teacher education students in China analyzed using structural equation modeling.",
+    "gap": "(추론) The study does not cover teacher education students from cultural contexts outside of China or investigate longitudinal changes in technology adoption behaviors over time."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Modeling teacher education students’ adoption of large language models through an extended technology acceptance framework",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

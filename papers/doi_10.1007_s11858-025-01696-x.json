@@ -1,0 +1,59 @@
+{
+  "id": "doi:10.1007/s11858-025-01696-x",
+  "title": "Formative Assessment in Mathematics Education: A Systematic Review",
+  "authors": [],
+  "author_names": [
+    "K. Maskos",
+    "Andreas Schulz",
+    "S. Oeksuez",
+    "Katrin Rakoczy"
+  ],
+  "ids": {
+    "doi": "10.1007/s11858-025-01696-x",
+    "s2": "7d0c93f029fae9933abdc96e7c553eda841b426c"
+  },
+  "published": "2025-05-20",
+  "year": 2025,
+  "venue": "ZDM: Mathematics Education",
+  "url": "https://www.semanticscholar.org/paper/7d0c93f029fae9933abdc96e7c553eda841b426c",
+  "abstract": "Formative assessment (FA) is a crucial factor influencing learning in schools. However, definitions of FA vary, and findings regarding the effectiveness of FA in mathematics education, specifically, are fragmentary. In this systematic review, we defined five FA components and integrated them into an overarching model. We identified 45 studies spanning the period 2015–2023 that investigated FA’s impact on cognitive and noncognitive learning in mathematics and yielded mixed results. Notably, computer-based assessments in interactive learning environments revealed particular promise. An analysis of the variations in study designs and characteristics provided insight into the factors that could contribute to the effectiveness of FA in progressing and promoting student learning, such as regular implementation over three months, content-specific learning intentions and measurement instruments, and randomized designs. An analysis of the reported moderator and mediator variables facilitated a more nuanced understanding of the effects of FA, highlighting its potential to support lower- to medium-performing students and those from lower socioeconomic backgrounds, thus potentially contributing to educational equity. Based on our results, we recommend that future research should prioritize well-defined studies that investigate and describe FA in detail to comprehensively evaluate its potential in supporting mathematical education.",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment",
+      "diagnostic-assessment",
+      "adaptive-learning"
+    ]
+  },
+  "summary": {
+    "claim": "This systematic review integrates five formative assessment components into an overarching model and analyzes 45 studies from 2015 to 2023 on mathematics education, identifying mixed results while highlighting the promise of computer-based assessments and factors influencing effectiveness like regular implementation and randomized designs.",
+    "condition": "45 studies investigating formative assessment's impact on cognitive and noncognitive learning in mathematics education spanning the period 2015 to 2023.",
+    "gap": "(저자) Future research should prioritize well-defined studies that investigate and describe formative assessment in detail to comprehensively evaluate its potential in supporting mathematical education."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Formative Assessment in Mathematics Education: A Systematic Review",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

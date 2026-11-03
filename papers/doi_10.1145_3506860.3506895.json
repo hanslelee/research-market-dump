@@ -1,0 +1,58 @@
+{
+  "id": "doi:10.1145/3506860.3506895",
+  "title": "Beyond the Learning Analytics Dashboard: Alternative Ways to Communicate Student Data Insights Combining Visualisation, Narrative and Storytelling",
+  "authors": [],
+  "author_names": [
+    "G. Fernández-Nieto",
+    "Kirsty Kitto",
+    "S. Buckingham Shum",
+    "Roberto Martínez-Maldonado"
+  ],
+  "ids": {
+    "doi": "10.1145/3506860.3506895",
+    "s2": "6085428d3d9862282fddf5698b5320caf3f0164a"
+  },
+  "published": "2022-03-21",
+  "year": 2022,
+  "venue": "International Conference on Learning Analytics and Knowledge",
+  "url": "https://www.semanticscholar.org/paper/6085428d3d9862282fddf5698b5320caf3f0164a",
+  "abstract": "Learning Analytics (LA) dashboards have become a popular medium for communicating to teachers analytical insights obtained from student data. However, recent research indicates that LA dashboards can be complex to interpret, are often not grounded in educational theory, and frequently provide little or no guidance on how to interpret them. Despite these acknowledged problems, few suggestions have been made as to how we might improve the visual design of LA tools to support richer and alternative ways to communicate student data insights. In this paper, we explore three design alternatives to represent student multimodal data insights by combining data visualisation, narratives and storytelling principles. Based on foundations in data storytelling, three visual-narrative interfaces were designed with teachers: i) visual data slices, ii) a tabular visualisation, and iii) a written report. These were validated as a part of an authentic study where teachers explored activity logs and physiological data from co-located collaborative learning classes in the context of healthcare education. Results suggest that alternatives to LA dashboards can be considered as effective tools to support teachers’ reflection, and that LA designers should identify the representation type that best fits teachers’ needs.",
+  "tags": {
+    "method": [
+      "eval"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "multimodal",
+    "setting": "standalone",
+    "topic": [
+      "diagnostic-assessment",
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "The paper explores three design alternatives to represent student multimodal data insights by combining data visualisation, narratives, and storytelling principles, and suggests these alternatives are effective tools to support teachers' reflection.",
+    "condition": "Data: activity logs and physiological data from co-located collaborative learning classes in healthcare education. Setting: authentic study with teachers.",
+    "gap": "(추론) The study does not evaluate the scalability of these visual-narrative interfaces across different educational domains beyond healthcare education, nor does it measure the long-term impact on student learning outcomes."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Beyond the Learning Analytics Dashboard: Alternative Ways to Communicate Student Data Insights Combining Visualisation, Narrative and Storytelling",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite"
+  }
+}

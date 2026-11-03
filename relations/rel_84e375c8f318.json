@@ -1,0 +1,13 @@
+{
+  "id": "rel:84e375c8f318",
+  "from": "doi:10.1080/01443410.2020.1731427",
+  "to": "claim:MKT-02-C",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The empirical findings show that a dialogue-based intelligent tutoring system for mathematics remedial instruction successfully improved both math learning and student motivation compared to no intervention.",
+  "limitation": "The intervention evaluated a remedial tutoring system rather than a primary mathematics learning-gap diagnostic tool sold to tuition businesses.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

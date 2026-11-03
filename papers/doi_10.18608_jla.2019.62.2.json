@@ -1,0 +1,53 @@
+{
+  "id": "doi:10.18608/jla.2019.62.2",
+  "title": "Working Together in Learning Analytics Towards the Co-Creation of Value",
+  "authors": [],
+  "author_names": [
+    "Mollie Dollinger",
+    "Danny Y. T. Liu",
+    "Natasha Arthars",
+    "J. Lodge"
+  ],
+  "ids": {
+    "doi": "10.18608/JLA.2019.62.2",
+    "s2": "98331a72828aa78044e5178b92641a0c2a5f7b85"
+  },
+  "published": "2019-07-22",
+  "year": 2019,
+  "venue": "Journal of Learning Analytics",
+  "url": "https://www.semanticscholar.org/paper/98331a72828aa78044e5178b92641a0c2a5f7b85",
+  "abstract": "The value of technology lies not only with the service or functionality of the tool, but also with its subsequent value to the people who use it. New learning analytics (LA) software and platforms for capturing data and improving student learning are frequently introduced; however, they suffer from issues of adoption and continued usage by stakeholders. Scholars have previously suggested that it is not enough to introduce stakeholders (e.g., teachers and students) to LA technologies; they must also be a part of the LA creation and design process. In this paper, we will continue the ongoing work to clarify and compare different approaches of human-centred design through an overview of participatory frameworks in LA (co-design, co-creation). We will also present a case study using an LA tool used and developed within several Australian universities that was utilized over six years as an example of how LA designers can co-create dynamic platforms with teachers. Implications of participatory design frameworks in LA will also be presented through a discussion of the costs, challenges, and benefits of adopting human-centred design.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "The paper provides an overview of participatory frameworks in learning analytics (LA) through human-centred design and presents a six-year case study of an LA tool used and developed within several Australian universities to show how designers can co-create dynamic platforms with teachers.",
+    "condition": "Data from a six-year case study of an LA tool used and developed within several Australian universities, focusing on stakeholder engagement in learning analytics.",
+    "gap": "(추론) The paper does not provide quantitative metrics or empirical measurements regarding the long-term impact of co-creation on student learning outcomes and adoption rates."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Working Together in Learning Analytics Towards the Co-Creation of Value",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

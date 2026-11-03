@@ -1,0 +1,56 @@
+{
+  "id": "doi:10.3389/feduc.2020.572367",
+  "title": "Explainable Automated Essay Scoring: Deep Learning Really Has Pedagogical Value",
+  "authors": [],
+  "author_names": [
+    "Vivekanandan S. Kumar",
+    "David Boulanger"
+  ],
+  "ids": {
+    "doi": "10.3389/feduc.2020.572367",
+    "s2": "00f754891bd6958896591f7d89cc7805b3e8210a"
+  },
+  "published": "2020-10-06",
+  "year": 2020,
+  "venue": "Frontiers in Education",
+  "url": "https://www.semanticscholar.org/paper/00f754891bd6958896591f7d89cc7805b3e8210a",
+  "abstract": "Automated essay scoring (AES) is a compelling topic in Learning Analytics for the primary reason that recent advances in AI find it as a good testbed to explore artificial supplementation of human creativity. However, a vast swath of research tackles AES only holistically; few have even developed AES models at the rubric level, the very first layer of explanation underlying the prediction of holistic scores. Consequently, the AES black box has remained impenetrable. Although several algorithms from Explainable Artificial Intelligence have recently been published, no research has yet investigated the role that these explanation models can play in: (a) discovering the decision-making process that drives AES, (b) fine-tuning predictive models to improve generalizability and interpretability, and (c) providing personalized, formative, and fine-grained feedback to students during the writing process. Building on previous studies where models were trained to predict both the holistic and rubric scores of essays, using the Automated Student Assessment Prize’s essay datasets, this study focuses on predicting the quality of the writing style of Grade-7 essays and exposes the decision processes that lead to these predictions. In doing so, it evaluates the impact of deep learning (multi-layer perceptron neural networks) on the performance of AES. It has been found that the effect of deep learning can be best viewed when assessing the trustworthiness of explanation models. As more hidden layers were added to the neural network, the descriptive accuracy increased by about 10%. This study shows that faster (up to three orders of magnitude) SHAP implementations are as accurate as the slower model-agnostic one. It leverages the state-of-the-art in natural language processing, applying feature selection on a pool of 1592 linguistic indices that measure aspects of text cohesion, lexical diversity, lexical sophistication, and syntactic sophistication and complexity. In addition to the list of most globally important features, this study reports (a) a list of features that are important for a specific essay (locally), (b) a range of values for each feature that contribute to higher or lower rubric scores, and (c) a model that allows to quantify the impact of the implementation of formative feedback.",
+  "tags": {
+    "method": [
+      "analysis",
+      "eval"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "This study proposes an explainable automated essay scoring approach using deep learning multi-layer perceptron neural networks on linguistic features, showing that descriptive accuracy increased by about 10% as more hidden layers were added.",
+    "condition": "Grade-7 essays from the Automated Student Assessment Prize datasets, utilizing 1592 linguistic indices measuring text cohesion, lexical diversity, lexical sophistication, and syntactic sophistication and complexity.",
+    "gap": "(추론) The study does not evaluate the generalizability of the proposed explainable AES framework and formative feedback mechanisms across different grade levels, genres, or languages beyond Grade-7 English essays."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Explainable Automated Essay Scoring: Deep Learning Really Has Pedagogical Value",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

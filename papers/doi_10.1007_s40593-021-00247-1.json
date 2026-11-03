@@ -1,0 +1,58 @@
+{
+  "id": "doi:10.1007/s40593-021-00247-1",
+  "title": "Meta-Affective Behaviour within an Intelligent Tutoring System for Mathematics",
+  "authors": [],
+  "author_names": [
+    "Genaro Rebolledo-Méndez",
+    "N. S. Huerta-Pacheco",
+    "R. Baker",
+    "John Benedict du Boulay"
+  ],
+  "ids": {
+    "doi": "10.1007/s40593-021-00247-1",
+    "s2": "abd6d3efc1791736ea561c1e4c0b8fa804bae877"
+  },
+  "published": "2021-04-21",
+  "year": 2021,
+  "venue": "International Journal of Artificial Intelligence in Education",
+  "url": "https://www.semanticscholar.org/paper/abd6d3efc1791736ea561c1e4c0b8fa804bae877",
+  "abstract": "Many previous studies have highlighted the influence of learners’ affective states on learning with tutoring systems. However, the associations between learning and learners’ meta-affective capability are still unclear. The goal of this paper is to analyse meta-affective capability and its influence on learning outcomes as well as the dynamics of affect over time. Two criteria, awareness and self-regulation, were employed to define meta-affective capability. An exploratory study (n = 54) was conducted in which students at the secondary level were asked to interact with an intelligent tutoring system for mathematics and to self-report their affect during their interactions with the system. Pre-post learning outcomes were also measured. A post-hoc comparison of learning gains was made between more meta-affectively capable and less meta-affectively capable students. The results provide some empirical evidence to support the hypothesis that having meta-affective capability is positively associated with learning. Students not demonstrating meta-affective capability seemed to transition frequently from boredom to frustration (p = .0284) and from concentration to neutral (p = 0.0017). However, only a small percentage of the sample were classified as having meta-affective capability, indicating that it is important to scaffold students who are not meta-affectively capable.",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "adaptive-learning",
+      "diagnostic-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "The paper provides empirical evidence that having meta-affective capability is positively associated with learning outcomes, showing that students lacking this capability frequently transition from boredom to frustration (p = 0.0284) and from concentration to neutral (p = 0.0017).",
+    "condition": "Secondary-level students (n = 54) interacting with an intelligent tutoring system for mathematics while self-reporting their affect and measuring pre-post learning outcomes.",
+    "gap": "(추론) The study does not cover the effectiveness of specific scaffolding interventions designed to support students who lack meta-affective capability, nor does it explore these dynamics across larger and more diverse student populations or different subject domains."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Meta-Affective Behaviour within an Intelligent Tutoring System for Mathematics",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

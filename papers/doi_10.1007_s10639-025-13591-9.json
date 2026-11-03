@@ -1,0 +1,52 @@
+{
+  "id": "doi:10.1007/s10639-025-13591-9",
+  "title": "Extending the TAM framework: Exploring learning motivation and agility in educational adoption of generative AI",
+  "authors": [],
+  "author_names": [
+    "Ahmet Salih Şimşek",
+    "G. Ş. T. Cengiz",
+    "M. Bal"
+  ],
+  "ids": {
+    "doi": "10.1007/s10639-025-13591-9",
+    "s2": "4bee9e2c0449cd5ab3e02f329cfd7e1c3de8095c"
+  },
+  "published": "2025-05-07",
+  "year": 2025,
+  "venue": "Education and Information Technologies : Official Journal of the IFIP technical committee on Education",
+  "url": "https://www.semanticscholar.org/paper/4bee9e2c0449cd5ab3e02f329cfd7e1c3de8095c",
+  "abstract": "Generative AI technologies are rapidly transforming educational practices, creating both opportunities and challenges for teacher-preparation programs. As these advanced tools become increasingly prevalent in classrooms, understanding the factors that influence pre-service teachers' acceptance and adoption of such technologies has become critically important for effective educational policies and practices. This study aims to extend the Technology Acceptance Model (TAM) to examine the factors influencing pre-service teachers' adoption of generative AI tools. The research is based on data collected from 748 pre-service teachers from 12 universities in Turkey. The model includes the core constructs of TAM as well as exogenous variables such as Metacognitive Self-regulation (MSR), Subjective Norm (SN), Learning Motivation (LM) and Learning Agility (LA). The results of Structural Equation Modeling showed that the model explained 54% of the variance in Attitude and 51% of the variance in Behavioral Intention. MSR and LM had significant effects on Perceived Usefulness and Perceived Ease of Use, while LA and SN were found to be effective only on Perceived Ease of Use. These findings highlight that intrinsic cognitive and motivational factors are more influential than external social factors in determining how pre-service teachers evaluate the usefulness of generative AI tools. Additionally, our study reveals that learning agility significantly contributes to perceived ease of use, suggesting that adaptability is a key factor in technological adoption among educators. These results suggest that training programs for generative AI in teacher education should prioritize hands-on activities that strengthen self-regulation skills and intrinsic motivation, rather than focusing solely on technical features. Curriculum designers and teacher educators should create learning environments that nurture adaptability and metacognitive skills to facilitate successful integration of AI technologies in future educational practices.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "This study extends the Technology Acceptance Model (TAM) using Structural Equation Modeling on 748 pre-service teachers to show that the model explains 54 percent of the variance in Attitude and 51 percent of the variance in Behavioral Intention regarding generative AI adoption.",
+    "condition": "Data collected from 748 pre-service teachers across 12 universities in Turkey, incorporating constructs such as Metacognitive Self-regulation, Subjective Norm, Learning Motivation, and Learning Agility.",
+    "gap": "(추론) The study does not cover actual classroom implementation outcomes or longitudinal changes in adoption behavior over time after formal teacher training."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Extending the TAM framework: Exploring learning motivation and agility in educational adoption of generative AI",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

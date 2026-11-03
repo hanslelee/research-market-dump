@@ -1,0 +1,58 @@
+{
+  "id": "arxiv:2501.14499",
+  "title": "Automated assignment grading with large language models: insights from a bioinformatics course",
+  "authors": [],
+  "author_names": [
+    "Pavlin G. Poličar",
+    "Martin Špendl",
+    "Tomaž Curk",
+    "B. Zupan"
+  ],
+  "ids": {
+    "arxiv": "2501.14499",
+    "doi": "10.1093/bioinformatics/btaf196",
+    "s2": "0eabc3016114756bb125095a83fe69d1fc03a508"
+  },
+  "published": "2025-01-24",
+  "year": 2025,
+  "venue": "Bioinform.",
+  "url": "https://www.semanticscholar.org/paper/0eabc3016114756bb125095a83fe69d1fc03a508",
+  "abstract": "Abstract Motivation Providing students with individualized feedback through assignments is a cornerstone of education that supports their learning and development. Studies have shown that timely, high-quality feedback plays a critical role in improving learning outcomes. However, providing personalized feedback on a large scale in classes with large numbers of students is often impractical due to the significant time and effort required. Recent advances in natural language processing and large language models (LLMs) offer a promising solution by enabling the efficient delivery of personalized feedback. These technologies can reduce the workload of course staff while improving student satisfaction and learning outcomes. Their successful implementation, however, requires thorough evaluation and validation in real classrooms. Results We present the results of a practical evaluation of LLM-based graders for written assignments in the 2024/25 iteration of the Introduction to Bioinformatics course at the University of Ljubljana. Over the course of the semester, more than 100 students answered 36 text-based questions, most of which were automatically graded using LLMs. In a blind study, students received feedback from both LLMs and human teaching assistants (TAs) without knowing the source, and later rated the quality of the feedback. We conducted a systematic evaluation of six commercial and open-source LLMs and compared their grading performance with human TAs. Our results show that with well-designed prompts, LLMs can achieve grading accuracy and feedback quality comparable to human graders. Our results also suggest that open-source LLMs perform as well as commercial LLMs, allowing schools to implement their own grading systems while maintaining privacy.",
+  "tags": {
+    "method": [
+      "eval"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "The paper demonstrates through a practical evaluation in a bioinformatics course that with well-designed prompts, both commercial and open-source large language models can achieve grading accuracy and feedback quality comparable to human teaching assistants.",
+    "condition": "Evaluated on text-based assignments from the 2024/25 Introduction to Bioinformatics course at the University of Ljubljana involving more than 100 students answering 36 questions, comparing six commercial and open-source LLMs with human TAs.",
+    "gap": "(추론) The study does not evaluate the performance and privacy trade-offs of implementing these LLM grading systems across different academic disciplines beyond bioinformatics, nor does it assess long-term impacts on student learning outcomes."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Automated assignment grading with large language models: insights from a bioinformatics course",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

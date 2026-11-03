@@ -1,0 +1,50 @@
+{
+  "id": "doi:10.3390/educsci15020232",
+  "title": "Enhancing EFL Writing Revision Practices: The Impact of AI- and Teacher-Generated Feedback and Their Sequences",
+  "authors": [],
+  "author_names": [
+    "Thi Thanh Thao Tran"
+  ],
+  "ids": {
+    "doi": "10.3390/educsci15020232",
+    "s2": "f475f89854429d736e16abe3f8995e3adc5aeefc"
+  },
+  "published": "2025-02-13",
+  "year": 2025,
+  "venue": "Education sciences",
+  "url": "https://www.semanticscholar.org/paper/f475f89854429d736e16abe3f8995e3adc5aeefc",
+  "abstract": "The use of different generative AIs such as OpenAI’s ChatGPT, Microsoft Copilot, or Google’s Gemini has been implemented and studied in different aspects of language education. However, exploring how the combination of teacher-generated feedback and AI-generated feedback influences student revision practices in EFL academic writing remains largely unexplored. To fill in the gap, this preliminary study investigates the impact of two forms of feedback, including teacher-generated feedback and AI-generated feedback, as well as the orders in which the two types of feedback have been executed, that is, teacher-generated feedback before AI-generated feedback (TGF-AIGF) or AI-generated feedback before teacher-generated feedback (AIGF-TGF), on EFL students’ writing revision practices in a 15-week course with fourteen Vietnamese undergraduates. Using Gemini as an AI-generated feedback tool, the study analyzed student revisions in four essays, focusing on local (grammar and vocabulary) and global (content and organization) aspects. Findings revealed that AI-generated feedback consistently resulted in higher revision frequencies compared to teacher-generated feedback alone, as it provided specific, actionable, and comprehensive suggestions. The integration of teacher- and AI-generated feedback yielded the highest revision frequencies, demonstrating complementary strengths, including AI-generated feedback that addressed surface-level issues, while teacher-generated feedback focused on higher-order concerns. Although no statistically significant differences were found between the two orders in which the two types of feedback have been executed, the AIGF-TGF order showed a slightly greater quantity of revisions made by students, allowing AI-generated feedback to scaffold surface-level revisions before teacher-generated feedback addressed global issues. These results highlight the potential of combining AI- and teacher-generated feedback to enhance writing revisions and provide pedagogical insights for integrating AI tools into academic writing courses.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "AI-generated feedback consistently resulted in higher revision frequencies compared to teacher-generated feedback alone, and integrating both forms of feedback yielded the highest overall revision frequencies by addressing both surface-level and higher-order concerns.",
+    "condition": "A 15-week course with fourteen Vietnamese undergraduates analyzing student revisions in four essays using Gemini as the AI-generated feedback tool.",
+    "gap": "(추론) The study is limited by a small sample size of fourteen undergraduates and a preliminary design, leaving open the need for larger-scale investigations across diverse institutional and cultural contexts."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Enhancing EFL Writing Revision Practices: The Impact of AI- and Teacher-Generated Feedback and Their Sequences",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

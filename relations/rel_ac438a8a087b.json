@@ -1,0 +1,13 @@
+{
+  "id": "rel:ac438a8a087b",
+  "from": "arxiv:2405.19694",
+  "to": "claim:MKT-02-C",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The paper demonstrates that automated assessment frameworks using large language models can significantly reduce grading time and labor while ensuring scoring consistency, which indirectly supports the value proposition of efficiency for educational service providers.",
+  "limitation": "It evaluates short-answer grading in undergraduate computer science rather than primary-level mathematics diagnostics for commercial tuition centres in Singapore.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

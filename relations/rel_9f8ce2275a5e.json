@@ -1,0 +1,13 @@
+{
+  "id": "rel:9f8ce2275a5e",
+  "from": "doi:10.1080/14794802.2022.2062780",
+  "to": "claim:MKT-01-A",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The research highlights that productively supporting students and applying formative feedback during mathematical reasoning is a major challenge for teachers.",
+  "limitation": "The paper centers on student reasoning performance and self-efficacy rather than quantifying the time and effort spent by educators on diagnosis.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

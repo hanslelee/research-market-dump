@@ -1,0 +1,13 @@
+{
+  "id": "rel:6c66c11a3978",
+  "from": "doi:10.1145/3506860.3506895",
+  "to": "claim:MKT-02-C",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The study shows that effective visualization and interpretation of student data insights help educators make sense of analytics, supporting the value of diagnostic reporting features.",
+  "limitation": "It focuses on co-located collaborative learning in healthcare education rather than primary mathematics tuition.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

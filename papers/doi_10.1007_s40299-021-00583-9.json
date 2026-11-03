@@ -1,0 +1,56 @@
+{
+  "id": "doi:10.1007/s40299-021-00583-9",
+  "title": "Understanding Changes in EFL Teachers’ Feedback Practice During COVID-19: Implications for Teacher Feedback Literacy at a Time of Crisis",
+  "authors": [],
+  "author_names": [
+    "Lian-Jiang Jiang",
+    "Shu-Lin Yu"
+  ],
+  "ids": {
+    "doi": "10.1007/s40299-021-00583-9",
+    "s2": "561359b7905a68cd7684420fa0470895f9a2f7db"
+  },
+  "published": "2021-05-13",
+  "year": 2021,
+  "venue": "The Asia-Pacific Education Researcher",
+  "url": "https://www.semanticscholar.org/paper/561359b7905a68cd7684420fa0470895f9a2f7db",
+  "abstract": "The unexpected COVID-19 pandemic posed significant challenges to teachers’ feedback-giving practice. This study reports on an inquiry into 16 Chinese EFL teachers’ feedback changes during the pandemic, with a focus on whether and how the teachers changed their feedback practice when a range of digital assessment tools and online instructional technologies were introduced to them. Data were gathered through semi-structured interviews and artifacts, including the course materials and screen recordings of teaching in online virtual classrooms. A qualitative and interpretive analysis reveals three patterns of changes in the teachers’ feedback-giving practice. The first pattern was positive changes in the teachers’ feedback-giving motivation, design, and awareness of the relational nature of teacher feedback, and the second pattern was reduction in formative feedback activities, difficulties in securing student response, and increased physical and emotional feedback workload. The third pattern was unchanged, underpinned by a conception of feedback as information transmission. A range of factors influencing such changes, including student readiness to uptake feedback, were also revealed. The findings highlight the importance of teacher feedback literacy in mediating the changes and call for attention to how constructive feedback-giving practices can be better supported.",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "teacher-workload",
+      "formative-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "This study reveals three patterns of changes in 16 Chinese EFL teachers' feedback practices during the COVID-19 pandemic when digital assessment and online technologies were introduced.",
+    "condition": "Data gathered through semi-structured interviews and artifacts including course materials and screen recordings from 16 Chinese EFL teachers.",
+    "gap": "(추론) The study does not cover the long-term sustainability of these digital feedback practices after the return to traditional classroom settings or assess the direct impact of these changes on student learning outcomes."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Understanding Changes in EFL Teachers’ Feedback Practice During COVID-19: Implications for Teacher Feedback Literacy at a Time of Crisis",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

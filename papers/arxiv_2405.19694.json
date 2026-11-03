@@ -1,0 +1,60 @@
+{
+  "id": "arxiv:2405.19694",
+  "title": "Grade Like a Human: Rethinking Automated Assessment with Large Language Models",
+  "authors": [],
+  "author_names": [
+    "Wenjing Xie",
+    "Ju-Xin Niu",
+    "C. Xue",
+    "Nan Guan"
+  ],
+  "ids": {
+    "arxiv": "2405.19694",
+    "doi": "10.1145/3769002.3769962",
+    "s2": "7ca5b7878a9a59c772190bace9dddeee344b99cd"
+  },
+  "published": "2024-05-30",
+  "year": 2024,
+  "venue": "Research in Adaptive and Convergent Systems",
+  "url": "https://www.semanticscholar.org/paper/7ca5b7878a9a59c772190bace9dddeee344b99cd",
+  "abstract": "Grading is a foundational component of assessment in higher education, aiming to evaluate student work in a reliable, repeatable, and interpretable manner. Short-answer questions effectively assess understanding, analysis, and articulation, but their open-ended nature makes traditional workflows reliant on detailed rubrics and manual review, resulting in substantial time and labor. Although recent work has explored using large language models (LLMs) for automated short-answer grading (ASAG), significant gaps remain in rubric design and in ensuring scoring consistency and fairness. Inspired by best practices in human grading, we propose Grade-Like-a-Human, a systematic multi-agent framework that spans the full pipeline: iteratively aligning rubrics with real answers, leveraging cross-item memory to enhance scoring consistency, and integrating a post-grading audit-and-feedback loop. We evaluate our method on an open-source short-answer grading benchmark and deploy it in a real undergraduate Operating Systems course, using authentic questions and student submissions for evaluation. We further release the questions, student submissions, and grading artifacts as the OS dataset1. Experiments demonstrate substantial improvements in accuracy, consistency, and fairness.",
+  "tags": {
+    "method": [
+      "inference",
+      "eval"
+    ],
+    "main_method": "inference",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "agent",
+    "topic": [
+      "teacher-workload",
+      "diagnostic-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "The paper proposes Grade-Like-a-Human, a systematic multi-agent framework for automated short-answer grading that iteratively aligns rubrics, leverages cross-item memory, and integrates a post-grading audit-and-feedback loop, demonstrating substantial improvements in accuracy, consistency, and fairness.",
+    "condition": "Evaluated on an open-source short-answer grading benchmark and deployed in a real undergraduate Operating Systems course using authentic questions and student submissions.",
+    "gap": "(추론) The abstract does not specify the exact large language models used in the framework or provide quantitative metrics regarding the performance improvements."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Grade Like a Human: Rethinking Automated Assessment with Large Language Models",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

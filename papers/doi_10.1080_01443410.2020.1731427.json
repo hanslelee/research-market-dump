@@ -1,0 +1,58 @@
+{
+  "id": "doi:10.1080/01443410.2020.1731427",
+  "title": "An application of Chinese dialogue-based intelligent tutoring system in remedial instruction for mathematics learning",
+  "authors": [],
+  "author_names": [
+    "Kai-Chih Pai",
+    "Bor-Chen Kuo",
+    "Chen-Huei Liao",
+    "Yin-Mei Liu"
+  ],
+  "ids": {
+    "doi": "10.1080/01443410.2020.1731427",
+    "s2": "40374d49bbb647de18b7484df6f8e7837fd5dba1"
+  },
+  "published": "2021-02-07",
+  "year": 2021,
+  "venue": "",
+  "url": "https://www.semanticscholar.org/paper/40374d49bbb647de18b7484df6f8e7837fd5dba1",
+  "abstract": "Abstract The present study aims to examine the pedagogical effectiveness of a Chinese mathematical dialogue-based intelligent tutoring system used for teaching mathematics. The mathematical unit ‘multiplication and division of time expressions’ was taught to 134 fifth-grade students in three types of instruction conditions: the intelligent tutoring system (ITS), conventional teacher instruction and material reading. The results show that student performance was comparable between the proposed mathematical ITS and conventional instruction conditions but was significantly poorer when no teaching method was used. The questionnaire survey showed that the ITS method not only improved maths learning, but also increased motivation among the fifth graders. The effectiveness of ITS remedial instruction in mathematics is discussed.",
+  "tags": {
+    "method": [
+      "eval"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "diagnostic-assessment",
+      "adaptive-learning"
+    ]
+  },
+  "summary": {
+    "claim": "The proposed Chinese mathematical dialogue-based intelligent tutoring system (ITS) achieved student performance comparable to conventional teacher instruction and significantly better than material reading, while also increasing student motivation among fifth-graders.",
+    "condition": "134 fifth-grade students learning the mathematical unit multiplication and division of time expressions under three conditions: ITS, conventional teacher instruction, and material reading.",
+    "gap": "(추론) The study does not evaluate the long-term retention of knowledge or the effectiveness of the ITS across different mathematical units, grade levels, and larger or more diverse student populations."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "An application of Chinese dialogue-based intelligent tutoring system in remedial instruction for mathematics learning",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

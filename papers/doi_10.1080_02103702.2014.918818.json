@@ -1,0 +1,58 @@
+{
+  "id": "doi:10.1080/02103702.2014.918818",
+  "title": "The relationship between formative assessment systems, academic performance and teacher and student workloads in higher education / Relación entre sistemas de evaluación formativa, rendimiento académico y carga de trabajo del profesor y del alumno en la docencia universitaria",
+  "authors": [],
+  "author_names": [
+    "R. Romero-Martín",
+    "Antonio Fraile-Aranda",
+    "V. López-Pastor",
+    "F. Castejón-Oliva"
+  ],
+  "ids": {
+    "doi": "10.1080/02103702.2014.918818",
+    "s2": "703bc79cf9415425012d222ed93becb265ea32bf"
+  },
+  "published": "2014-04-03",
+  "year": 2014,
+  "venue": "",
+  "url": "https://www.semanticscholar.org/paper/703bc79cf9415425012d222ed93becb265ea32bf",
+  "abstract": "The purpose of this study was to analyse the extent to which the implementation of formative assessment systems in higher education influences students’ academic performance; student and teacher workloads; and student satisfaction with such processes. Data come from 39 cases that apply formative assessment systems in higher education, which correspond to 15 Spanish universities and cover a total of 30 different tutors and 3625 students. Descriptive statistics and ANOVAS have been applied. The results suggest that the development of formative assessment systems: (a) produces a significant improvement in the academic performance of students; (b) is a workload that can be managed within the academic work set, both for students and teachers; and (c) that students show high levels of satisfaction with the formative assessment systems in which they participate and consider that they learn better with these as opposed to more traditional models.",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment",
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "The study analyzes formative assessment systems in higher education and shows that they produce a significant improvement in academic performance, are manageable in terms of student and teacher workloads, and lead to high student satisfaction.",
+    "condition": "Data from 39 cases applying formative assessment systems across 15 Spanish universities, involving 30 tutors and 3,625 students, analyzed using descriptive statistics and ANOVAs.",
+    "gap": "(추론) The study does not cover the long-term retention of knowledge beyond the immediate academic period, nor does it explore the potential differences across diverse cultural or international educational systems outside of Spain."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "The relationship between formative assessment systems, academic performance and teacher and student workloads in higher education / Relación entre sistemas de evaluación formativa, rendimiento académico y carga de trabajo del profesor y del alumno en la docencia universitaria",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite"
+  }
+}

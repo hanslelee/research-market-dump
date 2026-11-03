@@ -1,0 +1,56 @@
+{
+  "id": "doi:10.1080/02602938.2025.2502582",
+  "title": "Comparing Generative AI and teacher feedback: student perceptions of usefulness and trustworthiness",
+  "authors": [],
+  "author_names": [
+    "Michael Henderson",
+    "M. Bearman",
+    "Jennifer Chung",
+    "Tim Fawns",
+    "S. Buckingham Shum",
+    "Kelly E. Matthews",
+    "Jimena de Mello Heredia"
+  ],
+  "ids": {
+    "doi": "10.1080/02602938.2025.2502582",
+    "s2": "c8ee7e28712d302d36a9e14c4ad1af00b13d3e18"
+  },
+  "published": "2025-05-13",
+  "year": 2025,
+  "venue": "Assessment &amp; Evaluation in Higher Education",
+  "url": "https://www.semanticscholar.org/paper/c8ee7e28712d302d36a9e14c4ad1af00b13d3e18",
+  "abstract": "Abstract The rapid integration of Generative Artificial Intelligence (GenAI) into educational contexts has presented both opportunities and challenges for students seeking and using feedback. While AI-generated feedback can offer increased access, timely responses and personalised insights, concerns about the quality of AI-generated feedback still persist, including issues of bias, factual inaccuracies, and homogenisation. This study investigates how students use, value and trust AI-generated feedback compared to feedback from educators. This paper draws on a large-scale cross-sectional survey administered across four major Australian universities. A quantitative analysis of 6960 respondents revealed that half of the students sought feedback from GenAI. Overall, students reported teacher feedback to be more helpful, and especially trustworthy. This paper also reports on the thematic analysis of 8642 open-ended responses, providing deeper insights into students’ experiences. This includes findings that students valued the feedback from GenAI because of its ease of access, timeliness, volume, understandability and that it was perceived to be less risky than seeking feedback from teachers. At the same time, students were concerned about GenAI’s reliability as well as contextual and disciplinary expertise. We argue that GenAI and teacher feedback appear to serve different needs, and therefore are complementary but not interchangeable.",
+  "tags": {
+    "method": [
+      "other"
+    ],
+    "main_method": "other",
+    "goal": [],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": []
+  },
+  "summary": {
+    "claim": "A large-scale survey of 6960 respondents across four Australian universities revealed that half of the students sought feedback from GenAI, and while teacher feedback was found to be more helpful and trustworthy, GenAI was valued for its ease of access, timeliness, volume, understandable nature, and lower perceived risk.",
+    "condition": "Cross-sectional survey data involving quantitative analysis of 6960 respondents and thematic analysis of 8642 open-ended responses from four major Australian universities.",
+    "gap": "(추론) The paper does not evaluate the actual objective learning outcomes or academic performance resulting from GenAI versus teacher feedback, nor does it examine longitudinal changes in student perceptions."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "needs_tags": true,
+    "added_by": "web",
+    "query": "Comparing Generative AI and teacher feedback: student perceptions of usefulness and trustworthiness",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "doi:10.19173/irrodl.v19i5.3493",
+  "title": "Making Sense of Learning Analytics Dashboards: A Technology Acceptance Perspective of 95 Teachers",
+  "authors": [],
+  "author_names": [
+    "B. Rienties",
+    "C. Herodotou",
+    "Tom Olney",
+    "Mat Schencks",
+    "Avinash Boroowa"
+  ],
+  "ids": {
+    "doi": "10.19173/IRRODL.V19I5.3493",
+    "s2": "5211b972bda31dd91fcf59038d82af602d4ca245"
+  },
+  "published": "2018-11-27",
+  "year": 2018,
+  "venue": "International Review of Research in Open and Distance Learning",
+  "url": "https://www.semanticscholar.org/paper/5211b972bda31dd91fcf59038d82af602d4ca245",
+  "abstract": "The importance of teachers in online learning is widely acknowledged to effectively support and stimulate learners. With the increasing availability of learning analytics data, online teachers might be able to use learning analytics dashboards to facilitate learners with different learning needs. However, deployment of learning analytics visualisations by teachers also requires buy-in from teachers. Using the principles of technology acceptance model, in this embedded case-study, we explored teachers’ readiness for learning analytics visualisations amongst 95 experienced teaching staff at one of the largest distance learning universities by using an innovative training method called Analytics4Action Workshop. The findings indicated that participants appreciated the interactive and hands-on approach, but at the same time were skeptical about the perceived ease of use of learning analytics tools they were offered. Most teachers indicated a need for additional training and follow-up support for working with learning analytics tools. Our results highlight a need for institutions to provide effective professional development opportunities for learning analytics.",
+  "tags": {
+    "method": [
+      "analysis"
+    ],
+    "main_method": "analysis",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "teacher-workload",
+      "diagnostic-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "The study explored teachers' readiness for learning analytics visualisations using the Technology Acceptance Model among 95 experienced teaching staff, finding that participants appreciated the hands-on approach but were skeptical about the perceived ease of use of the tools.",
+    "condition": "Embedded case-study of 95 experienced teaching staff at one of the largest distance learning universities using the Analytics4Action Workshop.",
+    "gap": "(추론) The study does not investigate the long-term impact of professional development on actual classroom adoption of learning analytics dashboards or evaluate diverse institutional settings beyond a single large distance learning university."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Making Sense of Learning Analytics Dashboards: A Technology Acceptance Perspective of 95 Teachers",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite"
+  }
+}

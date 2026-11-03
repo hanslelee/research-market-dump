@@ -1,0 +1,13 @@
+{
+  "id": "rel:bd5cf7e69562",
+  "from": "doi:10.1007/s40299-021-00583-9",
+  "to": "claim:MKT-02-C",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "This study explores how digital assessment tools impact teachers' feedback practices, noting that digital solutions alter workflow efficiency and feedback design, relevant to understanding customer operational benefits.",
+  "limitation": "It examines EFL teachers during COVID-19 remote learning rather than math tutors utilizing automated diagnostic software.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

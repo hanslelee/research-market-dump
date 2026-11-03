@@ -1,0 +1,13 @@
+{
+  "id": "rel:063c0392c480",
+  "from": "manual:palm-2017-nomad",
+  "to": "claim:MKT-02-C",
+  "layer": "0-1",
+  "type": "narrow",
+  "reason": "The review establishes positive relations between formative assessment practices and student mathematics achievement, supporting the core value proposition of diagnostic testing tools.",
+  "limitation": "It is a general review of formative assessment without specific evidence on the commercial software or target market (Singapore tuition centres) specified in the claim.",
+  "status": "new",
+  "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+  "created_at": "2026-11-03",
+  "source": "market-academic"
+}

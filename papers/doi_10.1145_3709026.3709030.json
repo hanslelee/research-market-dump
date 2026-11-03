@@ -1,0 +1,56 @@
+{
+  "id": "doi:10.1145/3709026.3709030",
+  "title": "On Automated Essay Grading using Large Language Models",
+  "authors": [],
+  "author_names": [
+    "Pei Yee Liew",
+    "I. K. T. Tan"
+  ],
+  "ids": {
+    "doi": "10.1145/3709026.3709030",
+    "s2": "daf54edd94b6251de37c03f1ae8aa315df5ffe41"
+  },
+  "published": "2024-12-06",
+  "year": 2024,
+  "venue": "International Conference on Computer Science and Artificial Intelligence",
+  "url": "https://www.semanticscholar.org/paper/daf54edd94b6251de37c03f1ae8aa315df5ffe41",
+  "abstract": "Automated Essay Grading (AEG), combining Automated Essay Scoring (AES) and Automated Writing Evaluation (AWE), is a time-saving solution to the challenges of manual essay evaluation. It aims to reduce the workload on educators by offering a more consistent grading approach. Inspired by ChatGPT’s impressive language comprehension and generation capabilities, this study explored the potential of various Large Language Models (LLMs) in AEG tasks. The models examined include GPT-4, GPT-3.5, PaLM, and LLaMA2. Tailored prompts were designed and their performance was assessed in conjunction with each LLM through prompt engineering. Our study shows that LLMs can achieve substantial agreement with human markers in AES, with a Quadratic Weighted Kappa (QWK) score of 0.68. In AWE, the feedback on the essay was assessed qualitatively. It achieved an agreement level score of 4.9 (out of 5) with a standard deviation of 0.05, closely aligned with human assessment. This study provided valuable insights into the effectiveness of LLMs in automated essay grading. It highlighted their potential to enhance educational assessment practices.",
+  "tags": {
+    "method": [
+      "inference",
+      "eval"
+    ],
+    "main_method": "inference",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "teacher-workload"
+    ]
+  },
+  "summary": {
+    "claim": "The study demonstrates that Large Language Models, using tailored prompts, achieve substantial agreement with human markers in automated essay scoring with a Quadratic Weighted Kappa score of 0.68, and closely align with human assessment in qualitative essay feedback with an agreement score of 4.9 out of 5.",
+    "condition": "Evaluated on Automated Essay Grading tasks using GPT-4, GPT-3.5, PaLM, and LLaMA2 with tailored prompt engineering.",
+    "gap": "(추론) The abstract does not discuss the performance limitations across different essay genres, potential biases in LLM-generated feedback, or the exact dataset sizes and domains used in the evaluation."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "On Automated Essay Grading using Large Language Models",
+    "created_at": "2026-11-03",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.1-flash-lite"
+  }
+}

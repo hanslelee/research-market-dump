@@ -13,5 +13,20 @@
     "Singapore primary math adaptive learning platform diagnostic report",
     "Student Learning Space adaptive learning system mathematics",
     "AI tuition centre software Singapore learning gaps"
-  ]
+  ],
+  "web_suggestions": {
+    "searched_at": "2026-11-03",
+    "queries": [
+      "singapore primary mathematics edtech platforms",
+      "evidence traceable learning gap reports",
+      "automated tutor reviewed feedback systems",
+      "mathematics adaptive learning analytics evaluation"
+    ],
+    "concepts": [
+      "learning analytics",
+      "EdTech Singapore"
+    ],
+    "model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "items": []
+  }
 }

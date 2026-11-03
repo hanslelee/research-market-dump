@@ -1,0 +1,59 @@
+{
+  "id": "doi:10.1080/14794802.2022.2062780",
+  "title": "Supporting primary students’ mathematical reasoning practice: the effects of formative feedback and the mediating role of self-efficacy",
+  "authors": [],
+  "author_names": [
+    "Robbert Smit",
+    "Heidi Dober",
+    "K. Hess",
+    "Patricia Bachmann",
+    "Thomas Birri"
+  ],
+  "ids": {
+    "doi": "10.1080/14794802.2022.2062780",
+    "s2": "106c7b39bc4304a4d1a4b9f6e7cb93e0ea036f26"
+  },
+  "published": "2022-07-04",
+  "year": 2022,
+  "venue": "Research in Mathematics Education",
+  "url": "https://www.semanticscholar.org/paper/106c7b39bc4304a4d1a4b9f6e7cb93e0ea036f26",
+  "abstract": "ABSTRACT Mathematical reasoning is a diffcult activity for students, and although standards have been introduced worldwide, reasoning is seldom practiced in classrooms. Productively supporting students during the process of mathematical reasoning is a challenge for teachers, and applying formative feedback might increase students' reasoning eﬀectiveness. Research has shown that the relationship between formative feedback and achievement is rather indirect, e.g. conveyed through students' self-efficacy beliefs. We examined whether the formative feedback perceived by students, as part of a 10-week student training programme, supported the development of reasoning competence via self-efficacy beliefs among 1261 students in 71 primary classes. We used multi-level modelling to analyse the expected relationships. On the class level, formative feedback predicted reasoning, which was mediated by self-efficacy; on the individual level, formative feedback predicted self-efficacy, but not reasoning. The results only partially conﬁrmed our hypotheses. We discuss explanations for these ﬁndings and present implications for teaching mathematical reasoning.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "Formative feedback predicted mathematical reasoning via self-efficacy at the class level among 1261 students in 71 primary classes, but at the individual level, formative feedback predicted self-efficacy without directly predicting reasoning.",
+    "condition": "Data from 1261 students in 71 primary classes participating in a 10-week student training programme, analyzed using multi-level modelling.",
+    "gap": "(추론) The study does not cover the specific content nature of the formative feedback provided, nor does it explore the long-term retention of mathematical reasoning competence beyond the 10-week training programme."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Supporting primary students’ mathematical reasoning practice: the effects of formative feedback and the mediating role of self-efficacy",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

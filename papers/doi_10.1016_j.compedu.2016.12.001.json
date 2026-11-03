@@ -1,0 +1,53 @@
+{
+  "id": "doi:10.1016/j.compedu.2016.12.001",
+  "title": "The effects of a digital formative assessment tool on mathematics achievement and student motivation: Results of a randomized experiment",
+  "authors": [],
+  "author_names": [
+    "J. Faber",
+    "H. Luyten",
+    "A. Visscher"
+  ],
+  "ids": {
+    "doi": "10.1016/j.compedu.2016.12.001",
+    "s2": "1193332090fed09f5fd20e7c9306676dde9c6e24"
+  },
+  "published": "2017-03-01",
+  "year": 2017,
+  "venue": "Comput. Educ.",
+  "url": "https://www.semanticscholar.org/paper/1193332090fed09f5fd20e7c9306676dde9c6e24",
+  "abstract": "",
+  "tags": {
+    "method": [
+      "eval"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment",
+      "adaptive-learning"
+    ]
+  },
+  "summary": {
+    "claim": "",
+    "condition": "",
+    "gap": ""
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "The effects of a digital formative assessment tool on mathematics achievement and student motivation: Results of a randomized experiment",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite"
+  }
+}

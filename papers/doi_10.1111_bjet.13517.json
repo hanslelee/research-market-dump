@@ -1,0 +1,58 @@
+{
+  "id": "doi:10.1111/bjet.13517",
+  "title": "Basic mathematical skills and fraction understanding predict percentage understanding: Evidence from an intelligent tutoring system",
+  "authors": [],
+  "author_names": [
+    "M. Spitzer",
+    "Miguel Ruíz-García",
+    "Korbinian Moeller"
+  ],
+  "ids": {
+    "doi": "10.1111/bjet.13517",
+    "s2": "5daf4c9674310eaec97562be476b02ac16df826c"
+  },
+  "published": "2024-08-27",
+  "year": 2024,
+  "venue": "British Journal of Educational Technology",
+  "url": "https://www.semanticscholar.org/paper/5daf4c9674310eaec97562be476b02ac16df826c",
+  "abstract": "Research on fostering learning about percentages within intelligent tutoring systems (ITSs) is limited. Additionally, there is a lack of data‐driven approaches for improving the design of ITS to facilitate learning about percentages. To address these gaps, we first investigated whether students' understanding of basic mathematical skills (eg, arithmetic, measurement units and geometry) and fractions within an ITS predicts their understanding of percentages. We then applied a psychological network analysis to evaluate interdependencies within the data on 44 subtopics of basic mathematical concepts, fractions and percentages. We leveraged a large‐scale dataset consisting of 2798 students using the ITS bettermarks and working on approximately 4.1 million mathematical problems. We found that advanced arithmetic, measurement units, geometry and fraction understanding significantly predicted percentage understanding. Closer inspection indicated that percentage understanding was best predicted by problems sharing similar features, such as fraction word problems and fraction/natural number multiplication/division problems. Our findings suggest that practitioners and software developers may consider revising specific subtopics which share features with percentage problems for students struggling with percentages. More broadly, our study demonstrates how evaluating interdependencies between subtopics covered within an ITS as a data‐driven approach can provide practical insights for improving the design of ITSs. What is already known about this topic Longitudinal studies showed that basic mathematical skills predict fraction understanding. There is only limited evidence on whether similar predictions can be observed for percentage understanding—in general and within intelligent tutoring systems. Process data from such intelligent tutoring systems can be leveraged to pursue both educational research questions and optimizing digital learning software. Problems involving percentages typically are word problems requiring multiplications and/or divisions. What this paper adds Similar to the case of fractions, students' performance on advanced arithmetic, measurement units and geometry significantly predicted performance with percentages. Students' performance with fractions also predicted performance with percentages significantly. A psychological network analysis was applied to evaluate specific interdependencies between a range of subtopics (eg, Multiplying and dividing fractions, Adding and subtracting fractions and Calculating with percentages). Fraction word problems and fraction problems involving multiplication/division turned out to be the best predictors of understanding percentages. Implications for practice and/or policy When facing difficulties with percentages, revision of previous mathematical concepts sharing similar features (eg, fraction word problems, fraction/natural number multiplication/division problems) may be advised. Software developers may consider implementing such data‐driven revision recommendations for students facing difficulties within intelligent tutor systems. Psychological network analysis can be utilized as a learning analytics method for easy‐to‐access visualizations illustrating relationships between a large range of different subtopics.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "adaptive-learning",
+      "diagnostic-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "Advanced arithmetic, measurement units, geometry, and fraction understanding significantly predict percentage understanding, with fraction word problems and fraction multiplication/division problems serving as the best predictors.",
+    "condition": "A large-scale dataset consisting of 2,798 students using the intelligent tutoring system bettermarks and working on approximately 4.1 million mathematical problems across 44 subtopics of basic mathematical concepts, fractions, and percentages.",
+    "gap": "(추론) The study does not experimentally test whether implementing the suggested data-driven revision recommendations in intelligent tutoring systems actually improves student learning outcomes for percentages."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Basic mathematical skills and fraction understanding predict percentage understanding: Evidence from an intelligent tutoring system",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

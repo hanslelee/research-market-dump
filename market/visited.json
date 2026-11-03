@@ -1,0 +1,182 @@
+{
+  "https://www.malaymail.com/news/malaysia/2025/01/20/singapore-families-spent-s18-billion-on-private-tuition-in-2023-with-the-richest-spending-over-s162-per-month/163937": {
+    "url": "https://www.malaymail.com/news/malaysia/2025/01/20/singapore-families-spent-s18-billion-on-private-tuition-in-2023-with-the-richest-spending-over-s162-per-month/163937",
+    "hash": "a72e9219fbb6",
+    "fetched_at": "2026-11-03",
+    "kind": "excerpt",
+    "path": "market/snapshots/manual/a72e9219fbb6.txt",
+    "chars": 340,
+    "ok": true,
+    "reason": ""
+  },
+  "https://link.springer.com/article/10.1007/s11858-025-01696-x": {
+    "url": "https://link.springer.com/article/10.1007/s11858-025-01696-x",
+    "hash": "cc932f3617e8",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/cc932f3617e8.txt",
+    "chars": 209,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+  },
+  "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051": {
+    "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051",
+    "hash": "f3b937467560",
+    "fetched_at": "2026-11-03",
+    "kind": "excerpt",
+    "path": "market/snapshots/manual/f3b937467560.txt",
+    "chars": 516,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.seab.gov.sg/seab-link-issue-2-2026/seab-adaptive-assessment-tools": {
+    "url": "https://www.seab.gov.sg/seab-link-issue-2-2026/seab-adaptive-assessment-tools",
+    "hash": "d4bf3fc64533",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/d4bf3fc64533.txt",
+    "chars": 7058,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.learning.moe.edu.sg/teachers/teacher-user-guide/discover/about-adaptive-learning-system": {
+    "url": "https://www.learning.moe.edu.sg/teachers/teacher-user-guide/discover/about-adaptive-learning-system",
+    "hash": "f1a0c151164f",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/f1a0c151164f.txt",
+    "chars": 3101,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/access-adaptive-learning-system": {
+    "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/access-adaptive-learning-system",
+    "hash": "f98781ebcd03",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/f98781ebcd03.txt",
+    "chars": 3875,
+    "ok": true,
+    "reason": ""
+  },
+  "https://geniebook.com/blog/online-education-singapore-how-geniebook-supports-academic-success": {
+    "url": "https://geniebook.com/blog/online-education-singapore-how-geniebook-supports-academic-success",
+    "hash": "939072ead4ec",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/939072ead4ec.txt",
+    "chars": 25967,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf": {
+    "url": "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf",
+    "hash": "90c7312a13c7",
+    "fetched_at": "2026-11-03",
+    "kind": "excerpt",
+    "path": "market/snapshots/manual/90c7312a13c7.txt",
+    "chars": 366,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.moe.gov.sg/private-education/register-school": {
+    "url": "https://www.moe.gov.sg/private-education/register-school",
+    "hash": "b98875df295a",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/b98875df295a.txt",
+    "chars": 0,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+  },
+  "https://www.moe.gov.sg/primary/p1-registration": {
+    "url": "https://www.moe.gov.sg/primary/p1-registration",
+    "hash": "f71f2ecc4042",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/f71f2ecc4042.txt",
+    "chars": 0,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+  },
+  "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry": {
+    "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry",
+    "hash": "9d72d49c4bd0",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/9d72d49c4bd0.txt",
+    "chars": 0,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+  },
+  "https://www.koobits.com/plans?k20plan=3": {
+    "url": "https://www.koobits.com/plans?k20plan=3",
+    "hash": "96511fcc0f74",
+    "fetched_at": "2026-11-03",
+    "kind": "excerpt",
+    "path": "market/snapshots/manual/96511fcc0f74.txt",
+    "chars": 181,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.koobits.com/math": {
+    "url": "https://www.koobits.com/math",
+    "hash": "7d3d6373651f",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/7d3d6373651f.txt",
+    "chars": 15586,
+    "ok": true,
+    "reason": ""
+  },
+  "https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan": {
+    "url": "https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan",
+    "hash": "60711d9f7ae6",
+    "fetched_at": "2026-11-03",
+    "kind": "none",
+    "path": "",
+    "chars": 0,
+    "ok": false,
+    "reason": "fetch failed: HTTP Error 403: Forbidden"
+  },
+  "https://geniebook.com/plans": {
+    "url": "https://geniebook.com/plans",
+    "hash": "625474d4dbb2",
+    "fetched_at": "2026-11-03",
+    "kind": "excerpt",
+    "path": "market/snapshots/manual/625474d4dbb2.txt",
+    "chars": 260,
+    "ok": true,
+    "reason": ""
+  },
+  "https://geniebook.com": {
+    "url": "https://geniebook.com",
+    "hash": "d21b6a5b2942",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/d21b6a5b2942.txt",
+    "chars": 56451,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning": {
+    "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning",
+    "hash": "6c02cc3e4a92",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/6c02cc3e4a92.txt",
+    "chars": 0,
+    "ok": false,
+    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+  },
+  "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system": {
+    "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system",
+    "hash": "454c2686f8fc",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/454c2686f8fc.txt",
+    "chars": 1790,
+    "ok": true,
+    "reason": ""
+  }
+}

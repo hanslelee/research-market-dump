@@ -1,0 +1,57 @@
+{
+  "id": "doi:10.1080/09243453.2017.1406376",
+  "title": "Testing the effectiveness of classroom formative assessment in Dutch primary mathematics education",
+  "authors": [],
+  "author_names": [
+    "M. E. van den Berg",
+    "R. Bosker",
+    "C. Suhre"
+  ],
+  "ids": {
+    "doi": "10.1080/09243453.2017.1406376",
+    "s2": "a152687912a70892c961df956e3f78ea30959d5a"
+  },
+  "published": "2018-07-03",
+  "year": 2018,
+  "venue": "",
+  "url": "https://www.semanticscholar.org/paper/a152687912a70892c961df956e3f78ea30959d5a",
+  "abstract": "ABSTRACT Classroom formative assessment (CFA) is considered to be a fundamental part of effective teaching, as it is presumed to enhance student performance. However, there is only limited empirical evidence to support this notion. In this effect study, a quasi-experiment was conducted to compare 2 conditions. In the treatment condition, 17 teachers implemented a CFA model containing both daily and weekly goal-directed instruction, assessment, and immediate instructional feedback for students who needed additional support. In the control condition, 17 teachers implemented a modification to their usual practice. They assessed their students’ mastery of learning goals on the basis of half-yearly mathematics tests, and prepared weekly pre-teaching sessions for groups of low-achieving students. The posttests showed no significant differences in student performance between the 2 conditions after controlling for student and teacher characteristics. The degree of implementation of the CFA model, however, appeared to be positively related to the 5th-grade students’ performance.",
+  "tags": {
+    "method": [
+      "eval",
+      "analysis"
+    ],
+    "main_method": "eval",
+    "goal": [
+      "helpfulness"
+    ],
+    "modal": "text",
+    "setting": "standalone",
+    "topic": [
+      "formative-assessment"
+    ]
+  },
+  "summary": {
+    "claim": "A quasi-experiment comparing a classroom formative assessment (CFA) model with a control condition showed no significant differences in student mathematics performance overall, though the degree of CFA implementation was positively related to 5th-grade performance.",
+    "condition": "Dutch primary mathematics education, involving 17 treatment teachers implementing a specific CFA model and 17 control teachers using half-yearly tests and weekly pre-teaching sessions.",
+    "gap": "(추론) The study does not cover the long-term sustainability of the CFA model, nor does it explore the reasons behind the varying degrees of implementation among teachers and how to ensure high implementation fidelity."
+  },
+  "marks": {
+    "liked": false,
+    "bookmarked": false,
+    "hidden": false
+  },
+  "memo": "",
+  "entered_at": "2026-11-03",
+  "source": "manual",
+  "provenance": {
+    "added_by": "web",
+    "query": "Testing the effectiveness of classroom formative assessment in Dutch primary mathematics education",
+    "created_at": "2026-11-03",
+    "tag_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_model": "generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "summary_from": "abstract",
+    "summarized_at": "2026-11-03",
+    "summary_check": "ok"
+  }
+}

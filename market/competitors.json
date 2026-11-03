@@ -2,19 +2,19 @@
   "comp:0537dcf302d8": {
     "key": "comp:0537dcf302d8",
     "competitor": "KooBits",
-    "product": "KooBits Math Premium",
+    "product": "Premium Plan",
     "target_customer": "",
     "features": [
       "Proficiency Reports with KooBits Parent App"
     ],
     "price": "$148.50 / year",
     "pricing_status": "FOUND",
-    "differentiation": "Parent-facing practice app with proficiency reports; no evidence of tutor-reviewed gap reports for centres.",
-    "overlap": "unclear",
+    "differentiation": "KooBits differs by targeting parents via an app for general proficiency reports rather than providing detailed, evidence-linked diagnostic gap reports specifically for tuition centre tutors.",
+    "overlap": "different",
     "url": "https://www.koobits.com/plans?k20plan=3",
     "snapshot": "market/snapshots/manual/96511fcc0f74.txt",
     "snapshot_kind": "excerpt",
-    "found_by": "manual-pilot",
+    "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
     "checked_date": "",
     "created_at": "2026-11-02",
     "verification_status": "UNVERIFIED"
@@ -22,20 +22,19 @@
   "comp:1d18047d8cde": {
     "key": "comp:1d18047d8cde",
     "competitor": "Geniebook",
-    "product": "Geniebook subscription (Maths, Science, English, P1 to Sec 4)",
+    "product": "Geniebook",
     "target_customer": "",
     "features": [
-      "Get a free diagnostic report of your child's strengths & weaknesses",
-      "360 worksheets/year"
+      "Get a free diagnostic report of your child's strengths & weaknesses!"
     ],
-    "price": "SGD 372.50 / Subject / Month",
+    "price": "$ SGD 372.50 / Subject / Month",
     "pricing_status": "FOUND",
-    "differentiation": "Offers a free diagnostic report of strengths and weaknesses to parents, overlapping with gap diagnosis.",
+    "differentiation": "Geniebook focuses on an individual child-centric subscription model with worksheets priced monthly per subject, whereas MathBridge AI is licensed annually for entire tuition centres.",
     "overlap": "similar",
     "url": "https://geniebook.com/plans",
     "snapshot": "market/snapshots/manual/625474d4dbb2.txt",
     "snapshot_kind": "excerpt",
-    "found_by": "manual-pilot",
+    "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
     "checked_date": "",
     "created_at": "2026-11-02",
     "verification_status": "UNVERIFIED"
@@ -58,6 +57,104 @@
     "found_by": "manual-pilot",
     "checked_date": "",
     "created_at": "2026-11-02",
+    "verification_status": "UNVERIFIED"
+  },
+  "comp:adbb5c4407af": {
+    "key": "comp:adbb5c4407af",
+    "competitor": "KooBits",
+    "product": "KooBits Math Premium",
+    "target_customer": "parents",
+    "features": [
+      "10 daily questions customised to improve your child's weak points",
+      "Tailored reports to pinpoint strengths and weaknesses at a glance",
+      "Parent's mobile app: Know your child's strengths and weaknesses by topic",
+      "Assign homework to fill learning gaps",
+      "Automatic marking, instant feedback and step-by-step explanations",
+      "Individual accounts offer personalized progress reports and assessments"
+    ],
+    "price": "$17.99 / month",
+    "pricing_status": "FOUND",
+    "differentiation": "KooBits is a B2C gamified self-study platform for children with automated daily practice and animated tutorials, whereas MathBridge AI is an institutional diagnostic tool specifically designed for Singapore tuition centres to generate evidence-linked gap reports for teachers.",
+    "overlap": "similar",
+    "url": "https://www.koobits.com/math",
+    "snapshot": "market/snapshots/7d3d6373651f.txt",
+    "snapshot_kind": "fetched",
+    "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "checked_date": "",
+    "created_at": "2026-11-03",
+    "verification_status": "UNVERIFIED"
+  },
+  "comp:60d003187379": {
+    "key": "comp:60d003187379",
+    "competitor": "Geniebook",
+    "product": "Geniebook",
+    "target_customer": "",
+    "features": [
+      "Personalised practice targeting exam topics and learning gaps",
+      "The AI system pinpoints exact strengths and weaker topics",
+      "The Personalised Learning Plan (PLP) is a monthly, data-driven roadmap built around two things that matter most: the topics appearing in your child's next exam and the specific gaps holding their score back.",
+      "Diagnostic Assessment\nFinds strengths & gaps",
+      "Automatically identifies areas where I'm weak and provides suitable practice exercises, helping me progress faster."
+    ],
+    "price": "NOT FOUND",
+    "pricing_status": "NOT FOUND",
+    "differentiation": "Geniebook is a comprehensive, consumer-facing edtech and tuition platform combining AI-driven worksheets, online classes, and physical learning centres for students, whereas MathBridge AI specifically targets Singapore tuition centres with an annual institution licence for mathematics gap diagnostics.",
+    "overlap": "similar",
+    "url": "https://geniebook.com",
+    "snapshot": "market/snapshots/d21b6a5b2942.txt",
+    "snapshot_kind": "fetched",
+    "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "checked_date": "",
+    "created_at": "2026-11-03",
+    "verification_status": "UNVERIFIED"
+  },
+  "comp:ea5fe7ef31c3": {
+    "key": "comp:ea5fe7ef31c3",
+    "competitor": "MOE Student Learning Space (Adaptive Learning System)",
+    "product": "Adaptive Learning System (ALS)",
+    "target_customer": "students",
+    "features": [
+      "tailors learning resources and practice questions to each student's needs and pace",
+      "provides a customised learning pathway for each student",
+      "recommending learning resources and practice questions and offering immediate feedback based on his/her readiness",
+      "Students can access ALS through the Student Learning Space (SLS) for self-directed learning",
+      "teachers and students can also find content tagged to ALS content maps",
+      "Students learn independently, at their own pace, according to their strengths and needs"
+    ],
+    "price": "NOT FOUND",
+    "pricing_status": "NOT FOUND",
+    "differentiation": "Unlike MathBridge AI, which is a diagnostic tool for tuition centres with tutor review and institution licences, the MOE Adaptive Learning System is a government-provided platform focused on independent, self-directed student learning and pathways within the national Student Learning Space.",
+    "overlap": "similar",
+    "url": "https://www.learning.moe.edu.sg/teachers/teacher-user-guide/discover/about-adaptive-learning-system",
+    "snapshot": "market/snapshots/f1a0c151164f.txt",
+    "snapshot_kind": "fetched",
+    "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "checked_date": "",
+    "created_at": "2026-11-03",
+    "verification_status": "UNVERIFIED"
+  },
+  "comp:1b95da76ebf2": {
+    "key": "comp:1b95da76ebf2",
+    "competitor": "MOE Student Learning Space (Adaptive Learning System)",
+    "product": "Adaptive Learning System",
+    "target_customer": "students",
+    "features": [
+      "gives each student a personalised path to learn at their own pace",
+      "recommending learning resources and practice questions",
+      "offering immediate feedback based on his/her readiness",
+      "Students can access the ALS through the Student Learning Space (SLS) for self-directed learning",
+      "Students learn independently, at their own pace, according to their strengths and needs"
+    ],
+    "price": "NOT FOUND",
+    "pricing_status": "NOT FOUND",
+    "differentiation": "Unlike MathBridge AI which targets Singapore tuition centres with evidence-linked candidate gap reports and tutor review workflows, the MOE Adaptive Learning System focuses on self-directed, independent learning and personalised pathways directly for students within the SLS platform.",
+    "overlap": "similar",
+    "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system",
+    "snapshot": "market/snapshots/454c2686f8fc.txt",
+    "snapshot_kind": "fetched",
+    "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "checked_date": "",
+    "created_at": "2026-11-03",
     "verification_status": "UNVERIFIED"
   }
 }

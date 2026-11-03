@@ -18,6 +18,10 @@ on:
         description: "Optional: MKT-01-A,MKT-02-A,competitors"
         type: string
         default: ""
+      refresh:
+        description: "web: read pages again even if already read for a claim"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -47,7 +51,8 @@ jobs:
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
         run: |
           ONLY="${{ inputs.only }}"
-          python market/run.py "${{ inputs.step }}" --data . ${ONLY:+--only "$ONLY"}
+          REFRESH=""; [ "${{ inputs.refresh }}" = "true" ] && REFRESH="--refresh"
+          python market/run.py "${{ inputs.step }}" --data . ${ONLY:+--only "$ONLY"} $REFRESH
           if [ "${{ inputs.step }}" = "academic" ] || [ "${{ inputs.step }}" = "web" ]; then
             python market/run.py tests --data .
             python market/run.py export --data .

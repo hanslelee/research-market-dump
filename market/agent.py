@@ -33,7 +33,10 @@ Rules:
 - "stance": "supports", "limits" (true but narrower or indirect) or "contradicts".
 - "unit": what a number in the quote counts (students, households, schools, centres, customers, SGD per household, ...), or "" if no count.
 - "limitation": one sentence on what this quote does NOT establish for the claim (e.g. counts students not paying centres; company self-report; old date; other country).
-- At most 3 items. If nothing on the page bears on the claim, return "items": [].
+- Indirect evidence still counts as "limits": e.g. general teacher workload or marking time when the claim is about
+  diagnosing maths gaps, school teachers when the claim is about tutors, another country, an older year. Include it and
+  say in "limitation" exactly why it is indirect. Only return "items": [] when the page has nothing that bears on the claim at all.
+- At most 3 items.
 - "publisher", "publication_date" (as written on the page, else ""), "title": from the page.
 Reply with JSON only:
 {"publisher": "", "publication_date": "", "title": "", "items": [{"quote": "", "finding": "", "stance": "", "unit": "", "limitation": ""}]}"""

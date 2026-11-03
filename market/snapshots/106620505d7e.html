@@ -1,0 +1,932 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+  <meta charset="utf-8">
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Teacher Workload and Time Use in Schools | Paths of Opportunity</title>
+	<meta name="description" content="A research-based look at teacher workload and time use, examining how teachers spend their time and what drives burnout." />
+	<link rel="canonical" href="https://tntp.org/publication/teachers-time-use/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Teacher Workload and Time Use in Schools | Paths of Opportunity" />
+	<meta property="og:description" content="A research-based look at teacher workload and time use, examining how teachers spend their time and what drives burnout." />
+	<meta property="og:url" content="https://tntp.org/publication/teachers-time-use/" />
+	<meta property="og:site_name" content="TNTP" />
+	<meta property="article:publisher" content="https://www.facebook.com/TNTP.org/" />
+	<meta property="article:modified_time" content="2026-05-13T15:50:33+00:00" />
+	<meta property="og:image" content="https://tntp.org/wp-content/uploads/2025/07/Teachers-Time-Use-Executive-Summary-Cover.png" />
+	<meta property="og:image:width" content="568" />
+	<meta property="og:image:height" content="732" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@tntp" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/tntp.org\/publication\/teachers-time-use\/","url":"https:\/\/tntp.org\/publication\/teachers-time-use\/","name":"Teacher Workload and Time Use in Schools | Paths of Opportunity","isPartOf":{"@id":"https:\/\/tntp.org\/#website"},"primaryImageOfPage":{"@id":"https:\/\/tntp.org\/publication\/teachers-time-use\/#primaryimage"},"image":{"@id":"https:\/\/tntp.org\/publication\/teachers-time-use\/#primaryimage"},"thumbnailUrl":"\/wp-content\/uploads\/2025\/07\/Teachers-Time-Use-Executive-Summary-Cover.png","datePublished":"2025-07-01T14:36:53+00:00","dateModified":"2026-05-13T15:50:33+00:00","description":"A research-based look at teacher workload and time use, examining how teachers spend their time and what drives burnout.","breadcrumb":{"@id":"https:\/\/tntp.org\/publication\/teachers-time-use\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/tntp.org\/publication\/teachers-time-use\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/tntp.org\/publication\/teachers-time-use\/#primaryimage","url":"\/wp-content\/uploads\/2025\/07\/Teachers-Time-Use-Executive-Summary-Cover.png","contentUrl":"\/wp-content\/uploads\/2025\/07\/Teachers-Time-Use-Executive-Summary-Cover.png","width":568,"height":732,"caption":"Cover of the Teachers' Time Use report"},{"@type":"BreadcrumbList","@id":"https:\/\/tntp.org\/publication\/teachers-time-use\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/tntp.org\/"},{"@type":"ListItem","position":2,"name":"Teachers’ Time Use"}]},{"@type":"WebSite","@id":"https:\/\/tntp.org\/#website","url":"https:\/\/tntp.org\/","name":"TNTP","description":"Reimagine Teaching","publisher":{"@id":"https:\/\/tntp.org\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/tntp.org\/search\/{search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/tntp.org\/#organization","name":"TNTP","url":"https:\/\/tntp.org\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/tntp.org\/#\/schema\/logo\/image\/","url":"\/wp-content\/uploads\/2022\/11\/TNTP-LOGO-2x.png","contentUrl":"\/wp-content\/uploads\/2022\/11\/TNTP-LOGO-2x.png","width":336,"height":112,"caption":"TNTP"},"image":{"@id":"https:\/\/tntp.org\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/TNTP.org\/","https:\/\/x.com\/tntp","https:\/\/www.instagram.com\/tntp\/","https:\/\/www.linkedin.com\/company\/tntp"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-block-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the block styles printed at wp_footer." }
+/*# sourceURL=wp-block-styles-placeholder-inline-css */
+</style>
+<style id="wp-global-styles-placeholder-inline-css">
+:root { --wp-internal-comment: "Placeholder for wp_hoist_late_printed_styles() to replace with the global-styles printed at wp_footer." }
+/*# sourceURL=wp-global-styles-placeholder-inline-css */
+</style>
+<link rel="stylesheet" href="/wp-content/plugins/tntp-data-dashboard-helper/public/css/tntp-data-dashboard-helper-public.css?ver=1.0.0"><link rel="stylesheet" href="/wp-content/themes/tnp001/dist/styles/main.css"><meta name="generator" content="Site Kit by Google 1.187.0" />			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v11.3.75-->
+			<script class="hsq-set-content-id" data-content-id="blog-post">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentType", "blog-post"]);
+			</script>
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+			    <script>
+    (function(f, u, n, r, a, i, s, e) {
+        var data = {
+            window: window,
+            document: document,
+            tag: "script",
+            data: "funraise",
+            orgId: f,
+            uri: u,
+            common: n,
+            client: r,
+            script: a
+        };
+        var scripts;
+        var funraiseScript;
+        data.window[data.data] = data.window[data.data] || [];
+        if (data.window[data.data].scriptIsLoading || data.window[data.data].scriptIsLoaded) return;
+        data.window[data.data].loading = true;
+        data.window[data.data].push("init", data);
+        scripts = data.document.getElementsByTagName(data.tag)[0];
+        funraiseScript = data.document.createElement(data.tag);
+        funraiseScript.async = true;
+        funraiseScript.src = data.uri + data.common + data.script + "?orgId=" + data.orgId;
+        scripts.parentNode.insertBefore(funraiseScript, scripts)
+    })
+    (
+    '1397a6e4-b60a-4203-aeac-a0b7824b1308',
+    'https://assets.funraise.io',
+    '/widget/common/2.0',
+    '/widget/client',
+    '/inject-form.js'
+    );
+    </script>
+    <meta name="google-site-verification" content="COwvpcKTOTWcZq23Ge3G_dxjVrCeJFNltPkG-Ad3EtU">
+<!-- Google Tag Manager snippet added by Site Kit -->
+<script>
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-58WVKLKK' );
+			
+</script>
+
+<!-- End Google Tag Manager snippet added by Site Kit -->
+<link rel="icon" href="/wp-content/uploads/2023/10/cropped-favicon-4-01-32x32.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2023/10/cropped-favicon-4-01-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2023/10/cropped-favicon-4-01-180x180.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2023/10/cropped-favicon-4-01-270x270.png">
+<style id="wp-custom-css">
+# As Found
+.two-columns-module ul li {
+	font-family: var(--font-halyard-text);
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+.single-publication .single-publication-content ol li {
+	font-family: var(--font-halyard-text);
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #222;
+}
+.grecaptcha-badge {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+
+/*AI updates*/
+@media (max-width: 1199px) and (min-width:768px) {
+	.header-wrapper.nav-fixed {
+		position: fixed;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		width: 100%;
+    height: 100%;
+    top: 0px;
+	}
+}
+
+/*AI form updates */
+.double-the-donation {
+	margin-top: -20px !important;
+}
+.double-the-donation #dd-container .search-title {
+	
+	font-family: var(--font-halyard-display);
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 1.2;
+}
+
+.double-the-donation #dd-container .dtd-footer {
+	color: #000;
+	font-family: var(--font-halyard-text);
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+
+.double-the-donation #dd-container .dtd-footer a {
+	color: #000;
+	font-family: var(--font-halyard-text);
+    font-weight: 600 !important;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.double-the-donation #dd-container .dtd-search-input{
+	color: #000;
+	font-family: var(--font-halyard-text);
+    font-weight: 300 !important;
+    font-size: 1.25rem;
+    line-height: 1.6;
+	background-position: 12px 20px !important;
+	/*border: 2px solid #f1f1ee !important;*/
+}
+
+.double-the-donation #dd-container .dtd-search-box, .dtd-plugin .dtd-search-box {
+	box-shadow: unset;
+}
+
+.double-the-donation #dd-container button.lets-check {
+	padding: 0.9375rem 1.875rem;
+    margin: 0 0 1rem 0;
+	margin-top: 1rem;
+    border: 0;
+	border-radius: 0px;
+    background: transparent;
+    outline: 0;
+    color: #222;
+    display: inline-flex
+;
+    align-items: center;
+    gap: 0.9375rem;
+    text-decoration: none;
+    justify-content: space-between;
+	padding-right: 3.25rem;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxMSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAuODk5MTU4IDAuMTAwODQyTDEwLjc5OSAxMEwwLjg5OTQ5NSAxOS44OTk1TDAuODk5MTU4IDAuMTAwODQyWiIgZmlsbD0iIzIyMiIvPgo8L3N2Zz4K);
+    background-repeat: no-repeat;
+    background-position: right 1.875rem center;
+	background-color: #fde57b;
+	color: #000;
+	font-family: var(--font-halyard-text);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.double-the-donation #dd-container #dd-input:focus-visible {
+	outline-color: #00a5c7;
+}
+
+.double-the-donation #dd-container summary .summary-text, .double-the-donation .dtd-plugin summary .summary-text,.double-the-donation .dtd-plugin .mg-summary, .double-the-donation #dd-container .mg-summary, .double-the-donation #dd-container .dtd-survey-item {
+	font-family: var(--font-halyard-text);
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.double-the-donation #dd-container .mg-forms-button, .double-the-donation .dtd-plugin .mg-forms-button, .double-the-donation #dd-container .dtd-plugin .dtd-survey-button {
+	padding: 0.9375rem 1.875rem;
+    margin: 0 0 1rem 0;
+	margin-top: 1rem;
+    border: 0;
+	border-radius: 0px;
+    background: transparent;
+    outline: 0;
+    color: #222;
+    display: inline-flex
+;
+    align-items: center;
+    gap: 0.9375rem;
+    text-decoration: none;
+    justify-content: space-between;
+	padding-right: 3.25rem;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxMSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTAuODk5MTU4IDAuMTAwODQyTDEwLjc5OSAxMEwwLjg5OTQ5NSAxOS44OTk1TDAuODk5MTU4IDAuMTAwODQyWiIgZmlsbD0iIzIyMiIvPgo8L3N2Zz4K);
+    background-repeat: no-repeat;
+    background-position: right 1.875rem center;
+	background-color: #fde57b;
+	color: #000;
+	font-family: var(--font-halyard-text);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.6;
+	
+}
+
+.double-the-donation #dd-container .mg-forms-button:hover, .double-the-donation .dtd-plugin .mg-forms-button:hover {
+	background-color: #fde57b;
+	color: #000;
+}
+
+.double-the-donation #dd-container .mg-description a, .double-the-donation .dtd-plugin .mg-description a, .double-the-donation .dtd-plugin a, .double-the-donation #dd-container a {
+	color: #00a5c7;
+	cursor: pointer;
+}
+
+.double-the-donation #dd-container .mg-description a:hover, .double-the-donation .dtd-plugin .mg-description a:hover {
+	color: #00667b;
+	text-decoration: underline;
+}
+
+@media all and (max-width: 400px) {
+	#dd-container .dtd-callout, .dtd-plugin .dtd-callout {
+		padding: 1em 12px;
+	}
+	#dd-container .dtd-plugin .cell {
+		width: 100%;
+	}
+}
+
+.single-toolkit .single-toolkit-featured-title a {
+	color: black;
+}
+
+.filtered-list-module-filters .terms-list-item .dropdown-item {
+	cursor: pointer;
+}
+
+
+h3.three-columns-module-column-title {
+       font-size: 30px;
+}
+
+p.graphic-grid-module-text {
+       font-size: 20px;
+} 
+
+
+.faux-h2 {
+  box-sizing: border-box;
+  display: block;
+  color: rgb(34, 34, 34);
+  font-family: halyard-text, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 8px;
+  margin-left: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.info-cards-module
+.grid-module {
+  background-color: #f1f1ee !important;
+}
+</style>
+</head>
+  <body class="wp-singular publication-template-default single single-publication postid-15437 wp-theme-tnp001resources teachers-time-use app-data index-data singular-data single-data single-publication-data single-publication-teachers-time-use-data">
+      <header class="header-wrapper">
+  <div class="header-top">
+    <a href="#main-content" class="skip-link yellow-background">Skip to main content</a>
+    <div class="module-container">
+      <nav aria-label="top navigation menu" class="header-top-nav">
+                  <ul id="menu-secondary-navigation" class="secondary-navigation"><li id="menu-item-16026" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16026"><a href="https://tntp.org/events/">Events</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="https://tntp.org/careers/">Careers</a></li>
+<li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://tntp.org/media-news/">Media and News</a></li>
+<li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://tntp.org/contact-us/">Contact Us</a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page yellow-background menu-item-79"><a href="https://tntp.org/donate/">Donate</a></li>
+</ul>
+        
+                  <button class="header-search-icon" aria-label="Search">
+            <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="10.2" cy="7.2" r="6.4" stroke="currentColor" stroke-width="1.6"/>
+<line x1="6.10426" y1="12.2327" x2="0.565798" y2="17.7711" stroke="currentColor" stroke-width="1.6"/>
+</svg>
+          </button>
+              </nav>
+    </div>
+  </div>
+
+  <div class="module-container">
+    <div class="header-bottom">
+      <div class="header-bottom-brand">
+        <a
+          class="header-brand"
+          href="https://tntp.org/"
+          aria-label="TNTP brand"
+        >
+          <img width="1309" height="435" src="/wp-content/uploads/2023/06/TNTP-logo_full-color.svg" class="attachment-large size-large" alt="TNTP logo_full color" decoding="async" fetchpriority="high" />
+        </a>
+        <button id="btn-open-menu" class="header-button" aria-label="header menu"></button>
+      </div>
+
+      <div class="header-bottom-wrapper-mobile">
+        <div class="header-back" role="button"><svg viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.2017 39.7983L0.402024 20L20.201 0.201012L20.2017 39.7983Z" fill="currentColor"/>
+</svg>
+ <p>Back</p></div>
+        <div class="header-bottom-wrapper-flex">
+          <nav aria-label="main navigation" class="header-bottom-nav">
+                          <ul id="menu-primary-navigation" class="primary-navigation"><li id="menu-item-371" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"><a href="https://tntp.org/about/">About Us</a></li>
+<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children children-have-description menu-item-375"><a href="https://tntp.org/what-we-do/">What We Do</a>
+<ul class="sub-menu">
+	<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://tntp.org/what-we-do/impact-consulting/">Education Consulting<span class="menu-item-description">We help schools and districts create better student-centered solutions.</span></a></li>
+	<li id="menu-item-8086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8086"><a href="https://tntp.org/what-we-do/research-policy-advocacy/">Research, Policy, and Advocacy<span class="menu-item-description">We use research, data, and experience to understand relevant policies and advocate for students.</span></a></li>
+	<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://tntp.org/what-we-do/leadership-development-talent-services/">Leadership Development and Talent Services<span class="menu-item-description">We partner with schools to hire, develop, and retain a diverse staff that mirrors the population at large.</span></a></li>
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="https://tntp.org/what-we-do/community-engagement/">Community Engagement and Coalition Building<span class="menu-item-description">We build coalitions to deliver the educational outcomes students deserve.</span></a></li>
+	<li id="menu-item-376" class="menu-item menu-item-type-post_type menu-item-object-page border_left text_above menu-item-376"><span class="menu-item-text_above">Ready to Solve Complex Problems?</span><a href="https://tntp.org/bring-tntp-to-your-system/">Let&#8217;s Work Together</a></li>
+</ul>
+</li>
+<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="https://tntp.org/where-we-work/">Where We Work</a></li>
+<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="https://tntp.org/impact/">Our Impact</a></li>
+<li id="menu-item-138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-138"><a href="https://tntp.org/research-insights/">Research and Insights</a>
+<ul class="sub-menu">
+	<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="https://tntp.org/publications/">Publications</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a href="https://tntp.org/tntp-blog/">TNTP Blog</a></li>
+	<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="https://tntp.org/case-studies/">Case Studies</a></li>
+	<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page border_left menu-item-320"><a href="https://tntp.org/research-insights/">See All Research and Insights</a></li>
+</ul>
+</li>
+<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="https://tntp.org/tools/">Tools</a></li>
+</ul>
+                      </nav>
+          <nav aria-label="mobile navigation" class="header-secondary-mobile">
+                          <div class="header-search-form-wrapper">
+                <form
+  role="search"
+  method="get"
+  class="search-form"
+  action="https://tntp.org/"
+  >
+      <label>Search</label>
+    <span id="search-input-label" class="screen-reader-text">Search for:</span>
+  <input
+    aria-labelledby="search-input-label"
+    type="search"
+    class="search-field search-header"
+        value=""
+    name="s"
+  />
+  <button
+    type="submit"
+    class="search-submit search-page-button"
+    aria-label="Search"
+  >
+          <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="10.2" cy="7.2" r="6.4" stroke="currentColor" stroke-width="1.6"/>
+<line x1="6.10426" y1="12.2327" x2="0.565798" y2="17.7711" stroke="currentColor" stroke-width="1.6"/>
+</svg>
+      </button>
+</form>
+
+              </div>
+            
+                          <ul id="menu-secondary-navigation-1" class="secondary-navigation-mobile"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16026"><a href="https://tntp.org/events/">Events</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="https://tntp.org/careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-76"><a href="https://tntp.org/media-news/">Media and News</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a href="https://tntp.org/contact-us/">Contact Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page yellow-background menu-item-79"><a href="https://tntp.org/donate/">Donate</a></li>
+</ul>
+                      </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="header-search-form">
+      <div class="module-container">
+        <div class="header-search-form-wrapper">
+          <form
+  role="search"
+  method="get"
+  class="search-form"
+  action="https://tntp.org/"
+  >
+      <label>Search</label>
+    <span id="search-input-label" class="screen-reader-text">Search for:</span>
+  <input
+    aria-labelledby="search-input-label"
+    type="search"
+    class="search-field search-header"
+        value=""
+    name="s"
+  />
+  <button
+    type="submit"
+    class="search-submit search-page-button"
+    aria-label="Search"
+  >
+          <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="10.2" cy="7.2" r="6.4" stroke="currentColor" stroke-width="1.6"/>
+<line x1="6.10426" y1="12.2327" x2="0.565798" y2="17.7711" stroke="currentColor" stroke-width="1.6"/>
+</svg>
+      </button>
+</form>
+
+          <button class="header-search-form-close" aria-label="Close search"><svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.67338 6.472L0.209375 13H4.02538L6.61738 9.088L9.20938 13H13.0974L8.51338 6.4L12.5934 0.592H8.82538L6.66538 3.832L4.48138 0.592H0.593375L4.67338 6.472Z" fill="#4A4A4A"/>
+</svg>
+</button>
+        </div>
+      </div>
+    </div>
+  </header>
+    <div class="wrap" role="document">
+      <div class="content">
+        <main id="main-content" class="main">
+                       <article class="post-15437 publication type-publication status-publish has-post-thumbnail hentry">
+  <div class="module-container">
+    <header class="single-publication-header">
+      <p class="single-publication-eyebrow">Publication</p>
+      <h1 class="single-publication-title">Teachers’ Time Use</h1>
+
+              <h2 class="single-publication-subtitle">A Review of the Literature</h2>
+      
+      <time class="single-publication-date">July 1, 2025</time>
+
+      <ul class="share-list">
+  <li class="share-list-item">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://tntp.org/publication/teachers-time-use/" rel="nofollow external noopener" target="_blank" data-js="share" data-share="facebook" aria-label="Share on Facebook" data-ga-on="click" data-ga-hit-type="social" data-ga-social-network="Facebook" data-ga-social-action="Share" data-ga-social-target="https://tntp.org/publication/teachers-time-use/}"><svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.75 13C26.75 5.82029 20.9297 0 13.75 0C6.57029 0 0.75 5.82029 0.75 13C0.75 19.4886 5.50389 24.8668 11.7188 25.8421V16.7578H8.41797V13H11.7188V10.1359C11.7188 6.87781 13.6596 5.07813 16.629 5.07813C18.0509 5.07813 19.5391 5.33203 19.5391 5.33203V8.53125H17.8998C16.285 8.53125 15.7813 9.53342 15.7813 10.5625V13H19.3867L18.8104 16.7578H15.7813V25.8421C21.9961 24.8668 26.75 19.4886 26.75 13Z" fill="currentColor"/>
+</svg>
+</a>
+  </li>
+  <li class="share-list-item">
+    <a href="https://twitter.com/intent/tweet?url=https://tntp.org/publication/teachers-time-use/" rel="nofollow external noopener" target="_blank" data-js="share" data-share="twitter" aria-label="Share on Twitter" data-ga-on="click" data-ga-hit-type="social" data-ga-social-network="Twitter" data-ga-social-action="Share" data-ga-social-target="https://tntp.org/publication/teachers-time-use/}"><svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="first" d="M25.9908 13.3742C25.9908 19.9417 21.124 25.3712 14.8016 26.2523C14.2105 26.3343 13.6056 26.3771 12.9917 26.3771C12.283 26.3771 11.5871 26.3206 10.9094 26.2113C4.72005 25.2145 -0.00738525 19.846 -0.00738525 13.3742C-0.00738525 6.19256 5.8131 0.370361 12.9926 0.370361C20.1721 0.370361 25.9926 6.19256 25.9926 13.3742H25.9908Z" fill="#1C1C1B"/>
+    <path class="second" d="M5.26477 6.1051L11.2601 14.1232L5.22742 20.6424H6.58553L11.8677 14.935L16.1351 20.6424H20.756L14.4236 12.1733L20.0391 6.1051H18.681L13.817 11.3615L9.88654 6.1051H5.26567H5.26477ZM7.2614 7.10554H9.38374L18.7576 19.642H16.6352L7.2614 7.10554Z" fill="white"/>
+</svg>
+</a>
+  </li>
+  <li class="share-list-item">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://tntp.org/publication/teachers-time-use/&amp;title=Teachers%E2%80%99+Time+Use&amp;source=https://tntp.org/" rel="nofollow external noopener" target="_blank" data-js="share" data-share="linkedin" aria-label="Share on LinkedIn" data-ga-on="click" data-ga-hit-type="social" data-ga-social-network="LinkedIn" data-ga-social-action="Share" data-ga-social-target="https://tntp.org/publication/teachers-time-use/}"><svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.3254 0H2.16953C1.1082 0 0.25 0.837891 0.25 1.87383V24.1211C0.25 25.157 1.1082 26 2.16953 26H24.3254C25.3867 26 26.25 25.157 26.25 24.1262V1.87383C26.25 0.837891 25.3867 0 24.3254 0ZM7.96367 22.1559H4.1043V9.74492H7.96367V22.1559ZM6.03398 8.05391C4.79492 8.05391 3.79453 7.05352 3.79453 5.81953C3.79453 4.58555 4.79492 3.58516 6.03398 3.58516C7.26797 3.58516 8.26836 4.58555 8.26836 5.81953C8.26836 7.04844 7.26797 8.05391 6.03398 8.05391ZM22.4059 22.1559H18.5516V16.123C18.5516 14.6859 18.5262 12.8324 16.5457 12.8324C14.5398 12.8324 14.2352 14.4016 14.2352 16.0215V22.1559H10.3859V9.74492H14.0828V11.441H14.1336C14.6465 10.466 15.9059 9.43516 17.7797 9.43516C21.6848 9.43516 22.4059 12.0047 22.4059 15.3461V22.1559V22.1559Z" fill="currentColor"/>
+</svg>
+</a>
+  </li>
+  <li class="share-list-item">
+    <a href="/cdn-cgi/l/email-protection#f9c68a8c9b939c9a8dc4ad9c989a919c8b8a1b7960d9ad90949cd9ac8a9cdf989489c29b969d80c4918d8d898ac3d6d68d978d89d7968b9ed6898c9b95909a988d909697d68d9c989a919c8b8ad48d90949cd48c8a9cd6" rel="nofollow" aria-label="Share by Email" data-ga-on="click" data-ga-hit-type="social" data-ga-social-network="Email" data-ga-social-action="Share" data-ga-social-target="https://tntp.org/publication/teachers-time-use/}"><svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.546875 10V20L13.8025 19.9948L27.0582 19.9896V10V0.0103936L13.8025 0.00519744L0.546875 0V10ZM21.4429 4.4876C20.0084 5.93091 17.8916 8.06212 16.7388 9.22361C15.5112 10.4605 14.5961 11.3664 14.53 11.4103C14.1873 11.638 13.6384 11.6575 13.2542 11.4556C13.1206 11.3854 12.8108 11.0769 9.00891 7.22724C6.75327 4.94327 4.63729 2.80204 4.30676 2.46898L3.70578 1.86339H13.8783H24.0509L21.4429 4.4876ZM6.1252 6.95595L9.098 9.96781L8.89384 10.1754C8.78154 10.2896 7.37335 11.7293 5.76453 13.3747C4.15572 15.0202 2.74285 16.4642 2.62482 16.5837L2.41022 16.801V9.99996V3.19893L2.78132 3.57152C2.98542 3.77646 4.49017 5.29946 6.1252 6.95595ZM25.2 13.4428L25.1948 16.7995L21.8925 13.4189C20.0763 11.5596 18.5903 10.0301 18.5903 10.0199C18.5903 10.0098 20.0763 8.5045 21.8925 6.67482L25.1948 3.34812L25.2 6.71716C25.2029 8.57011 25.2029 11.5967 25.2 13.4428ZM11.1777 12.0671C12.4261 13.3092 13.1078 13.6055 14.3101 13.4283C15.1808 13.3 15.5519 13.0692 16.6103 11.9979L17.2598 11.3405L17.5029 11.5864C17.6367 11.7216 18.9274 13.0435 20.3713 14.5238C21.8152 16.0041 23.2015 17.4226 23.452 17.676L23.9074 18.1366H13.8092H3.71106L4.09065 17.7453C4.95342 16.8558 10.3923 11.3049 10.4013 11.3046C10.4066 11.3045 10.756 11.6476 11.1777 12.0671Z" fill="currentColor"/>
+</svg>
+</a>
+  </li>
+</ul>    </header>
+
+    <div class="single-publication-row">
+              <div class="single-publication-left">
+          <figure class="single-publication-figure">
+            <img width="568" height="732" src="/wp-content/uploads/2025/07/Teachers-Time-Use-Executive-Summary-Cover.png" class="attachment-large size-large wp-post-image" alt="Cover of the Teachers&#039; Time Use report" decoding="async" loading="lazy" srcset="/wp-content/uploads/2025/07/Teachers-Time-Use-Executive-Summary-Cover.png 568w, /wp-content/uploads/2025/07/Teachers-Time-Use-Executive-Summary-Cover-233x300.png 233w, /wp-content/uploads/2025/07/Teachers-Time-Use-Executive-Summary-Cover-434x559.png 434w" sizes="auto, (max-width: 568px) 100vw, 568px">
+            <figcaption>
+                          </figcaption>
+          </figure>
+        </div>
+      
+      <div class="single-publication-right">
+        <div class="single-publication-content">
+          <p><span data-contrast="none">Teachers are the backbone of our education system, shaping not only the academic success of millions of students but also their long-term well-being and economic mobility. One out of every 12 college educated workers in the U.S. is a teacher, making educators a vital and influential part of the national workforce. Research shows that teacher quality is the single most important school-based factor in determining students’ motivation, academic achievement, and future outcomes. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:264}"> </span></p>
+<p><span data-contrast="none">The impact of great teaching is both immediate and enduring. As TNTP explored in </span><a href="https://tntp.org/publication/paths-of-opportunity/" target="_blank" rel="noopener"><i><span data-contrast="none">Paths of Opportunity</span></i></a><span data-contrast="none">, young people who have access to high-quality academic experiences and excel in school are also more likely to earn a living wage and report high levels of well-being in adulthood. In fact, economists have found that students who move from an average teacher to an excellent teacher in a single grade can expect to earn thousands of additional dollars over their lifetimes.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:276}"> </span></p>
+<p><span data-contrast="none">And yet, teachers increasingly view their profession as unsustainable. In 2024, more than 60% of teachers reported burnout, citing heavy workloads and insufficient support as key factors. Teachers matter profoundly, yet there is still much to learn about how they spend their days and how the use of their time influences both their own well-being and student learning. This is a critical gap: if we want to maximize student learning, well-being, and long-term opportunity, we must ensure teachers’ jobs are sustainable and they spend their time effectively.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:276}"> </span></p>
+<p><span data-contrast="none">In this literature review, which synthesizes dozens of sources, we explore themes about how teachers use their time, the demands they face, and the often-blurred lines between work and personal life.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:276}"> </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:276}"> </span></p>
+<p><strong>Key Findings Include: </strong></p>
+<ul>
+<li><span data-contrast="none">Teachers work substantially more hours than their contracts require, with much of their time consumed by non-instructional tasks that contribute to stress and burnout.</span></li>
+<li><span data-contrast="none">Time use varies by teacher experience, school context, and student population, with those serving the highest-needs students often spending less time on instruction. </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:276}"> </span></li>
+<li><span data-contrast="none">Recent shifts &#8211; such as the rise of educational technologies &#8211; have further complicated teachers’ workloads.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:276}"> </span></li>
+</ul>
+<p><span data-contrast="none">Our analysis suggests ways education leaders and policymakers can provide more sustainable workloads for teachers and prioritize the instructional time that makes a crucial difference for </span><span data-contrast="none">student learning and lifelong success.</span></p>
+<p><strong><a href="https://tntp.org/contact-us/" target="_blank" rel="noopener">Learn more</a> about how TNTP can help you understand the demands on your teachers’ time and how to implement strategies that will truly support them. </strong></p>
+<p><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script><br />
+<script>
+  hbspt.forms.create({
+    portalId: "23763829",
+    formId: "e4414eed-6e99-4e3a-ac2a-b5a45a563091",
+    region: "na1"
+  });
+</script></p>
+<p>&nbsp;</p>
+        </div>
+
+        
+                  <div class="topics-list">
+  <h2 class="topics-list-heading">Related Topics</h2>
+
+  <ul class="topics-list-items">
+          <li class="topics-list-item">
+        <a class="btn-secondary btn-secondary-dark" href="https://tntp.org/research-insights/?term-topic=school-culture">School Culture</a>
+      </li>
+          <li class="topics-list-item">
+        <a class="btn-secondary btn-secondary-dark" href="https://tntp.org/research-insights/?term-topic=strategic-planning">Strategic Planning</a>
+      </li>
+          <li class="topics-list-item">
+        <a class="btn-secondary btn-secondary-dark" href="https://tntp.org/research-insights/?term-topic=teacher-recruitment-and-retention">Teacher Recruitment and Retention</a>
+      </li>
+      </ul>
+</div>
+
+              </div>
+    </div>
+  </div>
+
+      <section  class="module subscribe-module bg_gray_mint">
+  <div class="module-container">
+    <div class="subscribe-module-wrapper">
+              <div class="subscribe-module-content">
+                                          <h2 class="subscribe-module-title">Stay in the Know</h2>
+                        
+                      <p class="subscribe-module-description">Sign up for updates on our latest research, insights, and high-impact work.</p>
+                  </div>
+      
+      <div class="subscribe-module-form">
+                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_2' ><div id='gf_2' class='gform_anchor' tabindex='-1'></div>
+                        <div class='gform_heading'>
+							<p class='gform_required_legend'>&quot;<span class="gfield_required gfield_required_asterisk">*</span>&quot; indicates required fields</p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_2' id='gform_2'  action='/publication/teachers-time-use/#gf_2' data-formid='2' novalidate><div class='gf_invisible ginput_recaptchav3' data-sitekey='6LfM37AqAAAAACjBvzLFe-gJVsOSdjIO9cdCZx3u' data-tabindex='0'><input id="input_82373f5ac5e09977bfd4a6856a47209b" class="gfield_recaptcha_response" type="hidden" name="input_82373f5ac5e09977bfd4a6856a47209b" value=""/></div>
+                        <div class='gform-body gform_body'><div id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below validation_below' data-column-layout='fill'><fieldset id="field_2_1" class="gfield gfield--type-name gfield--input-type-name gfield_contains_required field_sublabel_hidden_label gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-group-id="4a7dcc7e" data-field-span="12"><legend id='gfield_label_2_1' class='gfield_label gform-field-label gfield_label_before_complex' ><span class='gform-field-label__text'>First Name</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></legend><div class='ginput_complex ginput_container ginput_container--name no_prefix has_first_name no_middle_name no_last_name no_suffix gf_name_has_1 ginput_container_name gform-grid-row' id='input_2_1'>
+                            
+                            <span id='input_2_1_3_container' class='name_first gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_1.3' id='input_2_1_3' value=''   aria-required='true'     aria-labelledby="input_2_1_3_label gfield_label_2_1"/>
+                                                    <label for='input_2_1_3' id='input_2_1_3_label' class='gform-field-label gform-field-label--type-sub hidden_sub_label screen-reader-text'>First</label>
+                                                </span>
+                            
+                            
+                            
+                        </div></fieldset><fieldset id="field_2_10" class="gfield gfield--type-name gfield--input-type-name gfield--width-full gfield_contains_required field_sublabel_hidden_label gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-group-id="94478ca3" data-field-span="12"><legend id='gfield_label_2_10' class='gfield_label gform-field-label gfield_label_before_complex' ><span class='gform-field-label__text'>Last Name</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></legend><div class='ginput_complex ginput_container ginput_container--name no_prefix no_first_name no_middle_name has_last_name no_suffix gf_name_has_1 ginput_container_name gform-grid-row' id='input_2_10'>
+                            
+                            
+                            
+                            <span id='input_2_10_6_container' class='name_last gform-grid-col gform-grid-col--size-auto' >
+                                                    <input type='text' name='input_10.6' id='input_2_10_6' value=''   aria-required='true'     aria-labelledby="input_2_10_6_label gfield_label_2_10"/>
+                                                    <label for='input_2_10_6' id='input_2_10_6_label' class='gform-field-label gform-field-label--type-sub hidden_sub_label screen-reader-text'>Last</label>
+                                                </span>
+                            
+                        </div></fieldset><div id="field_2_3" class="gfield gfield--type-email gfield--input-type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-group-id="b0227cb6" data-field-span="12"><label id='gfield_label_2_3' class='gfield_label gform-field-label' for='input_2_3'><span class='gform-field-label__text'>Email</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_2_3' type='email' value='' class='large'    aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_2_7" class="gfield gfield--type-select gfield--input-type-select gfield--width-full field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-group-id="10332608" data-field-span="12"><label id='gfield_label_2_7' class='gfield_label gform-field-label' for='input_2_7'><span class='gform-field-label__text'>State</span></label><div class='ginput_container ginput_container_select'><select name='input_7' id='input_2_7' class='large gfield_select'     aria-invalid="false" ><option value='Alabama' >Alabama</option><option value='Alaska' >Alaska</option><option value='Arizona' >Arizona</option><option value='Arkansas' >Arkansas</option><option value='California' >California</option><option value='Colorado' >Colorado</option><option value='Connecticut' >Connecticut</option><option value='Delaware' >Delaware</option><option value='District of Columbia' >District of Columbia</option><option value='Florida' >Florida</option><option value='Georgia' >Georgia</option><option value='Hawaii' >Hawaii</option><option value='Idaho' >Idaho</option><option value='Illinois' >Illinois</option><option value='Indiana' >Indiana</option><option value='Iowa' >Iowa</option><option value='Kansas' >Kansas</option><option value='Kentucky' >Kentucky</option><option value='Louisiana' >Louisiana</option><option value='Maine' >Maine</option><option value='Maryland' >Maryland</option><option value='Massachusetts' >Massachusetts</option><option value='Michigan' >Michigan</option><option value='Minnesota' >Minnesota</option><option value='Mississippi' >Mississippi</option><option value='Missouri' >Missouri</option><option value='Montana' >Montana</option><option value='Nebraska' >Nebraska</option><option value='Nevada' >Nevada</option><option value='New Hampshire' >New Hampshire</option><option value='New Jersey' >New Jersey</option><option value='New Mexico' >New Mexico</option><option value='New York' >New York</option><option value='North Carolina' >North Carolina</option><option value='North Dakota' >North Dakota</option><option value='Ohio' >Ohio</option><option value='Oklahoma' >Oklahoma</option><option value='Oregon' >Oregon</option><option value='Pennsylvania' >Pennsylvania</option><option value='Puerto Rico' >Puerto Rico</option><option value='Rhode Island' >Rhode Island</option><option value='South Carolina' >South Carolina</option><option value='South Dakota' >South Dakota</option><option value='Tennessee' >Tennessee</option><option value='Texas' >Texas</option><option value='Utah' >Utah</option><option value='Vermont' >Vermont</option><option value='Virginia' >Virginia</option><option value='Washington' >Washington</option><option value='West Virginia' >West Virginia</option><option value='Wisconsin' >Wisconsin</option><option value='Wyoming' >Wyoming</option><option value='Other' >Other</option></select></div></div><div id="field_2_8" class="gfield gfield--type-select gfield--input-type-select gfield--width-full gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-group-id="8a7ccaab" data-field-span="12"><label id='gfield_label_2_8' class='gfield_label gform-field-label' for='input_2_8'><span class='gform-field-label__text'>Which of the following options reflects your role in education. I am a...</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_select'><select name='input_8' id='input_2_8' class='large gfield_select'    aria-required="true" aria-invalid="false" ><option value='School District/Charter School Leader' >School District/Charter School Leader</option><option value='School Principal' >School Principal</option><option value='Community Leader' >Community Leader</option><option value='Policymaker/Government' >Policymaker/Government</option><option value='Donor' >Donor</option><option value='Student/Family Member' >Student/Family Member</option><option value='Teacher' >Teacher</option><option value='Education Professional' >Education Professional</option><option value='Job Seeker' >Job Seeker</option><option value='Education Agency' >Education Agency</option><option value='Other' >Other</option></select></div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <button type='submit' id='gform_submit_button_2' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' >Subscribe</button> <input type='hidden' name='gform_ajax' value='form_id=2&amp;title=&amp;description=&amp;tabindex=0&amp;theme=gravity-theme&amp;styles=[]&amp;hash=a9100d4b5e2946675178047d372a2b49' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_2' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_2' id='gform_theme_2' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_2' id='gform_style_settings_2' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='++gVfQ8YvbcMiCC8KEjy6ICMiC7a4Ld+7Mgnuzjp+zkabdWnHzko5kmk2sZI6Pgw79vlMHyAA5R1GBqZADDdSPMSQMk0FzAOoTJ3LL0Nwr+Ve6E=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_2' value='WyJ7XCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcIjdjODc2Y2NhNGFmMzE2YjQ4ZDU4ODViOGU5Y2Y0YTkxXCIsXCJjODcxYzVjYTU2OTEzZGE0NGVjOTcyYzdiZjJhMmIwYlwiLFwiNGFkOWFkZTA3MzNkZmY0ODkwZmE0NjQ1OGM1ODUwMGNcIl0sXCJnZm9ybV90aGVtZVwiOlwiZTRlMGM1MTUwZjkyZWI5OWExZjBhNTJhY2FjZmNhZTRcIixcImdmb3JtX3N0eWxlX3NldHRpbmdzXCI6XCIyYTJmNjlkYTNmYjRkZDcwNjQzNjY5NGQ0ZmYwNDIyM1wiLFwiZm9ybV9pZFwiOlwiNzljMWE2YTllNDg5M2RkODBmZDg2ZmQ1YzUwY2UxMjdcIixcInVybFwiOlwiMTIzZDU0MWM5M2QwMjg1ZTA4MTI5ZmQ2YzIyYjAwNDJcIixcInN0YXRlX3RpbWVzdGFtcFwiOlwiMWY2MDE3MmUyYTMzZjhhMThkN2JmZDhlMzVmNWQ1MjZcIn0iLCI1YTkwODE4ZTM3NjEyN2JkNjFkYmMzNGE4NzE4OWMwYSIsMTc5MzM2NTcyNF0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_2' id='gform_ajax_frame_2' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {jQuery('#gform_ajax_frame_2').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_2');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_2').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_2').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_2').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_2').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_2').offset().top - mt); }, 50 );var current_page = jQuery('#gform_source_page_number_2').val();jQuery(document).trigger('gform_page_loaded', [2, current_page]);window['gf_submitting_2'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_2').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_2').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [2]);if(window.gform && gform.pagination && gform.pagination.removePageQueryArg){gform.pagination.removePageQueryArg(2);}window['gf_submitting_2'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_2').text());}else{jQuery('#gform_2').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "2", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_2" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_2";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_2" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 2, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+</div>
+    </div>
+  </div>
+</section>
+
+  
+  
+      <section class="related-content-module columns">
+  <div class="module-container">
+    <div class="related-content-module-wrapper">
+              <div class="related-content-module-header">
+                      <h2 class="related-content-module-heading">Read Next</h2>
+          
+                  </div>
+      
+              <div class="related-content-module-items">
+                      <article class="card card-horizontal card-post-publication">
+              <figure class="card-horizontal-figure"><img width="240" height="300" src="/wp-content/uploads/2026/10/From-Data-to-Action-Cover-Image-240x300.png" class="attachment-medium size-medium wp-post-image" alt="Graphic cover with the words &quot;From Data to Action&quot; printed over a collaged image of a child walking away" decoding="async" srcset="/wp-content/uploads/2026/10/From-Data-to-Action-Cover-Image-240x300.png 240w, /wp-content/uploads/2026/10/From-Data-to-Action-Cover-Image-819x1024.png 819w, /wp-content/uploads/2026/10/From-Data-to-Action-Cover-Image-768x960.png 768w, /wp-content/uploads/2026/10/From-Data-to-Action-Cover-Image-434x543.png 434w, /wp-content/uploads/2026/10/From-Data-to-Action-Cover-Image.png 1080w" sizes="(max-width: 240px) 100vw, 240px"></figure>
+<div class="card-horizontal-content">
+  <p class="card-horizontal-meta">Publication | <time datetime="2026-10-30">October 30, 2026</time></p>
+  <h3 class="card-title card-horizontal-title">
+    <a href="https://tntp.org/publication/from-data-to-action/">From Data to Action</a>
+  </h3>
+      <p class="card-text card-horizontal-text">Learn how states and districts can use data, stakeholder insights, and continuous improvement cycles to drive better outcomes.</p>
+  </div>            </article>
+                      <article class="card card-horizontal card-post-post">
+              <figure class="card-horizontal-figure"><img width="300" height="112" src="/wp-content/uploads/2026/08/New-Blog-Banner-10-300x112.png" class="attachment-medium size-medium wp-post-image" alt="Mural of a faceless child holding up a trophy with blurred children moving in the foreground." decoding="async" srcset="/wp-content/uploads/2026/08/New-Blog-Banner-10-300x112.png 300w, /wp-content/uploads/2026/08/New-Blog-Banner-10-1024x383.png 1024w, /wp-content/uploads/2026/08/New-Blog-Banner-10-768x287.png 768w, /wp-content/uploads/2026/08/New-Blog-Banner-10-434x162.png 434w, /wp-content/uploads/2026/08/New-Blog-Banner-10-1174x434.png 1174w, /wp-content/uploads/2026/08/New-Blog-Banner-10.png 1336w" sizes="(max-width: 300px) 100vw, 300px"></figure>
+<div class="card-horizontal-content">
+  <p class="card-horizontal-meta">Blog Post | <time datetime="2026-08-20">August 20, 2026</time></p>
+  <h3 class="card-title card-horizontal-title">
+    <a href="https://tntp.org/blog/five-lessons-from-tntps-futures-design-studio">Five Lessons from TNTP’s Futures Design Studio</a>
+  </h3>
+      <p class="card-text card-horizontal-text">One year into TNTP&#039;s Futures Design Studio, five lessons are shaping how we learn, innovate, and build for what&#039;s next.</p>
+  </div>            </article>
+                      <article class="card card-horizontal card-post-case-study">
+              <figure class="card-horizontal-figure"><img width="300" height="200" src="/wp-content/uploads/2026/01/Emerson_Hill_046-1-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" srcset="/wp-content/uploads/2026/01/Emerson_Hill_046-1-300x200.jpg 300w, /wp-content/uploads/2026/01/Emerson_Hill_046-1-1024x683.jpg 1024w, /wp-content/uploads/2026/01/Emerson_Hill_046-1-768x512.jpg 768w, /wp-content/uploads/2026/01/Emerson_Hill_046-1-1536x1024.jpg 1536w, /wp-content/uploads/2026/01/Emerson_Hill_046-1-2048x1365.jpg 2048w, /wp-content/uploads/2026/01/Emerson_Hill_046-1-434x289.jpg 434w" sizes="(max-width: 300px) 100vw, 300px"></figure>
+<div class="card-horizontal-content">
+  <p class="card-horizontal-meta">Case Study | <time datetime="2026-01-29">January 29, 2026</time></p>
+  <h3 class="card-title card-horizontal-title">
+    <a href="https://tntp.org/case-study/building-the-foundation-for-ai-ready-systems-in-indianapolis/">Building the Foundation for AI-Ready Systems in Indianapolis</a>
+  </h3>
+      <p class="card-text card-horizontal-text">Indianapolis Public Schools is transforming its data infrastructure and leadership capacity to create coherent systems that will enable future AI integration.</p>
+  </div>            </article>
+                      <article class="card card-horizontal card-post-post">
+              <figure class="card-horizontal-figure"><img width="300" height="112" src="/wp-content/uploads/2026/01/TNTP-Strategic-Plan-2-300x112.png" class="attachment-medium size-medium wp-post-image" alt="A collage of educators working closely with students in classroom settings." decoding="async" srcset="/wp-content/uploads/2026/01/TNTP-Strategic-Plan-2-300x112.png 300w, /wp-content/uploads/2026/01/TNTP-Strategic-Plan-2-768x287.png 768w, /wp-content/uploads/2026/01/TNTP-Strategic-Plan-2-434x162.png 434w, /wp-content/uploads/2026/01/TNTP-Strategic-Plan-2.png 1024w" sizes="(max-width: 300px) 100vw, 300px"></figure>
+<div class="card-horizontal-content">
+  <p class="card-horizontal-meta">Blog Post | <time datetime="2026-01-29">January 29, 2026</time></p>
+  <h3 class="card-title card-horizontal-title">
+    <a href="https://tntp.org/blog/preparing-fifty-million-young-people-for-their-futures">Preparing Fifty Million Young People for Their Futures</a>
+  </h3>
+      <p class="card-text card-horizontal-text">TNTP’s new strategic plan is designed to prepare 50 million young people for meaningful work and a meaningful life, bridging the gap between access and capability.</p>
+  </div>            </article>
+                      <article class="card card-horizontal card-post-case-study">
+              <figure class="card-horizontal-figure"><img width="300" height="200" src="/wp-content/uploads/2026/01/EdnovateEsperanza_Hill_011-resized-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="Two women seated at a table with open laptops engaged in discussion." decoding="async" srcset="/wp-content/uploads/2026/01/EdnovateEsperanza_Hill_011-resized-300x200.jpg 300w, /wp-content/uploads/2026/01/EdnovateEsperanza_Hill_011-resized-1024x683.jpg 1024w, /wp-content/uploads/2026/01/EdnovateEsperanza_Hill_011-resized-768x512.jpg 768w, /wp-content/uploads/2026/01/EdnovateEsperanza_Hill_011-resized-1536x1024.jpg 1536w, /wp-content/uploads/2026/01/EdnovateEsperanza_Hill_011-resized-2048x1366.jpg 2048w, /wp-content/uploads/2026/01/EdnovateEsperanza_Hill_011-resized-434x289.jpg 434w" sizes="(max-width: 300px) 100vw, 300px"></figure>
+<div class="card-horizontal-content">
+  <p class="card-horizontal-meta">Case Study | <time datetime="2026-01-29">January 29, 2026</time></p>
+  <h3 class="card-title card-horizontal-title">
+    <a href="https://tntp.org/case-study/using-ai-to-strengthen-coaching-with-indianapolis-teaching-fellows/">Using AI to Strengthen Coaching with Indianapolis Teaching Fellows</a>
+  </h3>
+      <p class="card-text card-horizontal-text">This pilot explores how AI can complement, not replace, human coaching by providing feedback that deepens collaboration among early-career educators.</p>
+  </div>            </article>
+                      <article class="card card-horizontal card-post-case-study">
+              <figure class="card-horizontal-figure"><img width="300" height="200" src="/wp-content/uploads/2026/01/EdnovateBrio_Hill_011resized-300x200.jpg" class="attachment-medium size-medium wp-post-image" alt="Three students sit side-by-side, reading open books and engaging in discussion." decoding="async" srcset="/wp-content/uploads/2026/01/EdnovateBrio_Hill_011resized-300x200.jpg 300w, /wp-content/uploads/2026/01/EdnovateBrio_Hill_011resized-1024x683.jpg 1024w, /wp-content/uploads/2026/01/EdnovateBrio_Hill_011resized-768x512.jpg 768w, /wp-content/uploads/2026/01/EdnovateBrio_Hill_011resized-1536x1024.jpg 1536w, /wp-content/uploads/2026/01/EdnovateBrio_Hill_011resized-2048x1366.jpg 2048w, /wp-content/uploads/2026/01/EdnovateBrio_Hill_011resized-434x289.jpg 434w" sizes="(max-width: 300px) 100vw, 300px"></figure>
+<div class="card-horizontal-content">
+  <p class="card-horizontal-meta">Case Study | <time datetime="2026-01-29">January 29, 2026</time></p>
+  <h3 class="card-title card-horizontal-title">
+    <a href="https://tntp.org/case-study/coherent-career-connected-learning-in-colorado/">Coherent Career-Connected Learning in Colorado</a>
+  </h3>
+      <p class="card-text card-horizontal-text">Two Colorado schools are piloting an AI career and college coach to help students explore career pathways and make informed choices about their future. </p>
+  </div>            </article>
+                  </div>
+          </div>
+  </div>
+</section>
+
+  
+      <section class="module text-image-module text-image-module-bg_green">
+  <div class="module-container">
+    <figure class="text-image-module-box">
+      <img width="900" height="600" src="/wp-content/uploads/2025/09/Adobe-Express-file-6.jpg" class="attachment-large size-large" alt="An adult smiles while leaning in to help a young child with a worksheet at a classroom desk." decoding="async" srcset="/wp-content/uploads/2025/09/Adobe-Express-file-6.jpg 900w, /wp-content/uploads/2025/09/Adobe-Express-file-6-300x200.jpg 300w, /wp-content/uploads/2025/09/Adobe-Express-file-6-768x512.jpg 768w, /wp-content/uploads/2025/09/Adobe-Express-file-6-434x289.jpg 434w" sizes="(max-width: 900px) 100vw, 900px" />
+              <figcaption>
+          <p>A teacher leads a one-on-one reading session focused on strategy and engagement.</p>
+        </figcaption>
+          </figure>
+    <div class="text-image-module-content">
+              <h2 class="text-image-module-title">About TNTP</h2>
+      
+      <div class="text-image-module-text"><p>TNTP is the nation’s leading research, policy, and consulting organization dedicated to transforming America’s public education system so that every young person thrives.</p>
+<p>Today, we work side-by-side with educators, system leaders, and communities across the nation to reach ambitious goals for student success.</p>
+<p>Yet the possibilities we imagine push far beyond the walls of school and the education field alone. We are catalyzing a movement across sectors to create multiple pathways for young people to achieve academic, economic, and social mobility.</p>
+</div>
+
+              <a href="https://tntp.org/about/"
+       class="btn-primary text-image-module-btn" >
+
+      Learn More About TNTP
+  
+  </a>
+          </div>
+  </div>
+</section>
+
+  </article>
+              </main>
+      </div>
+    </div>
+        <footer class="footer">
+  <div class="module-container">
+    <div class="footer-wrapper">
+      <div class="footer-info">
+                  <div class="footer-brand">
+            <a
+              href="https://tntp.org/"
+              aria-label="TNTP brand"
+            >
+              <img width="1309" height="435" src="/wp-content/uploads/2023/06/TNTP-logo_full-color-white.svg" class="attachment-large size-large" alt="TNTP logo_full color-white" decoding="async" />
+            </a>
+          </div>
+        
+        <div class="footer-links">
+          <ul class="social-links-list">
+          <li class="facebook">
+        <a
+          href="https://www.facebook.com/TNTP.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit us on Facebook"
+        >
+          <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.75 13C26.75 5.82029 20.9297 0 13.75 0C6.57029 0 0.75 5.82029 0.75 13C0.75 19.4886 5.50389 24.8668 11.7188 25.8421V16.7578H8.41797V13H11.7188V10.1359C11.7188 6.87781 13.6596 5.07813 16.629 5.07813C18.0509 5.07813 19.5391 5.33203 19.5391 5.33203V8.53125H17.8998C16.285 8.53125 15.7813 9.53342 15.7813 10.5625V13H19.3867L18.8104 16.7578H15.7813V25.8421C21.9961 24.8668 26.75 19.4886 26.75 13Z" fill="currentColor"/>
+</svg>
+        </a>
+      </li>
+          <li class="twitter">
+        <a
+          href="https://twitter.com/TNTP"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit us on Twitter"
+        >
+          <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="first" d="M25.9908 13.3742C25.9908 19.9417 21.124 25.3712 14.8016 26.2523C14.2105 26.3343 13.6056 26.3771 12.9917 26.3771C12.283 26.3771 11.5871 26.3206 10.9094 26.2113C4.72005 25.2145 -0.00738525 19.846 -0.00738525 13.3742C-0.00738525 6.19256 5.8131 0.370361 12.9926 0.370361C20.1721 0.370361 25.9926 6.19256 25.9926 13.3742H25.9908Z" fill="#1C1C1B"/>
+    <path class="second" d="M5.26477 6.1051L11.2601 14.1232L5.22742 20.6424H6.58553L11.8677 14.935L16.1351 20.6424H20.756L14.4236 12.1733L20.0391 6.1051H18.681L13.817 11.3615L9.88654 6.1051H5.26567H5.26477ZM7.2614 7.10554H9.38374L18.7576 19.642H16.6352L7.2614 7.10554Z" fill="white"/>
+</svg>
+        </a>
+      </li>
+          <li class="instagram">
+        <a
+          href="https://www.instagram.com/tntp"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit us on Instagram"
+        >
+          <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.9899 6.31231C9.30242 6.31231 6.31519 9.30098 6.31519 12.987C6.31519 16.6745 9.30242 19.6632 12.9899 19.6632C16.6745 19.6632 19.6646 16.6745 19.6646 12.987C19.6646 9.30098 16.6745 6.31231 12.9899 6.31231ZM12.9899 17.3242C10.5946 17.3242 8.65271 15.3823 8.65271 12.9885C8.65271 10.5932 10.5946 8.65271 12.9899 8.65271C15.3852 8.65271 17.3242 10.5932 17.3242 12.9885C17.3242 15.3823 15.3852 17.3242 12.9899 17.3242Z" fill="currentColor"/>
+<path d="M19.9303 7.62328C20.7898 7.62328 21.4867 6.92645 21.4867 6.06686C21.4867 5.20727 20.7898 4.51044 19.9303 4.51044C19.0707 4.51044 18.3738 5.20727 18.3738 6.06686C18.3738 6.92645 19.0707 7.62328 19.9303 7.62328Z" fill="currentColor"/>
+<path d="M25.3113 4.48445C24.6342 2.73889 23.2553 1.35862 21.5098 0.684363C20.5006 0.304642 19.4336 0.101066 18.3536 0.0779652C16.9632 0.0173255 16.5229 0 12.9971 0C9.47135 0 9.01944 -1.45222e-07 7.6406 0.0779652C6.56353 0.0996223 5.49656 0.303199 4.48734 0.684363C2.74034 1.35862 1.36151 2.73889 0.685806 4.48445C0.306086 5.49511 0.10251 6.56064 0.080853 7.6406C0.0187694 9.02954 0 9.4699 0 12.9971C0 16.5229 -1.07572e-08 16.9719 0.080853 18.3536C0.10251 19.4336 0.306086 20.4991 0.685806 21.5112C1.36295 23.2553 2.74178 24.6356 4.48878 25.3113C5.49367 25.704 6.56064 25.9264 7.64349 25.961C9.03387 26.0217 9.47423 26.0404 13 26.0404C16.5258 26.0404 16.9777 26.0404 18.3565 25.961C19.435 25.9394 20.502 25.7343 21.5127 25.3561C23.2582 24.6789 24.6371 23.3001 25.3142 21.5545C25.6939 20.5439 25.8975 19.4783 25.9191 18.3984C25.9812 17.0094 26 16.5691 26 13.0419C26 9.51466 26 9.06708 25.9191 7.68536C25.9004 6.59096 25.6982 5.50666 25.3113 4.48445ZM23.5528 18.2468C23.5426 19.0784 23.3925 19.9028 23.1037 20.6839C22.6634 21.8202 21.7668 22.7182 20.6319 23.1543C19.8595 23.4416 19.0452 23.5917 18.2208 23.6033C16.8492 23.6668 16.4622 23.6827 12.9451 23.6827C9.42515 23.6827 9.06564 23.6827 7.66804 23.6033C6.84651 23.5932 6.02932 23.4416 5.25833 23.1543C4.11917 22.7197 3.21679 21.8216 2.77643 20.6839C2.49345 19.9129 2.3404 19.0972 2.32741 18.2742C2.26533 16.9026 2.25089 16.5157 2.25089 12.9986C2.25089 9.48001 2.25089 9.1205 2.32741 7.72146C2.33752 6.88983 2.48767 6.06686 2.77643 5.28576C3.21679 4.1466 4.11917 3.25 5.25833 2.81397C6.02932 2.5281 6.84651 2.3765 7.66804 2.36495C9.04109 2.30287 9.42659 2.28554 12.9451 2.28554C16.4637 2.28554 16.8246 2.28554 18.2208 2.36495C19.0452 2.37506 19.8595 2.52665 20.6319 2.81397C21.7668 3.25144 22.6634 4.14949 23.1037 5.28576C23.3867 6.05675 23.5398 6.8725 23.5528 7.69547C23.6148 9.06853 23.6307 9.45402 23.6307 12.9726C23.6307 16.4897 23.6307 16.8679 23.5686 18.2482H23.5528V18.2468Z" fill="currentColor"/>
+</svg>
+        </a>
+      </li>
+          <li class="linkedin">
+        <a
+          href="https://www.linkedin.com/company/tntp"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit us on LinkedIn"
+        >
+          <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.3254 0H2.16953C1.1082 0 0.25 0.837891 0.25 1.87383V24.1211C0.25 25.157 1.1082 26 2.16953 26H24.3254C25.3867 26 26.25 25.157 26.25 24.1262V1.87383C26.25 0.837891 25.3867 0 24.3254 0ZM7.96367 22.1559H4.1043V9.74492H7.96367V22.1559ZM6.03398 8.05391C4.79492 8.05391 3.79453 7.05352 3.79453 5.81953C3.79453 4.58555 4.79492 3.58516 6.03398 3.58516C7.26797 3.58516 8.26836 4.58555 8.26836 5.81953C8.26836 7.04844 7.26797 8.05391 6.03398 8.05391ZM22.4059 22.1559H18.5516V16.123C18.5516 14.6859 18.5262 12.8324 16.5457 12.8324C14.5398 12.8324 14.2352 14.4016 14.2352 16.0215V22.1559H10.3859V9.74492H14.0828V11.441H14.1336C14.6465 10.466 15.9059 9.43516 17.7797 9.43516C21.6848 9.43516 22.4059 12.0047 22.4059 15.3461V22.1559V22.1559Z" fill="currentColor"/>
+</svg>
+        </a>
+      </li>
+          <li class="youtube">
+        <a
+          href="https://www.youtube.com/@tntp1876"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit us on YouTube"
+        >
+          <svg width="26" height="20" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.741 4.8002C25.741 4.8002 25.4871 3.00762 24.7051 2.22051C23.7148 1.18457 22.6078 1.17949 22.1 1.11855C18.4641 0.854492 13.0051 0.854492 13.0051 0.854492H12.9949C12.9949 0.854492 7.53594 0.854492 3.9 1.11855C3.39219 1.17949 2.28516 1.18457 1.29492 2.22051C0.512891 3.00762 0.264062 4.8002 0.264062 4.8002C0.264062 4.8002 0 6.90762 0 9.00996V10.9803C0 13.0826 0.258984 15.19 0.258984 15.19C0.258984 15.19 0.512891 16.9826 1.28984 17.7697C2.28008 18.8057 3.58008 18.7701 4.15898 18.8818C6.24102 19.0799 13 19.1408 13 19.1408C13 19.1408 18.4641 19.1307 22.1 18.8717C22.6078 18.8107 23.7148 18.8057 24.7051 17.7697C25.4871 16.9826 25.741 15.19 25.741 15.19C25.741 15.19 26 13.0877 26 10.9803V9.00996C26 6.90762 25.741 4.8002 25.741 4.8002ZM10.3137 13.3721V6.06465L17.3367 9.73105L10.3137 13.3721Z" fill="currentColor"/>
+</svg>
+        </a>
+      </li>
+      </ul>
+        </div>
+      </div>
+
+      <div class="footer-left">
+                  <div class="footer-search">
+            <form
+  role="search"
+  method="get"
+  class="search-form"
+  action="https://tntp.org/"
+  >
+    <span id="search-input-label" class="screen-reader-text">Search for:</span>
+  <input
+    aria-labelledby="search-input-label"
+    type="search"
+    class="search-field search-secondary"
+     placeholder="Search Site"     value=""
+    name="s"
+  />
+  <button
+    type="submit"
+    class="search-submit search-page-button"
+    aria-label="Search"
+  >
+          <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="10.2" cy="7.2" r="6.4" stroke="currentColor" stroke-width="1.6"/>
+<line x1="6.10426" y1="12.2327" x2="0.565798" y2="17.7711" stroke="currentColor" stroke-width="1.6"/>
+</svg>
+      </button>
+</form>
+
+          </div>
+                <div class="footer-navigation">
+                      <nav aria-label="footer left navigation" class="nav-left">
+              <ul id="menu-footer-left-navigation" class="footer-nav-left"><li id="menu-item-377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-377"><a href="https://tntp.org/about/">About Us</a></li>
+<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="https://tntp.org/what-we-do/">What We Do</a></li>
+<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://tntp.org/where-we-work/">Where We Work</a></li>
+<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="https://tntp.org/impact/">Our Impact</a></li>
+<li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="https://tntp.org/research-insights/">Research and Insights</a></li>
+<li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="https://tntp.org/tools/">Tools</a></li>
+</ul>
+            </nav>
+          
+                      <nav aria-label="footer right navigation" class="nav-right">
+              <ul id="menu-footer-right-navigation" class="footer-nav-right"><li id="menu-item-16027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16027"><a href="https://tntp.org/events/">Events</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="https://tntp.org/careers/">Careers</a></li>
+<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="https://tntp.org/media-news/">Media and News</a></li>
+<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="https://tntp.org/subscribe/">Subscribe</a></li>
+<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://tntp.org/contact-us/">Contact Us</a></li>
+<li id="menu-item-14240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14240"><a href="https://tntp.org/financials/">Financials</a></li>
+<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="https://tntp.org/donate/">Donate</a></li>
+</ul>
+            </nav>
+                  </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+          <nav aria-label="footer bottom navigation" class="nav-bottom">
+        <ul id="menu-footer-bottom-navigation" class="footer-nav-bottom"><li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-104"><a rel="privacy-policy" href="https://tntp.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-14635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14635"><a href="https://tntp.org/terms-of-use/">Terms of Use</a></li>
+</ul>
+      </nav>
+    
+    <p class="footer-bottom-copyright">
+      &copy; 2026 TNTP. All Rights Reserved.
+    </p>
+  </div>
+</footer>
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/tnp001/resources/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script>
+	var relevanssi_rt_regex = /(&|\?)_(rt|rt_nonce)=(\w+)/g
+	var newUrl = window.location.search.replace(relevanssi_rt_regex, '')
+	history.replaceState(null, null, window.location.pathname + newUrl + window.location.hash)
+</script>
+		<!-- Google Tag Manager (noscript) snippet added by Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58WVKLKK" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
+		<link rel="stylesheet" href="/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=3.2.1"><link rel="stylesheet" href="/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=3.2.1"><link rel="stylesheet" href="/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=3.2.1"><style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<script id="leadin-script-loader-js-js-extra">
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"11.3.75"};
+//# sourceURL=leadin-script-loader-js-js-extra
+</script>
+<script async defer src="https://js.hs-scripts.com/23763829.js?integration=WordPress&amp;ver=11.3.75"></script><script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script><script src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script><script src="/wp-content/plugins/tntp-data-dashboard-helper/public/js/tntp-data-dashboard-helper-public.js?ver=1.0.0"></script><script id="gforms_recaptcha_recaptcha-js-extra">
+var gforms_recaptcha_recaptcha_strings = {"nonce":"96bcd3b7b4","disconnect":"Disconnecting","change_connection_type":"Resetting","spinner":"https://tntp.org/wp-content/plugins/gravityforms/images/spinner.svg","connection_type":"classic","disable_badge":"1","change_connection_type_title":"Change Connection Type","change_connection_type_message":"Changing the connection type will delete your current settings.  Do you want to proceed?","disconnect_title":"Disconnect","disconnect_message":"Disconnecting from reCAPTCHA will delete your current settings.  Do you want to proceed?","site_key":"6LfM37AqAAAAACjBvzLFe-gJVsOSdjIO9cdCZx3u"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+</script>
+<script data-wp-strategy="defer" defer src="https://www.google.com/recaptcha/api.js?render=6LfM37AqAAAAACjBvzLFe-gJVsOSdjIO9cdCZx3u&amp;ver=2.2.2"></script><script data-wp-strategy="defer" defer src="/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=2.2.2"></script><script id="sage/main.js-js-extra">
+var tnp001_localize = {"ajax_url":"https://tntp.org/wp-admin/admin-ajax.php","nonce":"b03d84d89b","page_id":"15437"};
+//# sourceURL=sage%2Fmain.js-js-extra
+</script>
+<script src="/wp-content/themes/tnp001/dist/scripts/main.js"></script><script src="/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script><script src="/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script><script src="/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script><script>
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script><script src="/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script><script defer='defer' src="/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=3.2.1"></script><script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"wdOffset":0,"helpTextShort":"Press F1 for help","helpText":"Press the arrow keys to navigate by day, PageUp and PageDown to navigate by month, Alt+PageUp and Alt+PageDown to navigate by year, or Escape to cancel.","openOnFocusHelpText":"Press Down arrow to browse the calendar, or Escape to close.","tooltipTxt":"Press Escape to cancel","disabledTxt":"Disabled","markedTxt":"Selected","prevTxt":"Previous","nextTxt":"Next","monthTxt":"Month","yearTxt":"Year","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"days":[{"s":"S","l":"Sunday"},{"s":"M","l":"Monday"},{"s":"T","l":"Tuesday"},{"s":"W","l":"Wednesday"},{"s":"T","l":"Thursday"},{"s":"F","l":"Friday"},{"s":"S","l":"Saturday"}]}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://tntp.org/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://tntp.org/wp-content/plugins/gravityforms","number_formats":[],"version_hash":"692799772cddd2ce92fcf681023e05e8","countries":{"AF":"Afghanistan","AX":"\u00c5land Islands","AL":"Albania","DZ":"Algeria","AS":"American Samoa","AD":"Andorra","AO":"Angola","AI":"Anguilla","AQ":"Antarctica","AG":"Antigua and Barbuda","AR":"Argentina","AM":"Armenia","AW":"Aruba","AU":"Australia","AT":"Austria","AZ":"Azerbaijan","BS":"Bahamas","BH":"Bahrain","BD":"Bangladesh","BB":"Barbados","BY":"Belarus","BE":"Belgium","BZ":"Belize","BJ":"Benin","BM":"Bermuda","BT":"Bhutan","BO":"Bolivia","BQ":"Bonaire, Sint Eustatius and Saba","BA":"Bosnia and Herzegovina","BW":"Botswana","BV":"Bouvet Island","BR":"Brazil","IO":"British Indian Ocean Territory","BN":"Brunei Darussalam","BG":"Bulgaria","BF":"Burkina Faso","BI":"Burundi","CV":"Cabo Verde","KH":"Cambodia","CM":"Cameroon","CA":"Canada","KY":"Cayman Islands","CF":"Central African Republic","TD":"Chad","CL":"Chile","CN":"China","CX":"Christmas Island","CC":"Cocos Islands","CO":"Colombia","KM":"Comoros","CD":"Congo, Democratic Republic of the","CG":"Congo","CK":"Cook Islands","CR":"Costa Rica","CI":"C\u00f4te d'Ivoire","HR":"Croatia","CU":"Cuba","CW":"Cura\u00e7ao","CY":"Cyprus","CZ":"Czechia","DK":"Denmark","DJ":"Djibouti","DM":"Dominica","DO":"Dominican Republic","EC":"Ecuador","EG":"Egypt","SV":"El Salvador","GQ":"Equatorial Guinea","ER":"Eritrea","EE":"Estonia","SZ":"Eswatini","ET":"Ethiopia","FK":"Falkland Islands","FO":"Faroe Islands","FJ":"Fiji","FI":"Finland","FR":"France","GF":"French Guiana","PF":"French Polynesia","TF":"French Southern Territories","GA":"Gabon","GM":"Gambia","GE":"Georgia","DE":"Germany","GH":"Ghana","GI":"Gibraltar","GR":"Greece","GL":"Greenland","GD":"Grenada","GP":"Guadeloupe","GU":"Guam","GT":"Guatemala","GG":"Guernsey","GN":"Guinea","GW":"Guinea-Bissau","GY":"Guyana","HT":"Haiti","HM":"Heard Island and McDonald Islands","VA":"Holy See","HN":"Honduras","HK":"Hong Kong","HU":"Hungary","IS":"Iceland","IN":"India","ID":"Indonesia","IR":"Iran","IQ":"Iraq","IE":"Ireland","IM":"Isle of Man","IL":"Israel","IT":"Italy","JM":"Jamaica","JP":"Japan","JE":"Jersey","JO":"Jordan","KZ":"Kazakhstan","KE":"Kenya","KI":"Kiribati","KP":"Korea, Democratic People's Republic of","KR":"Korea, Republic of","KW":"Kuwait","KG":"Kyrgyzstan","LA":"Lao People's Democratic Republic","LV":"Latvia","LB":"Lebanon","LS":"Lesotho","LR":"Liberia","LY":"Libya","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MO":"Macao","MG":"Madagascar","MW":"Malawi","MY":"Malaysia","MV":"Maldives","ML":"Mali","MT":"Malta","MH":"Marshall Islands","MQ":"Martinique","MR":"Mauritania","MU":"Mauritius","YT":"Mayotte","MX":"Mexico","FM":"Micronesia","MD":"Moldova","MC":"Monaco","MN":"Mongolia","ME":"Montenegro","MS":"Montserrat","MA":"Morocco","MZ":"Mozambique","MM":"Myanmar","NA":"Namibia","NR":"Nauru","NP":"Nepal","NL":"Netherlands","NC":"New Caledonia","NZ":"New Zealand","NI":"Nicaragua","NE":"Niger","NG":"Nigeria","NU":"Niue","NF":"Norfolk Island","MK":"North Macedonia","MP":"Northern Mariana Islands","NO":"Norway","OM":"Oman","PK":"Pakistan","PW":"Palau","PS":"Palestine, State of","PA":"Panama","PG":"Papua New Guinea","PY":"Paraguay","PE":"Peru","PH":"Philippines","PN":"Pitcairn","PL":"Poland","PT":"Portugal","PR":"Puerto Rico","QA":"Qatar","RE":"R\u00e9union","RO":"Romania","RU":"Russian Federation","RW":"Rwanda","BL":"Saint Barth\u00e9lemy","SH":"Saint Helena, Ascension and Tristan da Cunha","KN":"Saint Kitts and Nevis","LC":"Saint Lucia","MF":"Saint Martin","PM":"Saint Pierre and Miquelon","VC":"Saint Vincent and the Grenadines","WS":"Samoa","SM":"San Marino","ST":"Sao Tome and Principe","SA":"Saudi Arabia","SN":"Senegal","RS":"Serbia","SC":"Seychelles","SL":"Sierra Leone","SG":"Singapore","SX":"Sint Maarten","SK":"Slovakia","SI":"Slovenia","SB":"Solomon Islands","SO":"Somalia","ZA":"South Africa","GS":"South Georgia and the South Sandwich Islands","SS":"South Sudan","ES":"Spain","LK":"Sri Lanka","SD":"Sudan","SR":"Suriname","SJ":"Svalbard and Jan Mayen","SE":"Sweden","CH":"Switzerland","SY":"Syria Arab Republic","TW":"Taiwan","TJ":"Tajikistan","TZ":"Tanzania, the United Republic of","TH":"Thailand","TL":"Timor-Leste","TG":"Togo","TK":"Tokelau","TO":"Tonga","TT":"Trinidad and Tobago","TN":"Tunisia","TR":"T\u00fcrkiye","TM":"Turkmenistan","TC":"Turks and Caicos Islands","TV":"Tuvalu","UG":"Uganda","UA":"Ukraine","AE":"United Arab Emirates","GB":"United Kingdom","US":"United States","UY":"Uruguay","UM":"US Minor Outlying Islands","UZ":"Uzbekistan","VU":"Vanuatu","VE":"Venezuela","VN":"Viet Nam","VG":"Virgin Islands, British","VI":"Virgin Islands, U.S.","WF":"Wallis and Futuna","EH":"Western Sahara","YE":"Yemen","ZM":"Zambia","ZW":"Zimbabwe"},"strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script defer='defer' src="/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=3.2.1"></script><script defer='defer' src="/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=d7e103405223e60d2719f4c330fd11cf"></script><script defer='defer' src="/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=ddae8d403393f0e5eaeedeb511ce46e0"></script><script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"692799772cddd2ce92fcf681023e05e8"},"ajax":{"ajaxurl":"https://tntp.org/wp-admin/admin-ajax.php","ajax_submission_nonce":"07f5dbd49a","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"fields":{"repeater":{"strings":{"item_added":"added.","item_removed":"removed.","renumbered":"and above renumbered.","max_items":"You have reached the maximum number of repeated items.","confirm_delete":"Are you sure you want to remove {label} {number}?"}}},"hmr_dev":"","public_path":"https://tntp.org/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"ba757cdc33"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script defer='defer' src="/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=f7ff0a7a4cbd950275384188b97da558"></script><script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 2) {} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "2", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_2" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_2";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_2" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 2, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+  </body>
+</html>

@@ -1,0 +1,2379 @@
+Stanford Center for Opportunity Policy in Education
+o
+Stanford  Center for 
+Opportunity Policy in Education
+sc e
+Focused on Learning: Student and Teacher  
+Time in a Singapore School
+Ee Ling Low, A. Lin Goodwin, Jon Snyder
+
+Stanford Center for Opportunity Policy in Education (SCOPE) fosters research, 
+policy, and practice to advance high-quality, equitable education systems in the 
+United States and internationally.
+Copyright © 2017 Stanford Center for Opportunity Policy in Education and 
+National Institute of Education, Singapore.
+Suggested Citation: Low, E.L., Goodwin, A.L., Snyder, J. (2017). Focused on 
+Learning: Student and Teacher Time in a Singapore School. Stanford, CA: Stanford 
+Center for Opportunity Policy in Education.
+Stanford Center for Opportunity Policy in Education
+http://edpolicy.stanford.edu
+@scope_stanford
+o
+Stanford  Center for 
+Opportunity Policy in Education
+sc e
+ Acknowledgements
+This study had many significant contributors: 
+• Singapore research team led by Professor Ee Ling Low (National 
+Institute of Education, Nanyang Technological University, Singapore) 
+and Professor A. Lin Goodwin (Teachers College, Columbia University) 
+supported by researchers Ms. Jane Lin (National Institute of Education, 
+Nanyang Technological University, Singapore), and Mr. Chenri Hui 
+(National Institute of Education, Nanyang Technological University, 
+Singapore)
+• Ms. Tan Hwee Pin, Mrs. Punitha Ramanan, Mdm. Rosmiliah 
+Kasmin, and Ms. Serene Lai Woon Mui of the Kranji Secondary 
+School in Singapore 
+• The teachers, and students at the Kranji Secondary School in 
+Singapore
+• SCOPE researchers Jon Snyder and Dion Burns
+• Editorial assistance by Louisa Potter, Thien Lam, and Sonya Keller; 
+layout by Lauren Koch
+Many thanks to the Ministry of Education, Singapore for their support of this 
+project.
+This study was prepared with support from the Ford Foundation and the National 
+Center on Education and the Economy. The research was conducted independently 
+by the Stanford Center for Opportunity Policy in Education and does not represent 
+the views of the sponsors.
+ 
+Contents
+Introduction....................................................................................................1
+Singapore’s Goals for Its Children..........................................................................3
+The Singapore Education System..........................................................................6
+Secondary Education...............................................................................................10
+ 
+Kranji Secondary School...........................................................................................................................14
+How Student Time Is Organized to Meet Goals..............................................15
+How Teacher Time is Organized to Meet Goals...............................................22
+Schedule—Overview...............................................................................................24
+Putting It All Together..............................................................................................38
+ 
+Enabling Conditions....................................................................................................................................43
+Standards .....................................................................................................................44
+Well Prepared Before They Begin.........................................................................44
+Ongoing Learning Opportunities........................................................................46
+Equity..............................................................................................................................51
+Educators are Respected and Rewarded...........................................................52
+ 
+A Final Word..................................................................................................................................................54
+ 
+References ....................................................................................................................................................55
+1
+Focused on Learning: Student and Teacher Time in a Singapore School
+ 
+Introduction
+ingapore is a densely packed nation with 5.5 million people in an area slightly 
+smaller than the size of New York City. Located at the southern end of the 
+Malaysian peninsula, Singapore is a hub for commerce and trade with a cos-
+mopolitan population where foreign residents constitute approximately 29% of 
+the population. English is the language of instruction in the schools; it is, however, 
+the home language for a minority of students, all of whom are expected to be fully 
+bilingual and many of whom speak more than two languages. With few natural 
+resources, its citizens are its most valuable resource. Thus, Singapore places strong 
+importance on education for every individual—for the economy and for the strength 
+and cohesion of the country. Today, about 75% of young people complete a post-
+secondary technical or college degree with a majority of the remainder pursuing 
+postsecondary options through the well-resourced Institutes of Technical Education. 
+Singapore has become an international leader in education as indicated by its stu-
+dents’ results on international assessments including the Trends in International 
+Mathematics and Science Study (TIMSS), the Program for International Student 
+Assessment (PISA), and the Progress in International Reading Literacy Study 
+(PIRLS). Educators from around the world study the island nation to discover the 
+“Singapore secret” and have begun to adopt its educational practices.
+A previous study (Goodwin, Low, & Darling-Hammond, 2017) identified five ele-
+ments essential to the development of Singapore’s quality teaching force that supports 
+a quality education system: (a) a clear vision and belief in the centrality of education; 
+(b) a systemic approach to innovation, reform, and change; (c) coherent investments 
+in a high-quality teaching force; (d) educative and developmental appraisal; and (e) a 
+learning system and a learning profession. These elements are highly interwoven and 
+all must work in tandem to bring about Singapore’s educational success.
+In this study, we examine how one school within the Singapore system organizes 
+and allocates student and teacher time within the school day, and how that alloca-
+tion and use of time contributes to the growth and development of students and 
+the growth and development of teaching capacity to support their students. Time is 
+both the most fixed and the most flexible of educational resources. Fixed because 
+there are 24 hours in a day and during that time one must assure food, shelter, rest, 
+human relationships, recreation—one must live. Flexible, however, because how one 
+uses those fixed 24 hours, and in this case how a school organizes the time within a 
+school day, is not static. There may be fixed working hours in a teacher’s school day, 
+but how that time is apportioned and to which tasks is not cast in stone. While time 
+is always a scarce resource in schools, what happens within the time available also 
+matters. 
+S
+2
+Stanford Center for Opportunity Policy in Education
+In Singapore, Jensen, Sonnemann, Roberts-Hull, and Hunter (2016) note:
+Professional learning is central to their (teachers’) jobs. It is not an 
+add-on. It is not something done on Friday afternoons or in a few 
+days at the end of the school year. Teacher professional learning is 
+how they improve student learning, it is how they improve schools, 
+and it is how they are evaluated in their jobs. (p. 3) 
+In addition, as Quintero (2016) notes, in Singapore:
+[They do not] assume that teacher effectiveness is static, portable, 
+individual and independent of the context. Conversely teacher effec-
+tiveness is believed to grow within the school organization; thus, a 
+primary goal is to build schools and school systems where this growth 
+is continuous, collaborative, and where it responds to the changing 
+and situated needs of students. (p. 3) 
+In this way, a school becomes more than the sum of its parts. It becomes an orga-
+nizational culture where multiple roles meld together to craft high-quality teaching 
+that supports the growth and development of each and every child in the school. 
+Darling-Hammond et al. (2017) note that teaching in Singapore “is viewed as a team 
+sport, not an individual act of courage. ” The use of time is essential to this end.
+Research from around the globe establishes the case that how time is organized 
+and used makes a difference in the learning opportunities of students. Jensen et 
+al. (2016) found that high-performing schools organize people’s time so they can 
+take advantage of each other’s knowledge and skills and create a set of common, 
+coherent practices. The economists Jackson and Brueggman (2009) quantified the 
+student learning gains generated by the collective expertise of teams of teachers. 
+They found that peer learning among small groups of teachers was the most pow-
+erful predictor of improved student achievement over time. Goddard, Goddard, 
+and Tschannen-Moran (2007) found that students achieved more in mathematics 
+and reading when they attended schools characterized by higher levels of teacher 
+collaboration for school improvement. Kraft and Papay (2014) found that teachers 
+become more effective over time when they work in collegial environments. Another 
+line of research supports the importance of teacher time and how it is used by 
+documenting that teacher professional development is more likely to be effective in 
+improving teaching practice and student learning when it is collegial, sustained, and 
+ongoing; is connected to the work of teachers in the classroom; and is coherently 
+related to broader school reform efforts (Darling-Hammond & Richardson, 2009; 
+Elmore & Burney, 1997). 
+Thus, this study focuses on how teachers and students spend their time in school. 
+The report describes how a school in Singapore merges growth and development 
+3
+Focused on Learning: Student and Teacher Time in a Singapore School
+goals for children with structures, processes, and norms that support adult capacity 
+to help students meet those goals. Based on the data from a secondary school 
+in Singapore (Kranji Secondary School), this report documents how the use of 
+teacher time in schools supports their learning and how that teacher learning in 
+turn influences student opportunities for growth and development. The main data 
+for this chapter come from interviews with faculty and administrators from Kranji 
+Secondary School (KSS), observations, and a review of documents.
+We open with a description of Singapore’s goals for children—goals, it should be 
+noted, that encompass a broad and fully human array of developmental domains, 
+and not solely traditional academics as measured with traditional exams. 
+Next we provide an overview of Singapore and the educational system there to pro-
+vide the context for the description of KSS that follows.
+Following a description of the school, we describe how the students’ time is orga-
+nized and allocated to create rich opportunities for student growth and development 
+towards the country’s goals for its children and the country.
+We follow with a description of how KSS organizes and distributes the teachers’ 
+time so that they are best able to assist their students’ growth and development as 
+well as to enhance their own learning. 
+The case concludes with an analysis of the “system” level factors that support the 
+practices seen in the school.
+Singapore’s Goals for Its Children 
+To help students thrive in a fast changing and highly connected world, the Singapore 
+education system aims to provide students with a well-rounded education framed 
+by the development of 21st Century Competencies (21CC). As shown in Figure 1, 
+values form the core of the 21CC framework, signifying that knowledge and skills 
+must be underpinned by values. Values not only “define a person’s character” but 
+also “shape the beliefs, attitudes, and actions of a person” (Ministry of Education 
+[MOE], n.d.-a). The middle ring represents social and emotional competencies. They 
+are the essential skills that enable children to “recognize and manage their emotions, 
+develop care and concern for others, make responsible decisions, establish positive 
+relationships, as well as handle challenging situations effectively” (MOE, n.d.-a). 
+The outer ring stands for the emerging 21st Century Competencies necessary for 
+the globalized world in which people live. Comprehensive elaborations of the three 
+levels of competencies can be found at the MOE website (https://www.moe.gov.sg/
+docs/default-source/document/education/21cc/files/annex-21cc-framework.pdf).
+4
+Stanford Center for Opportunity Policy in Education
+Source: MOE, n.d.-a
+Surrounding the outer (orange) circle are Singapore’s Desired Outcomes of 
+Education (DOE). The DOE are attributes that “educators aspire for every 
+Singaporean to have by the completion of… formal education” (MOE, n.d.-b). They 
+provide “a common purpose for educators, drive our policies and programmes, 
+and allow us to determine how well our education system is doing” (MOE, n.d.-b). 
+These outcomes include: 
+• A confident person who has a strong sense of right and wrong, is 
+adaptable and resilient, knows himself (sic), is discerning in judgment, 
+thinks independently and critically, and communicates effectively;
+• A self-directed learner who takes responsibility for his own learning, 
+who questions, reflects and perseveres in the pursuit of learning;
+• An active contributor who is able to work effectively in teams, exer-
+cises initiative, takes calculated risks, is innovative and strives for 
+excellence; and,
+FIGURE 1: FRAMEWORK FOR 21ST CENTURY COMPETENCIES  
+AND STUDENT OUTCOMES
+5
+Focused on Learning: Student and Teacher Time in a Singapore School
+• A concerned citizen who is rooted to Singapore, has a strong civic 
+consciousness, is informed, and takes an active role in bettering the 
+lives of others around him. (MOE, n.d.-b)
+The Ministry of Education has translated the Desired Outcomes of Education into 
+a set of developmental outcomes that educators aspire to develop in their students 
+at each span of a student’s progression through the education system—primary, 
+secondary, and postsecondary (Table 1). The development of each educational stage 
+builds on earlier ones and at the same time lays the foundation for subsequent ones 
+(MOE, n.d.-b). Each span has eight outcomes.
+Table 1: The Key Stage Outcomes of Education
+At the end of Primary school, 
+pupils should:
+At the end of Secondary school, 
+students should:
+At the end of Post-Secondary 
+education, students should:
+be able to distinguish right from 
+wrong
+have moral integrity have moral courage to stand up 
+for what is right
+know their strengths and areas 
+for growth
+believe in their abilities and be 
+able to adapt to change
+be resilient in the face of 
+adversity
+be able to cooperate, share and 
+care for others
+be able to work in teams and 
+show empathy for others
+be able to collaborate across 
+cultures and be socially 
+responsible
+have a lively curiosity about 
+things
+be creative and have an 
+inquiring mind
+be innovative and enterprising
+be able to think for and express 
+themselves confidently
+be able to appreciate diverse 
+views and communicate 
+effectively
+be able to think critically and 
+communicate persuasively
+take pride in their work take responsibility for their own 
+learning
+be purposeful in pursuit of 
+excellence
+have healthy habits and an 
+awareness of the arts
+enjoy physical activities and 
+appreciate the arts
+pursue a healthy lifestyle 
+and have an appreciation for 
+aesthetics
+know and love Singapore believe in Singapore and 
+understand what matters to 
+Singapore
+be proud to be Singaporeans 
+and understand Singapore in 
+relation to the world
+Note: See https://www.moe.gov.sg/education/education-system/desired-outcomes-of-education for further 
+information.
+6
+Stanford Center for Opportunity Policy in Education
+Clearly, education in Singapore embraces a holistic approach aimed at building 
+character and life skills that can help students lead successful lives not defined 
+merely by academic performance but equally by strong character and values. 
+Towards this end, the Ministry of Education has been working to reduce the influ-
+ence exerted by examinations on teaching and curriculum by adopting a wide range 
+of indicators of student achievement and learning outcomes beyond test scores. As 
+shall be described, these goals play out in how students spend their time in school 
+to develop critical thinking and problem solving abilities; collaborative learning, 
+leadership, and research skills; and engage in character and citizenship education. 
+Equally important, these goals play out in how teachers spend their time with stu-
+dents and with other educators in order to support their students’ attainment of 
+these goals.
+The Singapore Education System
+Public schools everywhere are embedded within larger systems. Thus, to understand 
+what occurs at the school level, one must also understand those larger systems. Due 
+in part to its small size, education administration in Singapore is centralized with the 
+Ministry of Education taking on what in other jurisdictions would be functions of a 
+state, a city, and/or a school district. The national Ministry of Education is respon-
+sible for educational services from preschool to university as well as structures for 
+continuing education and continued professional learning during employment. 
+There are five major educational phases in the system: preschool (4–6 years old), 
+primary (7–12 years old), secondary (13–16/17 years old), postsecondary (17–18/19 
+years old), university (19/20-23 years old for females and 21/22–25 for Singapore 
+male citizens and permanent residents due to the mandatory National Service), 
+and continuing education and training (CET) (MOE, n.d.-c). (For more detailed 
+information on the Singapore education landscape, visit https://www.moe.gov.sg/
+education/landscape/.) 
+Around 75% of schools in Singapore are government-operated. The next largest 
+category of schools—government-aided—is also regarded as public schooling, and 
+receives around 95% of its funding from government sources. This allows for a tight 
+alignment of policy between schools, the Ministry, and the National Institute of 
+Education (NIE), the country’s only teacher education facility for pre-service teachers. 
+It is perhaps more accurate, however, to define the Singapore system as “centralized 
+decentralization” (Chua, 2015). The system seeks a balance between flexibility in 
+decision-making in schools and the role of central governance in maintaining system 
+quality and coherence. For example, the vision of Thinking Schools (see below) 
+“require[s] that decisions be made at the lowest possible level” so that school-based 
+innovations can be introduced (MOE, 2010). The role of the Ministry of Education 
+is to provide needed support structures and resources (e.g., Heads of Departments 
+7
+Focused on Learning: Student and Teacher Time in a Singapore School
+to coordinate school programs) to support local decision-making (MOE, 2010). 
+Schools are given the autonomy to develop their own pedagogical approaches so 
+long as they are aligned with the tenets of Teach Less, Learn More (TLLM; see 
+below). In addition, the MOE reduced curriculum content to create white space for 
+teachers. Teachers can use the freed space and time to customize lessons, develop 
+instructional content and materials, and use a broader range of pedagogical and 
+assessment modes that are more finely tailored to the strengths, interests, and needs 
+of their students (MOE, 2005).
+While granting schools and teachers increased autonomy (decentralization), the 
+Singapore government uses centralization to maintain system coherence, quality, 
+and equity. The MOE sets all national education goals and curriculum guidelines 
+(National Center on Education and the Economy [NCEE], n.d.). It is also in charge 
+of hiring teachers prepared by NIE. The country’s 366 schools are organized into 
+30 clusters, each comprising  10–13 schools (MOE, 2015a). Each cluster is admin-
+istered by a cluster superintendent who is responsible for: facilitating networking, 
+sharing, and collaboration among the member schools within the cluster; developing 
+personnel in their clusters according to identified needs or personnel who demon-
+strate potential for career development; and ensuring effective and optimal use of 
+financial resources.
+The centralization of selected functions at MOE ensures that important educational 
+resources are equitably distributed across schools. MOE is responsible for setting 
+national policies that affect access to education and schools for all children (e.g., 
+curriculum, school admission criteria, funding rates, fees payable). Recruitment 
+of teachers, sponsorship for the common initial teacher training at NIE, and 
+deployment of teachers to schools are also examples of functions that Singapore 
+“centralized” for equity purposes.
+Innovation and Equity
+A key feature of educational governance in Singapore is a commitment to learning 
+for all students. This approach regards all students as diverse learners with potential 
+in different domains, with the role of government as one of equalizing educational 
+opportunities to allow students to reach that potential (Teh, 2014). The key moti-
+vation for MOE to diversify the education landscape is the belief that students 
+have diverse interest and talents, and therefore the potential to achieve in different 
+domains. Various new education pathways and curricular options were introduced 
+and refined over the past decade or so in order to allow children to discover their 
+interests and strengths in the different domains, and to develop and hone their tal-
+ents in particular areas.
+Simultaneously, Singapore’s vision is to prepare the country for increasingly rapid 
+changes in the global economy. As noted by then Prime Minister Goh Chok Tong, 
+8
+Stanford Center for Opportunity Policy in Education
+“It will be an intensely global future” in which “knowledge and innovation will be 
+absolutely critical” (Goh, 1997).
+The “Thinking Schools, Learning Nation” initiative launched in 1997 sought to 
+transform curricula, assessment, and teaching to develop a creative and critical 
+thinking culture within schools by explicitly teaching and assessing these skills with 
+students. It sought, as well, to create an inquiry culture among teachers—who are 
+supported to conduct research on their teaching and to continually revise their 
+teaching strategies in response to what they learn. As Prime Minister Goh Chok 
+Tong noted when announcing the initiative: 
+[This initiative] will redefine the role of teachers…. Every school must 
+be a model learning organization. Teachers and principals will con-
+stantly look out for new ideas and practices, and continuously refresh 
+their own knowledge. Teaching will itself be a learning profession, like 
+any other knowledge-based profession of the future. (Goh, 1997)
+The push to create thinking schools affected both curricula and assessment. The 
+number of examinations and assessments was reduced, with national examina-
+tions occurring at the end of Grade 6 (Primary School Leaving Examination), 
+Grade 10/11 (O-Levels), Grade 10 (N-Levels, for Normal Academic and Normal 
+Technical students only), and Grade 12 (A-Levels). The examinations were always 
+open-ended, but now include projects and investigations that are designed by the 
+Singapore Examinations and Assessment Board with the help of teachers and are 
+scored by teachers with a moderation process that supports consistency. 
+In 2005, “Teach Less, Learn More” was released by MOE. At the system level, 
+the policy further reduces the quantity of content in the curriculum and opens 
+up time for inquiry. There is an increased emphasis on problem-based learning 
+and project work in class. School-based assessments can incorporate multiple 
+indicators to assess student progress against the competencies. Students are also 
+encouraged to participate in self-assessment and to play a greater role in their 
+own learning.
+Supports for Teaching Quality
+Singapore focuses on recruitment, preparation, curriculum and assessment, pro-
+fessional support, and appraisal simultaneously as essential, complementary, and 
+mutually interdependent elements of a system, rather than as individual and isolated 
+mechanistic components. This supports the country’s ability to recruit, prepare, and 
+retain excellent teachers on a sustained and sustaining basis.
+Teachers in Singapore enjoy high respect from society. This is due not solely to 
+cultural context but also to policies that highlight the importance of education and 
+9
+Focused on Learning: Student and Teacher Time in a Singapore School
+promote the status of teaching as a career. For instance, teaching is well compen-
+sated and, not coincidentally, teachers are well prepared. Initial teacher education is 
+fully paid for, and teacher candidates receive a salary while in preparation programs. 
+Beginning teachers are paid a salary similar to beginning accountants and engineers. 
+Not surprisingly, teacher education is highly selective, with just one of three short-
+listed applicants1 finally accepted into the National Institute of Education (NIE), the 
+country’s provider of teacher education. 
+Around 85% of Singapore teachers hold undergraduate degrees and the system’s 
+long-term goal is to have an all-university graduate teaching force. Teacher educa-
+tion is underpinned by values, skills, and knowledge considered integral to teaching 
+and emphasizes a learner-centered approach to teaching with strong content spe-
+cialization as well as pedagogical training. Many teachers are now pursuing their 
+master’s degrees at NIE. The professional development of teachers in further educa-
+tion focuses on learning and mastery of skills, not the certification. 
+All teachers receive a yearlong formal induction program in their first position 
+that includes additional coursework and a beginning teachers’ symposium as well 
+as structured mentoring from a senior teacher who works in the school they join. 
+Mentoring continues after induction with 40% of all teachers engaged in some men-
+toring or coaching activity. All beginning teachers have a mentor for 2 years and 
+time is provided for mentors to meet with mentees. This is factored into the teachers’ 
+workload. In addition, teams of teachers often:
+• participate in small group lesson study and action research projects; 
+• engage in whole-school structured professional learning programs; 
+• develop curricular resources for their departments; and 
+• foster innovative teaching practices. 
+Each school has an on-site School Staff Developer (SSD) to support these teams. SSDs 
+are equivalent to Heads of Department (HODs); they have a reduced teaching workload 
+and are part of the school management team. The reduced workload gives them time to 
+work with the school leaders on matters related to professional development. Senior and 
+lead teachers learn to support other teachers through teacher-led professional learning at 
+the Academy of Singapore Teachers (AST), along with other subject-specific academies 
+and institutes (e.g., English Language Institute of Singapore, Malay Language Center of  
+Singapore), and NIE. These professional learning programs are typically facilitated by 
+master teachers and principal master teachers.
+1. Shortlisted applicants are all in the top one-third of each annual cohort entering Primary one (Grade one 
+equivalent). 
+10
+Stanford Center for Opportunity Policy in Education
+To be clear, teachers in Singapore, as elsewhere, work hard with long hours. The 
+issue is not that teachers in Singapore work fewer or more hours (Lee & Poon, 
+2014), but rather that those hours are used differently. Singaporean teachers teach 
+students directly for relatively fewer hours each week than those in other countries 
+(about 17, as compared to the OECD average of 19). As will be explained in the 
+case, this creates space and time for the ongoing site-based, curriculum-embedded, 
+continuous learning the teacher teams undertake. 
+Secondary Education
+The site of this study is a secondary school, so we focus next on the architecture of 
+secondary schools in Singapore. Singapore’s commitment to equity and meritocracy 
+(Chan & Tan, 2008; NCEE, n.d.) is reflected in the diverse pathways for secondary 
+education. Figure 2 below is a graphic representation of the diverse pathways of 
+learning available to students in Singapore. Depending on a student’s Primary 
+School Leaving Examination (PSLE) results, he/she will be placed in Express 
+(including the Integrated Program in some schools), Normal (Academic) [N(A)], or 
+Normal (Technical) [N(T)] courses (MOE, 2015b). Although students are divided 
+into different courses, the system provides ample flexibility for students to transfer 
+to, or take courses within, other pathways. 
+While students may initially be placed in a particular course, there are opportuni-
+ties for lateral transfers mid-stream. Students in the N(A) and N(T) courses may 
+also take more academically-challenging subjects at the upper secondary level if they 
+perform well in these specific subjects. This flexibility is also being prototyped at the 
+lower secondary level in 12 schools. (MOE, 2016)
+Express is a four-year course leading to the Singapore–Cambridge General 
+Certificate of Education (GCE) Ordinary Level (O-Level) examination. (Information 
+in this paragraph and the next are from MOE’s Education Statistics Digest 2016, 
+unless otherwise stated.) The subjects students take include English, Mother Tongue 
+Languages, Mathematics, the Sciences, and the Humanities. 
+Normal Academic (N[A]) is a four-year course leading to the Normal (Academic) 
+Level (N[A]-Level) examination. Students in this track study subjects similar to 
+those in the Express course (MOE, 2015d). Students who do well at the N(A)-Level 
+examination can study for another year to sit for the O-Level examination or may 
+choose to progress to the Higher National ITE Certificate (Higher Nitec) courses 
+at the Institute of Technical Education (ITE) or the Polytechnics directly via (1) 
+the one-year Polytechnic Foundation Programme or (2) the Direct-entry-scheme to 
+Polytechnic Programme. 
+11
+Focused on Learning: Student and Teacher Time in a Singapore School
+Normal Technical (N[T]) is a four-year course leading to the GCE N(T)-Level exam. 
+Subjects in the track include English, Mother Tongue Languages, Mathematics, 
+and subjects with technical or practical emphasis. The N(T) curriculum is regu-
+larly reviewed to strengthen experiential and practice-oriented learning.
+In addition to the mainstream pathways in Figure 2, Singapore offers a range 
+of other types of schools and programs to suit the unique needs of every child. 
+Specialized Schools cater to the group of students who have failed the Primary 
+School Leaving Examination (PSLE) at least once (2.4% in 2014 according to 
+FIGURE 2: DIVERSE PATHWAYS OF EDUCATION IN SINGAPORE
+ Source: MOE, 2015c
+
+12
+Stanford Center for Opportunity Policy in Education
+Education Statistics Digest 2015 [MOE, 2015d]) as well as students who pre -
+maturely leave secondary school. This group of students “will benefit from a 
+program that is more customized to their learning styles and that addresses 
+their socio-emotional needs” (MOE, 2008). Programs in these schools lead to a 
+combination of academic and vocational qualifications. For example, they have 
+the opportunities to progress to the Institute of Technical Education (ITE) and 
+Polytechnics.
+Specialized Independent Schools–including the National University of Singapore 
+High School of Mathematics and Sciences, the School of Science and Technology, 
+School of the Arts, and Singapore Sports School–develop students in areas such as 
+mathematics, the sciences, the arts, and sports at a higher level. 
+The Integrated Program (IP) is a six-year program for academically strong 
+students who respond to a more independent and less structured learning envi-
+ronment. Students in IP progress to pre-university education without taking the 
+O-Level exam.
+Secondary Education Curriculum
+The curriculum for Secondary (Express) 2 education is depicted in Figure 3 below 
+(MOE, n.d.-d). Life skills in the inner circle comprise the non-academic cur -
+riculum. They ensure that “students acquire sound values and skills to take them 
+through life as responsible adults and active citizens” (MOE, n.d.-d). Knowledge 
+and skills in the middle circle comprise skills-based subjects such as Design and 
+Technology. They seek to “develop students’ thinking, process and commu-
+nication skills” , and “enable students to analyze and use information and be 
+able to express their thoughts and ideas clearly and effectively” (MOE, n.d.-d). 
+The content-based subject disciplines (i.e. Languages, Humanities & the Arts, 
+Mathematics & Sciences) in the outermost circle ensure that “students have 
+a good grounding in content across different areas of study” (MOE, n.d.-d). 
+Apart from this general curriculum, there are specific curricula for the Express 
+Course, Normal Academic Course, and Normal Technical Courses. Detailed 
+information can be obtained from the following web-links (Express Course 
+Curriculum: https://www.moe.gov.sg/education/secondary/express-course-curric -
+ulum; Normal Course Curiculum: https://www.moe.gov.sg/education/secondary/
+normal-course-curriculum).
+2. For curriculum for other learning tracks in secondary education in Singapore, please refer to  
+https://www .moe.gov .sg/education/secondary
+13
+Focused on Learning: Student and Teacher Time in a Singapore School
+FIGURE 3: CURRICULUM FOR SECONDARY EDUCATION (EXPRESS) 
+LEGEND
+CCA Co-Curricular Activities3
+CCE Character and Citizenship Education
+NE National Education
+PAL Programme for Active Learning
+PE Physical Education
+PW Project Work4
+VIA Values in Action
+Source: MOE, n.d.-d
+3. In Singapore, CCAs are school-based and teachers are involved. CCAs are considered to be good platforms to 
+develop the 21st Century Competencies.  
+4. Project work is conducted in curriculum time. However, it is not an examination subject (MOE, n.d.-d).
+14
+Stanford Center for Opportunity Policy in Education
+ 
+Kranji Secondary School
+ranji Secondary School (KSS) has about 1200 students from secondary 1 to 
+secondary 4 and secondary 5. In the United States, this would be Grades 7–10. 
+Secondary 5 is a level unique to Normal (Academic) students as they take five 
+years instead of four years to prepare for the GCE O-Level examinations. Most of 
+the students are from middle-income families; small portions of the students require 
+some financial help. In line with the general population, the students come from 
+diverse family backgrounds and home languages. This is one of the major reasons 
+contributing to variation in students’ language abilities (Chua, 2015; Teh, 2014). KSS 
+is considered a “neighborhood school, ” broadly defined as one located within the 
+estates where government-subsidized housing is located. A vast majority of Singapore 
+residents live in such public, subsidized housing estates that are organized to be 
+racially and ethnically integrated. Well-resourced schools are attached to each estate; 
+the government schools are also substantially integrated. Private schools in Singapore 
+are largely international schools attended primarily by international students. 
+As of January 2016, KSS had a total of 82 teachers, with eight heads of depart-
+ment (HODs), six senior teachers, 53 experienced teachers, and 15 beginning 
+teachers. HODs oversee different subject teams, ranging from English, humani-
+ties, science, and math. There is also an HOD for Information and Communication 
+Technology (ICT), Character and Citizenship education (CCE), physical education, 
+and Co-curricular Activity (CCA) respectively. Generally, HODs are the curriculum 
+leaders who set the direction for the department and monitor the curriculum. In 
+addition to their teaching responsibilities, albeit fewer teaching hours as compared 
+to experienced teachers, they look into the development of curriculum content, 
+coach teachers, and monitor students’ academic performance. Senior teachers are 
+responsible for the school’s mentoring programs for beginning teachers as well as 
+the support of weaker teachers’ professional growth and development. Beginning 
+teachers have a different schedule and fewer periods, typically 80% of the workload 
+compared to that of an experienced teacher. They are responsible for either a com-
+mittee duty or a Co-curricular Activity in the first year. All other staff are assigned 
+both a CCA and a committee.
+The country’s goal—to provide students with a holistic education that prepares 
+them for life, focusing on both academic and non-academic aspects (MOE, n.d.-e)—
+permeates every aspect of the school’s activities. It is reflected in the broad range of 
+experiences and opportunities that the school offers to develop students’ skills and 
+values that they need in their lives. It is also reflected in how teacher professional 
+learning—and therefore use of time—is designed to be responsive to this vision. 
+According to the vice principal of KSS, Mrs. Punitha Ramanan, Singapore’s holistic 
+education initiative exerts great influence on schools and teachers:
+K
+15
+Focused on Learning: Student and Teacher Time in a Singapore School
+Definitely it has had a great impact on us. Now we are no longer just 
+teaching our core subjects through content delivery. We are supposed 
+to look into the students’ well-being, character guidance, (discipline), 
+and character education.
+As a government school, KSS follows the national curriculum and is committed to 
+students’ holistic development in five domains—cognitive, moral, physical, social, 
+and aesthetic. A glimpse at its philosophical stance reveals the foundation of the 
+school’s education activities:
+• Teaching with passion and conviction
+• Understanding that every child can learn
+• Developing each child holistically
+• Preparing students for future challenges
+In line with the MOE’s Desired Outcomes of Education, the shared vision of the 
+school is “Confident learners with the passion to excel; Active citizens with a 
+heart to serve. ” Kranji is a highly regarded school. In recent years it has received 
+numerous awards: Best Practice Award (Staff Well-Being), Best Practice Award 
+(Teaching and Learning), Lee Hsien Loong Award for Innovations in Normal 
+Course (for outstanding schools which provide all-round development for Normal 
+course students), and School Distinction Award (recognizes schools with well-
+integrated and sustainable school processes and practices that have provided useful 
+educational and developmental outcomes for their students). These awards also 
+reflect the school’s emphasis on the development of the whole child (both academic 
+and non-academic areas) and the MOE’s initiative to expand the goals of education 
+beyond achievement test scores.
+How Student Time Is Organized to Meet Goals
+At KSS, a typical school day for most students usually officially starts at about 7:30 
+a.m., though many arrive earlier (see Table 1 for students’ bi-weekly time table). 
+Those who arrive early usually sit by the parade square, an open space in the middle 
+of the school where everyone gathers for the morning assembly. Some students start 
+reading the newspapers that the school provides; others socialize, chitchatting with 
+their fellow students. Some may have their breakfast at the canteen located near the 
+parade square. The assembly starts at 7:30 a.m. (on Mondays the assembly begins 
+at 8:00 a.m.). The school wants students to start their day calm. Therefore, students 
+are asked to spend their first 15 minutes of the assembly time reading silently or 
+reflecting quietly.
+16
+Stanford Center for Opportunity Policy in Education
+The first class starts at 8:00 a.m. Lower secondary students have the same number 
+of subjects and their lessons end around 1:30 p.m. Upper secondary students vary in 
+the number of subjects—some take seven subjects, while others take eight. Students 
+in the latter group would end their classes at 3:30 p.m. every day except for Fridays. 
+Lessons for students taking seven subjects end between 1:30 and 2:00 p.m. Some 
+days, students may have extra coaching sessions. These sessions serve as remedia-
+tion for students who need assistance and as enrichment for other students. On a 
+day that has no Co-curricular Activities, the last lesson ends at 3:30 p.m. for upper 
+secondary students. They leave school at about 4:00 p.m. on the days that they have 
+Instructional Program (IP) coaching.  IP coaching is a structured internal coaching 
+program to help weaker students cope with the demands of the various subjects and 
+is a school-based program not mandated by MOE. After the “formal” curriculum 
+time, students typically have Co-curricular periods two to three days a week. Students 
+normally attend their CCAs twice a week. Some CCAs, however, such as band and 
+sports, may require students to attend three times a week. Students and teachers for 
+certain CCAs (e.g., band, choir) may remain on site until as late as 6:00 p.m.
+Tables 2a and 2b present the relative percentage of time taken by each activity in 
+a secondary 3 student’s timetable at KSS. 5 It provides another lens on how a stu-
+dent’s time is organized in support of the goals of the school. The school’s time 
+allocation for different subject areas and programs conveys a clear message of the 
+focus on students’ holistic development. Students are exposed to not only academic 
+subjects but also programs that nurture their life skills, values, and characters (e.g., 
+CCAs, CCE). 
+In a typical week, for instance, the most frequent “academic” subject for students 
+is mathematics (5 sessions/5 hours). Of note, however, is that the time allocated 
+for CCAs (focusing on the whole child) is comparable to the time spent on math-
+ematics. The subjects that take place 3 times a week (3 hours in total) include 
+Mother Tongue, English, Biology, Chemistry, and Physics. The other subjects such 
+as Geography, Social Studies, Physical Education, and Higher Chinese take place 
+once or twice a week. Some of the sessions in the timetable are not mandated 
+by MOE and are put in by the school on their own initiative. Morning assembly 
+(another “whole child” activity) takes place 4 times a week and constitutes 1.5 
+hours each week. There are altogether two sessions for CCE—one at the class 
+level and the other is school-level assembly (2 hours in total). For CCE, the 
+more common model in most schools is to have class-based CCE lessons instead 
+of assembly. There is one session for self-directed learning (0.5 hour), which is 
+another uncommon feature in other schools.
+Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 Morning 
+Assembly
+Morning 
+Assembly
+Morning 
+Assembly
+Morning 
+Assembly
+7.55 — 8.30 Morning 
+Assembly
+Biology Elementary(E)/ 
+Additional(A) 
+Mathematics
+Geography E/A 
+Mathematics
+8.30 — 9.00 Self-directed 
+Learning
+9.00 — 10.00 Mother 
+Tongue
+Physics Chemistry Mother 
+Tongue
+Physics
+10.00 — 11.05 E/A 
+Mathematics
+Physical Ed Social Studies E/A 
+Mathematics
+English
+11.05 — 11.35 Recess Recess Recess Recess Recess
+11.35 — 12.35 Biology E/A 
+Mathematics
+English English Assembly 
+(CCE)
+12.35 — 13.05 Geography CCE Mother 
+Tongue
+Biology
+13.05 — 13.35 Higher Chinese 
+(only for 
+students taking)13.35 — 14.05 Lunch Lunch Lunch
+14.05 — 14.35 Chemistry Chemistry Physics
+14.35 — 15.05
+15.05 — 15.35
+15.35 — 16.05 Co-curricular  
+Activities 
+(CCA)
+CCA CCA
+16.05 — 16.35
+16.35 — 17.05
+17.05 — 18.00
+5. It is important to note that the timetable is not representative of timetables in all secondary schools in Singa-
+pore. Schools are given some flexibility in terms of of scheduling within broad parameters and guidelines provided 
+by MOE to ensure the core curriculum is covered. 
+17
+Focused on Learning: Student and Teacher Time in a Singapore School
+Table 2a: Student time table 2015 Semester 1 at Kranji Secondary School—Even week
+Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 Morning 
+Assembly
+Morning 
+Assembly
+Morning 
+Assembly
+Morning 
+Assembly
+7.55 — 8.30 Morning 
+Assembly
+Biology Elementary(E)/ 
+Additional(A) 
+Mathematics
+Geography E/A 
+Mathematics
+8.30 — 9.00 Self-directed 
+Learning
+9.00 — 10.00 Mother 
+Tongue
+Physics Chemistry Mother 
+Tongue
+Physics
+10.00 — 11.05 E/A 
+Mathematics
+Physical Ed Social Studies E/A 
+Mathematics
+English
+11.05 — 11.35 Recess Recess Recess Recess Recess
+11.35 — 12.35 Biology E/A 
+Mathematics
+English English Assembly 
+(CCE)
+12.35 — 13.05 Geography CCE Mother 
+Tongue
+Biology
+13.05 — 13.35 Higher Chinese 
+(only for 
+students taking)13.35 — 14.05 Lunch Lunch Lunch
+14.05 — 14.35 Chemistry Chemistry Physics
+14.35 — 15.05
+15.05 — 15.35
+15.35 — 16.05 Co-curricular  
+Activities 
+(CCA)
+CCA CCA
+16.05 — 16.35
+16.35 — 17.05
+17.05 — 18.00
+Note:
+•  Co-curricular Activities take place 1–3 times a week depending on the CCA in which students are enrolled.
+•  Elementary Mathematics refers to the basics of upper-level mathematics such as algebra and geometry. 
+• Additional Mathematics is higher-level mathematics compared to Elementary Mathematics. Usually students have 
+to do well in Elementary Mathematics to be given an option to take Additional Mathematics. 
+• Mother Tongue Languages include Chinese, Malay, and Tamil. 
+• Self-directed Learning sessions are programs that teachers develop to nurture students’ independent and 
+collaborative learning capabilities. They usually make extensive use of ICT to engage students.
+18
+Stanford Center for Opportunity Policy in Education
+Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 Morning 
+Assembly
+Morning 
+Assembly
+Morning 
+Assembly 
+Morning 
+Assembly
+7.55 — 8.30 Morning 
+Assembly
+E/A 
+Mathematics
+Mother  
+Tongue
+E/A 
+Mathematics
+English
+8.30 — 9.00 Self-directed 
+Learning
+9.00 — 10.00 Physical Ed English English Physical Ed Chemistry
+10.00 — 11.05 Biology Chemistry Physics Biology E/A 
+Mathematics
+11.05 — 11.35 Recess Recess Recess Recess Recess
+11.35 — 12.35 Geography Biology Social Studies Mother Tongue Assembly (CCE)
+12.35 — 13.05 E/A 
+Mathematics
+CCE E/A 
+Mathematics
+Physics
+13.05 — 13.35 Higher Chinese 
+(only for 
+students taking)13.35 — 14.05
+14.05 — 14.35 Physics Social Studies Chemistry
+14.35 — 15.05
+15.05 — 15.35
+15.35 — 16.05 Co-curricular  
+Activities (CCA) 
+Co-curricular  
+Activities
+Co-curricular  
+Activities
+16.05 — 16.35
+16.35 — 17.05
+17.05 — 18.00
+(See previous page for notes.)
+Table 2b: Student time table 2015 Semester 1 at Kranji Secondary School—Odd week
+19
+Focused on Learning: Student and Teacher Time in a Singapore School
+Table 3. Number of sessions (odd & even week) and average time for different 
+school activities (per week)
+Programs/Subjects Number of Sessions 
+(odd & even week)
+Average Time per 
+Week (hours)
+E/A Mathematics 10 5
+Co-curricular Activities (amount of time  
+spent varies for different CCAs)
+4 5
+Mother tongue 5 2.5
+English 6 3
+Biology 6 3
+Chemistry 6 3
+Physics 6 3
+Morning Assembly 10 2.5
+Geography 3 1.5
+Physical Education 3 1.5
+Social Studies 3 1.5
+Higher Chinese (only for students taking) 2 1
+CCE 2 1
+Assembly (CCE) 2 1
+Self-directed Learning 2 0.5
+At KSS, Character and Citizenship Education (CCE) lessons are conducted twice 
+weekly, 1 hour each. The CCE teachers use resources and materials developed 
+by a team of teachers. Some are whole-school oriented (e.g., Friday assemblies), 
+others are customized by level. The lessons adopt the Know Good (judge what is 
+right), Love Good (care deeply about what is right), Do Good (do what is right) 
+Framework for the whole-school approach to character education (Kranji Secondary 
+School [KSS], n.d.-a). The school abides by the following four main tenets in char-
+acter and citizenship education (KSS, n.d.-a): 
+1. school as a caring and rewarding moral community; 
+2. teachers as role models and educators;
+3. character education as everyday lessons, in and out of the classrooms; and
+4. parents and community as partners in character education.
+20
+Stanford Center for Opportunity Policy in Education
+The lessons involve various learning experiences such as explicit teaching, students’ 
+active involvement in discussions and sharing, reflection, and life coaching. KSS 
+has also developed special programs to enhance students’ internalizing of values. 
+One such program is Values in Action (VIA), which involves service learning trips 
+such as visiting the elderly or volunteering at an overseas orphanage (Koh, 2013). 
+Another program is the Learning for Life Programme (LLP). In her 2016 message to 
+the school, Ms. Tan Hwee Pin, the principal, encouraged all KSS students to develop 
+their leadership qualities and become active citizens through the school’s LLP and 
+other CCE programs (Tan, n.d.): 
+As part of the school’s Learning for Life Programme (LLP) in Student 
+Leadership and to develop a leader in every Kranjian, all secondary 
+3 students will be given the opportunity to attend OBS (Outward 
+Bound Singapore). Secondary 2 students will attend an in-house camp. 
+In addition, Service Learning will feature strongly in the school’s 
+Character and Citizenship Education (CCE) curriculum. We are glad 
+that we identified a good number of partners for Service learning and 
+we see ourselves contributing more to the new Limbang community 
+(the neighborhood area) too. We believe this journey will develop a 
+leader in every Kranjian as envisioned in our LLP .
+Winston Churchill once said, “A pessimist sees the difficulty in every 
+opportunity; an optimist sees the opportunity in every difficulty. ” We 
+want all Kranjians to embrace this spirit, which will strengthen resil-
+ience and develop active and hardy citizens with a can-do attitude!
+In Singapore, assessment of CCE is part of the holistic assessment in schools. 
+The form teacher of each class is usually the closest to the students and the one 
+who knows them best. He/she gathers students’ information from other subject 
+teachers and then completes a holistic report card for each student after the end-
+of-year exam. The report card provides parents with a portrait of their child’s 
+holistic development throughout the year that is then discussed at the teacher-
+parent meeting. 
+As previously noted, Co-curricular Activities take up a significant portion of stu-
+dents’ time in Singapore’s schools—at KSS, as much or more than any other single 
+“academic” subject. This emphasis and use of time is understandable given the 
+important role of students’ holistic education in Singapore and KSS. 
+Through CCA, students discover their interests and talents while 
+developing values and competencies that will prepare them for a rap-
+idly changing world. CCA also promotes friendships among students 
+from diverse backgrounds as they learn, play, and grow together. 
+Participation in CCA fosters social integration and deepens students’ 
+21
+Focused on Learning: Student and Teacher Time in a Singapore School
+sense of belonging, commitment, and sense of responsibility to school, 
+community, and nation. (MOE, n.d.-f )
+In line with the national emphasis, every student in KSS must complete their sec-
+ondary school study with a CCA. The school provides a range of options from 
+which students choose including (a) clubs and societies, (b) physical sports, (c) 
+uniformed groups, and (d) visual and performing arts groups. KSS believes that 
+CCAs help build students’ character and mold them into leaders (KSS, n.d.-b). The 
+example below of the National Cadet Corps (NCC) at KSS demonstrates how CCAs 
+achieve their goals of character and leadership development through various local 
+and overseas activities:
+NCC aims to instill an adventurous spirit in all cadets. It organizes a 
+wide range of activities for them such as Camp FORGE (secondary 
+1), Camp STEEL (secondary 2), Specialist and Senior Specialist 
+Courses (secondary 3), water-based activities, trekking, orienteering, 
+archery, amazing race, rock climbing, and high rope elements. There 
+are also overseas training opportunities for selected NCC cadets, such 
+as Outward Bound Brunei, Outward Bound Sabah, expeditions to 
+Mount Ophir, Desert Trekking in India and even visiting large-scale 
+SAF (Singapore Armed Forces) overseas exercises such as Exercise 
+Wallaby in Australia. (KSS, n.d.-c)
+Students echo the value of CCAs: 
+Being in NCC has made me more independent in everything I do. 
+It has also enabled me to forge strong bonds with my fellow cadets 
+through the training, activities, and camps that we took part in. I 
+used to be a shy person but since joining NCC, I have become more 
+confident and started to open up to others. I have also become more 
+sensitive to my surroundings and learnt to be more responsible. In 
+NCC, it is never a one-man show. I learnt to communicate and work 
+well with my team members to achieve greater heights. I am glad I 
+made the right decision to join NCC, as the moments that I spent with 
+my peers in NCC are the ones I cherish the most. 
+—Student 1 (KSS, 2015, p. 77)
+I joined this CCA with absolutely no foundation in basketball but 
+over the 3 years in Kranji Basketball Team, I’ve learnt to love and 
+appreciate the sport. Training is rigorous and physically demanding, 
+but it has built resilience in me. I have become mentally stronger as 
+I’ve learnt to push on and not give up during training despite phys-
+ical fatigue. Joining Kranji Basketball has also allowed me to meet 
+my wonderful teammates whom I’m really thankful for. The bond 
+22
+Stanford Center for Opportunity Policy in Education
+between us gets stronger as we motivate each other along our bas-
+ketball journey. The laughter, tears, and memories that we share will 
+never be forgotten. Basketball has helped me to grow as a person and 
+taught me true meaning of teamwork, camaraderie, and perseverance. 
+—Student 2 (KSS, 2015, p. 74)
+At the end of the graduating year, students’ CCA attainment is assessed as Excellent/ 
+Good/Fair. High assessments in CCA provide bonus points that can be used for 
+admission to higher-level schools. 
+The holistic education initiative has also greatly changed what happens in “regular 
+academic” classrooms. Teachers integrate 21st Century Competencies (21CC) into 
+daily teaching. Mdm Rosmiliah Bte Kasmin6 illustrated the changes this has brought 
+about in her classroom:
+We have to infuse 21CC. For example, in geography, when I teach 
+them about disasters, we cannot just tell students things like the 
+disasters are here or there, or the plate boundaries are here. Now 
+we will put in elements such as empathy and compassion, telling 
+them how these people are suffering, what it makes you think and 
+feel. So the human side of the whole event comes into place. Even 
+recent events such as the Air Asia event, the class got into a discus-
+sion on how you think the family and people would feel. So now 
+the context in the classroom is that you are not just delivering the 
+lesson, the teacher has to be very much aware of what’s happening 
+around you…. It’s the teachers’ job to make them aware of what’s 
+happening around them. And I think that’s the importance of 
+holistic education.
+How Teacher Time is Organized to Meet Goals
+Professional learning is effective only when it becomes a normal part 
+of daily work life in schools…. Separating professional learning from 
+daily teaching routines is counterproductive, and limits the benefits for 
+teachers and students alike. (Quintero, 2016) 
+In order to understand how teachers’ time is organized at KSS, it is necessary to 
+understand the career pathways/ladder in Singapore. There are three established 
+career tracks to accommodate the different aspirations and talents of teachers: 
+6. When this project commenced in 2014, Mdm Rosmiliah Bte Kasmin was a senior teacher. She was covering 
+Lead Teacher in 2015 and confirmed Lead Teacher in December 2015.
+23
+Focused on Learning: Student and Teacher Time in a Singapore School
+(a) the teaching track for teachers who are keen to further develop their peda-
+gogical capability and pursue a career in classroom teaching through progression 
+to Senior Teacher, Lead Teacher, Master Teacher, or Principal Master Teacher; 
+(b) the leadership track for teachers who aspire to management and formal 
+leadership positions in schools or the MOE; and (c) the specialist track for 
+teachers who are inclined towards developing deep knowledge and skills in their 
+subject area for breaking new ground in educational developments (MOE, n.d.-
+g). In addition, there is flexibility for teachers to move laterally across different 
+career tracks (see https://www.moe.gov.sg/careers/teach/career-information for 
+more detailed information).
+The time arrangement for teachers in the teaching track, who remain in the 
+classroom, is the focus of our study. A Singapore school may have four types 
+of teachers. First, there are beginning teachers who have graduated from pre-
+service preparation in NIE and are in their first or second year of teaching 
+(15 at KSS during the year of this study). The second type is experienced 
+teachers who form the majority of the teaching force in a school. Third is 
+senior teachers who are “good, experienced teachers serving as mentors and 
+role models to younger teachers within their schools, sharing with them their 
+teaching expertise and content knowledge” (MOE, 2001). The fourth type 
+is Lead Teachers who “lead senior teachers and partner school leaders to 
+build professional capacity within the school in the areas of subject content, 
+pedagogy, and assessment” (MOE, 2009). In addition, “They play a key role 
+in developing their schools into vibrant Professional Learning Communities, 
+and grow the teaching profession by sharing their subject expertise with other 
+teachers within the cluster” (MOE, 2009). Beyond the school level, there 
+are Master Teachers who operate at the cluster level. They are “experienced, 
+expert teachers whose role will be to help develop teaching excellence through 
+mentoring and demonstrating good teaching practice and model lessons”  
+(MOE, 2001). Principal Master Teachers are chief pedagogical experts for their 
+subjects at the national level. They lead across the education system. 
+A teacher’s work in Singapore is comprised of a multitude of activities and 
+responsibilities. This section examines teachers’ working hours overall as well 
+as the time they report spending on various tasks during a typical day and a 
+typical week. These descriptions are from Kranji and are meant to provide a 
+general picture of the use of teacher time in Singapore. In Singapore, teachers’  
+working hours vary from school to school as the Ministry of Education does 
+not prescribe a fixed schedule. The general distribution of teachers’ time, how -
+ever, is fairly similar.
+24
+Stanford Center for Opportunity Policy in Education
+Key to all three tables
+Direct contact with students or completion of administrative work 
+(does not include lesson planning and assessment)
+Professional learning (e.g., mentoring, professional development, PLC)
+Planning and assessing students’ work
+After school hours for school-related work (e.g. preparing resources, 
+marking)
+Staff & Department Time (usually for the dissemination of information)
+Morning Assembly
+Department Meeting (Reflection cum Planning Time)
+Co-curricular Activities
+Beginning Teacher Mentoring Session (on an ad hoc basis)
+Professional Learning Communities 
+Learn & Grow (fortnightly)
+Structured Mentoring Program
+Note: Although there is no time-tabled activity after the official school hours (indicated in white), 
+teachers do stay back to do school-related work during those hours, until about 4:30 pm. Some 
+teachers who do not stay back are free to use this time to prepare teaching resources, mark, or 
+do their work at home.
+Schedule—Overview
+Table 4 shows a typical bi-weekly schedule for a beginning teacher. Table 5 shows 
+a typical bi-weekly schedule for an experienced teacher. Table 6 shows a typical 
+bi-weekly schedule for a senior teacher.
+SDT 
+MA  
+RCP  
+CCA  
+BTM  
+PLC  
+L&G  
+SMP  
+25
+Focused on Learning: Student and Teacher Time in a Singapore School
+Table 4: Beginning teacher timetable 2014 Semester 2 at Kranji Secondary School
+Even Week Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 SDT MA MA MA MA
+7.55 — 8.30 MA Teaching Sec 1 Teaching Sec 1
+8.30 — 9.00 RCP (8:15–8:50)
+9.00 — 9:30 Teaching Sec 1 Teaching Sec 1
+9.00 — 10.00
+10.00 — 10.35
+10.35 — 11.05 Teaching Sec 1 Teaching Sec 1 Teaching Sec 1
+11.05 — 11.35
+11.35 — 12.05 Teaching Sec 1 Assembly CCE
+12:05 — 12.35
+12.35 — 13.05 Teaching Sec 1 Teaching Sec 1
+13.05 — 13.35
+13.35 — 14.05
+14.05 — 14.35
+14.35 — 15.05
+15.05 — 15.35 CCA
+15.35 — 16.05
+16.05 — 16.35
+16.35 — 17.05
+Odd Week Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 SDT MA MA MA MA
+7.55 — 8.30 MA Teaching Sec 1 Teaching Sec 1 Teaching Sec 1
+8.30 — 9.00 RCP (8:15–8:50)
+9.00 — 9:30 Teaching Sec 1 Teaching Sec 1
+9.00 — 10.00
+10.00 — 10.35
+10.35 — 11.05 Teaching Sec 1 Teaching Sec 1 Teaching Sec 1 Teaching Sec 1
+11.05 — 11.35
+11.35 — 12.05 Assembly CCE
+12:05 — 12.35
+12.35 — 13.05 Teaching Sec 1
+13.05 — 13.35
+13.35 — 14.05
+14.05 — 14.35 SMP
+14.35 — 15.05
+15.05 — 15.35 CCA L&G
+15.35 — 16.05
+16.05 — 16.35
+16.35 — 17.05
+26
+Stanford Center for Opportunity Policy in Education
+Table 5: Experienced teacher time table 2014 Semester 2 at Kranji Secondary School
+Even Week Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 SDT MA MA MA MA
+7.55 — 8.30 MA
+8.30 — 9.00 RCP (8:15–8:50)
+9.00 — 9:30 Teaching Sec 4 Teaching Sec 3 Teaching Sec 4 Teaching Sec 2 Teaching Sec 3
+9.00 — 10.00
+10.00 — 10.35 Teaching Sec 4
+10.35 — 11.05
+11.05 — 11.35
+11.35 — 12.05 Teaching Sec 5 Teaching Sec 2 Assembly CCE
+12:05 — 12.35
+12.35 — 13.05 Teaching Sec 3 Teaching Sec 3 Teaching Sec 2 Teaching Sec2
+13.05 — 13.35
+13.35 — 14.05
+14.05 — 14.35 Teaching Sec 5 Teaching Sec 3
+14.35 — 15.05
+15.05 — 15.35 CCA
+15.35 — 16.05
+16.05 — 16.35
+16.35 — 17.05
+Odd Week Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 SDT MA MA MA MA
+7.55 — 8.30 MA Teaching Sec 4
+8.30 — 9.00 RCP (8:15–8:50)
+9.00 — 9:30 Teaching Sec 4 Teaching Sec 2
+9.00 — 10.00
+10.00 — 10.35 Teaching Sec 5 Teaching Sec 3 Teaching Sec 4 Teaching Sec 4
+10.35 — 11.05
+11.05 — 11.35
+11.35 — 12.05 Teaching Sec 4 Teaching Sec 2 Assembly CCE
+12:05 — 12.35
+12.35 — 13.05 Teaching Sec 2 Teaching Sec 3 Teaching Sec 3
+13.05 — 13.35
+13.35 — 14.05
+14.05 — 14.35 Teaching Sec 3 Teaching Sec 2
+14.35 — 15.05
+15.05 — 15.35 CCA L&G
+15.35 — 16.05
+16.05 — 16.35
+16.35 — 17.05
+27
+Focused on Learning: Student and Teacher Time in a Singapore School
+Even Week Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 SDT MA MA MA MA
+7.55 — 8.30 MA
+8.30 — 9.00 RCP (8:15–8:50)
+9.00 — 9:30 Teaching Sec 4 Teaching Sec 3 Teaching Sec 4 Teaching Sec 2 Teaching Sec 3
+9.00 — 10.00
+10.00 — 10.35 Teaching Sec 4
+10.35 — 11.05
+11.05 — 11.35
+11.35 — 12.05 Teaching Sec 5 Teaching Sec 2 Assembly CCE
+12:05 — 12.35
+12.35 — 13.05 Teaching Sec 3 Teaching Sec 3 Teaching Sec 2 Teaching Sec2
+13.05 — 13.35
+13.35 — 14.05
+14.05 — 14.35 Teaching Sec 5 Teaching Sec 3
+14.35 — 15.05
+15.05 — 15.35 CCA
+15.35 — 16.05
+16.05 — 16.35
+16.35 — 17.05
+Even Week Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 SDT MA MA MA MA
+7.55 — 8.30 MA Teaching Sec 3 Teaching Sec 3
+8.30 — 9.00 RCP (8:15–8:50)
+9.00 — 9:30 Teaching Sec 4
+9.00 — 10.00
+10.00 — 10.35 Teaching Sec 3 Teaching Sec 3 Teaching Sec 4
+10.35 — 11.05
+11.05 — 11.35
+11.35 — 12.05 Teaching Sec 4 Teaching Sec 4 Assembly CCE
+12:05 — 12.35
+12.35 — 13.05 Teaching Sec 3 PLC
+13.05 — 13.35
+13.35 — 14.05
+14.05 — 14.35 Teaching Sec 3 Teaching Sec 4 Teaching Sec 4
+14.35 — 15.05
+15.05 — 15.35 CCA
+15.35 — 16.05
+16.05 — 16.35
+16.35 — 17.05
+Odd Week Monday Tuesday Wednesday Thursday Friday
+7.35 — 7.55 SDT MA MA MA MA
+7.55 — 8.30 MA Teaching Sec 4 Teaching Sec 4 Teaching Sec 4
+8.30 — 9.00 RCP (8:15–8:50)
+9.00 — 9:30 Teaching Sec 4
+9.00 — 10.00
+10.00 — 10.35 Teaching Sec 3 Teaching Sec 4
+10.35 — 11.05
+11.05 — 11.35
+11.35 — 12.05 Teaching Sec 4 Assembly CCE
+12:05 — 12.35
+12.35 — 13.05 Teaching Sec 3 Teaching Sec 3 Teaching Sec 3 Teaching Sec 3 PLC
+13.05 — 13.35
+13.35 — 14.05
+14.05 — 14.35 SMP Teaching Sec 4
+14.35 — 15.05
+15.05 — 15.35 CCA L&G
+15.35 — 16.05
+16.05 — 16.35
+16.35 — 17.05
+Table 6. Senior teacher time table 2014 Semester 2 at Kranji Secondary School
+28
+Stanford Center for Opportunity Policy in Education
+The same information is presented below comparing the use of teacher time by 
+different task categories. 
+Table 7: Average time use for different types of teachers at KSS in a week
+ 
+Note: All teachers work the same number of contracted hours. In the week presented above, as a sample 
+week, senior teachers’ time does not equal beginning or experienced teacher time because of flexible 
+time to be used at the discretion of the senior teacher.
+These tables show that teachers’ weekly work can generally be divided into four 
+categories: (a) classroom teaching, (b) other direct contact with students such as 
+CCAs and morning assembly, (c) professional learning, such as mentoring, and (d) 
+planning, and assessing students’ work. There are two major differences between 
+the three schedules. One is the amount of time working directly with students. 
+Beginning teachers have the smallest classroom teaching load (10.0 hours/week); 
+experienced teachers have a classroom teaching load of 14 hours/week, and senior 
+teachers about 12.0 hours/week. Beginning teachers have a smaller classroom 
+teaching load because they are in their induction period and are in the process of 
+gaining professional expertise. Senior teachers have a smaller classroom teaching 
+load than experienced teachers to create time for their roles in organizing and 
+facilitating professional learning/mentoring programs in the school. The second dif-
+ference, difficult to see in the chart, is that the three categories of teachers often have 
+different roles within the same activity. For example, in Learn and Grow (a profes-
+sional learning program described below), a senior teacher would be the organizer 
+and facilitator, while experienced and beginning teachers are participants. 
+Compared to many other countries, teachers in Singapore have more “professional” 
+time and less “direct contact with students” time. It is, of course, difficult to create 
+“professional time” while simultaneously providing a full and complete educa-
+tional experience for the students. In addition to the career ladder and differentiated 
+Activity BT (hours) ET (hours) ST (hours)
+Morning Assembly 2.5 2.5 2.5
+Assembly (CCE) 1.0 1.0 1.0
+Staff & Development Time 0.5 0.5 0.5
+Reflection cum Curriculum Planning 0.5 0.5 0.5
+Co-curricular Activities 2.0 2.0 2.0
+Learn & Grow 1.0 1.0 1.0
+Classroom Teaching 10.0 14.0 12.0
+Planning and Assessing Students’ Work
+(including white spaces till 4:35pm)
+26.75 24.25 24.75
+Structured Mentoring Programme 0.5 N.A. 0.5
+29
+Focused on Learning: Student and Teacher Time in a Singapore School
+teacher scheduling noted above, KSS deals with this in several ways. While ensuring 
+the meaningful delivery of the national curriculum, one of its strategies is to create 
+time for teacher professional learning after instructional time. As Vice Principal 
+Mrs. Ramanan notes:
+Some of these (professional learning) timeslots are after school. For 
+instance, the Learn and Grow session is on Thursday afternoons. We 
+ensure that lessons on Thursdays end by 2 o’clock, so that students 
+are free to go home. Therefore, the teachers can spend this time to 
+grow together.
+Another strategy that KSS uses is creating white spaces. To create time for Reflection 
+cum Curriculum Planning (RCP), school starts later on Monday mornings. After 
+morning assembly, students spend their time on Self-directed Learning (SDL) that 
+aims to provide opportunities for students to be independent learners, while the 
+teachers participate in RCP . During this period, the whole school is silent while 
+students are engaged in their SDL activity and teachers in RCP . For instance, at the 
+time of this study, the SDL activity consisted of students independently completing 
+worksheets in English. The activity was not “busy work” as it was a conscious 
+decision on the part of the school based on the English language proficiency of the 
+students in the school, particularly those who come from non-English speaking 
+homes. In addition, students receive feedback from teachers on the worksheets that 
+are geared to multiple levels of language proficiency.
+The school schedule and the differentiated use of teacher expertise create oppor-
+tunities for particular kinds of teacher interactions with students and with other 
+teachers.
+Interactions with students
+At KSS, teachers interact with students not only during regular classes, but also in 
+other formats. In fact, KSS provides the time, structure, and processes for teachers 
+to interact with students beyond classroom teaching. Co-curricular Activities are 
+clearly considered an integral component of Singapore’s and KSS’s vision of holistic 
+education. In KSS, all teachers are assigned a CCA, with three to six teachers over-
+seeing any particular CCA. In different CCAs, teachers’ roles vary. In CCAs like the 
+environment club, for instance, teachers run the whole program from planning to 
+implementation. In other CCAs, such as the school band or tennis, the school hires 
+coaches and instructors to run the program. In these CCAs, teachers spend their 
+time as mentors and plan the program together with coaches and instructors.
+One senior teacher, Rosmiliah, is in charge of the environment club, a CCA where 
+teachers are fully in charge. She describes how CCAs integrate the development of 
+leadership qualities and service learning as well as her role as a facilitator: 
+30
+Stanford Center for Opportunity Policy in Education
+My club is a society. We are doing environmental studies, projects, 
+and service learning. So the teachers will sit down with the students 
+and plan for the entire project with them. For example, a project that 
+we are currently doing is celebrating Chinese New Year with elderlies 
+(Jan, 2015). It’s not easy to get students to think about projects just 
+like that. You have to probe a bit more, and ask them what is good to 
+do during this period of time. The students said to spread some festive 
+joy. So we decided to create some hampers and get the entire school 
+on board together. So what we are aiming for is to collect about 150 
+hampers by next month and deliver them to the elderlies’ rented flat 
+that we adopted. So that’s the kind of things that we see now. I have 
+to handhold them in terms of doing the proposal, coming out with a 
+plan of what exactly they need to do…. It’s a lot of behind the scene 
+to get them to think what they want to do, and give them the oppor-
+tunity to lead. I think that’s the whole idea of holistic education, not 
+just coming to school to get an O-Level cert, or an N-Level cert. 
+While the actual activity involved giving a material gift such as a hamper, the stu-
+dents put a lot of heart and thought in planning the activity. More importantly, their 
+action tapped into their spirit of compassion developing both their hearts and their 
+minds. Their interactions with the senior citizens during the presentation of the 
+hampers also helped the students empathically appreciate the lived experience of the 
+older neighbors in their community.
+Another format for enriching teacher–student interactions and part of the whole-
+school approach to character and citizenship education is the In-conversation with 
+Class Mentors (ICM) program. ICM is a time during morning assembly when the 
+class mentor holds a one-to-one talk (10–15 minutes) with a student in a casual 
+place such as the canteen. The student is chosen either when the teacher deems it 
+necessary to talk to him or her or randomly by their class index number. The topic 
+is not fixed. It could be the student’s academics, leadership, or personal matters. The 
+main purpose is to come to know students better and thus become better able to 
+support them across all domains of human growth and development. Teachers meet 
+with every child in their classes in this format. 
+Interaction with parents
+Parents are obviously key stakeholders in a child’s education. They also are the 
+fundamental influence on a child’s attitudes, beliefs, values, and behavior (MOE, 
+n.d.-h). Singapore acts on the belief that educating a child is a shared journey of 
+parents and educators working in active partnership for the benefit of the child 
+(Heng, 2014). To help schools in parent and community engagement efforts, MOE 
+set up the Partnerships in Education Office in 2011. At present, more than 95% 
+31
+Focused on Learning: Student and Teacher Time in a Singapore School
+of Singapore schools have a formal Parent Support Group or Parent-Teacher 
+Association. In addition, the MOE has also set up the PARTNERS Award to 
+recognize schools’ efforts in developing strong collaborations with parents and com-
+munity to support and enhance students’ learning experiences. 
+The MOE promotes a clear philosophy on the relationships between home, 
+school, and community in working towards a common goal of educating the 
+whole child:
+The home, school, and community have a shared goal to create an 
+environment that best supports the children’s learning and develop-
+ment. Towards this end, parents have a primary influence on their 
+children’s total development, while schools provide the foundations 
+through formal education and the community presents authentic 
+opportunities to build the children’s sense of identity and responsi-
+bility towards the community. The home, school, and community 
+must work together in mutual trust, respect, and understanding. 
+(MOE, n.d.-h) 
+KSS stipulates time for teachers to meet with parents after major exams and 
+before school holidays—the common test (March), the mid-year examination 
+(June), and the end-of-year examination (October, before the school holidays from 
+November to December). The reason for the timing of these three meetings after 
+major assessments is a matter of convenience rather than a reflection of the focus 
+of the conversations. The main focus is on the holistic development of the students. 
+In addition to these regularly scheduled meetings, teachers also contact parents 
+through other measures to keep them updated about their child’s development in a 
+timely manner, rather than wait until after the exams. Rosmiliah comments on how 
+she keeps an active partnership with parents:
+If I notice that the child has already some problems even at the begin-
+ning of the year, I’ll just drop a call to the parents and keep them 
+aware of what’s happening with the child. Because sometimes parents 
+are too caught up with what’s happening at work. They may not be 
+aware of their child’s development. Maybe the child is not coping in 
+certain subjects. However, the child may not tell them the truth about 
+what’s happening in school, because they are worried. So when I call 
+the parents, I have to put it in a way that we are concerned that the 
+child may not be coping. It is supposed to be a relationship where 
+teachers and parents work together.
+What Rosmiliah considers important is her ongoing communication with parents. 
+Such continual communication is time-consuming with classes of 35–40 students. 
+For Rosmiliah, however, students’ school life and home life are deeply connected 
+32
+Stanford Center for Opportunity Policy in Education
+and such efforts are the only way that parents and teachers can become strategic 
+partners in the growth and development of the children they share. 
+Interactions with other teachers and professional learning
+KSS ensures time for teacher professional learning by formally folding it into the bi-
+weekly teacher schedule. As Vice Principal Mrs. Ramanan explains:
+The school believes heavily in the development of teachers, because 
+it will impact on students’ learning. We actually create different plat-
+forms in our school to give teachers time to work together to build 
+resources, plan the curriculum, as well as to see to its implementation.
+KSS has established three platforms for professional learning within the school day: 
+Learn and Grow, Reflection cum Planning, and Care and Share.
+Learn and Grow has a whole-school focus aligned with the school’s strategic plan 
+and the goals of the Ministry of Education. During the 2015–16 school year, 
+for example, KSS focused on 21st Century Competencies as well as a “thinking 
+routines” program. Senior teachers plan the time to share strategies for effec-
+tive lessons using 21st Century Competencies as well as thinking routines such as 
+“see–think–explore. ” 
+Running from 2:15–5:00 p.m. every other week, Learn and Grow sessions consist of 
+two main activities. The first is the “skillful teachers” workshop, where senior teachers 
+conduct pedagogical training. They try to make the workshops engaging and practical 
+for teachers. Rosmiliah comments on how the sessions are normally conducted:
+We share pedagogies and critical thinking skills. We try to adjust this 
+entire program to be more activity- and discussion-based, rather than 
+preaching to them about the different types of fields. We consolidate the 
+meeting by highlighting what they have carried out in their activities.
+The second activity in Learn and Grow is the professional learning community, 
+where teachers are given an hour to sit down with their teams to discuss their col-
+laborative research project for the particular year. For example, in 2014, Rosmiliah’s 
+humanities team conducted an action research project on using Information and 
+Communication Technology (ICT). This hour of Learn and Grow workshops pro-
+vides teachers with the uninterrupted time necessary to plan, discuss, and learn from 
+their projects. In short, this time carved out of the school day is essential for teachers 
+to grow and develop. Rosmiliah explains:
+This year [2014] we are embarking on using ICT as a tool for 
+learning—using the Geography Information System (GIS) as a tool 
+33
+Focused on Learning: Student and Teacher Time in a Singapore School
+for field work. GIS is an online platform where maps are actually 
+loaded. We are doing this as a form of action research. Two classes 
+are involved in this project. One class is allowed to use the platform, 
+while the other is not. So we are actually looking at whether the use 
+of the GIS platform is effective. The company providing GIS helped us 
+create a particular website, where the students can collect data from 
+the field, and they can then create a particular layer of data for that 
+map. When we come to class, we teach them about relationship pat-
+terns and so on.
+In addition to Learn and Grow, each teacher has from 16 to 19 hours of individual 
+planning time within the school week for lesson planning and assessing students’ 
+work. Part of this time is protected for Reflection cum Curriculum Planning (RCP). 
+The goal of RCP is to instill a culture of reflective teaching and learning. Every 
+Monday morning, teachers of the same subject area spend half an hour (8:00–8:30 
+a.m.) together and generate conversations on their lessons of the previous week and 
+plan their future lessons. Conversations in RCP focus on any instructional problems 
+teachers face in their classrooms. Teachers share strategies and look into how they 
+can improve their pedagogies, curriculum delivery, and assessment. Some days, the 
+teams break into departmental subgroups such as History, Geography, and Social 
+Science in the Humanities Department or Biology, Chemistry, and Physics in the 
+science department. Young teachers in particular give very positive feedback on the 
+RCP sessions as opportunities to learn from the more senior members in the team. 
+Table 8 (next page) presents excerpts from the actual notes taken during the English 
+Language (EL) Department’s RCP . The discussion included program arrangement 
+(e.g., reasons for changing program periods), reviewing assessment results (e.g., 
+N-Level Examination Results), and pedagogical approaches (e.g., a language-litera-
+ture approach to teaching English Language).
+To help teachers support students’ social-emotional well-being and improve char-
+acter and citizenship education, the school carves out time for Care and Share. Care 
+and Share is a cross-departmental platform on Friday mornings where teachers 
+look into the social and emotional development and competencies of the students. 
+Care and Share sessions are led by the Year Heads (secondary 1 to secondary 4) 
+and teachers attend the four breakout sessions by levels. Each Year Head leads 
+the session and shares resources and lesson plans, together with the focus of the 
+coming week’s two Character and Citizenship Education (CCE) lessons. The focus 
+of CCE lessons could range from national education (e.g., the special meaning of 
+Chinese New Year) to school values and examples of inspiring stories illustrating 
+those values. The lesson plans are shared with opportunities for exploration and 
+clarification so that teachers are at ease and clear about the goals, activities, and 
+assessments. This is also a time where teachers can share, learn more, and seek feed-
+back about individual students. 
+34
+Stanford Center for Opportunity Policy in Education
+Mentoring
+One of the most important duties of a senior teacher is the mentoring of other 
+teachers. Both the senior teacher and the beginning teachers have a reduced teaching 
+load to create time and space for this work. KSS has two major mentoring programs 
+in the school: (1) induction in the form of the Structured Mentoring Program (SMP) 
+for beginning teachers, and (2) the Energize Program for experienced teachers. 
+All beginning teachers at KSS are assigned a senior teacher with whom they work for 
+one year. The first session is a 3-hour induction session that provides an overview of 
+the school’s programs. It covers the important pillars of KSS, specifically Discipline 
+and Character and Citizenship Education. Following an internal review, KSS revised 
+the schedule to create protected time for the senior teacher to meet with his/her begin-
+ning teachers. In the new schedule, beginning and senior teachers meet as a group the 
+first week of every month for discussions and sharing sessions, with individual meet-
+ings between the senior teacher and the beginning teacher occurring during the third 
+week of the month. During their second year, beginning teachers receive continuing 
+Table 8: Notes from the EL department’s RCP
+Date Notes
+Term 1 
+Week 3 
+Reading Assistant Programme (RAP)
+- Reasons for change in RAP periods
+- Feedback from lower secondary EL teachers
+- Logistics and administrative matters: collection of orders and cash for headsets
+- Use of school facilities for RAP
+Diagnostic Test
+- Areas of weakness
+- At-risk students
+- IP Coaching
+- Recording of marks in Results Monitoring
+N-Level Examination Results - Sharing of EL results and AAR
+Term 1
+Week 4
+Situational Writing (SW)
+- Standardisation of format for various text forms in SW
+- Points to note in teaching SW
+Term 2
+Week 1
+Discussion of answers to 2014 N-Level EL Paper 2 Texts 1 and 2 (Syllabus 1190)
+Term 3
+Week 2
+Sharing by EL teachers – Lang-lit Approach to Teaching EL
+35
+Focused on Learning: Student and Teacher Time in a Singapore School
+support from the school and the Academy of Singapore Teachers (AST). They con-
+tinue to receive school-site support, both instructional and emotional, as well as 
+attend both compulsory and personally-selected courses at the AST.
+Ms. Tan Hwee Pin, the principal of KSS, provides her perspective on the support 
+provided to beginning teachers: 
+We welcome our Beginning teachers (or BTs) to our school as part 
+of our Kranji family. It is important to induct them into our school’s 
+culture so that they know the role that they play and the expecta-
+tions and standards required when they interact with our students. 
+Our Structured Mentoring Programme (SMP) is led by a team of 
+seven senior teachers, under the advice of our vice principal. Every 
+BT or trainee will be given an experienced teacher as their mentor. 
+BTs observe not only lessons of their subject areas but also teachers 
+from other subjects. I believe that every subject teacher has different 
+strengths and they employ different pedagogies in different disciplines. 
+By casting the net wider, new teachers will be able to assemble a 
+repertoire of strategies, which they can activate when they become a 
+full-fledged teacher.
+As a senior teacher, Rosmiliah explains her overarching goals for her work with 
+beginning teachers: 
+My advice to beginning teachers or interns who come in is always that 
+for teaching you need a lot of heart. If you are trying to get monetary 
+rewards from it, I think you are in a wrong job. A very important 
+value we need to have is that everything we do in the profession is to 
+nurture the future generation. I would like to see them understand 
+that we are very important people. If we don’t do it right, it might 
+lead to serious consequences. For example, I cannot imagine a student 
+leaving the school having wrong values, and then ending up in a pow-
+erful position, dictating what others should be doing in life.
+The school’s vice principal, Mrs. Ramanan, feels the induction program is essential 
+to the teachers and to the school: 
+Our senior teachers…actually helm the program conduct regular 
+induction programs with our beginning teachers. During these ses-
+sions, senior teachers share things ranging from how to conduct a 
+proper character and citizenship education lesson to tips on how to 
+conduct a proper conversation with the students to find out about 
+how they are doing. We have something called “in-conversation with 
+mentor, ” a structure where teachers spend 10 to 15 minutes every 
+36
+Stanford Center for Opportunity Policy in Education
+morning in our school with the students. So our senior teachers will 
+tell the BTs how to conduct a conversation with the student. These are 
+little things, but they actually help the beginning teachers go a long 
+way in terms of adjusting well in our school system.
+Mentoring support is also provided to experienced teachers. The Energize Program, 
+for instance, began in 2014. Its aim is to help experienced teachers develop in areas 
+where they may have weaknesses. The program is done in a non-threatening way, 
+as identified teachers work with a senior teacher who guides them along the way. 
+The names of the teachers are surfaced by reporting officers (ROs)7 at the beginning 
+of each semester, based on their discussions with the teachers on areas where they 
+are in need of improvement. Areas identified have included classroom management, 
+engaging students, assessing students, and content mastery. At times, reporting offi-
+cers also nominate teachers who could benefit from additional support. This both 
+expands the benefits of the program and helps avoid labeling the program as solely 
+for weak teachers. 
+The teacher leading the team of senior teachers assigns a suitable senior teacher 
+to work with the teacher based on the match between the needs of the identified 
+teacher and the expertise of the senior teacher. The first step in the process is usu-
+ally reciprocal observations: The senior teacher observes in the identified teacher’s 
+classroom and the identified teacher observes in the senior teacher’s classroom. 
+The senior teacher also provides materials for the identified teacher to use as well 
+as suggesting other sources of support. The senior teacher provides feedback to 
+the identified teacher as well as to the reporting officer. Each semester, the Senior 
+Management Committee discusses the progress of the teacher in the program. 
+Identified teachers exit from the program when they show satisfactory progress and 
+improvement. 
+For instance, in 2014, a Design and Technology (D&T) teacher was identified as 
+in need of improvement in the area of content-specific pedagogy. As a first step, the 
+teacher observed the D&T classes of the senior teacher to see how another more 
+expert teacher facilitated discussion on design problems in one-on-one student-
+teacher discussions. The teacher was also supported to grow more familiar and 
+adept with the D&T syllabuses and expectations of coursework in the area of 
+journal and presentation boards. He regularly discussed D&T subject matters with 
+fellow D&T teachers and gained experiences with the “on-the-job” learning in 
+guiding students in their coursework as well as in theory lessons. He was encour-
+aged to actively seek clarification on his lesson preparation and teaching and to 
+reflect on his teaching via sharing his experiences and thoughts with other teachers. 
+He was continuously supported in building resources (e.g., lesson plans, student 
+7. Reporting officer refers to the teacher’s supervisor, usually the Head of Department or Subject Head.
+37
+Focused on Learning: Student and Teacher Time in a Singapore School
+course materials, and assignments) for the D&T classes he taught as well as equip-
+ping himself with the subject-specific pedagogical content knowledge required to 
+support students in design and technology. In 2015, the senior teacher observed 
+him two further times. These observations established that his lesson planning was 
+appropriate and documented obvious improvements in his classroom teaching. The 
+senior teacher reported that the teacher accomplished the goals set and exhibited the 
+capacity and the confidence to guide his students in this subject. It is important to 
+note, however, that he was not left on an island of solitude. He continued to partici-
+pate and develop with his colleagues in Learn and Grow, Reflection cum Planning, 
+and Care and Share.
+In managing the Energize Program, Rosmiliah works closely with the other senior 
+teachers and with other departments in the school:
+When I mentor teachers from other departments, I will have to do 
+a bit more administrative work such as liaise with the other senior 
+teachers to get them (beginning teachers) resources because I’m not 
+the expert teacher. I also help schedule meetings for them.
+ They (teachers) may need help in certain areas such as classroom 
+management. My job is to liaise with the other senior teachers and we 
+divide among ourselves the different areas of focus such as classroom 
+management or pedagogical strategies. We then pair the teachers in 
+need of help with teachers who are very good in that area, and have 
+them observe each other’s lessons. They may also observe the les-
+sons of senior teachers. We will sit down with them to discuss how 
+the class is being managed and come up with a plan on exactly what 
+they are going to do to improve their classroom management. Then 
+they will fix a date when I’m free of lessons to sit in their classroom to 
+observe how they are coping and whether they have improved.
+Senior Teachers play multiple mentoring roles in the school: They mentor beginning 
+teachers from their own (and sometimes other) departments; they mentor student 
+teachers assigned to complete one of their school experiences at the school by the 
+Ministry of Education; and they manage the Energize Program. Finding time to 
+fulfill these responsibilities is by no means an easy task. To support the multiple 
+roles of the senior teacher, KSS not only gives them a smaller teaching load but also 
+makes sure other teachers have common timeslots so that they can flexibly fit to 
+each other’s schedules. As Rosmiliah pointed out, they can also find time for men-
+toring during lunch breaks or the teachers’ break time when the mentee teachers do 
+not have lessons. 
+38
+Stanford Center for Opportunity Policy in Education
+Time is obviously of the essence, but so are opportunities for the continuing profes-
+sional growth of the senior teachers. The Singapore system provides a number of 
+learning opportunities both at the Ministry of Education and within the schools. At 
+the Ministry level, senior teachers are nominated for the Teacher Leaders Program 
+1 (for senior teachers) run by the Academy of Singapore Teachers. As with lead 
+teachers, they can also be nominated for the Teacher Leaders Program 2 run by 
+AST. In addition to the course, AST has a Lead and Senior Teachers Network. 
+Facilitated by the principal master teachers and the other master teachers, the AST 
+brings together lead teachers and senior teachers of the same subject to share about 
+their respective subject disciplines. Besides opportunities at AST, most professional 
+learning plans are conceptualized in-house. Follow-up actions are taken upon dis-
+cussion with the vice principal overseeing staff matters as well as with the principal. 
+These measures aim at helping senior teachers and lead teachers grow in their capa-
+bilities in facilitating professional learning in schools.
+The net result is teachers who continue to grow as professionals throughout their 
+careers, who help other teachers grow, and who enjoy their students, their col-
+leagues, and their role in furthering the future of their students and their country. 
+Putting It All Together
+Rosmiliah provides a case of how it all can work. 
+Singapore’s “Thinking Schools, Learning Nation” (TLLN) initiative puts a great 
+emphasis on developing students’ creative and critical-thinking skills, and deepening 
+their capability to make good decisions to keep Singapore vibrant and successful in the 
+future (Goh, 1997). At the same time, within a national initiative, the government pro-
+vided schools and teachers significant autonomy to develop pedagogical innovations. In 
+response, KSS developed a Thinking Curriculum to nurture communities of reflective 
+and independent learners (Koh, 2013). Within this curriculum, the school developed 
+protocols called thinking routines to help students learn to explore ideas, think criti-
+cally, and describe their thinking processes clearly. One process to support these goals 
+is “see–think–explore. ” In this activity, students write about what they see, that is, their 
+thoughts about a topic or phenomenon, as well as their questions about it and related 
+topics. Thinking routines aim to make “students’ thinking visible to themselves and 
+others so that they can improve it” (Koh, 2013). The protocols and activities can be 
+integrated into various subjects and student projects. In addition, the school provides 
+platforms for students to showcase their innovations in thinking routines and project 
+work (Koh, 2013). The school believes that critical thinking is an essential skill that will 
+put the students in good stead in the ever-changing world of the 21st century.
+In order to enact the thinking curriculum, teachers use time together to plan and 
+integrate thinking routines into their specific teaching subjects. Rosmiliah, as a senior 
+39
+Focused on Learning: Student and Teacher Time in a Singapore School
+teacher, felt it important for her to take the lead in learning how to use the new cur-
+riculum and share her results with her colleagues. 
+The particular geography unit where Rosmiliah first tried out the curricular 
+approach was a secondary 4 express class. This is a pure geography class (as 
+opposed to a blended humanities class that includes multiple disciplines) with pri-
+marily mid- to high-achieving students. The culminating lesson of the sequence 
+included a debate that required higher-order cognitive skills such as critical thinking, 
+synthesizing, critiquing, and summarizing. 
+This could, Rosmiliah keenly felt, turn rapidly into chaos. It can be very challenging 
+for a class of 40 students to have a debate without adequate planning. The lesson 
+would not work without a great deal of preparation. Before the lesson, she had 
+to think through the steps on how to organize the class, for if the students did not 
+settle down, the lesson would fail—and she knew her colleagues were watching. 
+Because of careful and ample preparation, the result of the lesson was gratifying to 
+her and her colleagues. 
+What they [the students] did before this was we spent about two les-
+sons on the issue of the impact of tourism, where students did some 
+group work and micro-teaching presentations. They did some research 
+on how tourism brings about positive and negative impact to different 
+countries. What I did was rather than using frontal teaching, I got them 
+to go into groups and each group was given different sub-factors. They 
+researched on it for about a lesson and the next lesson they did some 
+presentations. They emailed me their presentation slides after the pre-
+sentation for my feedback. When I have back-to-back lessons, I have 
+to look at their slides at home. Their classmates gave them areas for 
+improvement (AFIs) pointers. After that, I rounded up by discussing 
+generally what the impacts are. And I told them that we are going to 
+have a debate on the case study of Mauritius, where they can apply 
+their knowledge on the impact of tourism that they have researched. So 
+it took us a about a week or so to prepare for this entire debate.
+It required a fair bit of teacher work and student class time to prepare for this 
+debate lesson. Rosmiliah explained her rationale for the pedagogy and her thoughts 
+on the amount of time that she and the students took both at school and at home. 
+Underlying her pedagogical choices is the goal of letting students take ownership of 
+their learning.
+I think [the time spent] is fairly okay. I can easily teach the topic 
+within an hour’s lesson by doing frontal teaching and telling them the 
+points of the different factors and then directing them to different case 
+studies. But at the end of the day, I always think that it is not a good 
+40
+Stanford Center for Opportunity Policy in Education
+way of learning if the students just repetitively memorize the points 
+that you gave. They won’t have an experience of their own. Initially, 
+we were quite skeptical about doing the micro-teaching, because I 
+just told them that whatever notes that you prepared are going to be 
+shared with your classmates. The students also had reservations ini-
+tially. Then after their group discussions, they got spurred on. They 
+realized that at the end of the day, they need to take away something 
+and they need to take ownership of their learning. Their presenta-
+tion was not too bad, although language use was a bit poor for some 
+groups. That is because they were not used to it. I think today’s debate 
+surprised us all. I think they all practiced hard for it.
+Rosmiliah elaborated further on how inquiry-based learning benefits the students:
+The focus of the pedagogy for geography for this particular syllabus is 
+inquiry-based learning. Frontal teaching will not allow you to do any 
+inquiry-based learning. So there are steps to it—sparking curiosity, the 
+gathering of evidence, and so on. It’s a full cycle. To me, it’s gaining 
+time in the end because of the experience gained by the students and 
+giving them some ah-hah moments. I think just now towards the 
+second half of the debate, they got excited. And that gave me the 
+satisfaction that it’s working. When you look at how they apply their 
+knowledge, and their ability to reason and think on their feet, that’s 
+the time that you learn together with them. Frontal teaching may 
+not have achieved this experience for them, because they don’t get 
+to talk. I realize that a lot of the time frontal teaching is to use the 
+time to efficiently finish the syllabus and get it moving. However, the 
+approach we adopt is assessment for learning as students are moving 
+on. Through this particular activity (debate), I can assess what kind of 
+thinking and thoughts they have, who are the weaker ones or stronger 
+ones. And I can use this for the following lessons.
+Rosmiliah felt the reasons for the success of the debate lesson were simple and 
+straightforward: She had confidence in her students and urged them to take owner-
+ship of their own learning; the students became motivated and willing to play an 
+active role in their own learning.
+The students spent their weekend to talk about it. Last week I saw some 
+of them stay back at school, having some discussions. And they got me 
+in their discussion as well to see whether they were on the right track 
+such as whether their discussion points and arguments were relevant.
+As a result of her successful risk taking, Rosmiliah’s colleagues were encouraged to 
+take their own risks towards improvement. Rosmiliah explains:
+41
+Focused on Learning: Student and Teacher Time in a Singapore School
+There’s always bouncing of ideas when you come back from class. For 
+example, when I came back from class just now, they were all eager to 
+know whether it went well, even though they are from other depart-
+ments, because it’s their own class. They came to ask me, is it okay? 
+Did they speak well? Did they know what to do? I said, “Yah, yah, 
+it went well. ” So from there, the history teachers are thinking that 
+since the students enjoyed it, they will also try it for other topics. So I 
+think it’s just bouncing our ideas, sharing resources, sharing ideas, that 
+really helps me in my job. At the end of the day, I enjoy working here 
+because of the people who work around me.
+Teaching is difficult, time- and labor-consuming, and conceptually intricate work. 
+In addition, there is never enough time to do all that could and should be done. Yet 
+KSS, as one example within Singapore, enlists multiple integrated mechanisms that 
+use teacher time to support both teacher and, more importantly, student learning:
+• The arrangement of teachers’ time centers on providing learning 
+opportunities for students’ holistic development.
+• The school creates protected time for teachers’ professional learning 
+including platforms such as Learn and Grow, Reflection cum 
+Planning, and Care and Share.
+• The school provides protected time for planning and assessing stu-
+dents’ work.
+• The school has a systemic approach in using the expertise of senior 
+teachers in terms of elevating beginning and experienced colleagues 
+(e.g., career ladder, career pathways).8
+• Professional learning opportunities in KSS are available at various 
+points of a teacher’s career from beginning teachers to experienced 
+teachers and senior teachers. This continuum of support for profes-
+sional learning is necessary not only to strengthen new teachers’ 
+skills but also to continue developing the expertise of all teachers 
+throughout their career.
+• The school creates a collaborative learning culture through various 
+formal and informal professional learning activities.
+8. Recent evidence from Jackson and Bruegmann (2009) suggests that students of teachers who have help from more 
+effective colleagues experience larger achievement gains.
+42
+Stanford Center for Opportunity Policy in Education
+Ensuring that teachers have the capacity to facilitate the growth and development 
+of students is one of the most important tasks of education systems and schools 
+(OECD, 2014). KSS provides teachers with opportunities for developing and 
+extending their capacities in order to achieve or maintain a high standard of profes-
+sional practice. KSS’s stable, cohesive, whole-school approach towards professional 
+learning has created a collaborative and supportive school culture where teachers 
+strive together to be more than the sum of their individual parts. In some ways, 
+the formula for KSS’s professional learning is simple: The school regards teachers’ 
+continuous learning as a priority in order to improve their teaching, and at the same 
+time provides strong support and structure (e.g., formalized in the time table) to 
+enable all teachers to participate. 
+Finally, the effort of KSS in growing a collaborative culture through professional 
+learning and other forms may be important in and of itself. Teachers‘ affective well-
+being is essential for pedagogical improvement and the quality of teaching (Becker, 
+Goetz, Morger, & Ranellucci, 2014; Saunders, 2013). It is clear, for instance, from 
+Rosmiliah’s collaboration with her colleagues that it not only builds interpersonal 
+relationships but also increases her work effectiveness and enjoyment. Although 
+the multiple roles and responsibilities of a senior teacher make her job ever more 
+demanding and stressful, she attributes her ongoing satisfaction, intensifying efforts, 
+and maturing capacities to the supportive and collaborative culture of the school 
+from senior management to individual teachers:
+The senior management gives me a lot of support. They don’t just 
+throw you an idea. The vice principal works very closely with me 
+and we bounce ideas off each other. My department is also very sup-
+portive. I have a young teacher in the department who works with 
+me very closely. She understands the position I have where I’m always 
+moving around here and there…. It’s important to make sure you are 
+not imposing on others, although you are holding a position. You 
+must make sure that your relationships with others are good. And 
+people will help you. I’m blessed to be… where resources are being 
+shared. 
+43
+Focused on Learning: Student and Teacher Time in a Singapore School
+ 
+Enabling Conditions
+ranji Secondary School’s organization and scheduling no doubt influence 
+the time teachers have to collaborate and learn with and from each other—
+thereby influencing the time that teachers have to support the growth and 
+development of their students. The quality of what goes on in that time, however, is 
+influenced and supported by enabling conditions created outside of the individual 
+school and the individual teachers. While this case focuses on time, time is necessary 
+but not sufficient. It is possible, for example, to be a talented individual at golf but 
+difficult to be a good golfer without golf clubs, coaching, practice, practice areas, 
+good courses to play on, incentives to continue, and so on. 
+Singapore takes an eco-systemic approach to help create the supportive conditions 
+that make it more likely that the time created will be used to support student (and 
+teacher) growth and development. Its system pays attention to both teacher and 
+teaching quality. Teacher quality is the constellation of personal traits, skills, and 
+understandings an individual brings to teaching. Teaching quality refers to strong 
+instruction that enables each and every child to learn. Such instruction meets the 
+demands of the discipline, the goals of instruction, and the needs of students in 
+a particular context. Teaching quality is obviously related to teacher quality. The 
+knowledge, skills, and dispositions of individual teachers are strongly influenced by 
+the context of instruction, including factors external to what the teacher brings. As 
+Darling-Hammond et al. (2017) note:
+Key to considerations of context are the curriculum and assessment 
+systems that support teachers’ work, the opportunities to learn from 
+and work with colleagues, the fit between teachers’ qualifications and 
+what they are asked to teach, and teaching conditions. (p. 18)
+Thus, Singapore identifies, recruits, prepares, and supports individual teachers’ 
+knowledge, skills, and abilities, as well as develops teaching contexts that enable 
+continued learning and quality practice.
+They do so in multiples ways including:
+• Vigorous but supple standards for teachers and students;
+• High-quality teacher preparation to assure that teachers are well 
+prepared before they begin;
+• Ongoing, often school-embedded, learning opportunities for 
+teachers;
+K
+44
+Stanford Center for Opportunity Policy in Education
+• Career pathways and opportunities for teacher leadership;
+• A steadfast resolute focus on equity; and
+• High regard for teachers and the profession of teaching. 
+Standards 
+As explained in detail earlier, Singapore’s standards for students focus on all the 
+domains of human development—cognitive, physical, social, emotional, and 
+moral. Since the goals for students focus upon the whole child, not surprisingly, 
+standards for teachers begin with nurturing the whole child and specify areas of 
+knowledge and skills to accomplish that goal. The teaching standards continue 
+with winning hearts and minds (including helping to develop others) and conclude 
+with knowing self and others (including integrity, respect, resiliency, and adapt -
+ability). These standards are elaborated in the V 3SK framework (National Institute 
+of Education [NIE], 2009) communicating the professional values and knowl-
+edge to be used to support children and their families. The framework is further 
+elaborated by the Graduand Teacher Competencies (NIE, 2009) that outline the 
+professional standards, benchmarks, and goals for graduates of the teacher educa-
+tion programs at the National Institute of Education, the only teacher-preparing 
+institution in Singapore.
+In short, as Heng (2012) notes, the standards (and the structures and processes in place 
+to support teachers to meet these standards) are “student-centric and values-driven. ” 
+They constitute a shared vision and shared expectations premised on what will support 
+children reaching the country’s goals for them, as individuals and as citizens.
+Well Prepared Before They Begin
+Consistent with their entire system, Singapore’s teacher preparation system simultane-
+ously focuses on teachers (e.g., recruiting those with the constellation of knowledge, 
+skills, and dispositions to succeed as teachers) and teaching (e.g., providing those indi-
+viduals with high-quality instruction and opportunities for learning). 
+Recruitment and Selection
+As a system, Singapore identifies the attributes they are seeking in their teachers and 
+then is highly selective in bringing the people assessed as most likely to succeed in edu-
+cating their children into the profession—candidates with the right blend of academic 
+abilities and personal attributes. Acceptance into the program includes strong emphases 
+on the candidates’ academic achievement, communications skills, and motivation for 
+joining the profession, as well as relying on school partners to be key decision makers 
+in the selection process. Selectors are seeking candidates who are passionate about 
+45
+Focused on Learning: Student and Teacher Time in a Singapore School
+their subject and their role as a teacher, who have a deep drive for high standards, who 
+possess a thirst for learning, and who are unrelenting in their desire that all children 
+succeed. They seek candidates who are ethical, adaptable, and resilient in the face of 
+challenges and who demonstrate the ability to be collaborative with other professionals. 
+In addition, as Sclafani and Lim (2008) point out, recruitment begins early: 
+The Ministry is looking for and finding those young people who 
+have a passion for helping others. Community service is part of every 
+student’s education in Singapore, and assignments of working with 
+younger students or peers who need tutors help teachers identify stu-
+dents who should be encouraged to be teachers. (p. 3)
+Grounded in the systemic approach that typifies Singaporean education, teacher 
+recruitment is a single, state-wide, highly competitive selection process, jointly man-
+aged by the Ministry of Education and National Institute of Education. For instance, 
+students who want to become teachers must go through a four-step process before 
+entering a preparation program. Only one of three shortlisted applicants makes it 
+through the selection interview, which is just the third of the four steps to admission.
+Entry into teacher preparation programs can be highly selective for multiple rea-
+sons with the “cause and effect” arrow going in both directions in a virtuous cycle 
+for most of them. The profession is respected. Teachers receive comparable salaries 
+to other professions with similar educational requirements. Because of low attri-
+tion, the country is not required to invest in the preparation and support of a large 
+number of teachers who will enter and leave the profession quickly. They follow 
+the ‘pay me now’ versus ‘pay me more later’ investment approach in individuals 
+who will stay in and advance through the profession for a substantial career. Last, 
+but certainly not least, preparation is subsidized. Entry into the profession is not 
+premised on what the candidate can afford but rather what affords children the best 
+odds of succeeding.
+As Sclafani and Lim (2008) point out: 
+How does Singapore get high-performing students to apply? It is not 
+just future salary, although salaries are competitive with those of 
+engineers in the civil service. It is a combination of factors. The most 
+immediate is that the Ministry pays all tuition, fees, and a monthly 
+stipend to undergraduate teaching candidates. For those who enter 
+teacher preparation at the graduate level, the stipend is equivalent to 
+what they would have made as college graduates in a civil sector job. 
+Since this must be repaid if the candidate fails the program or leaves 
+the profession before the stipulated period… it is also a powerful moti-
+vator for serious commitment to the program. (p. 3)
+46
+Stanford Center for Opportunity Policy in Education
+Preparation 
+All pre-service preparation in Singapore occurs in the National Institute of Education 
+affiliated with Nanyang Technological University. Approximately two-thirds of pro-
+spective teachers complete a one-year postgraduate diploma program following the 
+undergraduate content major, with one-third completing a four-year undergraduate 
+program. All teachers, including those who will teach in elementary schools, must 
+demonstrate deep mastery of at least one content area (plus study of the other subjects 
+they will teach). New school partnership models engage schools more proactively in 
+supporting prospective teachers from selection through entry into the profession. 
+Based on the country’s standards for teaching and teacher education, preparation 
+includes the integration of strong content knowledge and understanding of children 
+and of pedagogy. The curriculum consists of the study of the academic subjects 
+teachers will teach; curriculum, teaching, and assessment; information and commu-
+nication technology; teaching of language and academic discourse skills; character 
+and citizenship education; service learning; and research. Students in the four-year 
+undergraduate program must obtain a major in an academic discipline, while those in 
+the graduate program must have a degree in a discipline. Curriculum studies aim to 
+equip student teachers with pedagogical methodologies for teaching specific subjects. 
+Primary teachers are prepared to teach three subjects; secondary teachers are prepared 
+to teach two. In addition, the programs are grounded in research and also prepare 
+teachers to use and conduct research. Essential to the programs are well-defined, sup-
+ported, and mentored clinical experiences embedded in schools and classrooms that 
+support the development of essential professional capacities, knowledge, and skills. 
+There is a strong values component in teaching and teacher development in 
+Singapore. Coherent with the country’s goals for its children, teachers in Singapore 
+are expected to be contributors to the well-being of their students, families, and 
+communities. For instance, programs include required courses in character edu-
+cation and completion of a collaborative community service project. This early 
+emphasis on collaborative learning and group projects in pre-service programs sows 
+the seeds for learning and sharing when pre-service teachers become beginning 
+teachers and progress through their professional careers.
+Ongoing Learning Opportunities 
+While Singapore provides assurances that beginning teachers are capable of respon-
+sible practice from day one of their responsibilities with children and their families, 
+they also provide ongoing opportunities for professional learning with time within 
+the school day for those opportunities. The goal is for teachers to improve each 
+year of their career. Singapore’s system in this regard adheres to several important 
+principles:
+47
+Focused on Learning: Student and Teacher Time in a Singapore School
+• Professional learning is developmental. While teaching standards 
+are the same throughout the system, beginning teachers are not 
+expected to be at the same level of sophistication in their practice as 
+veterans, and most veterans are not expected to be at the same level 
+as master teachers. The learning opportunities are differentiated for 
+teachers as they develop over the course of their careers.
+• Professional learning is collaborative. The system balances and 
+integrates the strengths, interests, and needs of individual teachers 
+with the goals of individual schools, and of the country. In most 
+instances, teachers learn with and from other teachers with teachers 
+leading the learning opportunities with their colleagues. 
+• Professional learning is research-oriented. Teachers are expected to 
+keep abreast of the literature as well as to conduct inquiry into their 
+teaching practices with their students, embedded in their schools 
+and subject areas. 
+• Teacher appraisal is educative and coheres with professional 
+learning tenets. While the teacher appraisal system has an evaluative 
+purpose, it also creates goals for teachers and supports advancement 
+towards meeting those goals. The process is linked to professional 
+learning opportunities so that teachers have help in making progress 
+towards their own, as well as their schools’ , objectives. 
+Support for Beginning Teachers 
+All new teachers in Singapore engage in a formal induction program, known as 
+the Beginning Teachers’ Induction Program (BTIP), funded and managed by the 
+Ministry of Education. The BTIP essentially commences prior to entry into pre-ser-
+vice preparation with the Teachers’ Compass Ceremony, when prospective teachers 
+who have been hired by the Ministry are initiated into the moral and ethical mis-
+sion they have undertaken. BTIP then picks up post-graduation with an orientation 
+program that helps newly minted teachers to understand their roles and the expecta-
+tions of the profession, and to reflect on their personal beliefs, values, and practices, 
+consistent with the country’s goals to value and nurture the whole child.
+In their first teaching position, beginning teachers receive in-school mentoring with a 
+reduced teaching load to create time so that the mentoring is an opportunity rather 
+than an obligation. Every beginning teacher is assigned a formal mentor in their sub-
+ject matter and also receives support from others in the school on an as-needed basis. 
+While beginning teachers are being mentored within their school, they also attend 
+in-service courses designed specifically for them, covering topics such as classroom 
+48
+Stanford Center for Opportunity Policy in Education
+management, parent engagement, teacher-student relationships, reflective practice, 
+and assessment literacy. At the beginning of their third year, the beginning teachers 
+will attend the Beginning Teachers’ Symposium and the sessions are facilitated by 
+the teacher leaders.  
+Ongoing Support
+Singapore offers at least 100 hours of paid professional development time annually 
+to create time and space for teachers: 
+• to learn with and from each other, 
+• to engage in ongoing opportunities to develop and share expertise, 
+and
+• to become professionals who are responsible with and for each 
+other and all the children and families in Singapore.
+Each school is assigned teachers above their basic teacher quota to enable teachers 
+to attend professional development. For example, Kranji plans ahead to enable their 
+senior teachers/lead teachers to attend the 3-month Teacher Leaders Programme. 
+During that period, their classes are assigned to other teachers in the school.  The 
+annual schedule also provides two weeks of protected time during the one month 
+June break and three weeks during the end of year school vacation to provide space 
+for the teachers to reflect and recharge.
+The Ministry launched the Academy of Singapore Teachers (AST), and a number of 
+subject specific academies and institutes,9 to provide teacher-led support for teachers. 
+These academies and institutes enhance:
+… the professional learning and development of teachers by 
+drawing out pedagogical leadership from the fraternity, infusing 
+expertise into the system; imbuing a sense of pride, identity, and 
+ownership among teachers; strengthening content mastery; building 
+instructional capacity; raising the standards of practice; driving ped-
+agogical innovations and change; advancing continuous learning. 
+(Tan & Wong, 2012, p. 452)
+Another feature of teacher professional learning in Singapore is the one hour per 
+week reserved for Professional Learning Communities (PLCs) within schools. 
+9. The subject-specific academies and institutes include: English Language Institute of Singapore (ELIS), Malay 
+Language Center of Singapore (MLCS), Physical Education & Sports Teacher Academy (PESTA), Singapore Center 
+for Chinese Language (SCCL), Singapore Teachers’ Academy for the aRts (STAR), and Umar Pulavar Tamil Language 
+Centre (UPTLC).
+49
+Focused on Learning: Student and Teacher Time in a Singapore School
+There are also Networked Learning Communities (NLCs) for collaborative teacher 
+learning across schools. Kranji, and each school in Singapore, has a School Staff 
+Developer (SSD) who is responsible for professional learning in the school. To bol-
+ster and enrich the practice of embedded professional learning within schools, the 
+AST, along with the Ministry and NIE, provides training to department heads, SSDs, 
+senior, and lead teachers. 
+Singapore organizes schools into network clusters of 10–13 schools. The cluster 
+system offers a structure and processes for senior teachers and lead teachers to grow 
+their leadership capacity in service of the development of teachers in their schools 
+and beyond. Kranji, like all schools in Singapore, has senior teachers who, as part 
+of a school’s Key Personnel team, are responsible for professional learning in the 
+school. Senior teachers and other teacher leaders10 both give and receive training in 
+how to manage PLCs, action research projects, lesson study, and other aspects of in-
+school professional learning from (and to) their teaching colleagues in the Academy 
+of Singapore Teachers and from NIE as well as the Ministry. 
+Of note, teachers are engaged in the development and scoring of student assess-
+ments. For instance, teachers assisted the Singapore Examinations and Assessment 
+Board with the design and scoring of the new A-Level assessments. These assess-
+ments include performance-based evaluations that involve students in designing 
+and conducting science investigations, engaging in collaborative project work, and 
+completing a cross-disciplinary inquiry, similar to the essay and problem-based 
+examinations they supplement. Teachers also engage in moderation processes to 
+ensure consistency of scoring of these assessments. Involvement in this professional 
+role allows teachers to better understand the standards embedded in the curriculum 
+and to plan more effective instruction. In addition, internal and external education 
+experts provide support to further teachers’ understanding of professional research 
+begun during preparation. 
+Career Pathways and Teacher Leadership
+In Singapore, the job description of a teacher is not static and a teacher does not 
+need to leave the classroom completely to assume leadership responsibilities in addi-
+tion to instructing students. Singapore has created structures and processes that 
+enable teachers to take on new roles without leaving teaching. Teachers can, for 
+example, teach for part of the day, mentor other teachers, lead other teachers in 
+professional development, as well as develop curricula and assessments, and work at 
+levels outside of the school to develop teaching policy.
+10. In Singapore, teacher leaders refer to those formally appointed as a pedagogical leader in the teaching track in-
+cluding Senior Teachers, Lead Teachers, Master Teachers, and Principal Master Teachers. In the literature, it can refer 
+to more informal leadership or school leadership.
+50
+Stanford Center for Opportunity Policy in Education
+Singapore offers three leadership trajectories that teachers can follow: the Teaching 
+Track, the Leadership Track, and the Senior specialist track (see Figure 4). 
+FIGURE 4: CAREER TRACKS FOR TEACHERS IN SINGAPORE
+ Source: MOE, n.d.-g
+One powerful example of the role of teachers in leading professional learning is 
+the Academy of Singapore Teachers described above. The mantra “For teachers, by 
+teachers” epitomizes the MOE’s “commitment and dedication to teacher profes-
+sionalism, professional identity, and to the growth and lifelong learning of teachers” 
+(Tan & Wong, 2012). 
+Singapore’s career pathways allow teachers to take on leadership roles. Following 
+their own strengths, interests, and needs in alignment with the country’s goals for its 
+children, teachers have opportunities to advance in the profession while remaining 
+in the classroom. Teachers know what they have to do to move ahead and know 
+that their new roles and responsibilities are tied to their professional learning. For 
+instance, in addition to the evaluative and educative components of the teacher 
+appraisal system, another key component is to enable schools to identify talented 
+and accomplished educators for development into leadership roles beyond the 
+classroom—educators with the potential to lead adult learning as well as student 
+learning. This is highly purposeful. Singapore does not wait for prospective leaders 
+to apply for their positions. Rather, as with entry into teaching, they proactively 
+recruit prospective teacher leaders and provide them with the learning opportunities 
+to grow into and demonstrate their knowledge, skills, and abilities. Teacher leaders 
+receive the same kind of clinical experiences as beginning teachers so that leaders 
+can be prepared for their jobs from the time they officially commence the role. 
+51
+Focused on Learning: Student and Teacher Time in a Singapore School
+In short, Singapore provides multiple pathways into leadership roles for teachers 
+that support individual growth and development of strong educational leaders 
+(Goodwin, Low, & Ng, 2015). This continuum supports student learning as 
+well as professional learning, serving to help create a learning profession that is 
+attractive and rewarding. This in turn enables preparation programs to be even 
+more selective in choosing candidates and encourages teachers to remain in the 
+profession throughout their careers, reducing the costs and disruption caused by 
+rapid turnover.
+Equity
+At a systems level, equity aspires to offer all children the supports, both in and out-
+side the school, to thrive. Singapore provides supports for children’s food, health, 
+and shelter needs. It provides access to quality early childhood care (Darling-
+Hammond, et al., 2017; Goodwin, Low, & Darling-Hammond, 2017) and 
+numerous and differentiated learning opportunities within schools. Singapore com-
+bines an egalitarian ethos with a meritocratic culture to create an educational system 
+that focuses simultaneously on excellence and equity. 
+More clearly than any other social institution, the school system 
+expressed the distinctive vision of Singapore’s leadership, with 
+its stress on merit, competition, technology, and international 
+standards, and its rejection of special privileges for any group. 
+Singaporeans of all ethnic groups and classes came together in the 
+schools, and the education system affected almost every family in sig-
+nificant and profound ways. Most of the domestic political issues 
+of the country, such as the relations between ethnic groups, the 
+competition for elite status, the plans for the future security of 
+the nation and its people, and the distribution of scarce resources 
+were reflected in the schools and in education policy…. It was in the 
+schools, more than in any other institution, that the abstract values of 
+multiracialism and of Singaporean identity were given concrete form. 
+(LePoer, 1989, p. 116)
+Singapore, within its educational system, has done this through several mutually 
+interdependent mechanisms. First, they invest in children’s welfare and they work 
+to provide resources equitably, so that all schools first have adequate services, 
+teacher salaries, and working conditions, and then schools with students with high 
+needs receive additional support. Resources and supports that teachers have, as 
+well as teachers themselves as a key resource, are equitably distributed. 
+Second, Singapore recruits and supports teachers and leaders for high-needs stu-
+dents and schools. They create strong incentives to place well-qualified educators 
+52
+Stanford Center for Opportunity Policy in Education
+in schools with the greatest needs. As stated earlier, the Ministry hires teachers 
+when they are accepted into teacher education and pays them a salary while they 
+receive their preparation, which is free. When they complete preparation, new 
+teachers are expected to serve in the school system for at least three years, 11 or 
+repay the cost of their education. Teachers are assigned to schools where they are 
+needed. 
+Third, Singapore prepares all educators in equity pedagogies and provides 
+curricula (often developed by teachers) that support success for traditionally 
+underserved groups. 
+Finally, Singapore enacts school improvement strategies that continually upgrade 
+teaching and learning, while targeting resources and supports to students and 
+schools with the greatest needs. The Ministry organizes the sharing of exper -
+tise among teachers and administrators within and across schools so that the 
+system as a whole becomes more effective and equitable. For instance, as edu-
+cators are moving up the career ladder, especially in the leadership track, they 
+are encouraged, and sometimes assigned, to take positions in schools that have 
+greater staffing needs in order to develop and deploy their skills in support of all 
+students.
+Educators are Respected and Rewarded
+Educators in Singapore are held in high social regard. A survey of Singapore’s 
+children (Adecco, 2012) shows that children regard being a teacher as their top 
+career choice, followed by being a doctor or pilot. From another perspective, 70% 
+of teachers believe that the teaching profession is valued by the Singapore society 
+(OECD, 2014).
+In addition to the high quality and quantity of the efforts of educators, sev-
+eral other factors support this high social regard. The MOE has several outreach 
+efforts to the public. For example, they sponsor recruitment campaigns to position 
+teaching as a career of choice (MOE, n.d.-i). Singapore has also created prestigious 
+awards to recognize exemplary teachers. Some of the awards include: President 
+Award for Teachers, Outstanding Youth in Education Award, Academy Awards 
+for Professional Development, and Distinguished Fulbright Awards in Teaching. In 
+addition, they have taken deliberate steps to raise public awareness of what teachers 
+do. Rosmiliah notes that the public perception of teaching has changed over time 
+towards increasing respect and recognition: 
+11. The length of teachers’ bond with MOE varies across different pre-service programs they attend (i.e., three years 
+of bond for graduates from the postgraduate diploma in education programs, four years of bond for graduates from 
+the degree programs).
+53
+Focused on Learning: Student and Teacher Time in a Singapore School
+I think Singaporeans still look up to teachers even though there are 
+mixed reactions about teachers having a “good time” during the holi-
+days and so on. They [MOE and schools] are more open about sharing 
+teachers’ workloads now. Previously, people were not very aware of 
+what teachers go through. Only the teaching fraternity will know how 
+much time we dedicate to students both at school and at home. But 
+now, people are a bit more aware of teachers’ dedication in developing 
+their child. Parents are also more understanding towards teachers’ 
+situations.
+Selectivity into the profession also enhances the respect throughout society. As 
+described earlier, MOE, NIE, and the schools collaborate on a very stringent selec-
+tion process (Lim, 2014) involving a careful short-listing of candidates from the top 
+one-third of each cohort; an interview to assess candidates’ skills, attitudes and aspi-
+rations; and a teaching stint to further assess the suitability of the candidates to be 
+teachers.
+Financial rewards also play a role. Singapore’s starting salary for teachers is roughly 
+equivalent to the starting salary of other university-educated workers, equivalent to 
+that of lawyers, engineers, and accountants. Candidates who are mid-career profes-
+sionals receive additional salary increments in recognition of their previous working 
+experience. Salary growth over the career remains competitive with generous annual 
+increments that are based on performance and advancement on the three-pronged 
+career ladder.
+54
+Stanford Center for Opportunity Policy in Education
+ 
+A Final Word
+his case documented how one school in Singapore allocates teacher and student 
+time within the school day. It then explored the systemic factors that enable 
+the time to be used to support the growth and development of students and the 
+adults who work with them daily. Time is probably the most precious commodity 
+in any school and undoubtedly there is not a teacher in the world who would argue 
+that she or he has enough time to accomplish all that needs to be done in a school 
+day or year. Singapore teachers are no different; in conversations with them, they 
+too expressed how keenly they feel the pressure of insufficient time and the chal-
+lenge of managing all their professional and instructional responsibilities within 
+those constraints. Lack of time is the universal teacher story. So, to be clear, this 
+is not a story about enough time. Rather, it is an illustration of the ways in which 
+time, regardless of perceptions of adequacy and within given realities of availability, 
+can be employed in the service of positive academic and social outcomes. The key 
+is decision-making around time allocation, guided by a sharp focus on what should 
+be—but is not always—paramount in schools: learning, on the part of both students 
+and teachers. This better ensures that time is used optimally, distributed across a 
+range of activities designed to support teacher and student development, and dif-
+ferentiated in ways that can sustain a diversity of learners (adult/child, teacher/
+student, novice/expert, etc.) as well as multiple short- and long-term goals. The most 
+profound take-away of this case study may be that when teachers are perceived as 
+professionals, and therefore afforded the time to develop and grow in ways that 
+align with the goals and aspirations of and for students, schools can become places 
+of deep learning for everyone.
+T
+55
+Focused on Learning: Student and Teacher Time in a Singapore School
+ 
+References 
+Adecco. (2012). Survey of children in Singapore reveals that becoming a teacher is the career of 
+choice [Press release]. Retrieved from http://sg.adecco-asia.com/Adecco/RSS/newspress_
+pressreleases/20120110_Press_Release_-_Adecco_Singapore_-_Latest_Career_Findings_
+From_The_Adecco_Singapore_Childrens_Survey_(10th_January_2012).pdf
+Becker, E. S., Goetz, T., Morger, V., & Ranellucci, J. (2014). The importance of teachers’ emotions 
+and instructional behavior for their students’ emotions—An experience sampling analysis. 
+Teaching and Teacher Education, 43, 15–26.
+Chan, D., & Tan, J. (2008). Privatization and the rise of direct subsidy scheme schools and 
+independent schools in Hong Kong and Singapore. International Journal of Educational 
+Management, 22(6), 464–487.
+Chua, S. K. C. (2015). Singlish strikes back in Singapore. In R. Tupas (Ed.), Unequal Englishes: The 
+politics of Englishes today (pp. 185–202). London, England: Palgrave Macmillan. 
+Darling-Hammond, L., Burns, D., Campbell, C., Goodwin, A. L., Hammerness, K., Low, E. L., … 
+Zeichner, K. (2017). Empowered educators: How leading nations design systems for teaching 
+quality. San Francisco, CA: Jossey-Bass.
+Darling-Hammond, L., & Richardson, N. (2009). Research review/teacher learning: What matters. 
+Educational Leadership, 66(5), 46–53.
+Elmore, R. F., & Burney, D. (1997). Investing in teacher learning: Staff development and 
+instructional improvement in Community School District #2, New York City. New York, 
+NY: National Commission on Teaching and America’s Future; Philadelphia, PA: Consortium 
+for Policy Research in Education. Retrieved from http://eric.ed.gov/?id=ED416203
+Goddard, Y. L., Goddard, R. D., & Tschannen-Moran, M. (2007). A theoretical and empirical 
+investigation of teacher collaboration for school improvement and student achievement in 
+public elementary schools. Teachers College Record, 109(4), 877–896.
+Goh, C. T. (1997, June 2). Shaping our future: Thinking schools, learning nation—Speech by Prime 
+Minister Goh Chok Tong at the opening of the 7th International Conference on Thinking on 
+Monday, 2 June 1997, at 9.00 am at the Suntec City Convention Centre Ballroom. Retrieved 
+from http://www.moe.gov.sg/media/speeches/1997/020697.htm
+Goodwin, A. L., Low, E. L., & Darling-Hammond, L. (2017). Empowered educators in Singapore: 
+How high-performing systems shape teaching quality. San Francisco, CA: Jossey-Bass.
+Goodwin, A. L., Low, E. L., & Ng, P . T. (2015). Developing teacher leadership in Singapore: 
+Multiple pathways for differentiated journeys. New Educator, 11(2), 107–120.
+Heng, S. K. (2012, September 12). Keynote address by Mr. Heng Swee Keat, Minister for Education 
+at the Ministry of Education work plan seminar on Wednesday, 12 September 2012 at 
+9.20 am at Ngee Ann Polytechnic Convention Centre. Retrieved from http://www.moe.gov.
+sg/news/speeches/keynote-address-by-mr-heng-swee-keat--minister-for-education--at-the-
+ministry-of-education-work-plan-seminar--on-wednesday--12-september-2012-at-920-am-at-
+ngee-ann-polytechnic-convention-centre
+56
+Stanford Center for Opportunity Policy in Education
+Heng, S. K.(2014, April 12). Speech by Mr. Heng Swee Keat, Minister for Education, at the MOE 
+ExCEL Parent Support Group Conference 2014, at Suntec Convention Centre on 12 April 
+2014. Retrieved from http://www.moe.gov.sg/news/speeches/speech-by-mr-heng-swee-keat--
+minister-for-education--at-the-moe-excel-parent-support-group-conference-2014--at-suntec-
+convention-centre-on-12-april-2014
+Jackson, C. K., & Bruegmann, E. (2009). Teaching students and teaching each other: The 
+importance of peer learning for teachers (NBER Working Paper No. 15202). Cambridge, 
+MA: National Bureau of Economic Research. Retrieved from http://www.nber.org/papers/
+w15202
+Jensen, B., Sonnemann, J., Roberts-Hull, K., & Hunter, A. (2016). Beyond PD: Teacher professional 
+learning in high-performing systems. Washington, DC: National Center on Education and 
+the Economy. 
+Koh, Y. H. (2013). Nurturing communities of reflective and independent learners through thinking 
+curriculum. Kranji in Touch Newsletter, 2, 1. Retrieved from http://www.kranjisec.moe.edu.
+sg/qql/slot/u49 3/About%20Us/Our%20Newsletters/2013/2013%20-%20Issue%202,%20
+October.pdf
+Kraft, M. A., & Papay, J. P . (2014). Can professional environments in schools promote teacher 
+development? Explaining heterogeneity in returns to teaching experience. Educational 
+Evaluation and Policy Analysis, 36(4), 476–500.
+Kranji Secondary School. (2015). Kranji Secondary School Annual 2014. Retrieved from https://
+issuu.com/myothu/docs/kranji_secondary_school_annual_2015
+Kranji Secondary School. (n.d.-a). Character education. Retrieved November 18, 2015, from http://
+www.kranjisec.moe.edu.sg/holistic-education/student-development/character-education
+Kranji Secondary School. (n.d.-b). Kranji Secondary School [Brochure]. Retrieved November 18, 
+2015, from http://www.kranjisec.moe.edu.sg/qql/slot/u493/Announcement/Kranji%20
+Brochure.pdf
+Kranji Secondary School. (n.d.-c). NCC. Retrieved April 12, 2017 from http://kranjisec.moe.edu.sg/
+holistic-education/ccas/uniformed-groups/ncc
+Lee, Y. J., & Poon, C. L. (2014). The professional work of teachers in Singapore: Findings from a 
+work-shadowing study. Asia Pacific Educational Review, 15, 525–535.
+LePoer, B. L. (1989). Singapore: A country study. Washington, DC: Library of Congress, Federal 
+Research Division.
+Lim, K. M. (2014, October). Teacher education & teaching profession in Singapore. 
+Paper presented at the International Conference on the Teaching Profession 
+in ASEAN, Bangkok, Thailand. Retrieved from http://www.researchgate.net/
+publication/266477034_Teacher_Education_Teaching_Profession_in_Singapore
+Ministry of Education. (2001, September 26). More career advancement opportunities for teachers 
+[Press release]. Retrieved from https://www.moe.gov.sg/media/press/2001/pr26092001.htm
+Ministry of Education. (2005, September 22). Greater support for teachers and school leaders [Press 
+release]. Retrieved from http://www.moe.gov.sg/media/press/2005/pr20050922b.htm
+Ministry of Education. (2008, March 18). Assumption Pathway School to start in 2009 
+[Press release]. Retrieved from http://www.nas.gov.sg/archivesonline/speeches/
+record-details/7f91079c-115d-11e3-83d5-0050568939ad 
+57
+Focused on Learning: Student and Teacher Time in a Singapore School
+Ministry of Education. (2009, September 17). Teachers—The heart of quality education [Press 
+release]. Retrieved from http://www.nas.gov.sg/archivesonline/data/pdfdoc/20090924006/
+moe_workplan_seminar_09.pdf
+Ministry of Education. (2010, July). Building a national education system for the 21st century: The 
+Singapore experience. Building Blocks for Education: Whole System Reform, Toronto. 
+Retrieved from https://www.edu.gov.on.ca/bb4e/Singapore_CaseStudy2010.pdf
+Ministry of Education. (2015a). School clusters year 2015. Retrieved April 6, 2017, from http://sis.
+moe.gov.sg/medias/pdfs/school_clusters_2015.pdf
+Ministry of Education. (2015b, March). Bringing out the best in every child: Education in Singapore 
+[Corporate Brochure]. Retrieved from http://www.moe.gov.sg/docs/default-source/document/
+about/files/moe-corporate-brochure.pdf 
+Ministry of Education. (2015c, October). Secondary school education: Shaping the next phase of 
+your child’s learning journey [Corporate Brochure]. Retrieved from https://www.moe.gov.sg/
+docs/default-source/document/education/secondary/files/secondary-school-education-booklet.
+pdf
+Ministry of Education. (2015d). Education statistics digest 2015. Retrieved from: http://www.moe.
+gov.sg/docs/default-source/document/publications/education-statistics-digest/esd-2015.pdf
+Ministry of Education. (2016). Education statistics digest 2016. Retrieved from: https://www.moe.
+gov.sg/docs/default-source/document/publications/education-statistics-digest/esd-2016.pdf
+Ministry of Education. (n.d.-a). 21st century competencies. Retrieved December 17, 2015, from 
+https://www.moe.gov.sg/education/education-system/21st-century-competencies 
+Ministry of Education. (n.d.-b). Desired outcomes of education. Retrieved December 17, 2015, from 
+http://www.moe.gov.sg/education/education-system/desired-outcomes-of-education 
+Ministry of Education. (n.d.-c). The Singapore education journey. Retrieved April 10, 2017, from 
+https://moe.gov.sg/education/landscape 
+Ministry of Education. (n.d.-d). Express course curriculum. Retrieved January 13, 2016, from http://
+www.moe.gov.sg/education/secondary/express-course-curriculum
+Ministry of Education. (n.d.-e). Nurturing students. Retrieved November 17, 2015, from http://
+www.moe.gov.sg/education/nurturing-students
+Ministry of Education. (n.d.-f ). Co-curricular activities (CCAs). Retrieved November 18, 2015, from 
+https://www.moe.gov.sg/education/programmes/co-curricular-activities 
+Ministry of Education. (n.d.-g). Career information: Enhancing your strengths—Career tracks. 
+Retrieved April 6, 2015, from http://www.moe.gov.sg/careers/teach/career-information
+Ministry of Education. (n.d.-h). Parents in education. Retrieved November 17, 2015, from http://
+parents-in-education.moe.gov.sg
+Ministry of Education. (n.d.-i). HR solutions & capabilities division. Retrieved January 5, 2016, 
+from https://www.moe.gov.sg/about/org-structure/hr-group/hscd
+National Center on Education and The Economy. (n.d.). Singapore: System and school organization. 
+Retrieved January 19, 2016, from http://www.ncee.org/programs-affiliates/center-on-
+international-education-benchmarking/top-performing-countries/singapore-overview/
+singapore-system-and-school-organization
+58
+Stanford Center for Opportunity Policy in Education
+National Institute of Education. (2009). TE21: A teacher education model for the 21st Century. 
+Singapore: Author.
+OECD. (2014). TALIS 2013 results: An international perspective on teaching and learning. Paris, 
+France: Author. doi:10.1787/9789264196261-en
+Quintero, E. (2016, February 23). Beyond teacher quality [Blog post]. Retrieved from http://www.
+shankerinstitute.org/blog/beyond-teacher-quality
+Saunders, R. (2013). The role of teacher emotions in change: Experiences, patterns, and implications 
+for professional development. Journal of Educational Change, 14(3), 303–333.
+Sclafani, S., & Lim, E. (2008). Rethinking human capital: Singapore as a model for teacher 
+development. Washington, DC: Aspen Institute.
+Tan, H. P . (n.d.). Principal message. Retrieved February 2, 2016, from http://www.kranjisec.moe.edu.
+sg/about-us/principal-message
+Tan, K. S., & Wong, Y. F. (2012). Developing quality teachers for the Singapore School System: The 
+impact of the National Institute of Education and the tripartite relationship with the Ministry 
+of Education and Schools. In I. Žogla & L. Rutka (Eds.), Teachers’ life-cycle from initial 
+teacher education to experienced professional (pp. 452–453). Brussels, Belgium: Association 
+for Teacher Education in Europe.
+Teh, L. W. (2014). Singapore’s performance in PISA: Leveling up the long tail. In S. K. Lee, W. 
+O. Lee, & E. L. Low (Eds.), Educational policy innovations: Leveling up and sustaining 
+educational achievement (pp. 71–83). Singapore: Springer.
+
+o
+Stanford  Center for 
+Opportunity Policy in Education
+sc e
+Stanford Center for Opportunity Policy in Education
+http://edpolicy.stanford.edu
+@scope_stanford

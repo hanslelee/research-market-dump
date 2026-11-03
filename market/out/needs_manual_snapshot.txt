@@ -1,0 +1,17 @@
+Pages the agent could not read (JavaScript, bot protection or login). Open each in a browser, copy the visible
+text into the file named below, commit, and run the market workflow with step=web again.
+
+https://link.springer.com/article/10.1007/s11858-025-01696-x
+    -> save the visible page text as market/snapshots/manual/cc932f3617e8.txt  (too little text)
+https://www.moe.gov.sg/private-education/register-school
+    -> save the visible page text as market/snapshots/manual/b98875df295a.txt  (too little text)
+https://www.moe.gov.sg/primary/p1-registration
+    -> save the visible page text as market/snapshots/manual/f71f2ecc4042.txt  (too little text)
+https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry
+    -> save the visible page text as market/snapshots/manual/9d72d49c4bd0.txt  (too little text)
+https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan
+    -> save the visible page text as market/snapshots/manual/60711d9f7ae6.txt  (fetch failed: HTTP Error 403: Forbidden)
+https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning
+    -> save the visible page text as market/snapshots/manual/6c02cc3e4a92.txt  (too little text)
+https://www.mdpi.com/2079-3200/13/9/114
+    -> save the visible page text as market/snapshots/manual/56bc17b2bbbb.txt  (fetch failed: HTTP Error 403: Forbidden)

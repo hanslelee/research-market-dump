@@ -1,0 +1,90 @@
+Data
+HOME
+ECONOMIES
+THEMES
+DATA & RESOURCES
+ABOUT
+EnglishEspañolFrançaisالعربية中文
+School enrollment, primary (% gross)Singapore
+Close
+Browse World Development Indicators byCountryorIndicator
+DataBankMicrodataData Catalog
+Menu
+Microdata
+Data Catalog
+DataBank
+Browse World Development Indicators byCountryIndicator
+About Us
+Get Started
+FAQ
+Help Desk
+Contact
+Data Programs
+Improving Statistical Capacity
+Global Data Facility
+International Comparison Program & Purchasing Power Parity
+International Household Survey Network (IHSN)
+Joint External Debt Hub
+Open Data Toolkit
+Quarterly External Debt Statistics
+Products
+World Development Indicators
+International Debt Statistics
+Other Books and Reports
+Country & Lending Groups
+Data Portals and Tools
+Development Goals
+Terms of Use
+For Developers
+School enrollment, primary (% gross) - Singapore
+Data API, UN Educational, Scientific and Cultural Organization ( UNESCO ), uri: databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API. Detailed documentation is available at: api.uis.unesco.org/api/public/documentation, publisher: UNESCO Institute for Statistics ( UIS ), type: Bulk file ( csv ), date accessed: 2026-03-19, date published: 2026-02
+License : CC BY-4.0
+LineBarMap
+Also Show
+None
+Aggregates
+Same region
+Similar values
+Highest values
+Lowest values
+ShareDetails
+Label
+2016 - 2023
+2023202220212020201920182017201620232022202120202019201820172016
+School enrollment, primary, female (% gross)
+School enrollment, primary, male (% gross)
+Primary school starting age (years)
+Primary completion rate, female (% of relevant age group)
+Primary completion rate, male (% of relevant age group)
+Primary completion rate, total (% of relevant age group)
+Educational attainment, at least completed primary, population 25+ years, female (%) (cumulative)
+Educational attainment, at least completed primary, population 25+ years, male (%) (cumulative)
+Download
+CSVXMLEXCEL
+DataBank
+Explore Our DataBank
+WDI Tables
+Thematic data tables from WDI
+Selected Countries and Economies
+Country
+Most Recent Year
+Most Recent Value
+All Countries and Economies
+Country
+Most Recent Year
+Most Recent Value
+Help us improve this siteHelp / Feedback
+IBRD
+IDA
+IFC
+MIGA
+ICSID
+Legal
+Privacy Notice
+Access to Information
+Jobs
+Contact
+© 2026 The World Bank Group, All Rights Reserved.
+REPORT FRAUD OR CORRUPTION
+This site uses cookies to optimize functionality and give you the best possible experience. If you continue to navigate this website beyond this page, cookies will be placed on your browser. To learn more about cookies, click here.
+×

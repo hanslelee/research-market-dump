@@ -17,7 +17,7 @@
     "path": "market/snapshots/cc932f3617e8.txt",
     "chars": 209,
     "ok": false,
-    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+    "reason": "too little text"
   },
   "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051": {
     "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051",
@@ -87,7 +87,7 @@
     "path": "market/snapshots/b98875df295a.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+    "reason": "too little text"
   },
   "https://www.moe.gov.sg/primary/p1-registration": {
     "url": "https://www.moe.gov.sg/primary/p1-registration",
@@ -97,7 +97,7 @@
     "path": "market/snapshots/f71f2ecc4042.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+    "reason": "too little text"
   },
   "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry": {
     "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry",
@@ -107,7 +107,7 @@
     "path": "market/snapshots/9d72d49c4bd0.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+    "reason": "too little text"
   },
   "https://www.koobits.com/plans?k20plan=3": {
     "url": "https://www.koobits.com/plans?k20plan=3",
@@ -167,7 +167,7 @@
     "path": "market/snapshots/6c02cc3e4a92.txt",
     "chars": 0,
     "ok": false,
-    "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"
+    "reason": "too little text"
   },
   "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system": {
     "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system",
@@ -176,6 +176,66 @@
     "kind": "fetched",
     "path": "market/snapshots/454c2686f8fc.txt",
     "chars": 1790,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/02/how-much-time-do-teachers-spend-on-teaching-and-non-teaching-activities_g17a25d2/5js64kndz1f3-en.pdf": {
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/02/how-much-time-do-teachers-spend-on-teaching-and-non-teaching-activities_g17a25d2/5js64kndz1f3-en.pdf",
+    "hash": "c14c4da4bc63",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/c14c4da4bc63.txt",
+    "chars": 15674,
+    "ok": true,
+    "reason": ""
+  },
+  "https://learningpolicyinstitute.org/media/4245/download?inline=&file=Teachers_Time_Singpore_SCOPE_REPORT.pdf": {
+    "url": "https://learningpolicyinstitute.org/media/4245/download?inline=&file=Teachers_Time_Singpore_SCOPE_REPORT.pdf",
+    "hash": "9bec074c5fcb",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/9bec074c5fcb.txt",
+    "chars": 147516,
+    "ok": true,
+    "reason": ""
+  },
+  "https://tntp.org/publication/teachers-time-use": {
+    "url": "https://tntp.org/publication/teachers-time-use",
+    "hash": "106620505d7e",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/106620505d7e.txt",
+    "chars": 6675,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1101192/full": {
+    "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1101192/full",
+    "hash": "f53e6117d706",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/f53e6117d706.txt",
+    "chars": 97776,
+    "ok": true,
+    "reason": ""
+  },
+  "https://www.mdpi.com/2079-3200/13/9/114": {
+    "url": "https://www.mdpi.com/2079-3200/13/9/114",
+    "hash": "56bc17b2bbbb",
+    "fetched_at": "2026-11-03",
+    "kind": "none",
+    "path": "",
+    "chars": 0,
+    "ok": false,
+    "reason": "fetch failed: HTTP Error 403: Forbidden"
+  },
+  "https://data.worldbank.org/indicator/SE.PRM.ENRR?locations=SG": {
+    "url": "https://data.worldbank.org/indicator/SE.PRM.ENRR?locations=SG",
+    "hash": "a5bc203f6ee9",
+    "fetched_at": "2026-11-03",
+    "kind": "fetched",
+    "path": "market/snapshots/a5bc203f6ee9.txt",
+    "chars": 2587,
     "ok": true,
     "reason": ""
   }

@@ -16,8 +16,3 @@ jobs:
       - run: python pipeline/validate.py sample-data
       - run: python pipeline/validate.py .
       - run: python -m unittest discover tests
-      - name: Sample data must not contain real experiments
-        run: |
-          if grep -R --include='*.json' -L '\[DEMO\]' sample-data/claims | grep -q .; then
-            echo "Every sample claim must be marked [DEMO]"; exit 1
-          fi

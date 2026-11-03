@@ -1,5 +1,5 @@
 claim_id,market_conclusion,supporting_evidence_ids,counter_evidence_ids,assumptions,verification_status,materiality,limitations,proposed_action
-MKT-01-A,[DRAFT - write after reading the evidence] Diagnosing primary mathematics learning gaps takes substantial teacher or tutor time and effort.,MKT-E017,,,MISSING,HIGH,"1 evidence row(s) not reviewed yet (UNVERIFIED, not counted).",HOLD
+MKT-01-A,[DRAFT - write after reading the evidence] Diagnosing primary mathematics learning gaps takes substantial teacher or tutor time and effort.,MKT-E017; MKT-E020,,,MISSING,HIGH,"2 evidence row(s) not reviewed yet (UNVERIFIED, not counted).",HOLD
 MKT-01-B,"[DRAFT - write after reading the evidence] Tuition centres or teachers already spend, or are willing to spend, on tools that reduce diagnosis time.",MKT-E002,,,MISSING,HIGH,"1 evidence row(s) not reviewed yet (UNVERIFIED, not counted).",HOLD
 MKT-01-C,[DRAFT - write after reading the evidence] Singapore tuition centres show actual demand to adopt diagnosis-automation tools.,,,,MISSING,HIGH,No usable public evidence found yet.,HOLD
 MKT-01-D,"[DRAFT - write after reading the evidence] Potential customers in Singapore are counted in tuition centres, and their number is X.",MKT-E006,,FIN-A01,MISSING,HIGH,"1 evidence row(s) not reviewed yet (UNVERIFIED, not counted).",HOLD

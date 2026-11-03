@@ -145,5 +145,26 @@
     "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
     "created_at": "2026-11-03",
     "verification_status": "UNVERIFIED"
+  },
+  "web:94baa6285b65": {
+    "key": "web:94baa6285b65",
+    "lane": "web",
+    "claim_id": "MKT-01-A",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/results-from-talis-2024-country-notes_eafd703e/singapore_f09da5a5/8e88e29a-en.pdf",
+    "title": "Results from TALIS 2024: Singapore",
+    "publisher": "OECD",
+    "publication_date": "2025",
+    "quote": "Full-time teachers report spending 6.4 hours per week on marking and correcting of student work (higher than the OECD average: 4.6).",
+    "finding": "Full-time teachers in Singapore spend 6.4 hours per week marking and correcting student work, which indicates substantial time spent on assessment-related tasks.",
+    "stance": "limits",
+    "unit": "hours per week",
+    "limitation": "The data reports overall marking and correcting time for teachers rather than specifically isolating primary mathematics or the diagnosis of learning gaps.",
+    "tier": "research",
+    "source_type": "Research report (international / NGO)",
+    "snapshot": "market/snapshots/efd7736ac1af.txt",
+    "snapshot_kind": "fetched",
+    "found_by": "agent:generativelanguage.googleapis.com/gemini-3.5-flash-lite",
+    "created_at": "2026-11-03",
+    "verification_status": "UNVERIFIED"
   }
 }

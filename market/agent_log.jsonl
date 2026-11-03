@@ -170,3 +170,85 @@
 {"step": "filter", "claim": "MKT-02-C", "url": "https://www.instagram.com/reel/Deln3MFTUZD", "tier": "blocked", "action": "dropped"}
 {"step": "fetch", "competitor": "MOE Student Learning Space (Adaptive Learning System)", "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning", "action": "skipped", "reason": "too little text"}
 {"step": "done", "date": "2026-11-03", "pages": 21, "evidence": 1, "competitor_features": 31, "skipped_pages": 10}
+{"step": "plan", "claim": "MKT-01-A", "queries": ["teachers time spent marking assessment diagnosing students Singapore", "teacher workload assessment feedback time OECD TALIS Singapore", "tuition teacher time marking worksheets Singapore"]}
+{"step": "filter", "claim": "MKT-01-A", "url": "https://www.linkedin.com/posts/dr-alan-go-42690024_global-survey-finds-spore-teachers-spend-activity-7381155497145556992-6HW7", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-A", "url": "https://www.instagram.com/p/DR3au4TiMV3", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-A", "url": "https://www.scribd.com/document/949391357/post-talis-1", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-A", "url": "https://sg.indeed.com/q-marking-worksheet-jobs.html", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-A", "url": "https://www.superstarteacher.com.sg", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-A", "url": "https://sg.jobstreet.com/part-time-marking-jobs", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-A", "url": "https://www.facebook.com/groups/1645883098998975/posts/4281295795457679", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-A", "url": "https://www.reddit.com/r/SGExams/comments/fhyqui/o_levels_is_it_common_for_tutor_to_just_print_out", "tier": "other", "action": "dropped"}
+{"step": "fetch", "claim": "MKT-01-A", "url": "https://www.oecd.org/en/publications/2025/10/results-from-talis-2024_28fbde1d/full-report/the-demands-of-teaching_0e941e2f.html", "action": "skipped", "reason": "fetch failed: HTTP Error 403: Forbidden"}
+{"step": "verify", "claim": "MKT-01-A", "url": "https://www.channelnewsasia.com/singapore/7-day-work-weeks-marking-while-home-singapore-teachers-say-theyre-busy-ever-if-not-more-5394291", "action": "merged", "rule": "overlapping_quote", "into": "web:239337c6fa53"}
+{"step": "fetch", "claim": "MKT-01-A", "url": "https://www.moe.gov.sg/news/press-releases/20251007-singapore-teachers-embrace-digital-technologies-and-benefit-from-strong-professional-development-oecd-talis-2024-study", "action": "skipped", "reason": "too little text"}
+{"step": "fetch", "claim": "MKT-01-A", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/results-from-talis-2024_28fbde1d/90df6235-en.pdf", "action": "skipped", "reason": "too little text"}
+{"step": "plan", "claim": "MKT-01-B", "queries": ["Singapore tuition centres education technology spending", "Singapore household spending private tuition 2023 survey", "tuition centre software subscription Singapore AI marking"]}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://www.nexdigm.com/market-research/insights/blog/singapore-education-industry-report", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://www.linkedin.com/posts/dr-alan-go-42690024_singapore-18-billion-private-tuition-and-activity-7286899735100104705-7McB", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://www.vm.ee/sites/default/files/documents/2025-03/Singapore%20Strategy_EdTech.pdf", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://www.facebook.com/TheStarOnline/posts/parents-spent-500-monthly-on-private-tuition-in-2026-compared-with-242-in-2016-s/1577788801050306", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://www.instagram.com/p/DFAhCzbMlXM", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://www.statista.com/statistics/1187608/singapore-private-consumption-expenditure-on-education", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://govinsider.asia/intl-en/article/3-ways-Singapore-is-trialling-AI-in-education", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://www.youtube.com/watch?v=TluJa7kkvo4", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-B", "url": "https://finance.yahoo.com/news/oracle-opens-ai-centre-singapore-101521522.html", "tier": "other", "action": "dropped"}
+{"step": "fetch", "claim": "MKT-01-B", "url": "https://unesdoc.unesco.org/ark:/48223/pf0000387744", "action": "skipped", "reason": "too little text"}
+{"step": "fetch", "claim": "MKT-01-B", "url": "https://www.singstat.gov.sg/news/parents-seem-persuaded-that-tuition-is-necessary-and-not-optional", "action": "skipped", "reason": "fetch failed: HTTP Error 403: Forbidden"}
+{"step": "plan", "claim": "MKT-01-C", "queries": ["Singapore tuition centres adopt AI tools", "tuition centre AI learning analytics Singapore survey", "Singapore enrichment centres digital transformation AI"]}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://ax9qdysnndqf.compat.objectstorage.ap-singapore-1.oraclecloud.com/singapore/maths-tuition/1/how-to-integrate-ai-in-tuition-effectively.html", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://govinsider.asia/intl-en/article/3-ways-Singapore-is-trialling-AI-in-education", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://www.youtube.com/watch?v=jf3zYrGgncs", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://www.studiosity.com/blog/beyond-the-hype-singapore-students-perspectives-on-ai-in-learning", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://blog.etioglobal.org/blog/ai-unleashed-singaporean-students-explore-the-future-of-learning", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://www.penjiapp.com/content/student-usage-of-ai", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://en.wikipedia.org/wiki/Singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://www.britannica.com/place/Singapore-capital", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://www.britannica.com/place/Singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-C", "url": "https://simple.wikipedia.org/wiki/Singapore", "tier": "other", "action": "dropped"}
+{"step": "fetch", "claim": "MKT-01-C", "url": "https://link.springer.com/rwe/10.1007/978-981-96-3901-4_5-2", "action": "skipped", "reason": "too little text (page may need JavaScript or a login): add a manual snapshot"}
+{"step": "fetch", "claim": "MKT-01-C", "url": "https://repository.nie.edu.sg/bitstreams/b864f4e6-a0d7-4f97-99a3-32492df679b7/download", "action": "skipped", "reason": "fetch failed: HTTP Error 405: Not Allowed"}
+{"step": "plan", "claim": "MKT-01-D", "queries": ["number of tuition centres Singapore MOE registered", "Singapore private tuition and enrichment centres count", "Singapore primary school enrolment by level"]}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://smiletutor.sg/an-overview-of-tuition-in-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://sapgrp.com/choosing-an-established-tuition-centre-in-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://en.wikipedia.org/wiki/Education_in_Singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://ncee.org/singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://honeykidsasia.com/top-tuition-centres-in-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://tutorbase.com/blog/how-start-tuition-centre-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://sg.finance.yahoo.com/news/tuition-centres-singapore-2018-17-160000214.html", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://www.learningpoint.com.sg", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://thenuggetsacademy.sg/primary-school-registration-phases", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://sgschoolkaki.com/p1-registration/data-2025", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-01-D", "url": "https://lilbutmightyenglish.com/blog/the-ultimate-guide-to-p1-registration-in-singapore-why-1km-and-2km-matter", "tier": "other", "action": "dropped"}
+{"step": "fetch", "claim": "MKT-01-D", "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210913-private-tuition-and-enrichment-industry", "action": "skipped", "reason": "too little text"}
+{"step": "fetch", "claim": "MKT-01-D", "url": "https://www.moe.gov.sg/private-education/register-school", "action": "skipped", "reason": "too little text"}
+{"step": "plan", "claim": "MKT-02-A", "queries": ["Singapore primary math platform diagnostic report learning gaps", "tuition centre learning management system Singapore student reports", "Student Learning Space adaptive learning system mathematics"]}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://eduaihub.sg/math-assessment", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://esingaporemath.com/faq/teachers", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://matchatutor.sg/blog/article/690463898276519/academic-pathways-decisions/primary-school-diagnostic-assessments", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.letsgolearn.com/math-assessment/learning-gap-identification-tools", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.facebook.com/groups/199130870242822/posts/3826392564183283", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.brainstem.sg", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.edulabs.com.sg", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://oclass.app/tuition", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.tigernix.com/blog/benefits-tuition-centre-management-system-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://malaytuitionsg.com/learning-management-system", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://ancourage.academy/articles/moe-sls-ai-features-parent-guide-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.youtube.com/watch?v=tKLBNQoaefQ", "tier": "blocked", "action": "dropped"}
+{"step": "plan", "claim": "MKT-02-C", "queries": ["tuition centres want evidence of student progress reports parents Singapore", "tutors value diagnostic reports learning gaps survey", "parents expectations tuition centre progress reports Singapore"]}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://tutorbase.com/blog/pdpa-compliance-tutoring-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://kza.blob.core.windows.net/omt-math-tuition/tuition/online-math-tuition/pitfalls-of-ignoring-progress-reports-in-online-math-tuition.html", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://www.cranbrookhistorycentre.com/tuition-center-in-singapore-what-parents-should-know", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://www.illuminateed.com/blog/2020/01/sharing-assessment-results-with-parents-families", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://www.facebook.com/groups/262866148261977/posts/1397838574764723", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://tutoringclub.com/stjohnsfl/how-tutoring-boosts-k-12-academic-performance-and-confidence", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://v-tutor.com.au/blog/how-a-diagnostic-assessment-identifies-learning-gaps", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://hechingerreport.org/proof-points-tutoring-research-nashville", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://catapultlearning.com/resource/5-key-indicators-of-a-high-quality-high-impact-tutoring-program-for-schools", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://www.letsgolearn.com/math-assessment/learning-gap-identification-tools", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://ax9qdysnndqf.compat.objectstorage.ap-singapore-1.oraclecloud.com/math-tuition-singapore/tuition/secondary-4-tuition-centre-tips/reading-tuition-centre-progress-tracking-key-metrics-for-improvement.html", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://kaizenaire.ai/industry-survival/how-singapore-tuition-centres-are-adapting-to-2026-parent-expectations", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://bristoluniversitypressdigital.com/view/journals/frs/11/4/article-p517.xml", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://math-tuition-singapore.us-southeast-1.linodeobjects.com/primary-3-tuition-centre-tips/p3-tuition/metrics-for-measuring-the-impact-of-tuition-centre-communication-on-grades.html", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-C", "url": "https://www.instagram.com/reel/Deln3MFTUZD", "tier": "blocked", "action": "dropped"}
+{"step": "done", "date": "2026-11-03", "pages": 16, "evidence": 1, "competitor_features": 0, "skipped_pages": 9}

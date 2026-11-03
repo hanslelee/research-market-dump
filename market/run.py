@@ -24,6 +24,7 @@ def main():
     ap.add_argument("--data", default=".")
     ap.add_argument("--today", default=M.today())
     ap.add_argument("--only", default="")
+    ap.add_argument("--refresh", action="store_true", help="web: read pages again even if already read for a claim")
     a = ap.parse_args()
     data = Path(a.data)
     only = {x.strip() for x in a.only.split(",") if x.strip()} or None
@@ -35,7 +36,7 @@ def main():
         academic.run(data, a.today, only=only)
     if a.cmd in ("web", "all"):
         import agent
-        agent.run(data, a.today, only=only)
+        agent.run(data, a.today, only=only, refresh=a.refresh)
     if a.cmd in ("tests", "all"):
         import seeded_tests
         seeded_tests.run(data, a.today)

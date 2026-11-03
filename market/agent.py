@@ -117,7 +117,13 @@ def extract_evidence(data, claim, url, tier, snap, text, chat, agent, store, tod
         if not M.contains(text, q, min_len=8):
             store.log(step="verify", claim=cid, url=url, action="dropped", rule="quote_not_in_snapshot", quote=q[:200])
             continue
-        key = "web:" + M.h(url, M.norm(q), cid)
+        nq = M.norm(q)
+        dup = next((k for k, e in store.evidence.items() if e.get("url") == url and e.get("claim_id") == cid
+                    and (nq in M.norm(e["quote"]) or M.norm(e["quote"]) in nq)), None)
+        if dup:  # same page, same claim, overlapping quote: keep the existing row (its id and any review stay)
+            store.log(step="verify", claim=cid, url=url, action="merged", rule="overlapping_quote", into=dup)
+            continue
+        key = "web:" + M.h(url, nq, cid)
         old = store.evidence.get(key, {})
         store.evidence[key] = {
             **old, "key": key, "lane": "web", "claim_id": cid, "url": url, "title": got.get("title", "") or old.get("title", ""),
@@ -162,7 +168,7 @@ def extract_competitor(comp, url, snap, text, mc, chat, agent, store, today):
     return len(feats)
 
 
-def run(data: Path, today: str, log=print, chat=None, search_fn=S.search, getter=F.http_fetch, only=None):
+def run(data: Path, today: str, log=print, chat=None, search_fn=S.search, getter=F.http_fetch, only=None, refresh=False):
     chat = chat or llm.chat
     config = json.loads((data / "config.json").read_text())
     mc = M.mcfg(config)
@@ -179,8 +185,11 @@ def run(data: Path, today: str, log=print, chat=None, search_fn=S.search, getter
         queries = plan_queries(claim, mc, chat, agent, log)
         store.log(step="plan", claim=cid, queries=queries)
         for url, t in candidate_urls(cid, queries, mc, store, log, search_fn):
+            done = store.urls.get(url, {}).get("extracted_for", [])
+            if cid in done and not refresh:
+                continue  # this page was already read for this claim; --refresh reads it again
             snap = F.snapshot(data, url, today, getter=getter, log=log)
-            store.urls[url] = snap
+            store.urls[url] = {**snap, "extracted_for": done}
             if not snap["ok"]:
                 store.log(step="fetch", claim=cid, url=url, action="skipped", reason=snap["reason"])
                 summary["skipped_pages"] += 1
@@ -188,6 +197,7 @@ def run(data: Path, today: str, log=print, chat=None, search_fn=S.search, getter
             summary["pages"] += 1
             try:
                 summary["evidence"] += extract_evidence(data, claim, url, t, snap, F.text_of(data, snap), chat, agent, store, today)
+                store.urls[url]["extracted_for"] = sorted(set(done) | {cid})
             except llm.LLMUnavailable:
                 store.save()
                 raise

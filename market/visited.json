@@ -7,7 +7,10 @@
     "path": "market/snapshots/manual/a72e9219fbb6.txt",
     "chars": 340,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": [
+      "MKT-01"
+    ]
   },
   "https://link.springer.com/article/10.1007/s11858-025-01696-x": {
     "url": "https://link.springer.com/article/10.1007/s11858-025-01696-x",
@@ -27,7 +30,10 @@
     "path": "market/snapshots/manual/f3b937467560.txt",
     "chars": 516,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": [
+      "MKT-02"
+    ]
   },
   "https://www.seab.gov.sg/seab-link-issue-2-2026/seab-adaptive-assessment-tools": {
     "url": "https://www.seab.gov.sg/seab-link-issue-2-2026/seab-adaptive-assessment-tools",
@@ -37,7 +43,8 @@
     "path": "market/snapshots/d4bf3fc64533.txt",
     "chars": 7058,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://www.learning.moe.edu.sg/teachers/teacher-user-guide/discover/about-adaptive-learning-system": {
     "url": "https://www.learning.moe.edu.sg/teachers/teacher-user-guide/discover/about-adaptive-learning-system",
@@ -47,7 +54,8 @@
     "path": "market/snapshots/f1a0c151164f.txt",
     "chars": 3101,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/access-adaptive-learning-system": {
     "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/access-adaptive-learning-system",
@@ -57,7 +65,8 @@
     "path": "market/snapshots/f98781ebcd03.txt",
     "chars": 3875,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://geniebook.com/blog/online-education-singapore-how-geniebook-supports-academic-success": {
     "url": "https://geniebook.com/blog/online-education-singapore-how-geniebook-supports-academic-success",
@@ -67,7 +76,10 @@
     "path": "market/snapshots/939072ead4ec.txt",
     "chars": 25967,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": [
+      "MKT-02"
+    ]
   },
   "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf": {
     "url": "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf",
@@ -77,7 +89,10 @@
     "path": "market/snapshots/manual/90c7312a13c7.txt",
     "chars": 366,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": [
+      "MKT-03"
+    ]
   },
   "https://www.moe.gov.sg/private-education/register-school": {
     "url": "https://www.moe.gov.sg/private-education/register-school",
@@ -117,7 +132,8 @@
     "path": "market/snapshots/manual/96511fcc0f74.txt",
     "chars": 181,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://www.koobits.com/math": {
     "url": "https://www.koobits.com/math",
@@ -127,7 +143,8 @@
     "path": "market/snapshots/7d3d6373651f.txt",
     "chars": 15586,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan": {
     "url": "https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan",
@@ -147,7 +164,8 @@
     "path": "market/snapshots/manual/625474d4dbb2.txt",
     "chars": 260,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://geniebook.com": {
     "url": "https://geniebook.com",
@@ -157,7 +175,8 @@
     "path": "market/snapshots/d21b6a5b2942.txt",
     "chars": 56451,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning": {
     "url": "https://www.moe.gov.sg/news/parliamentary-replies/20210705-adaptive-learning",
@@ -177,7 +196,8 @@
     "path": "market/snapshots/454c2686f8fc.txt",
     "chars": 1790,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/02/how-much-time-do-teachers-spend-on-teaching-and-non-teaching-activities_g17a25d2/5js64kndz1f3-en.pdf": {
     "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2015/02/how-much-time-do-teachers-spend-on-teaching-and-non-teaching-activities_g17a25d2/5js64kndz1f3-en.pdf",
@@ -187,7 +207,8 @@
     "path": "market/snapshots/c14c4da4bc63.txt",
     "chars": 15674,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://learningpolicyinstitute.org/media/4245/download?inline=&file=Teachers_Time_Singpore_SCOPE_REPORT.pdf": {
     "url": "https://learningpolicyinstitute.org/media/4245/download?inline=&file=Teachers_Time_Singpore_SCOPE_REPORT.pdf",
@@ -197,7 +218,8 @@
     "path": "market/snapshots/9bec074c5fcb.txt",
     "chars": 147516,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://tntp.org/publication/teachers-time-use": {
     "url": "https://tntp.org/publication/teachers-time-use",
@@ -207,7 +229,8 @@
     "path": "market/snapshots/106620505d7e.txt",
     "chars": 6675,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1101192/full": {
     "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1101192/full",
@@ -217,7 +240,10 @@
     "path": "market/snapshots/f53e6117d706.txt",
     "chars": 97776,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": [
+      "MKT-01"
+    ]
   },
   "https://www.mdpi.com/2079-3200/13/9/114": {
     "url": "https://www.mdpi.com/2079-3200/13/9/114",
@@ -237,6 +263,7 @@
     "path": "market/snapshots/a5bc203f6ee9.txt",
     "chars": 2587,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   }
 }

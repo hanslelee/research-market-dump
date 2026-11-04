@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:54:02+00:00",
+  "generated_at": "2026-11-04T08:54:21+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -93,7 +93,7 @@
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
       "limitation": " The study examines public elementary school teachers rather than commercial tuition centres in Singapore.; It reviews general assessment and feedback research across various subjects rather than specifically examining primary mathematics diagnostic software adoption in tuition centres.; It provides a broad review of mathematical modeling in STEM automated grading rather than empirical evidence of tuition centres spending money on math diagnostic tools.; The research studies general classroom automated grading rather than diagnostic software specifically targeted at primary mathematics learning gaps in tuition centres.; Secondary report; primary SingStat table not opened. All subjects and levels, not primary maths. Household spending on tuition, not centre spending on software.",
-      "conclusion": "",
+      "conclusion": "Partly supported. Automated grading cut teacher grading time by 35% (MKT-E028) and teachers value adaptive diagnostic assessment (MKT-E025); Singapore households spent S$1.8b on tuition in 2023 (MKT-E002). No public evidence that tuition centres pay for diagnostic software.",
       "review_status": "DRAFT",
       "supporting": [
         "MKT-E002",
@@ -116,7 +116,7 @@
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
       "limitation": " It examines secondary school classrooms rather than commercial tuition centres.; It investigates preservice teachers in California higher education rather than commercial tuition centres in Singapore.; It focuses on distance learning university teachers rather than Singaporean tuition centre operators.",
-      "conclusion": "",
+      "conclusion": "Weakly supported. Teachers adopt learning-analytics tools when they expect better performance (MKT-E032) and use dashboards to find struggling students (MKT-E029), but all evidence is from schools or universities. Needs primary research with Singapore tuition centres.",
       "review_status": "DRAFT",
       "supporting": [
         "MKT-E029",
@@ -158,7 +158,7 @@
       "status": "PARTIAL",
       "action": "HOLD",
       "limitation": "Action HOLD by reviewer: Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps. 4 reviewed counter-evidence row(s). 8 evidence row(s) not reviewed yet (UNVERIFIED, not counted). Company self-description on its own website; features and price not independently tested.",
-      "conclusion": "",
+      "conclusion": "Largely contradicted on diagnosis: Geniebook, KooBits and MOE SLS already identify learning gaps and report them (MKT-E004, MKT-E009, MKT-E019, MKT-E010). Not found in public material: tutor-reviewed, evidence-traceable reports licensed to tuition centres.",
       "review_status": "DRAFT",
       "supporting": [
         "MKT-E003",

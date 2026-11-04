@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:46:24+00:00",
+  "generated_at": "2026-11-04T08:46:43+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -57,7 +57,6 @@
         "MKT-E019",
         "MKT-E036",
         "MKT-E037",
-        "MKT-E038",
         "MKT-E039"
       ],
       "basis": "Team claim from the MathBridge evidence packet v0.1 (Appendix A). Judged by its sub-claims: status = the weakest sub-claim; any MISSING sub-claim -> HOLD."
@@ -210,13 +209,12 @@
       "text": "That difference gives real value to target customers (tuition centres).",
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
-      "limitation": "3 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It investigates teacher training via mixed reality simulations rather than commercial math diagnostics for tuition centres.",
+      "limitation": "2 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It investigates teacher training via mixed reality simulations rather than commercial math diagnostics for tuition centres.",
       "conclusion": "",
       "review_status": "DRAFT",
       "supporting": [
         "MKT-E036",
         "MKT-E037",
-        "MKT-E038",
         "MKT-E039"
       ],
       "counter": [],
@@ -590,10 +588,10 @@
       "claim": "MKT-02-C",
       "stance": "supports",
       "stance_by_agent": "",
-      "status": "UNVERIFIED",
+      "status": "NOT APPLICABLE",
       "limitation": "It examines pre-service science teacher education rather than commercial math diagnostic tools used by private tutors.",
-      "checked_by": "",
-      "checked_date": "",
+      "checked_by": "Hansle",
+      "checked_date": "2026-11-04",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:49:47+00:00",
+  "generated_at": "2026-11-04T08:50:06+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -1111,7 +1111,7 @@
       "claim": "MKT-02-A",
       "stance": "contradicts",
       "stance_by_agent": "",
-      "status": "PARTIAL",
+      "status": "VERIFIED",
       "limitation": "Company self-description on its own website; features and price not independently tested.",
       "checked_by": "Hansle",
       "checked_date": "2026-11-04",

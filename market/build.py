@@ -223,6 +223,8 @@ def conclusions(data: Path, config, rows):
         counter = [r for r in ev if r["stance"] == "contradicts" and counts(r)]
         lim = "; ".join(dict.fromkeys(r["limitation"] for r in ev if r.get("limitation") and counts(r)))
         notes = []
+        if hc.get("proposed_action") and hc.get("action_reason"):
+            notes.append(f"Action {hc['proposed_action']} by reviewer: {hc['action_reason']}")
         if c.get("fixed_status"):
             notes.append(f"{c['fixed_status']} by design: {c.get('basis', '')}")
         if counter:

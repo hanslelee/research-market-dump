@@ -70,8 +70,10 @@ def t_unit_leap(d, base):
     (M.mdir(d) / "snapshots" / "manual" / "seed_t03.txt").write_text("Primary enrolment 2024: 237,966 students.")
     _put_ev(d, ev)
     res = B.build(d)
-    ok = "R4_unit_leap" in _rules(res, "MKT-01-D") and _action(res, "MKT-01-D") == "HOLD"
-    return f"rules on MKT-01-D: {sorted(_rules(res, 'MKT-01-D'))}; action {_action(res, 'MKT-01-D')}", ok
+    team = next((h["proposed_action"] for h in res["handoff"] if h["claim_id"] == "MKT-01"), None)
+    ok = "R4_unit_leap" in _rules(res, "MKT-01-D") and _action(res, "MKT-01-D") == "HOLD" and team == "HOLD"
+    return (f"R4_unit_leap on MKT-01-D (claim counts centres, seeded evidence counts students); "
+            f"MKT-01-D {_action(res, 'MKT-01-D')}, team claim MKT-01 {team}"), ok
 
 
 def t_fake_feature(d, base):
@@ -151,7 +153,7 @@ def t_blocked_domain(d, base):
 
 TESTS = [
     ("CT-01", "Clean baseline: current data has no integrity failures (clean case must not be falsely blocked)", "No R1/R2/R3/R5/R6 issue", t_clean),
-    ("CT-02", "T03 seed: student enrolment used as paying customers for the centres-based market claim (MKT-01-D)", "R4_unit_leap and MKT-01-D = HOLD", t_unit_leap),
+    ("CT-02", "T03 seed: student enrolment used as paying customers for the centres-based market claim (MKT-01-D)", "R4_unit_leap on MKT-01-D; MKT-01-D and MKT-01 = HOLD", t_unit_leap),
     ("CT-03", "Seed a competitor feature that is not on the saved page", "R5_competitor_feature_unsourced", t_fake_feature),
     ("CT-04", "Seed a conclusion citing an evidence id that does not exist (fake citation, T07-like)", "R2_dangling_evidence_id and HOLD", t_fake_citation),
     ("CT-05", "Seed a changed number inside a logged quote", "R3_quote_not_in_source", t_altered_quote),
@@ -174,14 +176,18 @@ def run(data: Path, today: str, log=print):
     base = B.build(data)
     ver = input_version(data)
     results = []
+    import time
     for tid, desc, expected, fn in TESTS:
+        t0 = time.perf_counter()
         with tempfile.TemporaryDirectory() as tmp:
             d = _copy(data, Path(tmp))
             try:
                 observed, ok = fn(d, base if fn is t_clean else B.build(d))
             except Exception as e:  # a crash is a failed test, not a skipped one
                 observed, ok = f"error: {e}", False
-        results.append({"test_id": tid, "description": desc, "input_version": ver, "expected": expected,
+        secs = time.perf_counter() - t0
+        results.append({"test_id": tid, "team_test_id": "T03" if tid == "CT-02" else "", "runtime_min": round(secs / 60, 3),
+                        "cost_sgd": 0, "description": desc, "input_version": ver, "expected": expected,
                         "observed": observed, "pass_fail": "PASS" if ok else "FAIL", "issue_id": "" if ok else f"ISS-{tid}",
                         "run_date": today, "evidence_file": "market/test_results.json"})
         log(f"{tid}: {'PASS' if ok else 'FAIL'} - {observed}")

@@ -1,0 +1,109 @@
+{
+  "case_id": "MATHBRIDGE-BASE-v1",
+  "owner": "Hansle",
+  "artifact": "market_handoff",
+  "artifact_version": "v1.0",
+  "claims": [
+    {
+      "claim_id": "MKT-01",
+      "owner": "Hansle",
+      "claim_text": "Tuition centres face a meaningful need for diagnostic efficiency.",
+      "evidence_ids": [
+        "MKT-E001",
+        "MKT-E017",
+        "MKT-E020",
+        "MKT-E021",
+        "MKT-E022",
+        "MKT-E023",
+        "MKT-E024",
+        "MKT-E002",
+        "MKT-E025",
+        "MKT-E026",
+        "MKT-E027",
+        "MKT-E028",
+        "MKT-E029",
+        "MKT-E030",
+        "MKT-E031"
+      ],
+      "assumption_ids": [
+        "F-A01"
+      ],
+      "evidence_status": "MISSING",
+      "materiality": "HIGH",
+      "limitation": "Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C PARTIAL, MKT-01-D MISSING. Open questions for deeper diligence (no public evidence): MKT-01-D.",
+      "recommended_action": "ACCEPT_WITH_LIMITATION",
+      "artifact_version": "v1.0",
+      "review_status": "DRAFT",
+      "sub_claims": [
+        {
+          "claim_id": "MKT-01-A",
+          "evidence_status": "PARTIAL",
+          "recommended_action": "ACCEPT_WITH_LIMITATION"
+        },
+        {
+          "claim_id": "MKT-01-B",
+          "evidence_status": "PARTIAL",
+          "recommended_action": "ACCEPT_WITH_LIMITATION"
+        },
+        {
+          "claim_id": "MKT-01-C",
+          "evidence_status": "PARTIAL",
+          "recommended_action": "ACCEPT_WITH_LIMITATION"
+        },
+        {
+          "claim_id": "MKT-01-D",
+          "evidence_status": "MISSING",
+          "recommended_action": "ACCEPT_WITH_LIMITATION"
+        }
+      ]
+    },
+    {
+      "claim_id": "MKT-02",
+      "owner": "Hansle",
+      "claim_text": "MathBridge AI is differentiated from existing EdTech alternatives.",
+      "evidence_ids": [
+        "MKT-E003",
+        "MKT-E011",
+        "MKT-E014",
+        "MKT-E015",
+        "MKT-E018",
+        "MKT-E033",
+        "MKT-E034",
+        "MKT-E035",
+        "MKT-E004",
+        "MKT-E007",
+        "MKT-E008",
+        "MKT-E009",
+        "MKT-E010",
+        "MKT-E019",
+        "MKT-E036",
+        "MKT-E037",
+        "MKT-E039"
+      ],
+      "assumption_ids": [],
+      "evidence_status": "SYNTHETIC",
+      "materiality": "HIGH",
+      "limitation": "Sub-claims: MKT-02-A PARTIAL, MKT-02-B SYNTHETIC, MKT-02-C PARTIAL. On HOLD: MKT-02-A (unresolved contradiction).",
+      "recommended_action": "HOLD",
+      "artifact_version": "v1.0",
+      "review_status": "DRAFT",
+      "sub_claims": [
+        {
+          "claim_id": "MKT-02-A",
+          "evidence_status": "PARTIAL",
+          "recommended_action": "HOLD"
+        },
+        {
+          "claim_id": "MKT-02-B",
+          "evidence_status": "SYNTHETIC",
+          "recommended_action": "ACCEPT_WITH_LIMITATION"
+        },
+        {
+          "claim_id": "MKT-02-C",
+          "evidence_status": "PARTIAL",
+          "recommended_action": "ACCEPT_WITH_LIMITATION"
+        }
+      ]
+    }
+  ]
+}

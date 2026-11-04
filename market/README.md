@@ -22,8 +22,9 @@ human:  market/review.csv (VERIFIED / PARTIAL)   market/conclusions.json (conclu
 | Market Evidence | paper lane (Semantic Scholar: maths diagnostics, formative assessment, AI-assisted learning, per sub-claim `academic_queries`) + market agent (statistics, news, competitor pages) |
 | Competitor Matrix | market agent (features and price copied from the saved page, else NOT FOUND) |
 | Market Conclusions | built from the evidence; **conclusion text is yours** (`market/conclusions.json`) |
-| Market Handoff | built from Conclusions (CSV for Kaizhen: `market/out/market_handoff.csv`) |
-| Component Tests | `market/seeded_tests.py` (8 seeded-defect tests, expected results frozen in code) |
+| Market Handoff | built from Conclusions (`market/out/market_handoff.csv`, and `market_handoff.json` with the packet v1.0 section 13 fields) |
+| Component Tests | `market/seeded_tests.py` (8 seeded-defect tests, expected results frozen in code; CT-02 is the component run of team test T03) |
+| Test Status v2 | T03 row filled from the actual CT-02 run (detection, route, version, date, runtime, cost); human review minutes and integration status are left for people |
 
 ## Setup (once)
 
@@ -77,7 +78,10 @@ Claims, four levels, weakest first: MISSING < SYNTHETIC < PARTIAL < VERIFIED.
 - Sub-claim (Market Conclusions): SYNTHETIC when fixed so (MKT-02-B: MathBridge's features are fictional); otherwise
   none of its reviewed supporting evidence → MISSING, all VERIFIED → VERIFIED, else PARTIAL. UNVERIFIED rows do not count.
 - Team claim (Market Handoff): the weakest of its sub-claims. Any MISSING sub-claim → HOLD, and the limitation names it.
-- Actions: MISSING or a blocking rule → HOLD; VERIFIED → ACCEPT; otherwise ACCEPT_WITH_LIMITATION.
+- Actions (case packet v1.0 section 12): missing evidence is an open question for deeper diligence, not a HOLD
+  (unless conclusions.json marks the sub-claim `"material_blocker": true`); inflated or false evidence (R2, R4, R8) and
+  an unresolved contradiction (R10: reviewed counter-evidence) → HOLD; VERIFIED → ACCEPT; otherwise
+  ACCEPT_WITH_LIMITATION. A team claim is on HOLD if any sub-claim is; open questions are listed in its limitation.
   A human action in conclusions.json that overrides a rule HOLD is logged as R7 for Kaizhen's adjudication.
 
 ## Rules (no model)
@@ -86,7 +90,8 @@ R1 status vocabulary · R2 evidence ids resolve · R3 quote found in the saved t
 support a claim counted in Y unless `market.unit_conversions` has an assumption converting X→Y; T03) ·
 R5 competitor features and price found in the saved page · R6 no VERIFIED without a person's check (checked_by, checked_date) ·
 R7 human action overrides a rule HOLD · R8 a HIGH claim may not rest only on "Other" sources ·
-R9 ids from other members' files (EDU-, FIN-, INT-) are checked at integration (T07), not here.
+R9 ids from other members' files (EDU-, FIN-, INT-, GROW-, F-A) are checked at integration (T07), not here ·
+R10 reviewed counter-evidence on a sub-claim → HOLD until adjudicated.
 
 ## The agent may not
 

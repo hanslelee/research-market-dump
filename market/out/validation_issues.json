@@ -1,7 +1,7 @@
 [
   {
-    "rule": "R4_unit_leap",
-    "where": "MKT-01-D",
-    "issue": "claim counts centres but MKT-E006 counts students; no assumption converts students -> centres"
+    "rule": "R10_unresolved_contradiction",
+    "where": "MKT-02-A",
+    "issue": "reviewed counter-evidence on this sub-claim; HOLD until adjudicated (packet 12: contradiction unresolved)"
   }
 ]

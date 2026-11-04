@@ -10,7 +10,7 @@
   "materiality": "HIGH",
   "unit": "centres",
   "assumption_ids": [
-    "FIN-A01"
+    "F-A01"
   ],
   "market_queries": [
     "number of tuition centres Singapore MOE registered",

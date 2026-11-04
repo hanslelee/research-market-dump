@@ -74,7 +74,7 @@
     "hold_days": 3
   },
   "market": {
-    "version": "v0.1",
+    "version": "v1.0",
     "owner": "Hansle",
     "case_id": "MATHBRIDGE-BASE-v1",
     "product": "MathBridge AI (fictional): primary mathematics learning-gap diagnostic for Singapore tuition centres; teacher-approved questions, response-to-objective mapping, evidence-linked candidate gap reports, tutor review; annual institution licence.",
@@ -208,7 +208,9 @@
     "cross_file_prefixes": [
       "EDU-",
       "FIN-",
-      "INT-"
+      "INT-",
+      "GROW-",
+      "F-A"
     ]
   }
 }

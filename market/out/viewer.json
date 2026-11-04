@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-04T08:54:21+00:00",
+  "generated_at": "2026-11-04T11:15:23+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
-  "version": "v0.1",
+  "version": "v1.0",
   "claims": [
     {
       "id": "MKT-01",
       "role": "parent",
       "text": "Tuition centres face a meaningful need for diagnostic efficiency.",
-      "status": "PARTIAL",
-      "action": "HOLD",
-      "limitation": "Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C PARTIAL, MKT-01-D PARTIAL. On HOLD by rule or reviewer: MKT-01-D.",
+      "status": "MISSING",
+      "action": "ACCEPT_WITH_LIMITATION",
+      "limitation": "Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C PARTIAL, MKT-01-D MISSING. Open questions for deeper diligence (no public evidence): MKT-01-D.",
       "review_status": "DRAFT",
       "evidence_ids": [
         "MKT-E001",
@@ -26,8 +26,7 @@
         "MKT-E028",
         "MKT-E029",
         "MKT-E030",
-        "MKT-E031",
-        "MKT-E006"
+        "MKT-E031"
       ],
       "basis": "Team claim from the MathBridge evidence packet v0.1 (Appendix A). Judged by its sub-claims: status = the weakest sub-claim; any MISSING sub-claim -> HOLD."
     },
@@ -37,7 +36,7 @@
       "text": "MathBridge AI is differentiated from existing EdTech alternatives.",
       "status": "SYNTHETIC",
       "action": "HOLD",
-      "limitation": "Sub-claims: MKT-02-A PARTIAL, MKT-02-B SYNTHETIC, MKT-02-C PARTIAL. On HOLD by rule or reviewer: MKT-02-A.",
+      "limitation": "Sub-claims: MKT-02-A PARTIAL, MKT-02-B SYNTHETIC, MKT-02-C PARTIAL. On HOLD: MKT-02-A (unresolved contradiction).",
       "review_status": "DRAFT",
       "evidence_ids": [
         "MKT-E003",
@@ -134,17 +133,15 @@
       "role": "sub",
       "parent": "MKT-01",
       "text": "Potential customers in Singapore are counted in tuition centres, and their number is X.",
-      "status": "PARTIAL",
-      "action": "HOLD",
-      "limitation": " Counts students, not paying buyers. Table 2 and Table 4 disagree (230,968 vs 237,966). Says nothing about tuition centres.",
+      "status": "MISSING",
+      "action": "ACCEPT_WITH_LIMITATION",
+      "limitation": "Open question for deeper diligence: no public evidence found.",
       "conclusion": "Not established. MOE publishes student counts (237,966 primary students in 2024, MKT-E006) but no count of tuition centres, and MOE does not track the industry's size. Market size must remain an explicit assumption.",
       "review_status": "DRAFT",
-      "supporting": [
-        "MKT-E006"
-      ],
+      "supporting": [],
       "counter": [],
       "assumptions": [
-        "FIN-A01"
+        "F-A01"
       ],
       "fixed_status": "",
       "unit": "centres",
@@ -157,7 +154,7 @@
       "text": "Existing products do not provide tutor-reviewed, evidence-traceable learning-gap reports to tuition centres.",
       "status": "PARTIAL",
       "action": "HOLD",
-      "limitation": "Action HOLD by reviewer: Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps. 4 reviewed counter-evidence row(s). 8 evidence row(s) not reviewed yet (UNVERIFIED, not counted). Company self-description on its own website; features and price not independently tested.",
+      "limitation": "Action HOLD by reviewer: Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps. Unresolved contradiction: 4 reviewed counter-evidence row(s) (MKT-E004, MKT-E009, MKT-E007, MKT-E019). 8 evidence row(s) not reviewed yet (UNVERIFIED, not counted). Company self-description on its own website; features and price not independently tested.",
       "conclusion": "Largely contradicted on diagnosis: Geniebook, KooBits and MOE SLS already identify learning gaps and report them (MKT-E004, MKT-E009, MKT-E019, MKT-E010). Not found in public material: tutor-reviewed, evidence-traceable reports licensed to tuition centres.",
       "review_status": "DRAFT",
       "supporting": [
@@ -736,7 +733,7 @@
       "claim": "MKT-01-D",
       "stance": "supports",
       "stance_by_agent": "",
-      "status": "PARTIAL",
+      "status": "NOT APPLICABLE",
       "limitation": "Counts students, not paying buyers. Table 2 and Table 4 disagree (230,968 vs 237,966). Says nothing about tuition centres.",
       "checked_by": "Hansle",
       "checked_date": "2026-11-04",
@@ -1242,9 +1239,9 @@
   ],
   "issues": [
     {
-      "rule": "R4_unit_leap",
-      "where": "MKT-01-D",
-      "issue": "claim counts centres but MKT-E006 counts students; no assumption converts students -> centres"
+      "rule": "R10_unresolved_contradiction",
+      "where": "MKT-02-A",
+      "issue": "reviewed counter-evidence on this sub-claim; HOLD until adjudicated (packet 12: contradiction unresolved)"
     }
   ],
   "tests": [

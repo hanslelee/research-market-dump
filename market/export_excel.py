@@ -4,7 +4,8 @@
 
 Keeps the template's styles and drop-down lists, removes the EXAMPLE row, and writes market/out/:
   01_Hansle_Market_Research.xlsx, market_evidence.csv, competitor_matrix.csv, market_conclusions.csv,
-  market_handoff.csv (the file Kaizhen integrates), component_tests.csv, validation_issues.json
+  market_handoff.csv and market_handoff.json (packet v1.0 section 13, for Kaizhen), component_tests.csv,
+  validation_issues.json; the Test Status v2 row for T03 is filled from the actual component run
 """
 import copy
 import csv
@@ -31,7 +32,8 @@ def j(xs):
 def sheet_rows(res, tests):
     ev = [[r["evidence_id"], topic(r), r["title"],
            r["publisher"], r["publication_date"], r["url"], r["quote"], r["finding"], r["source_type"],
-           r["verification_status"], r["limitation"], r.get("checked_by", ""), r.get("checked_date", "")]
+           r["verification_status"], r["limitation"], r.get("checked_by", ""), r.get("checked_date", ""),
+           r.get("evidence_class", "EXT-PUB")]
           for r in sorted(res["rows"], key=lambda r: r["evidence_id"])]
     comp = [[c["competitor"], c["product"], c["target_customer"], j(c["features"]), c["price"], c["pricing_status"],
              c["differentiation"], j(c["evidence_ids"]), c["checked_date"], c["limitations"]] for c in res["matrix"]]
@@ -40,7 +42,7 @@ def sheet_rows(res, tests):
              for c in res["conclusions"]]
     hand = [[h["claim_id"], h["owner"], h["claim_text"], j(h["evidence_ids"]), j(h["assumption_ids"]), h["evidence_status"],
              h["materiality"], h["limitation"], h["proposed_action"], h["version"], h["review_status"]] for h in res["handoff"]]
-    tst = [[t["test_id"], t["description"], t["input_version"], t["expected"], t["observed"], t["pass_fail"],
+    tst = [[t["test_id"] + (f" ({t['team_test_id']})" if t.get("team_test_id") else ""), t["description"], t["input_version"], t["expected"], t["observed"], t["pass_fail"],
             t.get("issue_id", ""), t["run_date"], t["evidence_file"]] for t in tests]
     return {"Market Evidence": ev, "Competitor Matrix": comp, "Market Conclusions": concl, "Market Handoff": hand,
             "Component Tests": tst}
@@ -81,6 +83,46 @@ def viewer_data(data: Path, res, tests):
             "tests": [{"id": t["test_id"], "pass": t["pass_fail"], "description": t["description"]} for t in tests]}
 
 
+def handoff_json(res):
+    """Packet v1.0 section 13: common handoff fields, one object per team claim."""
+    mc = M.mcfg(res["config"])
+    subs = {}
+    for c in res["conclusions"]:
+        subs.setdefault(c.get("parent"), []).append(
+            {"claim_id": c["claim_id"], "evidence_status": c["verification_status"], "recommended_action": c["proposed_action"]})
+    return {"case_id": mc.get("case_id", ""), "owner": mc.get("owner", "Hansle"), "artifact": "market_handoff",
+            "artifact_version": mc.get("version", ""), "claims": [
+                {"claim_id": h["claim_id"], "owner": h["owner"], "claim_text": h["claim_text"], "evidence_ids": h["evidence_ids"],
+                 "assumption_ids": h["assumption_ids"], "evidence_status": h["evidence_status"], "materiality": h["materiality"],
+                 "limitation": h["limitation"], "recommended_action": h["proposed_action"], "artifact_version": h["version"],
+                 "review_status": h["review_status"], "sub_claims": subs.get(h["claim_id"], [])} for h in res["handoff"]]}
+
+
+def fill_test_status(wb, tests):
+    """Test Status v2 (template v2): record the component run of T03 from the actual test result. Fields that only a
+    person or the integrated run can supply (human_review_min, integration_status) are left as they are."""
+    if "Test Status v2" not in wb.sheetnames:
+        return
+    ws = wb["Test Status v2"]
+    head = {ws.cell(4, c).value: c for c in range(1, ws.max_column + 1) if ws.cell(4, c).value}
+    for t in tests:
+        if not t.get("team_test_id"):
+            continue
+        row = next((r for r in range(5, ws.max_row + 1) if ws.cell(r, 1).value == t["team_test_id"]), None)
+        if not row:
+            continue
+        put = lambda k, v: ws.cell(row, head[k]).__setattr__("value", v) if k in head else None
+        put("actual_detection", t["observed"])
+        put("actual_route", "HOLD" if t["pass_fail"] == "PASS" else "NOT HOLD")
+        put("component_status", t["pass_fail"])
+        put("input_version", t["input_version"])
+        put("run_date", t["run_date"])
+        put("runtime_min", t.get("runtime_min"))
+        put("cost_SGD", t.get("cost_sgd", 0))
+        put("issue_id", "R4_unit_leap" if t["pass_fail"] == "PASS" else t.get("issue_id", ""))
+        put("evidence_file", f"{t['evidence_file']} ({t['test_id']})")
+
+
 def _fill(ws, rows):
     style_row = [copy.copy(ws.cell(FIRST_ROW, c)._style) for c in range(1, ws.max_column + 1)]
     for r in range(FIRST_ROW, max(ws.max_row, FIRST_ROW + len(rows)) + 1):
@@ -104,6 +146,10 @@ def export(data: Path, tests=None):
     out = M.mdir(data) / "out"
     out.mkdir(parents=True, exist_ok=True)
     wb = load_workbook(M.mdir(data) / "templates" / "01_Hansle_Market_Research.xlsx")
+    ev_ws = wb["Market Evidence"]
+    if ev_ws.cell(4, 14).value != "evidence_class":  # packet v1.0 evidence classes (G2-OBS / SYN / EXT-PUB / TEST / UNK)
+        ev_ws.cell(4, 14).value = "evidence_class"
+        ev_ws.cell(4, 14)._style = copy.copy(ev_ws.cell(4, 13)._style)
     sheets = sheet_rows(res, tests)
     for name, rows in sheets.items():
         ws = wb[name]
@@ -114,7 +160,9 @@ def export(data: Path, tests=None):
             w = csv.writer(f)
             w.writerow(header)
             w.writerows(rows)
+    fill_test_status(wb, tests)
     wb.save(out / "01_Hansle_Market_Research.xlsx")
+    M.write(out / "market_handoff.json", handoff_json(res))
     visited = M.read(M.mdir(data) / "visited.json", {})
     manual = [f"{u}\n    -> save the visible page text as {('market/snapshots/manual/' + M.h(u) + '.txt')}  ({v.get('reason', '')})"
               for u, v in visited.items() if not v.get("ok")]

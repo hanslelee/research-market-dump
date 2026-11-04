@@ -15,8 +15,14 @@ Two separate axes per evidence row:
 Claim status (Conclusions and Handoff), four levels: VERIFIED > PARTIAL > SYNTHETIC > MISSING
   sub-claim   SYNTHETIC when fixed so (MathBridge's own features are fictional); else from its reviewed supporting
               evidence: none -> MISSING, all VERIFIED -> VERIFIED, otherwise PARTIAL. UNVERIFIED rows do not count.
-  team claim  the weakest of its sub-claims; any MISSING sub-claim (or any sub-claim on HOLD) -> HOLD, and the
-              limitation names the empty sub-claims.
+  team claim  the weakest of its sub-claims.
+Actions follow the case packet v1.0 section 12 ("a missing fact triggers HOLD only when it is necessary for the
+preliminary decision"):
+  missing evidence (MISSING)       -> an open question for deeper diligence, not a HOLD
+                                      (unless conclusions.json marks the sub-claim "material_blocker": true)
+  inflated or false evidence       -> HOLD (R4 unit leap, R2 dangling id, R8 weak sources only)
+  unresolved contradiction         -> HOLD (R10: reviewed counter-evidence on the sub-claim)
+  team claim                       -> HOLD if any sub-claim is on HOLD; open questions are listed in the limitation
 Evidence marked "EDU related" (market/edu_related.json) counts for MKT like any other row and is also exported to
 edu_candidates.csv for Zixuan (shared evidence, one MKT-E id).
 
@@ -228,7 +234,10 @@ def conclusions(data: Path, config, rows):
         if c.get("fixed_status"):
             notes.append(f"{c['fixed_status']} by design: {c.get('basis', '')}")
         if counter:
-            notes.append(f"{len(counter)} reviewed counter-evidence row(s).")
+            notes.append(f"Unresolved contradiction: {len(counter)} reviewed counter-evidence row(s) ({', '.join(r['evidence_id'] for r in counter)}).")
+        if st == "MISSING" and not c.get("fixed_status"):
+            notes.append("Open question for deeper diligence: no public evidence found."
+                         + (" Marked as a material blocker by the reviewer." if hc.get("material_blocker") else ""))
         if unreviewed:
             notes.append(f"{unreviewed} evidence row(s) not reviewed yet (UNVERIFIED, not counted).")
         out.append({
@@ -242,18 +251,21 @@ def conclusions(data: Path, config, rows):
             "limitations": (" ".join(notes) + (" " + lim if lim else ""))[:1500] or "No usable public evidence found yet.",
             "proposed_action": hc.get("proposed_action", ""), "review_status": hc.get("review_status", "DRAFT"),
             "unit": c.get("unit", ""), "owner": mc.get("owner", "Hansle"), "version": mc.get("version", "v0.1"),
+            "contradicted": bool(counter), "material_blocker": bool(hc.get("material_blocker")),
         })
     return out
 
 
 def default_action(c, blocked):
-    if c["claim_id"] in blocked or c["verification_status"] == "MISSING":
+    if c["claim_id"] in blocked or c.get("contradicted"):
+        return "HOLD"
+    if c["verification_status"] == "MISSING" and c.get("material_blocker"):
         return "HOLD"
     return "ACCEPT" if c["verification_status"] == "VERIFIED" else "ACCEPT_WITH_LIMITATION"
 
 
 def roll_up(data: Path, config, concl):
-    """One row per team claim (Market Handoff): weakest sub-claim; any MISSING or HOLD sub-claim -> HOLD."""
+    """One row per team claim (Market Handoff): weakest sub-claim; any sub-claim on HOLD -> HOLD; MISSING sub-claims are open questions."""
     mc = M.mcfg(config)
     human = M.read(M.mdir(data) / "conclusions.json", {})
     out = []
@@ -267,13 +279,15 @@ def roll_up(data: Path, config, concl):
         else:
             st = min((s["verification_status"] for s in subs), key=LADDER.index)
             empty = [s["claim_id"] for s in subs if s["verification_status"] == "MISSING"]
-            held = [s["claim_id"] for s in subs if s["proposed_action"] == "HOLD" and s["claim_id"] not in empty]
-            action = "HOLD" if empty or held else ("ACCEPT" if st == "VERIFIED" else "ACCEPT_WITH_LIMITATION")
+            held = [s["claim_id"] for s in subs if s["proposed_action"] == "HOLD"]
+            action = "HOLD" if held else ("ACCEPT" if st == "VERIFIED" else "ACCEPT_WITH_LIMITATION")
             lim = "Sub-claims: " + ", ".join(f"{s['claim_id']} {s['verification_status']}" for s in subs) + "."
-            if empty:
-                lim += " Empty (MISSING): " + ", ".join(empty) + "."
             if held:
-                lim += " On HOLD by rule or reviewer: " + ", ".join(held) + "."
+                lim += " On HOLD: " + "; ".join(
+                    f"{s['claim_id']} ({'unresolved contradiction' if s.get('contradicted') else 'rule or reviewer'})" for s in subs
+                    if s["claim_id"] in held) + "."
+            if empty:
+                lim += " Open questions for deeper diligence (no public evidence): " + ", ".join(empty) + "."
         hc = human.get(pid, {})
         ids = list(dict.fromkeys(i for s in subs for i in s["supporting_evidence_ids"] + s["counter_evidence_ids"]))
         out.append({"claim_id": pid, "owner": mc.get("owner", "Hansle"), "claim_text": c["text"], "evidence_ids": ids,
@@ -346,6 +360,7 @@ def build(data: Path, extra_claims=None):
     by_key = {r["key"]: r for r in rows}
     for r in rows:
         r["stance"] = STANCE_ALIAS.get(r.get("stance"), "supports")
+        r["evidence_class"] = "EXT-PUB"  # packet v1.0 section 1: external public source (all market evidence is public)
     apply_review(data, rows, [])
     edu = (M.read(M.mdir(data) / "edu_related.json", {}).get("items") or {})
     for r in rows:
@@ -361,6 +376,10 @@ def build(data: Path, extra_claims=None):
         concl.append(x)
     issues = validate(rows, comps, concl, config)
     blocked = {i["where"] for i in issues if i["rule"] in ("R2_dangling_evidence_id", "R4_unit_leap", "R8_weak_sources_only")}
+    for c in concl:
+        if c.get("contradicted"):
+            issues.append({"rule": "R10_unresolved_contradiction", "where": c["claim_id"],
+                           "issue": "reviewed counter-evidence on this sub-claim; HOLD until adjudicated (packet 12: contradiction unresolved)"})
     for c in concl:
         auto = default_action(c, blocked)
         if not c["proposed_action"]:

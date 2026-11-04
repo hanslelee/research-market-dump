@@ -38,10 +38,11 @@ def sheet_rows(res, tests):
     comp = [[c["competitor"], c["product"], c["target_customer"], j(c["features"]), c["price"], c["pricing_status"],
              c["differentiation"], j(c["evidence_ids"]), c["checked_date"], c["limitations"]] for c in res["matrix"]]
     concl = [[c["claim_id"], c["market_conclusion"], j(c["supporting_evidence_ids"]), j(c["counter_evidence_ids"]),
-              j(c["assumption_ids"]), c["verification_status"], c["materiality"], c["limitations"], c["proposed_action"]]
-             for c in res["conclusions"]]
+              j(c["assumption_ids"]), c["verification_status"], c["materiality"], B.TRACTION_NOTE + " " + c["limitations"],
+              c["proposed_action"]] for c in res["conclusions"]]
     hand = [[h["claim_id"], h["owner"], h["claim_text"], j(h["evidence_ids"]), j(h["assumption_ids"]), h["evidence_status"],
-             h["materiality"], h["limitation"], h["proposed_action"], h["version"], h["review_status"]] for h in res["handoff"]]
+             h["materiality"], h["limitation"], h["proposed_action"], artifact_version(res), h["review_status"]]
+            for h in res["handoff_rows"]]
     tst = [[t["test_id"] + (f" ({t['team_test_id']})" if t.get("team_test_id") else ""), t["description"], t["input_version"], t["expected"], t["observed"], t["pass_fail"],
             t.get("issue_id", ""), t["run_date"], t["evidence_file"]] for t in tests]
     return {"Market Evidence": ev, "Competitor Matrix": comp, "Market Conclusions": concl, "Market Handoff": hand,
@@ -83,19 +84,31 @@ def viewer_data(data: Path, res, tests):
             "tests": [{"id": t["test_id"], "pass": t["pass_fail"], "description": t["description"]} for t in tests]}
 
 
+def artifact_version(res):
+    """Exact version of the supporting file: config version + the git commit the data was built from."""
+    import subprocess
+    try:
+        sha = subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True, text=True).stdout.strip()
+    except Exception:
+        sha = ""
+    v = M.mcfg(res["config"]).get("version", "")
+    return f"01_Hansle_Market_Research.xlsx {v} @ {sha}" if sha else f"01_Hansle_Market_Research.xlsx {v}"
+
+
 def handoff_json(res):
-    """Packet v1.0 section 13: common handoff fields, one object per team claim."""
+    """Kaizhen's handoff fields (packet v1.0 section 13, 4 Nov list): one object per key finding (sub-claim),
+    plus the two team claims as a roll-up."""
     mc = M.mcfg(res["config"])
-    subs = {}
-    for c in res["conclusions"]:
-        subs.setdefault(c.get("parent"), []).append(
-            {"claim_id": c["claim_id"], "evidence_status": c["verification_status"], "recommended_action": c["proposed_action"]})
+    ver = artifact_version(res)
     return {"case_id": mc.get("case_id", ""), "owner": mc.get("owner", "Hansle"), "artifact": "market_handoff",
-            "artifact_version": mc.get("version", ""), "claims": [
-                {"claim_id": h["claim_id"], "owner": h["owner"], "claim_text": h["claim_text"], "evidence_ids": h["evidence_ids"],
-                 "assumption_ids": h["assumption_ids"], "evidence_status": h["evidence_status"], "materiality": h["materiality"],
-                 "limitation": h["limitation"], "recommended_action": h["proposed_action"], "artifact_version": h["version"],
-                 "review_status": h["review_status"], "sub_claims": subs.get(h["claim_id"], [])} for h in res["handoff"]]}
+            "artifact_version": ver,
+            "claims": [{"claim_id": h["claim_id"], "owner": h["owner"], "claim_text": h["claim_text"],
+                        "evidence_ids": h["evidence_ids"], "assumption_ids": h["assumption_ids"],
+                        "evidence_status": h["evidence_status"], "materiality": h["materiality"], "limitation": h["limitation"],
+                        "recommended_action": h["proposed_action"], "artifact_version": ver, "team_claim": h["parent"]}
+                       for h in res["handoff_rows"]],
+            "team_claims": [{"claim_id": h["claim_id"], "claim_text": h["claim_text"], "evidence_status": h["evidence_status"],
+                             "recommended_action": h["proposed_action"], "limitation": h["limitation"]} for h in res["handoff"]]}
 
 
 def fill_test_status(wb, tests):

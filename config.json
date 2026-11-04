@@ -200,8 +200,9 @@
       }
     ],
     "proposed_actions": [
-      "ACCEPT",
-      "ACCEPT_WITH_LIMITATION",
+      "Accept",
+      "Investigate",
+      "Correct",
       "HOLD"
     ],
     "competitor_claim": "MKT-02-A",

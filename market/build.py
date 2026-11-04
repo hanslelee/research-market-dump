@@ -249,19 +249,27 @@ def conclusions(data: Path, config, rows):
             "assumption_ids": c.get("assumption_ids", []), "verification_status": st,
             "materiality": c.get("materiality", "HIGH"),
             "limitations": (" ".join(notes) + (" " + lim if lim else ""))[:1500] or "No usable public evidence found yet.",
-            "proposed_action": hc.get("proposed_action", ""), "review_status": hc.get("review_status", "DRAFT"),
+            "proposed_action": ACTION_ALIAS.get(hc.get("proposed_action", ""), ""), "review_status": hc.get("review_status", "DRAFT"),
             "unit": c.get("unit", ""), "owner": mc.get("owner", "Hansle"), "version": mc.get("version", "v0.1"),
             "contradicted": bool(counter), "material_blocker": bool(hc.get("material_blocker")),
         })
     return out
 
 
+ACTIONS = ("Accept", "Investigate", "Correct", "HOLD")  # Kaizhen's handoff vocabulary (4 Nov)
+ACTION_ALIAS = {"ACCEPT": "Accept", "ACCEPT_WITH_LIMITATION": "Investigate", "INVESTIGATE": "Investigate",
+                "CORRECT": "Correct", "HOLD": "HOLD", "Accept": "Accept", "Investigate": "Investigate", "Correct": "Correct"}
+TRACTION_NOTE = ("Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05).")
+
+
 def default_action(c, blocked):
+    """HOLD for inflated evidence or an unresolved contradiction; Accept only when fully verified; otherwise Investigate
+    (partial or missing evidence is a question for deeper diligence, packet v1.0 section 12)."""
     if c["claim_id"] in blocked or c.get("contradicted"):
         return "HOLD"
     if c["verification_status"] == "MISSING" and c.get("material_blocker"):
         return "HOLD"
-    return "ACCEPT" if c["verification_status"] == "VERIFIED" else "ACCEPT_WITH_LIMITATION"
+    return "Accept" if c["verification_status"] == "VERIFIED" else "Investigate"
 
 
 def roll_up(data: Path, config, concl):
@@ -280,7 +288,7 @@ def roll_up(data: Path, config, concl):
             st = min((s["verification_status"] for s in subs), key=LADDER.index)
             empty = [s["claim_id"] for s in subs if s["verification_status"] == "MISSING"]
             held = [s["claim_id"] for s in subs if s["proposed_action"] == "HOLD"]
-            action = "HOLD" if held else ("ACCEPT" if st == "VERIFIED" else "ACCEPT_WITH_LIMITATION")
+            action = "HOLD" if held else ("Accept" if all(s["proposed_action"] == "Accept" for s in subs) else "Investigate")
             lim = "Sub-claims: " + ", ".join(f"{s['claim_id']} {s['verification_status']}" for s in subs) + "."
             if held:
                 lim += " On HOLD: " + "; ".join(
@@ -295,6 +303,29 @@ def roll_up(data: Path, config, concl):
                     "evidence_status": st, "materiality": c.get("materiality", "HIGH"), "limitation": lim,
                     "proposed_action": action, "version": mc.get("version", "v0.1"),
                     "review_status": hc.get("review_status", "DRAFT")})
+    return out
+
+
+def key_findings(concl, mc):
+    """Kaizhen's handoff tab (4 Nov): 5-6 key findings per person. One row per evidence-based sub-claim; the synthetic
+    sub-claim (MKT-02-B) is folded into the limitation of its sibling. claim_text = the reviewer's conclusion."""
+    synth = {c.get("parent"): c for c in concl if c.get("verification_status") == "SYNTHETIC"}
+    out = []
+    for c in concl:
+        if c.get("verification_status") == "SYNTHETIC" or c["claim_id"].startswith("MKT-99"):
+            continue
+        lim = TRACTION_NOTE + " " + c["limitations"]
+        s = synth.get(c.get("parent"))
+        if s and c["claim_id"].endswith("-A"):
+            lim += f" {s['claim_id']} (synthetic by design): {s['market_conclusion']}"
+        concl_text = c["market_conclusion"]
+        if concl_text.startswith("[DRAFT"):
+            concl_text = c["claim_text"]
+        out.append({"claim_id": c["claim_id"], "owner": c["owner"], "claim_text": concl_text,
+                    "evidence_ids": c["supporting_evidence_ids"] + c["counter_evidence_ids"], "assumption_ids": c["assumption_ids"],
+                    "evidence_status": c["verification_status"], "materiality": c["materiality"], "limitation": lim[:2000],
+                    "proposed_action": c["proposed_action"], "version": c["version"], "review_status": c["review_status"],
+                    "parent": c.get("parent", "")})
     return out
 
 
@@ -388,7 +419,9 @@ def build(data: Path, extra_claims=None):
             issues.append({"rule": "R7_human_action_overrides_hold", "where": c["claim_id"],
                            "issue": f"rules say HOLD, conclusions.json says {c['proposed_action']}: needs Kaizhen's adjudication"})
     handoff = roll_up(data, config, concl)
+    handoff_rows = key_findings(concl, mc)
     matrix = merged_competitors(comps, mc)
     pending = sum(1 for r in rows if r.get("relation_status") == "new")
-    return {"rows": rows, "competitors": comps, "matrix": matrix, "conclusions": concl, "handoff": handoff, "issues": issues,
+    return {"rows": rows, "competitors": comps, "matrix": matrix, "conclusions": concl, "handoff": handoff,
+            "handoff_rows": handoff_rows, "issues": issues,
             "pending": pending, "config": config, "edu": [r for r in rows if r.get("edu_related")]}

@@ -22,7 +22,7 @@ human:  market/review.csv (VERIFIED / PARTIAL)   market/conclusions.json (conclu
 | Market Evidence | paper lane (Semantic Scholar: maths diagnostics, formative assessment, AI-assisted learning, per sub-claim `academic_queries`) + market agent (statistics, news, competitor pages) |
 | Competitor Matrix | market agent (features and price copied from the saved page, else NOT FOUND) |
 | Market Conclusions | built from the evidence; **conclusion text is yours** (`market/conclusions.json`) |
-| Market Handoff | built from Conclusions (`market/out/market_handoff.csv`, and `market_handoff.json` with the packet v1.0 section 13 fields) |
+| Market Handoff | 6 key findings for Kaizhen (one per sub-claim; MKT-02-B, synthetic, is folded into MKT-02-A's limitation). claim_text = your conclusion; artifact_version = workbook version @ git commit. `market_handoff.json` also carries the two team claims |
 | Component Tests | `market/seeded_tests.py` (8 seeded-defect tests, expected results frozen in code; CT-02 is the component run of team test T03) |
 | Test Status v2 | T03 row filled from the actual CT-02 run (detection, route, version, date, runtime, cost); human review minutes and integration status are left for people |
 
@@ -80,8 +80,9 @@ Claims, four levels, weakest first: MISSING < SYNTHETIC < PARTIAL < VERIFIED.
 - Team claim (Market Handoff): the weakest of its sub-claims. Any MISSING sub-claim → HOLD, and the limitation names it.
 - Actions (case packet v1.0 section 12): missing evidence is an open question for deeper diligence, not a HOLD
   (unless conclusions.json marks the sub-claim `"material_blocker": true`); inflated or false evidence (R2, R4, R8) and
-  an unresolved contradiction (R10: reviewed counter-evidence) → HOLD; VERIFIED → ACCEPT; otherwise
-  ACCEPT_WITH_LIMITATION. A team claim is on HOLD if any sub-claim is; open questions are listed in its limitation.
+  an unresolved contradiction (R10: reviewed counter-evidence) → HOLD; VERIFIED → Accept; otherwise Investigate.
+  Vocabulary (Kaizhen, 4 Nov): Accept / Investigate / Correct / HOLD. A team claim is on HOLD if any sub-claim is,
+  Accept if all are, else Investigate; open questions are listed in its limitation.
   A human action in conclusions.json that overrides a rule HOLD is logged as R7 for Kaizhen's adjudication.
 
 ## Rules (no model)

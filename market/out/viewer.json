@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:50:36+00:00",
+  "generated_at": "2026-11-04T08:51:14+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -67,7 +67,7 @@
       "text": "Diagnosing primary mathematics learning gaps takes substantial teacher or tutor time and effort.",
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
-      "limitation": "1 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It does not examine primary mathematics learning-gap diagnosis or tuition centres in Singapore.; However, the study focuses on public school teachers in Indonesia rather than private tutors in Singapore.; This study examines general literacy and numeracy diagnostic approaches in Indonesian public primary schools rather than specifically focusing on primary mathematics tutoring centres in Singapore.; Academic study, abstract-level; not evidence of purchasing by Singapore tuition centres. Gap: Does not address primary-level diagnosis tools or purchasing by tuition centres.; The quote discusses preparation time for differentiated learning in general rather than the specific process of diagnosing primary mathematics learning gaps.; The data reports overall marking and correcting time for teachers rather than specifically isolating primary mathematics or the diagnosis of learning gaps.",
+      "limitation": " It does not examine primary mathematics learning-gap diagnosis or tuition centres in Singapore.; It focuses on middle school algebra in state schools rather than primary mathematics or tuition centres in Singapore.; However, the study focuses on public school teachers in Indonesia rather than private tutors in Singapore.; This study examines general literacy and numeracy diagnostic approaches in Indonesian public primary schools rather than specifically focusing on primary mathematics tutoring centres in Singapore.; Academic study, abstract-level; not evidence of purchasing by Singapore tuition centres. Gap: Does not address primary-level diagnosis tools or purchasing by tuition centres.; The quote discusses preparation time for differentiated learning in general rather than the specific process of diagnosing primary mathematics learning gaps.; The data reports overall marking and correcting time for teachers rather than specifically isolating primary mathematics or the diagnosis of learning gaps.",
       "conclusion": "",
       "review_status": "DRAFT",
       "supporting": [
@@ -361,10 +361,10 @@
       "claim": "MKT-01-A",
       "stance": "supports",
       "stance_by_agent": "",
-      "status": "UNVERIFIED",
+      "status": "PARTIAL",
       "limitation": "It focuses on middle school algebra in state schools rather than primary mathematics or tuition centres in Singapore.",
-      "checked_by": "",
-      "checked_date": "",
+      "checked_by": "Hansle",
+      "checked_date": "2026-11-04",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

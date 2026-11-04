@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:49:11+00:00",
+  "generated_at": "2026-11-04T08:49:28+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -52,7 +52,6 @@
         "MKT-E008",
         "MKT-E009",
         "MKT-E010",
-        "MKT-E016",
         "MKT-E018",
         "MKT-E019",
         "MKT-E036",
@@ -158,7 +157,7 @@
       "text": "Existing products do not provide tutor-reviewed, evidence-traceable learning-gap reports to tuition centres.",
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
-      "limitation": "4 reviewed counter-evidence row(s). 10 evidence row(s) not reviewed yet (UNVERIFIED, not counted). Company self-description on its own website; features and price not independently tested.",
+      "limitation": "4 reviewed counter-evidence row(s). 9 evidence row(s) not reviewed yet (UNVERIFIED, not counted). Company self-description on its own website; features and price not independently tested.",
       "conclusion": "",
       "review_status": "DRAFT",
       "supporting": [
@@ -176,7 +175,6 @@
         "MKT-E008",
         "MKT-E009",
         "MKT-E010",
-        "MKT-E016",
         "MKT-E018",
         "MKT-E019"
       ],
@@ -988,10 +986,10 @@
       "claim": "MKT-02-A",
       "stance": "contradicts",
       "stance_by_agent": "",
-      "status": "UNVERIFIED",
+      "status": "NOT APPLICABLE",
       "limitation": "Second-hand description of the competitor; check the provider's own page.",
-      "checked_by": "",
-      "checked_date": "",
+      "checked_by": "Hansle",
+      "checked_date": "2026-11-04",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "market/snapshots/manual/f3b937467560.txt",

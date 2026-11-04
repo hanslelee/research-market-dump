@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:28:33+00:00",
+  "generated_at": "2026-11-04T08:29:02+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -9,7 +9,7 @@
       "text": "Tuition centres face a meaningful need for diagnostic efficiency.",
       "status": "MISSING",
       "action": "HOLD",
-      "limitation": "Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C MISSING, MKT-01-D MISSING. Empty (MISSING): MKT-01-C, MKT-01-D.",
+      "limitation": "Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C PARTIAL, MKT-01-D MISSING. Empty (MISSING): MKT-01-D.",
       "review_status": "DRAFT",
       "evidence_ids": [
         "MKT-E001",
@@ -116,9 +116,9 @@
       "role": "sub",
       "parent": "MKT-01",
       "text": "Singapore tuition centres show actual demand to adopt diagnosis-automation tools.",
-      "status": "MISSING",
-      "action": "HOLD",
-      "limitation": "4 evidence row(s) not reviewed yet (UNVERIFIED, not counted).",
+      "status": "PARTIAL",
+      "action": "ACCEPT_WITH_LIMITATION",
+      "limitation": "3 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It examines secondary school classrooms rather than commercial tuition centres.",
       "conclusion": "",
       "review_status": "DRAFT",
       "supporting": [
@@ -317,10 +317,10 @@
       "claim": "MKT-01-C",
       "stance": "supports",
       "stance_by_agent": "",
-      "status": "UNVERIFIED",
+      "status": "PARTIAL",
       "limitation": "It examines secondary school classrooms rather than commercial tuition centres.",
-      "checked_by": "",
-      "checked_date": "",
+      "checked_by": "Hansle",
+      "checked_date": "2026-11-04",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

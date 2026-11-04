@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:52:03+00:00",
+  "generated_at": "2026-11-04T08:52:26+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -191,7 +191,7 @@
       "status": "SYNTHETIC",
       "action": "ACCEPT_WITH_LIMITATION",
       "limitation": "SYNTHETIC by design: Sub-claim of MKT-02, chosen by Hansle to make MKT-02 checkable. MathBridge AI's features are fictional (packet SYN-02), so this can only be SYNTHETIC: a comparison of SYN-02 with the Competitor Matrix.",
-      "conclusion": "",
+      "conclusion": "Synthetic by design: MathBridge's features are fictional (SYN-02). Against the Competitor Matrix, its distinguishing features are tutor review, response-level evidence links and a centre licence.",
       "review_status": "DRAFT",
       "supporting": [],
       "counter": [],
@@ -208,7 +208,7 @@
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
       "limitation": " It investigates teacher training via mixed reality simulations rather than commercial math diagnostics for tuition centres.; It lacks evidence regarding primary mathematics diagnostic tools and Singaporean tuition center workflows.; It evaluates general science teachers in a co-designed research project rather than commercial tuition centres in Singapore using a primary mathematics diagnostic tool.",
-      "conclusion": "",
+      "conclusion": "Indirectly supported. Expert human feedback is more nuanced than AI alone (MKT-E036) and explained diagnostic results help teachers plan better (MKT-E039). No evidence that tuition centres value or would pay for these features.",
       "review_status": "DRAFT",
       "supporting": [
         "MKT-E036",

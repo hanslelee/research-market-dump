@@ -4,10 +4,10 @@ Claims: two team claims (MKT-01, MKT-02, "role": "parent") judged through Hansle
   Market Conclusions sheet = one row per sub-claim. Market Handoff sheet = one row per team claim.
 
 Two separate axes per evidence row:
-  status = how deeply a person checked it (review.csv)
+  status = a person's check of the row (review.csv)
     UNVERIFIED      nobody has looked yet (agent draft)
-    PARTIAL         the quote was confirmed, but only part of the source was seen (abstract, excerpt, article summary)
-    VERIFIED        the whole original was opened and checked (checked_by, checked_date, a full saved page)
+    PARTIAL         checked: the evidence backs only part of the claim (indirect, conditional, another setting)
+    VERIFIED        checked: the evidence backs the claim fully (checked_by and checked_date required)
     NOT APPLICABLE  wrong or irrelevant: kept in the list, left out of every claim
   stance = what it says about its claim: supports or contradicts (set by the agent; a person corrects it only when wrong).
     Indirect or conditional support is "supports"; why it is indirect is written in the limitation.
@@ -248,9 +248,8 @@ def validate(rows, comps, concl, config):
             flag("R3_quote_not_in_source", r["claim_id"], f"{r['evidence_id']}: quote not found in its saved text")
         if not r.get("check_text"):
             flag("R3_no_saved_text", r["claim_id"], f"{r['evidence_id']}: no saved text to check the quote against")
-        if r["verification_status"] == "VERIFIED" and (not r.get("checked_by") or not r.get("checked_date")
-                                                     or r.get("snapshot_kind") in ("excerpt", "abstract", "none")):
-            flag("R6_verified_without_check", r["claim_id"], f"{r['evidence_id']}: VERIFIED needs checked_by, checked_date and a full saved page")
+        if r["verification_status"] == "VERIFIED" and (not r.get("checked_by") or not r.get("checked_date")):
+            flag("R6_verified_without_check", r["claim_id"], f"{r['evidence_id']}: VERIFIED needs checked_by and checked_date")
         if r["verification_status"] not in M.STATUSES:
             flag("R1_bad_status", r["claim_id"], f"{r['evidence_id']}: {r['verification_status']!r}")
     for c in concl:

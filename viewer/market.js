@@ -227,11 +227,11 @@
         <b>확인</b>
         <p class="hint">원문을 열어 인용이 그대로 있는지 보고 고르세요. 저장하면 1~2분 뒤 판정과 엑셀에 반영돼요.</p>
         <ul class="hint" style="margin:4px 0 8px;padding-left:18px">
-          <li><b>PARTIAL</b>: 인용은 확인했지만 일부만 봄 (초록, 발췌본, 기사 요약)</li>
-          <li><b>VERIFIED</b>: 원문 전체를 열어 확인함</li>
+          <li><b>PARTIAL</b>: 근거가 주장의 일부만 뒷받침 (간접적, 조건부, 다른 대상·나라)</li>
+          <li><b>VERIFIED</b>: 근거가 주장을 온전히 뒷받침</li>
           <li><b>NOT APPLICABLE</b>: 틀렸거나 이 주장과 관계없음 (제외)</li>
         </ul>
-        ${weak ? '<p class="warn">저장된 사본이 발췌본이나 초록이라 VERIFIED는 규칙(R6)에 걸려요.</p>' : ''}
+        ${weak ? '<p class="warn">저장된 사본이 발췌본이나 초록이에요. "원문 열기"로 인용이 실제로 있는지 먼저 확인하세요.</p>' : ''}
         <input data-field="note" placeholder="메모 (선택)" style="width:100%">
         <details style="margin-top:6px"><summary class="meta">관계(supports/contradicts)가 틀렸을 때만</summary>
           <select data-field="stance">${['supports', 'contradicts'].map(s => `<option ${s === e.stance ? 'selected' : ''}>${s}</option>`).join('')}</select>

@@ -64,8 +64,8 @@ Two separate axes per evidence row.
 | Status (you set it) | Meaning |
 |---|---|
 | UNVERIFIED | nobody has looked yet (agent draft) |
-| PARTIAL | the quote was confirmed, but only part of the source was seen (abstract, excerpt, article summary) |
-| VERIFIED | the whole original was opened and checked (needs a full saved page, checked_by, checked_date) |
+| PARTIAL | checked: the evidence backs only part of the claim (indirect, conditional, another setting or country) |
+| VERIFIED | checked: the evidence backs the claim fully (needs checked_by and checked_date) |
 | NOT APPLICABLE | wrong or irrelevant: kept in the list, left out of every claim |
 
 Stance (the agent sets it; you correct it only when wrong): **supports** or **contradicts**. Indirect or conditional
@@ -84,7 +84,7 @@ Claims, four levels, weakest first: MISSING < SYNTHETIC < PARTIAL < VERIFIED.
 
 R1 status vocabulary · R2 evidence ids resolve · R3 quote found in the saved text · R4 unit leap (a count of X cannot
 support a claim counted in Y unless `market.unit_conversions` has an assumption converting X→Y; T03) ·
-R5 competitor features and price found in the saved page · R6 no VERIFIED without a person's check and a real page ·
+R5 competitor features and price found in the saved page · R6 no VERIFIED without a person's check (checked_by, checked_date) ·
 R7 human action overrides a rule HOLD · R8 a HIGH claim may not rest only on "Other" sources ·
 R9 ids from other members' files (EDU-, FIN-, INT-) are checked at integration (T07), not here.
 

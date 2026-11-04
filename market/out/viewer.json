@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:34:56+00:00",
+  "generated_at": "2026-11-04T08:37:13+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -981,8 +981,8 @@
       "id": "MKT-E016",
       "kind": "news",
       "source_type": "News",
-      "title": "MOE (Student Learning Space): Adaptive Learning System for mathematics",
-      "publisher": "MOE (Student Learning Space)",
+      "title": "MOE Student Learning Space (Adaptive Learning System): Adaptive Learning System for mathematics",
+      "publisher": "MOE Student Learning Space (Adaptive Learning System)",
       "date": "",
       "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051",
       "quote": "uses machine learning to make customised learning recommendations for each student",
@@ -1155,94 +1155,75 @@
   ],
   "competitors": [
     {
-      "competitor": "KooBits",
-      "product": "Premium Plan",
-      "features": [
-        "Proficiency Reports with KooBits Parent App"
-      ],
-      "price": "$148.50 / year",
-      "evidence_id": "MKT-E003",
-      "overlap": "unclear",
-      "differentiation": "Unlike MathBridge AI which focuses on institutional licensing and comprehensive diagnostic gap reports for tuition centres, KooBits targets individual home users with a parent-facing app for proficiency tracking.",
-      "url": "https://www.koobits.com/plans?k20plan=3"
-    },
-    {
       "competitor": "Geniebook",
       "product": "Geniebook",
+      "target_customer": "PSLE and O-Level students",
       "features": [
         "Get a free diagnostic report of your child's strengths & weaknesses!",
-        "360 worksheets/year."
-      ],
-      "price": "$ SGD 372.50 / Subject / Month",
-      "evidence_id": "MKT-E004",
-      "overlap": "similar",
-      "differentiation": "Geniebook differs by focusing on an AI-personalised worksheet subscription directly for parents and students rather than an annual institution licence for tuition centres.",
-      "url": "https://geniebook.com/plans"
-    },
-    {
-      "competitor": "MOE (Student Learning Space)",
-      "product": "Adaptive Learning System for mathematics",
-      "features": [
-        "uses machine learning to make customised learning recommendations for each student"
-      ],
-      "price": "NOT FOUND",
-      "evidence_id": "MKT-E016",
-      "overlap": "similar",
-      "differentiation": "State-provided adaptive maths recommendations in MOE schools; free alternative in the school segment.",
-      "url": "https://www.malaymail.com/news/singapore/2023/09/21/singapores-education-ministry-to-deploy-more-ai-in-schools-after-success-of-primary-5-maths-tool/92051"
-    },
-    {
-      "competitor": "KooBits",
-      "product": "KooBits Math Premium",
-      "features": [
-        "10 daily questions customised to improve your child's weak points",
-        "Parent's mobile app: Know your child's strengths and weaknesses by topic",
-        "Tailored reports to pinpoint strengths and weaknesses at a glance",
-        "Assign homework to fill learning gaps",
-        "Automatic marking, instant feedback and step-by-step explanations",
-        "1,000+ Animated tutorials that help kids visualise and learn concepts 4x faster"
-      ],
-      "price": "$17.99 / month",
-      "evidence_id": "MKT-E009",
-      "overlap": "similar",
-      "differentiation": "KooBits targets parents at home with a gamified self-directed student platform and animated tutorials, whereas MathBridge AI focuses on diagnostics and evidence-linked gap reports specifically for tuition centres and teachers.",
-      "url": "https://www.koobits.com/math"
-    },
-    {
-      "competitor": "Geniebook",
-      "product": "Geniebook",
-      "features": [
+        "360 worksheets/year.",
         "Personalised practice targeting exam topics and learning gaps",
         "The AI system pinpoints exact strengths and weaker topics",
         "Automatically identifies areas where I'm weak and provides suitable practice exercises",
         "Get a free diagnostic report of your child’s strengths & weaknesses!",
         "Personalised worksheet on the GenieClass topic, reinforcing the concept while it's fresh",
-        "The Personalised Learning Plan (PLP) is a monthly, data-driven roadmap built around two things that matter most: the topics appearing in your child's next exam and the specific gaps holding their score back."
+        "The Personalised Learning Plan (PLP) is a monthly, data-driven roadmap built around two things that matter most: the topics appearing in your child's next exam and the specific gaps holding their score back.",
+        "AI technology automates marking, tracks learning gaps and generates bespoke revision notes",
+        "Analyses performance data to pinpoint specific knowledge gaps across topics.",
+        "Generates unique worksheets adapted to individual student performance.",
+        "Marks instantly and adds AI commenting on lost marks to explain errors.",
+        "Compiles personalised GenieClass notes based on in-class question performance."
       ],
-      "price": "NOT FOUND",
-      "evidence_id": "MKT-E008",
+      "price": "$ SGD 372.50 / Subject / Month [MKT-E004, plans]",
+      "pricing_status": "FOUND",
+      "differentiation": "Geniebook differs by focusing on an AI-personalised worksheet subscription directly for parents and students rather than an annual institution licence for tuition centres. Geniebook is a broad consumer-facing edtech platform and physical tuition chain for students offering online classes, AI worksheets, and physical centres across multiple subjects, whereas MathBridge AI is specifically an institutional B2B diagnostic tool tailored for Singapore tuition centres. Geniebook operates as a direct-to-student online tuition and AI-assisted learning platform featuring live classes and human tutors, whereas MathBridge AI is built as a B2B diagnostic tool specifically for Singapore tuition centres.",
+      "evidence_ids": [
+        "MKT-E004",
+        "MKT-E008",
+        "MKT-E019"
+      ],
+      "checked_date": "2026-11-04",
       "overlap": "similar",
-      "differentiation": "Geniebook is a broad consumer-facing edtech platform and physical tuition chain for students offering online classes, AI worksheets, and physical centres across multiple subjects, whereas MathBridge AI is specifically an institutional B2B diagnostic tool tailored for Singapore tuition centres.",
-      "url": "https://geniebook.com"
+      "pages": 3,
+      "limitations": "Company self-description; features and prices not independently tested."
+    },
+    {
+      "competitor": "KooBits",
+      "product": "Premium Plan; KooBits Math Premium; KooBits",
+      "target_customer": "Parent; As a busy parent; Parents",
+      "features": [
+        "Proficiency Reports with KooBits Parent App",
+        "10 daily questions customised to improve your child's weak points",
+        "Parent's mobile app: Know your child's strengths and weaknesses by topic",
+        "Tailored reports to pinpoint strengths and weaknesses at a glance",
+        "Assign homework to fill learning gaps",
+        "Automatic marking, instant feedback and step-by-step explanations",
+        "1,000+ Animated tutorials that help kids visualise and learn concepts 4x faster",
+        "Comprehensive question bank with varying difficulty levels",
+        "Auto-marked questions with instant feedback",
+        "Progress tracking reports"
+      ],
+      "price": "$148.50 / year [MKT-E003, plans]; $17.99 / month [MKT-E009, math]; $13.125/month [MKT-E018, plans/intl] (international plan, not the Singapore price)",
+      "pricing_status": "FOUND",
+      "differentiation": "Unlike MathBridge AI which focuses on institutional licensing and comprehensive diagnostic gap reports for tuition centres, KooBits targets individual home users with a parent-facing app for proficiency tracking. KooBits targets parents at home with a gamified self-directed student platform and animated tutorials, whereas MathBridge AI focuses on diagnostics and evidence-linked gap reports specifically for tuition centres and teachers. KooBits focuses on a gamified, multi-subject syllabus-aligned self-directed learning approach for children via animated videos and rewards rather than institution-focused diagnostic gap reporting for tuition centres.",
+      "evidence_ids": [
+        "MKT-E003",
+        "MKT-E009",
+        "MKT-E018"
+      ],
+      "checked_date": "2026-11-04",
+      "overlap": "similar",
+      "pages": 3,
+      "limitations": "Company self-description; features and prices not independently tested."
     },
     {
       "competitor": "MOE Student Learning Space (Adaptive Learning System)",
-      "product": "Adaptive Learning System (ALS)",
+      "product": "Adaptive Learning System for mathematics; Adaptive Learning System (ALS); Adaptive Learning System",
+      "target_customer": "students",
       "features": [
+        "uses machine learning to make customised learning recommendations for each student",
         "tailors learning resources and practice questions to each student's needs and pace",
         "provides a customised learning pathway for each student",
-        "recommending learning resources and practice questions and offering immediate feedback"
-      ],
-      "price": "NOT FOUND",
-      "evidence_id": "MKT-E010",
-      "overlap": "similar",
-      "differentiation": "MOE Student Learning Space's Adaptive Learning System is a government-provided platform focused on personalised student self-directed learning and practice within public schools, rather than commercial diagnostic tools specifically licensed to tuition centres for tutor review.",
-      "url": "https://www.learning.moe.edu.sg/teachers/teacher-user-guide/discover/about-adaptive-learning-system"
-    },
-    {
-      "competitor": "MOE Student Learning Space (Adaptive Learning System)",
-      "product": "Adaptive Learning System",
-      "features": [
+        "recommending learning resources and practice questions and offering immediate feedback",
         "gives each student a personalised path to learn at their own pace",
         "recommending learning resources and practice questions",
         "offering immediate feedback based on his/her readiness",
@@ -1250,40 +1231,17 @@
         "students learn independently, at their own pace, according to their strengths and needs"
       ],
       "price": "NOT FOUND",
-      "evidence_id": "MKT-E007",
-      "overlap": "similar",
-      "differentiation": "Unlike MathBridge AI, which is designed for teachers and tuition centres to diagnose gaps and generate reports, this system focuses on self-directed student learning through personalized pathways and immediate feedback within the national SLS platform.",
-      "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system"
-    },
-    {
-      "competitor": "KooBits",
-      "product": "KooBits",
-      "features": [
-        "Comprehensive question bank with varying difficulty levels",
-        "Auto-marked questions with instant feedback",
-        "Progress tracking reports"
+      "pricing_status": "NOT FOUND",
+      "differentiation": "State-provided adaptive maths recommendations in MOE schools; free alternative in the school segment. MOE Student Learning Space's Adaptive Learning System is a government-provided platform focused on personalised student self-directed learning and practice within public schools, rather than commercial diagnostic tools specifically licensed to tuition centres for tutor review. Unlike MathBridge AI, which is designed for teachers and tuition centres to diagnose gaps and generate reports, this system focuses on self-directed student learning through personalized pathways and immediate feedback within the national SLS platform.",
+      "evidence_ids": [
+        "MKT-E007",
+        "MKT-E010",
+        "MKT-E016"
       ],
-      "price": "$13.125/month",
-      "evidence_id": "MKT-E018",
+      "checked_date": "2026-11-04",
       "overlap": "similar",
-      "differentiation": "KooBits focuses on a gamified, multi-subject syllabus-aligned self-directed learning approach for children via animated videos and rewards rather than institution-focused diagnostic gap reporting for tuition centres.",
-      "url": "https://www.koobits.com/plans/intl"
-    },
-    {
-      "competitor": "Geniebook",
-      "product": "Geniebook",
-      "features": [
-        "AI technology automates marking, tracks learning gaps and generates bespoke revision notes",
-        "Analyses performance data to pinpoint specific knowledge gaps across topics.",
-        "Generates unique worksheets adapted to individual student performance.",
-        "Marks instantly and adds AI commenting on lost marks to explain errors.",
-        "Compiles personalised GenieClass notes based on in-class question performance."
-      ],
-      "price": "NOT FOUND",
-      "evidence_id": "MKT-E019",
-      "overlap": "similar",
-      "differentiation": "Geniebook operates as a direct-to-student online tuition and AI-assisted learning platform featuring live classes and human tutors, whereas MathBridge AI is built as a B2B diagnostic tool specifically for Singapore tuition centres.",
-      "url": "https://geniebook.com/blog/real-teachers-or-ai-how-ai-tuition-works"
+      "pages": 3,
+      "limitations": "Company self-description; features and prices not independently tested. No price found on any saved page."
     }
   ],
   "issues": [

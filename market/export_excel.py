@@ -33,11 +33,8 @@ def sheet_rows(res, tests):
            r["publisher"], r["publication_date"], r["url"], r["quote"], r["finding"], r["source_type"],
            r["verification_status"], r["limitation"], r.get("checked_by", ""), r.get("checked_date", "")]
           for r in sorted(res["rows"], key=lambda r: r["evidence_id"])]
-    comp = [[c["competitor"], c.get("product", ""), c.get("target_customer", ""), j(c.get("features", [])),
-             c.get("price", "NOT FOUND"), c.get("pricing_status", "NOT FOUND"), c.get("differentiation", ""),
-             c["evidence_id"], c.get("checked_date", ""),
-             "Company self-description; " + ("price found on page" if c.get("pricing_status") == "FOUND" else "price NOT FOUND on saved page")]
-            for c in res["competitors"]]
+    comp = [[c["competitor"], c["product"], c["target_customer"], j(c["features"]), c["price"], c["pricing_status"],
+             c["differentiation"], j(c["evidence_ids"]), c["checked_date"], c["limitations"]] for c in res["matrix"]]
     concl = [[c["claim_id"], c["market_conclusion"], j(c["supporting_evidence_ids"]), j(c["counter_evidence_ids"]),
               j(c["assumption_ids"]), c["verification_status"], c["materiality"], c["limitations"], c["proposed_action"]]
              for c in res["conclusions"]]
@@ -77,9 +74,7 @@ def viewer_data(data: Path, res, tests):
            "checked_by": r.get("checked_by", ""), "checked_date": r.get("checked_date", ""), "edu_related": bool(r.get("edu_related")),
            "edu_id": r.get("edu_id", ""), "snapshot": r.get("snapshot", ""), "snapshot_kind": r.get("snapshot_kind", ""),
            "found_by": r.get("found_by", ""), "lane": r.get("lane", ""), "unit": r.get("unit", "")} for r in res["rows"]]
-    comps = [{"competitor": c["competitor"], "product": c.get("product", ""), "features": c.get("features", []),
-              "price": c.get("price", ""), "evidence_id": c["evidence_id"], "overlap": c.get("overlap", ""),
-              "differentiation": c.get("differentiation", ""), "url": c.get("url", "")} for c in res["competitors"]]
+    comps = res["matrix"]
     return {"generated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
             "case_id": M.mcfg(res["config"]).get("case_id", ""), "version": M.mcfg(res["config"]).get("version", ""),
             "claims": out_claims, "evidence": ev, "competitors": comps, "issues": res["issues"],

@@ -123,6 +123,52 @@ def competitor_rows(data: Path):
     return comps
 
 
+def canonical_competitor(c, mc):
+    """One name per competitor: the config name whose domain or first word matches."""
+    host = M.domain(c.get("url", ""))
+    name = (c.get("competitor") or "").lower()
+    for comp in mc.get("competitors", []):
+        first = comp["name"].split()[0].lower()
+        if M._match(host, comp.get("domains", [])) or name.startswith(first):
+            return comp["name"]
+    return c.get("competitor", "")
+
+
+def page_label(url):
+    path = url.split("://", 1)[-1].split("?", 1)[0].rstrip("/")
+    return path.split("/", 1)[1] if "/" in path else "home page"
+
+
+def merged_competitors(comps, mc):
+    """Competitor Matrix: one row per competitor; every page stays a separate Market Evidence row."""
+    groups = {}
+    for c in comps:
+        groups.setdefault(canonical_competitor(c, mc), []).append(c)
+    out = []
+    for name, cs in groups.items():
+        uniq = lambda xs: list(dict.fromkeys(x for x in xs if x))
+        prices = []
+        for c in cs:
+            if c.get("price") not in ("", "NOT FOUND"):
+                note = " (international plan, not the Singapore price)" if "intl" in c.get("url", "") else ""
+                prices.append(f"{c['price']} [{c['evidence_id']}, {page_label(c.get('url', ''))}]{note}")
+        overlaps = {c.get("overlap", "unclear") for c in cs}
+        out.append({
+            "competitor": name, "product": "; ".join(uniq(c.get("product", "") for c in cs)),
+            "target_customer": "; ".join(uniq(c.get("target_customer", "") for c in cs)),
+            "features": uniq(f for c in cs for f in c.get("features", [])),
+            "price": "; ".join(prices) or "NOT FOUND", "pricing_status": "FOUND" if prices else "NOT FOUND",
+            "differentiation": " ".join(uniq(c.get("differentiation", "") for c in cs)),
+            "evidence_ids": sorted({c["evidence_id"] for c in cs}, key=lambda i: int(i.split("E")[-1])),
+            "checked_date": max((c.get("checked_date", "") for c in cs), default=""),
+            "overlap": "similar" if "similar" in overlaps else ("different" if overlaps == {"different"} else "unclear"),
+            "pages": len(cs),
+            "limitations": "Company self-description; features and prices not independently tested."
+                           + ("" if prices else " No price found on any saved page."),
+        })
+    return sorted(out, key=lambda r: r["competitor"])
+
+
 def competitor_evidence(comps, mc, claim_id=None):
     """One Market Evidence row per competitor page, so the matrix points at a logged source (differentiation claim)."""
     rows = []
@@ -133,7 +179,7 @@ def competitor_evidence(comps, mc, claim_id=None):
         quote = (c.get("features") or [""])[0] or (c["price"] if c.get("price") not in ("", "NOT FOUND") else "")
         rows.append({
             "key": c["key"], "lane": "competitor", "claim_id": claim_id, "url": c.get("url", ""),
-            "title": f"{c['competitor']}: {c.get('product', '')}".strip(": "), "publisher": c["competitor"],
+            "title": f"{canonical_competitor(c, mc)}: {c.get('product', '')}".strip(": "), "publisher": canonical_competitor(c, mc),
             "publication_date": "", "quote": quote, "finding": c.get("differentiation", ""),
             "stance": OVERLAP_STANCE.get(c.get("overlap", "unclear"), "supports"), "unit": "",
             "limitation": ("Company self-description on its own website; features and price not independently tested."
@@ -321,6 +367,7 @@ def build(data: Path, extra_claims=None):
             issues.append({"rule": "R7_human_action_overrides_hold", "where": c["claim_id"],
                            "issue": f"rules say HOLD, conclusions.json says {c['proposed_action']}: needs Kaizhen's adjudication"})
     handoff = roll_up(data, config, concl)
+    matrix = merged_competitors(comps, mc)
     pending = sum(1 for r in rows if r.get("relation_status") == "new")
-    return {"rows": rows, "competitors": comps, "conclusions": concl, "handoff": handoff, "issues": issues,
+    return {"rows": rows, "competitors": comps, "matrix": matrix, "conclusions": concl, "handoff": handoff, "issues": issues,
             "pending": pending, "config": config, "edu": [r for r in rows if r.get("edu_related")]}

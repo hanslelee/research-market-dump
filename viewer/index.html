@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,92 +9,92 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand"><b>MathBridge</b> 시장조사 <span class="case" id="case"></span></div>
+    <div class="brand"><b>MathBridge</b> Market Research <span class="case" id="case"></span></div>
     <nav class="tabs" id="tabs">
-      <button type="button" data-tab="home" class="on">홈</button>
+      <button type="button" data-tab="home" class="on">Home</button>
       <button type="button" data-tab="evidences">Evidences</button>
       <button type="button" data-tab="claims">Claims</button>
     </nav>
     <div class="spacer"></div>
     <span class="meta" id="generated"></span>
-    <button type="button" id="btn-excel">엑셀 받기</button>
-    <button type="button" id="btn-rebuild">엑셀 다시 만들기</button>
-    <button type="button" id="btn-connect" class="quiet">저장소 연결</button>
+    <button type="button" id="btn-excel">Download Excel</button>
+    <button type="button" id="btn-rebuild">Rebuild Excel</button>
+    <button type="button" id="btn-connect" class="quiet">Connect repository</button>
   </header>
 
   <div class="banner" id="banner" hidden></div>
 
-  <!-- 홈: graph -->
+  <!-- Home: graph -->
   <main class="view" id="view-home">
     <aside class="side">
       <section class="panel">
-        <h2>팀 주장</h2>
+        <h2>Team claims</h2>
         <div id="home-claims"></div>
       </section>
       <section class="panel">
-        <h2>출처 종류</h2>
+        <h2>Source types</h2>
         <div id="kind-filters" class="legend"></div>
       </section>
       <section class="panel">
-        <h2>근거와 주장의 관계</h2>
+        <h2>Evidence → claim</h2>
         <div class="legend">
           <span><i class="edge supports"></i>supports</span>
           <span><i class="edge contradicts"></i>contradicts</span>
-          <span><i class="edge dashed"></i>아직 확인 안 함</span>
+          <span><i class="edge dashed"></i>not reviewed yet</span>
         </div>
-        <label class="check"><input type="checkbox" id="hide-unverified"> 확인 안 된 근거 숨기기</label>
-        <label class="check"><input type="checkbox" id="hide-edu"> EDU related 숨기기</label>
-        <label class="check"><input type="checkbox" id="hide-na" checked> NOT APPLICABLE 숨기기</label>
+        <label class="check"><input type="checkbox" id="hide-unverified"> Hide unreviewed evidence</label>
+        <label class="check"><input type="checkbox" id="hide-edu"> Hide EDU related</label>
+        <label class="check"><input type="checkbox" id="hide-na" checked> Hide NOT APPLICABLE</label>
       </section>
     </aside>
     <section class="graph-wrap"><div id="graph"></div></section>
-    <aside class="detail" id="home-detail"><p class="hint">노드를 누르면 자세한 내용이 여기 보여요.</p></aside>
+    <aside class="detail" id="home-detail"><p class="hint">Click a node to see its details here.</p></aside>
   </main>
 
   <!-- Evidences -->
   <main class="view" id="view-evidences" hidden>
     <section class="list">
       <div class="filters">
-        <input type="search" id="ev-search" placeholder="제목, 인용, 출처 검색">
-        <select id="ev-kind"><option value="">모든 종류</option></select>
-        <select id="ev-claim"><option value="">모든 주장</option></select>
-        <select id="ev-status"><option value="">모든 상태</option></select>
-        <select id="ev-stance"><option value="">모든 관계</option>
+        <input type="search" id="ev-search" placeholder="Search title, quote, source">
+        <select id="ev-kind"><option value="">All types</option></select>
+        <select id="ev-claim"><option value="">All claims</option></select>
+        <select id="ev-status"><option value="">All statuses</option></select>
+        <select id="ev-stance"><option value="">All stances</option>
           <option>supports</option><option>contradicts</option></select>
         <span class="meta" id="ev-count"></span>
       </div>
       <table class="table" id="ev-table">
-        <thead><tr><th>ID</th><th>종류</th><th>출처</th><th>주장</th><th>관계</th><th>상태</th><th>확인</th></tr></thead>
+        <thead><tr><th>ID</th><th>Type</th><th>Source</th><th>Claim</th><th>Stance</th><th>Status</th><th>Checked</th></tr></thead>
         <tbody></tbody>
       </table>
     </section>
-    <aside class="detail" id="ev-detail"><p class="hint">행을 누르면 원문 인용과 확인 버튼이 보여요.</p></aside>
+    <aside class="detail" id="ev-detail"><p class="hint">Click a row to see the quote and the review buttons.</p></aside>
   </main>
 
   <!-- Claims -->
   <main class="view" id="view-claims" hidden>
     <section class="claims" id="claims-list"></section>
-    <aside class="detail" id="claim-detail"><p class="hint">근거 ID를 누르면 여기 보여요.</p></aside>
+    <aside class="detail" id="claim-detail"><p class="hint">Click an evidence ID to see it here.</p></aside>
   </main>
 
   <dialog id="connect-dialog">
     <form method="dialog" id="connect-form">
-      <h2>저장소 연결</h2>
-      <p class="hint">연결하면 근거 확인, 결론 저장, 엑셀 다시 만들기를 이 화면에서 할 수 있어요. 토큰은 이 브라우저에만 저장돼요.</p>
-      <label>저장소 <input name="repo" placeholder="hanslelee/research-market-dump" required></label>
+      <h2>Connect repository</h2>
+      <p class="hint">Connect to review evidence, save conclusions and rebuild the workbook from this page. The token is stored only in this browser.</p>
+      <label>Repository <input name="repo" placeholder="hanslelee/research-market-dump" required></label>
       <label>branch <input name="branch" value="main"></label>
-      <label>토큰 (fine-grained, Contents: Read and write) <input name="token" type="password" required></label>
-      <label>확인자 이름 <input name="name" value="Hansle"></label>
+      <label>Token (fine-grained, Contents: Read and write) <input name="token" type="password" required></label>
+      <label>Reviewer name <input name="name" value="Hansle"></label>
       <div class="actions">
-        <button value="cancel" formnovalidate class="quiet">취소</button>
-        <button type="button" id="btn-disconnect" class="quiet">연결 해제</button>
-        <button value="ok" class="primary">연결</button>
+        <button value="cancel" formnovalidate class="quiet">Cancel</button>
+        <button type="button" id="btn-disconnect" class="quiet">Disconnect</button>
+        <button value="ok" class="primary">Connect</button>
       </div>
     </form>
   </dialog>
 
   <div class="toast" id="toast" hidden></div>
-  <footer class="foot">Fictional case (MathBridge AI) · public sources only · <a href="../viewer-legacy/">이전 화면</a> · <a id="repo-link" href="#">저장소</a></footer>
+  <footer class="foot">Fictional case (MathBridge AI) · public sources only · <a href="../viewer-legacy/">Previous viewer</a> · <a id="repo-link" href="#">Repository</a></footer>
   <script src="market.js"></script>
 </body>
 </html>

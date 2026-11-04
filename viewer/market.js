@@ -11,9 +11,9 @@
   const VIEW_PATH = 'market/out/viewer.json';
   const WORKBOOK = 'market/out/01_Hansle_Market_Research.xlsx';
   const KINDS = {
-    paper: { label: '논문', shape: 'ellipse' }, news: { label: '기사', shape: 'diamond' },
-    government: { label: '정부 통계', shape: 'hexagon' }, company: { label: '회사 웹페이지', shape: 'rectangle' },
-    report: { label: '연구 보고서', shape: 'triangle' }, book: { label: '책', shape: 'barrel' }, other: { label: '기타', shape: 'star' },
+    paper: { label: 'Paper', shape: 'ellipse' }, news: { label: 'News', shape: 'diamond' },
+    government: { label: 'Government statistics', shape: 'hexagon' }, company: { label: 'Company page', shape: 'rectangle' },
+    report: { label: 'Research report', shape: 'triangle' }, book: { label: 'Book', shape: 'barrel' }, other: { label: 'Other', shape: 'star' },
   };
   const STATUSES = ['UNVERIFIED', 'PARTIAL', 'VERIFIED', 'NOT APPLICABLE'];
   const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
@@ -78,19 +78,19 @@
         : await (await fetch(`../${VIEW_PATH}?t=${Date.now()}`, { cache: 'no-store' })).json();
     } catch (e) {
       $('#banner').hidden = false;
-      $('#banner').textContent = `데이터를 불러오지 못했어요 (${e.message}). market/out/viewer.json이 있는지 확인해 주세요.`;
+      $('#banner').textContent = `Could not load data (${e.message}). Check that market/out/viewer.json exists.`;
       return;
     }
     const d = state.data;
     d.evById = new Map(d.evidence.map(e => [e.id, e]));
     d.claimById = new Map(d.claims.map(c => [c.id, c]));
     $('#case').textContent = `${d.case_id || ''} ${d.version || ''}`;
-    $('#generated').textContent = `업데이트 ${new Date(d.generated_at).toLocaleString()}`;
+    $('#generated').textContent = `Updated ${new Date(d.generated_at).toLocaleString()}`;
     $('#repo-link').href = `https://github.com/${repo()}`;
-    $('#btn-connect').textContent = state.conn?.token ? `연결됨: ${state.conn.repo}` : '저장소 연결';
+    $('#btn-connect').textContent = state.conn?.token ? `Connected: ${state.conn.repo}` : 'Connect repository';
     const unrev = d.evidence.filter(e => e.status === 'UNVERIFIED').length;
     $('#banner').hidden = !unrev;
-    $('#banner').textContent = unrev ? `확인 안 된 근거 ${unrev}개: Evidences 탭에서 원문을 보고 PARTIAL / VERIFIED / NOT APPLICABLE로 확인해 주세요. 확인 전 근거는 주장 판정에 들어가지 않아요.` : '';
+    $('#banner').textContent = unrev ? `${unrev} evidence row(s) not reviewed yet: open them in the Evidences tab and mark PARTIAL / VERIFIED / NOT APPLICABLE. Unreviewed evidence does not count toward claim status.` : '';
     fillFilters();
     render();
   }
@@ -125,7 +125,7 @@
   }
 
   function drawGraph() {
-    if (typeof cytoscape === 'undefined') { $('#graph').innerHTML = '<p class="hint" style="padding:16px">그래프 라이브러리를 불러오지 못했어요.</p>'; return; }
+    if (typeof cytoscape === 'undefined') { $('#graph').innerHTML = '<p class="hint" style="padding:16px">Could not load the graph library.</p>'; return; }
     const d = state.data, ev = visibleEvidence();
     const statusColor = s => css(`--${statusClass(s) === 'NA' ? 'NA' : statusClass(s)}`) || css('--UNVERIFIED');
     const nodes = d.claims.map(c => ({ data: { id: c.id, label: c.id, kind: c.role, color: statusColor(c.status) } }));
@@ -208,40 +208,40 @@
     return `
       <div class="meta"><i class="shape ${esc(e.kind)}"></i> ${esc(KINDS[e.kind]?.label || e.kind)} · ${esc(e.id)} · ${esc(e.found_by)}</div>
       <h3>${esc(e.title || e.url)}</h3>
-      <div>${badge(e.status)} <span class="stance ${esc(e.stance)}">${esc(e.stance)}</span>${e.stance_by_agent ? ` <span class="meta">(에이전트 판정: ${esc(e.stance_by_agent)})</span>` : ''}
+      <div>${badge(e.status)} <span class="stance ${esc(e.stance)}">${esc(e.stance)}</span>${e.stance_by_agent ? ` <span class="meta">(agent said: ${esc(e.stance_by_agent)})</span>` : ''}
         ${e.edu_related ? ' <span class="badge outline">EDU related</span>' : ''}</div>
-      <div class="field"><b>주장</b>${esc(e.claim)} ${c ? '· ' + esc(c.text) : ''}</div>
-      <div class="field"><b>원문 인용 (그대로 복사)</b><blockquote>${esc(e.quote)}</blockquote></div>
-      <div class="field"><b>해석</b>${esc(e.finding)}</div>
-      <div class="field"><b>한계</b>${esc(e.limitation)}</div>
-      <div class="field"><b>출처</b>${esc(e.publisher)} ${esc(e.date)}<br>
-        ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">원문 열기</a>` : ''}
-        ${snapshotLink(e) ? ` · <a href="${esc(snapshotLink(e))}" target="_blank" rel="noopener">저장된 사본 (${esc(e.snapshot_kind)})</a>` : ''}</div>
-      ${e.checked_by ? `<div class="field"><b>확인</b>${esc(e.checked_by)} ${esc(e.checked_date)}</div>` : ''}
+      <div class="field"><b>Claim</b>${esc(e.claim)} ${c ? '· ' + esc(c.text) : ''}</div>
+      <div class="field"><b>Quote (copied verbatim)</b><blockquote>${esc(e.quote)}</blockquote></div>
+      <div class="field"><b>Finding</b>${esc(e.finding)}</div>
+      <div class="field"><b>Limitation</b>${esc(e.limitation)}</div>
+      <div class="field"><b>Source</b>${esc(e.publisher)} ${esc(e.date)}<br>
+        ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">Open original</a>` : ''}
+        ${snapshotLink(e) ? ` · <a href="${esc(snapshotLink(e))}" target="_blank" rel="noopener">Saved copy (${esc(e.snapshot_kind)})</a>` : ''}</div>
+      ${e.checked_by ? `<div class="field"><b>Checked</b>${esc(e.checked_by)} ${esc(e.checked_date)}</div>` : ''}
       ${reviewBox(e, weak)}`;
   }
 
   function reviewBox(e, weak) {
-    if (!state.conn?.token) return `<div class="review hint">확인하려면 위의 "저장소 연결"을 눌러 주세요.</div>`;
+    if (!state.conn?.token) return `<div class="review hint">Click "Connect repository" above to review.</div>`;
     return `
       <div class="review" data-review="${esc(e.id)}">
-        <b>확인</b>
-        <p class="hint">원문을 열어 인용이 그대로 있는지 보고 고르세요. 저장하면 1~2분 뒤 판정과 엑셀에 반영돼요.</p>
+        <b>Review</b>
+        <p class="hint">Open the original, check the quote is there, then choose. Claim status and the workbook update 1 to 2 minutes after saving.</p>
         <ul class="hint" style="margin:4px 0 8px;padding-left:18px">
-          <li><b>PARTIAL</b>: 근거가 주장의 일부만 뒷받침 (간접적, 조건부, 다른 대상·나라)</li>
-          <li><b>VERIFIED</b>: 근거가 주장을 온전히 뒷받침</li>
-          <li><b>NOT APPLICABLE</b>: 틀렸거나 이 주장과 관계없음 (제외)</li>
+          <li><b>PARTIAL</b>: the evidence backs only part of the claim (indirect, conditional, another setting or country)</li>
+          <li><b>VERIFIED</b>: the evidence backs the claim fully</li>
+          <li><b>NOT APPLICABLE</b>: wrong or unrelated to this claim (excluded)</li>
         </ul>
-        ${weak ? '<p class="warn">저장된 사본이 발췌본이나 초록이에요. "원문 열기"로 인용이 실제로 있는지 먼저 확인하세요.</p>' : ''}
-        <input data-field="note" placeholder="메모 (선택)" style="width:100%">
-        <details style="margin-top:6px"><summary class="meta">관계(supports/contradicts)가 틀렸을 때만</summary>
+        ${weak ? '<p class="warn">The saved copy is an excerpt or abstract. Use "Open original" to check the quote first.</p>' : ''}
+        <input data-field="note" placeholder="Note (optional)" style="width:100%">
+        <details style="margin-top:6px"><summary class="meta">Only if the stance (supports/contradicts) is wrong</summary>
           <select data-field="stance">${['supports', 'contradicts'].map(s => `<option ${s === e.stance ? 'selected' : ''}>${s}</option>`).join('')}</select>
         </details>
         <div class="actions">
           <button type="button" data-set="PARTIAL">PARTIAL</button>
           <button type="button" data-set="VERIFIED">VERIFIED</button>
           <button type="button" data-set="NOT APPLICABLE">NOT APPLICABLE</button>
-          <button type="button" data-set="UNVERIFIED" class="quiet">되돌리기</button>
+          <button type="button" data-set="UNVERIFIED" class="quiet">Undo</button>
         </div>
       </div>`;
   }
@@ -257,15 +257,15 @@
     if (!c) return '';
     const subs = state.data.claims.filter(s => s.parent === c.id);
     return `
-      <div class="meta">${c.role === 'parent' ? '팀 주장' : `하위 주장 · ${esc(c.parent)}`}</div>
+      <div class="meta">${c.role === 'parent' ? 'Team claim' : `Sub-claim of ${esc(c.parent)}`}</div>
       <h3>${esc(c.id)} ${esc(c.text)}</h3>
       <div>${badge(c.status)} ${badge(c.action)}</div>
-      ${c.conclusion ? `<div class="field"><b>결론</b>${esc(c.conclusion)}</div>` : ''}
+      ${c.conclusion ? `<div class="field"><b>Conclusion</b>${esc(c.conclusion)}</div>` : ''}
       <div class="field"><b>Limitation</b>${esc(c.limitation)}</div>
-      ${subs.length ? `<div class="field"><b>하위 주장</b>${subs.map(s => `<div>${esc(s.id)} ${badge(s.status)}</div>`).join('')}</div>` : ''}
-      ${c.supporting?.length ? `<div class="field"><b>지지 근거</b><div class="chips">${c.supporting.map(i => chip(i)).join('')}</div></div>` : ''}
-      ${c.counter?.length ? `<div class="field"><b>반대 근거</b><div class="chips">${c.counter.map(i => chip(i)).join('')}</div></div>` : ''}
-      ${c.basis ? `<div class="field"><b>근거 설명</b>${esc(c.basis)}</div>` : ''}`;
+      ${subs.length ? `<div class="field"><b>Sub-claims</b>${subs.map(s => `<div>${esc(s.id)} ${badge(s.status)}</div>`).join('')}</div>` : ''}
+      ${c.supporting?.length ? `<div class="field"><b>Supporting evidence</b><div class="chips">${c.supporting.map(i => chip(i)).join('')}</div></div>` : ''}
+      ${c.counter?.length ? `<div class="field"><b>Counter-evidence</b><div class="chips">${c.counter.map(i => chip(i)).join('')}</div></div>` : ''}
+      ${c.basis ? `<div class="field"><b>Basis</b>${esc(c.basis)}</div>` : ''}`;
   }
 
   function renderClaims() {
@@ -277,15 +277,15 @@
         <p class="meta">${esc(p.limitation)}</p>
         ${d.claims.filter(s => s.parent === p.id).map(s => `
           <div class="sub">
-            <header><b>${esc(s.id)}</b>${badge(s.status)}${badge(s.action)}${s.fixed_status ? '<span class="badge outline">설계상 고정</span>' : ''}</header>
+            <header><b>${esc(s.id)}</b>${badge(s.status)}${badge(s.action)}${s.fixed_status ? '<span class="badge outline">fixed by design</span>' : ''}</header>
             <p>${esc(s.text)}</p>
-            ${s.supporting.length ? `<div class="meta">지지</div><div class="chips">${s.supporting.map(i => chip(i)).join('')}</div>` : ''}
-            ${s.counter.length ? `<div class="meta">반대</div><div class="chips">${s.counter.map(i => chip(i)).join('')}</div>` : ''}
+            ${s.supporting.length ? `<div class="meta">Supporting</div><div class="chips">${s.supporting.map(i => chip(i)).join('')}</div>` : ''}
+            ${s.counter.length ? `<div class="meta">Counter</div><div class="chips">${s.counter.map(i => chip(i)).join('')}</div>` : ''}
             <p class="meta">${esc(s.limitation)}</p>
             ${state.conn?.token ? `
-              <textarea data-conclusion="${esc(s.id)}" placeholder="이 하위 주장에 대한 내 결론 (Market Conclusions 시트에 들어가요)">${esc(s.conclusion)}</textarea>
-              <div class="actions" style="margin-top:6px"><button type="button" data-save-conclusion="${esc(s.id)}">결론 저장</button></div>`
-              : (s.conclusion ? `<p><b>결론:</b> ${esc(s.conclusion)}</p>` : '')}
+              <textarea data-conclusion="${esc(s.id)}" placeholder="Your conclusion for this sub-claim (goes into the Market Conclusions sheet)">${esc(s.conclusion)}</textarea>
+              <div class="actions" style="margin-top:6px"><button type="button" data-save-conclusion="${esc(s.id)}">Save conclusion</button></div>`
+              : (s.conclusion ? `<p><b>Conclusion:</b> ${esc(s.conclusion)}</p>` : '')}
           </div>`).join('')}
       </article>`).join('');
   }
@@ -315,7 +315,7 @@
     const req = exportRequest();
     await api.commit([...files, req.file], message);
     state.pending = req.id;
-    toast('저장했어요. 1~2분 뒤 판정과 엑셀이 다시 만들어지면 화면이 새로 고쳐져요.');
+    toast('Saved. The page refreshes when claim status and the workbook are rebuilt (1 to 2 minutes).');
     watch();
   }
 
@@ -351,7 +351,7 @@
       if (!state.pending) return;
       try { await api.raw(`requests/${state.pending}.json`); watch.timer = setTimeout(tick, 15000); }
       catch (e) {
-        if (e.status === 404) { state.pending = null; await load(); toast('반영됐어요.'); }
+        if (e.status === 404) { state.pending = null; await load(); toast('Updated.'); }
         else watch.timer = setTimeout(tick, 15000);
       }
     }, 20000);
@@ -372,7 +372,7 @@
     if (chipEl) {
       const ev = state.data.evById.get(chipEl.dataset.ev);
       const target = state.tab === 'claims' ? '#claim-detail' : state.tab === 'home' ? '#home-detail' : '#ev-detail';
-      $(target).innerHTML = ev ? evidenceDetail(ev) : `<p class="hint">${esc(chipEl.dataset.ev)}는 다른 팀원 파일의 ID예요. 통합 때 확인해요.</p>`;
+      $(target).innerHTML = ev ? evidenceDetail(ev) : `<p class="hint">${esc(chipEl.dataset.ev)} is an ID from another member's file; it is checked at integration.</p>`;
       return;
     }
     const set = e.target.closest('[data-set]');
@@ -381,14 +381,14 @@
       set.disabled = true;
       const ev = state.data.evById.get(box.dataset.review), st = box.querySelector('[data-field=stance]').value;
       try { await saveReview(box.dataset.review, set.dataset.set, st !== ev?.stance ? st : '', box.querySelector('[data-field=note]').value); }
-      catch (err) { toast(`저장하지 못했어요: ${err.message}`, true); set.disabled = false; }
+      catch (err) { toast(`Could not save: ${err.message}`, true); set.disabled = false; }
       return;
     }
     const sc = e.target.closest('[data-save-conclusion]');
     if (sc) {
       const id = sc.dataset.saveConclusion; sc.disabled = true;
       try { await saveConclusion(id, document.querySelector(`[data-conclusion="${CSS.escape(id)}"]`).value.trim()); }
-      catch (err) { toast(`저장하지 못했어요: ${err.message}`, true); }
+      catch (err) { toast(`Could not save: ${err.message}`, true); }
       sc.disabled = false;
     }
   });
@@ -400,16 +400,16 @@
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob); a.download = `01_Hansle_Market_Research_${today()}.xlsx`;
       document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 5000);
-    } catch (err) { toast(`엑셀을 받지 못했어요 (${err.message}).`, true); }
+    } catch (err) { toast(`Could not download the workbook (${err.message}).`, true); }
     b.disabled = false;
   };
   $('#btn-rebuild').onclick = async e => {
-    if (!state.conn?.token) { toast('다시 만들려면 저장소를 연결해 주세요.', true); $('#connect-dialog').showModal(); return; }
-    if (state.pending) { toast('이미 다시 만드는 중이에요.'); return; }
+    if (!state.conn?.token) { toast('Connect the repository to rebuild.', true); $('#connect-dialog').showModal(); return; }
+    if (state.pending) { toast('A rebuild is already running.'); return; }
     const b = e.currentTarget; b.disabled = true;
     try { const req = exportRequest(); await api.commit([req.file], 'Request export'); state.pending = req.id;
-      toast('엑셀 다시 만들기를 요청했어요. 1~2분 걸려요.'); watch(); }
-    catch (err) { toast(`요청하지 못했어요: ${err.message}`, true); }
+      toast('Rebuild requested. It takes 1 to 2 minutes.'); watch(); }
+    catch (err) { toast(`Could not send the request: ${err.message}`, true); }
     b.disabled = false;
   };
 

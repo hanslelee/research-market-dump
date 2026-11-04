@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:27:42+00:00",
+  "generated_at": "2026-11-04T08:28:33+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -95,7 +95,7 @@
       "text": "Tuition centres or teachers already spend, or are willing to spend, on tools that reduce diagnosis time.",
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
-      "limitation": "1 evidence row(s) not reviewed yet (UNVERIFIED, not counted). The study examines public elementary school teachers rather than commercial tuition centres in Singapore.; It reviews general assessment and feedback research across various subjects rather than specifically examining primary mathematics diagnostic software adoption in tuition centres.; It provides a broad review of mathematical modeling in STEM automated grading rather than empirical evidence of tuition centres spending money on math diagnostic tools.; Secondary report; primary SingStat table not opened. All subjects and levels, not primary maths. Household spending on tuition, not centre spending on software.",
+      "limitation": " The study examines public elementary school teachers rather than commercial tuition centres in Singapore.; It reviews general assessment and feedback research across various subjects rather than specifically examining primary mathematics diagnostic software adoption in tuition centres.; It provides a broad review of mathematical modeling in STEM automated grading rather than empirical evidence of tuition centres spending money on math diagnostic tools.; The research studies general classroom automated grading rather than diagnostic software specifically targeted at primary mathematics learning gaps in tuition centres.; Secondary report; primary SingStat table not opened. All subjects and levels, not primary maths. Household spending on tuition, not centre spending on software.",
       "conclusion": "",
       "review_status": "DRAFT",
       "supporting": [
@@ -542,10 +542,10 @@
       "claim": "MKT-01-B",
       "stance": "supports",
       "stance_by_agent": "",
-      "status": "UNVERIFIED",
+      "status": "PARTIAL",
       "limitation": "The research studies general classroom automated grading rather than diagnostic software specifically targeted at primary mathematics learning gaps in tuition centres.",
-      "checked_by": "",
-      "checked_date": "",
+      "checked_by": "Hansle",
+      "checked_date": "2026-11-04",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

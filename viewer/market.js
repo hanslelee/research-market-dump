@@ -180,7 +180,8 @@
     const q = $('#ev-search').value.trim().toLowerCase();
     const k = $('#ev-kind').value, c = $('#ev-claim').value, s = $('#ev-status').value, st = $('#ev-stance').value;
     return state.data.evidence.filter(e => (!k || e.kind === k) && (!c || e.claim === c) && (!s || e.status === s) && (!st || e.stance === st)
-      && (!q || [e.title, e.quote, e.publisher, e.finding, e.id].join(' ').toLowerCase().includes(q)));
+      && (!q || [e.title, e.quote, e.publisher, e.finding, e.id].join(' ').toLowerCase().includes(q)))
+      .sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
   }
 
   function renderEvidences() {

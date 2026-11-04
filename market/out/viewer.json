@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T07:56:26+00:00",
+  "generated_at": "2026-11-04T07:58:49+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -71,7 +71,7 @@
       "text": "Diagnosing primary mathematics learning gaps takes substantial teacher or tutor time and effort.",
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
-      "limitation": "6 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It does not examine primary mathematics learning-gap diagnosis or tuition centres in Singapore.",
+      "limitation": "5 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It does not examine primary mathematics learning-gap diagnosis or tuition centres in Singapore.; Academic study, abstract-level; not evidence of purchasing by Singapore tuition centres. Gap: Does not address primary-level diagnosis tools or purchasing by tuition centres.",
       "conclusion": "",
       "review_status": "DRAFT",
       "supporting": [
@@ -718,11 +718,11 @@
       "finding": "Formative assessment is positively related to maths achievement, which supports the value of diagnosis but not that centres would pay for a tool.",
       "claim": "MKT-01-A",
       "stance": "limits",
-      "stance_by_agent": "",
-      "status": "UNVERIFIED",
+      "stance_by_agent": "limits",
+      "status": "PARTIAL",
       "limitation": "Academic study, abstract-level; not evidence of purchasing by Singapore tuition centres. Gap: Does not address primary-level diagnosis tools or purchasing by tuition centres.",
-      "checked_by": "",
-      "checked_date": "",
+      "checked_by": "Hansle",
+      "checked_date": "2026-11-04",
       "edu_related": true,
       "edu_id": "",
       "snapshot": "",

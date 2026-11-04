@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:50:19+00:00",
+  "generated_at": "2026-11-04T08:50:36+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -44,6 +44,7 @@
         "MKT-E011",
         "MKT-E014",
         "MKT-E015",
+        "MKT-E018",
         "MKT-E033",
         "MKT-E034",
         "MKT-E035",
@@ -52,7 +53,6 @@
         "MKT-E008",
         "MKT-E009",
         "MKT-E010",
-        "MKT-E018",
         "MKT-E019",
         "MKT-E036",
         "MKT-E037",
@@ -157,7 +157,7 @@
       "text": "Existing products do not provide tutor-reviewed, evidence-traceable learning-gap reports to tuition centres.",
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
-      "limitation": "5 reviewed counter-evidence row(s). 8 evidence row(s) not reviewed yet (UNVERIFIED, not counted). Company self-description on its own website; features and price not independently tested.",
+      "limitation": "4 reviewed counter-evidence row(s). 8 evidence row(s) not reviewed yet (UNVERIFIED, not counted). Company self-description on its own website; features and price not independently tested.",
       "conclusion": "",
       "review_status": "DRAFT",
       "supporting": [
@@ -165,6 +165,7 @@
         "MKT-E011",
         "MKT-E014",
         "MKT-E015",
+        "MKT-E018",
         "MKT-E033",
         "MKT-E034",
         "MKT-E035"
@@ -175,7 +176,6 @@
         "MKT-E008",
         "MKT-E009",
         "MKT-E010",
-        "MKT-E018",
         "MKT-E019"
       ],
       "assumptions": [],
@@ -1109,9 +1109,9 @@
       "quote": "Comprehensive question bank with varying difficulty levels",
       "finding": "KooBits focuses on a gamified, multi-subject syllabus-aligned self-directed learning approach for children via animated videos and rewards rather than institution-focused diagnostic gap reporting for tuition centres.",
       "claim": "MKT-02-A",
-      "stance": "contradicts",
-      "stance_by_agent": "",
-      "status": "VERIFIED",
+      "stance": "supports",
+      "stance_by_agent": "contradicts",
+      "status": "PARTIAL",
       "limitation": "Company self-description on its own website; features and price not independently tested.",
       "checked_by": "Hansle",
       "checked_date": "2026-11-04",

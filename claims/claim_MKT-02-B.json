@@ -11,5 +11,6 @@
   "unit": "",
   "assumption_ids": [],
   "market_queries": [],
-  "fixed_status": "SYNTHETIC"
+  "fixed_status": "SYNTHETIC",
+  "memo": ""
 }

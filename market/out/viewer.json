@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:29:53+00:00",
+  "generated_at": "2026-11-04T08:31:14+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v0.1",
   "claims": [
@@ -27,7 +27,6 @@
         "MKT-E029",
         "MKT-E030",
         "MKT-E031",
-        "MKT-E032",
         "MKT-E006"
       ],
       "basis": "Team claim from the MathBridge evidence packet v0.1 (Appendix A). Judged by its sub-claims: status = the weakest sub-claim; any MISSING sub-claim -> HOLD."
@@ -118,14 +117,13 @@
       "text": "Singapore tuition centres show actual demand to adopt diagnosis-automation tools.",
       "status": "PARTIAL",
       "action": "ACCEPT_WITH_LIMITATION",
-      "limitation": "1 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It examines secondary school classrooms rather than commercial tuition centres.; It investigates preservice teachers in California higher education rather than commercial tuition centres in Singapore.; It focuses on distance learning university teachers rather than Singaporean tuition centre operators.",
+      "limitation": " It examines secondary school classrooms rather than commercial tuition centres.; It investigates preservice teachers in California higher education rather than commercial tuition centres in Singapore.; It focuses on distance learning university teachers rather than Singaporean tuition centre operators.",
       "conclusion": "",
       "review_status": "DRAFT",
       "supporting": [
         "MKT-E029",
         "MKT-E030",
-        "MKT-E031",
-        "MKT-E032"
+        "MKT-E031"
       ],
       "counter": [],
       "assumptions": [],
@@ -667,10 +665,10 @@
       "claim": "MKT-01-C",
       "stance": "supports",
       "stance_by_agent": "",
-      "status": "UNVERIFIED",
+      "status": "NOT APPLICABLE",
       "limitation": "It looks at general K-12 school adoption rather than commercial tuition centres in Singapore.",
-      "checked_by": "",
-      "checked_date": "",
+      "checked_by": "Hansle",
+      "checked_date": "2026-11-04",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

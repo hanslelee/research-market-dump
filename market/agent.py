@@ -30,10 +30,10 @@ EVIDENCE_SYSTEM = """You extract evidence for ONE market claim from ONE saved we
 Rules:
 - "quote" must be copied EXACTLY from the page text, character for character (at most 300 characters). Never paraphrase, translate, round or merge sentences in a quote.
 - "finding": one sentence in your own words: what the quote shows for the claim.
-- "stance": "supports", "limits" (true but narrower or indirect) or "contradicts".
+- "stance": "supports" or "contradicts" (what the quote says about the claim).
 - "unit": what a number in the quote counts (students, households, schools, centres, customers, SGD per household, ...), or "" if no count.
 - "limitation": one sentence on what this quote does NOT establish for the claim (e.g. counts students not paying centres; company self-report; old date; other country).
-- Indirect evidence still counts as "limits": e.g. general teacher workload or marking time when the claim is about
+- Indirect evidence still counts as "supports": e.g. general teacher workload or marking time when the claim is about
   diagnosing maths gaps, school teachers when the claim is about tutors, another country, an older year. Include it and
   say in "limitation" exactly why it is indirect. Only return "items": [] when the page has nothing that bears on the claim at all.
 - At most 3 items.

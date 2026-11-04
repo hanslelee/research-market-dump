@@ -226,14 +226,20 @@
       <div class="review" data-review="${esc(e.id)}">
         <b>확인</b>
         <p class="hint">원문을 열어 인용이 그대로 있는지 보고 고르세요. 저장하면 1~2분 뒤 판정과 엑셀에 반영돼요.</p>
-        ${weak ? '<p class="warn">저장된 사본이 발췌본/초록이라 VERIFIED는 규칙(R6)에 걸려요. 원문 전체를 확인했다면 PARTIAL을 권해요.</p>' : ''}
-        <label>관계 <select data-field="stance">
-          ${['supports', 'limits', 'contradicts'].map(s => `<option ${s === e.stance ? 'selected' : ''}>${s}</option>`).join('')}</select></label>
-        <input data-field="note" placeholder="메모 (선택)" style="width:100%;margin-top:6px">
+        <ul class="hint" style="margin:4px 0 8px;padding-left:18px">
+          <li><b>PARTIAL</b>: 인용은 확인했지만 일부만 봄 (초록, 발췌본, 기사 요약)</li>
+          <li><b>VERIFIED</b>: 원문 전체를 열어 확인함</li>
+          <li><b>NOT APPLICABLE</b>: 틀렸거나 이 주장과 관계없음 (제외)</li>
+        </ul>
+        ${weak ? '<p class="warn">저장된 사본이 발췌본이나 초록이라 VERIFIED는 규칙(R6)에 걸려요.</p>' : ''}
+        <input data-field="note" placeholder="메모 (선택)" style="width:100%">
+        <details style="margin-top:6px"><summary class="meta">관계(supports/contradicts)가 틀렸을 때만</summary>
+          <select data-field="stance">${['supports', 'contradicts'].map(s => `<option ${s === e.stance ? 'selected' : ''}>${s}</option>`).join('')}</select>
+        </details>
         <div class="actions">
           <button type="button" data-set="PARTIAL">PARTIAL</button>
           <button type="button" data-set="VERIFIED">VERIFIED</button>
-          <button type="button" data-set="NOT APPLICABLE">NOT APPLICABLE (제외)</button>
+          <button type="button" data-set="NOT APPLICABLE">NOT APPLICABLE</button>
           <button type="button" data-set="UNVERIFIED" class="quiet">되돌리기</button>
         </div>
       </div>`;
@@ -256,7 +262,7 @@
       ${c.conclusion ? `<div class="field"><b>결론</b>${esc(c.conclusion)}</div>` : ''}
       <div class="field"><b>Limitation</b>${esc(c.limitation)}</div>
       ${subs.length ? `<div class="field"><b>하위 주장</b>${subs.map(s => `<div>${esc(s.id)} ${badge(s.status)}</div>`).join('')}</div>` : ''}
-      ${c.supporting?.length ? `<div class="field"><b>지지/한정 근거</b><div class="chips">${c.supporting.map(i => chip(i)).join('')}</div></div>` : ''}
+      ${c.supporting?.length ? `<div class="field"><b>지지 근거</b><div class="chips">${c.supporting.map(i => chip(i)).join('')}</div></div>` : ''}
       ${c.counter?.length ? `<div class="field"><b>반대 근거</b><div class="chips">${c.counter.map(i => chip(i)).join('')}</div></div>` : ''}
       ${c.basis ? `<div class="field"><b>근거 설명</b>${esc(c.basis)}</div>` : ''}`;
   }
@@ -272,7 +278,7 @@
           <div class="sub">
             <header><b>${esc(s.id)}</b>${badge(s.status)}${badge(s.action)}${s.fixed_status ? '<span class="badge outline">설계상 고정</span>' : ''}</header>
             <p>${esc(s.text)}</p>
-            ${s.supporting.length ? `<div class="meta">지지/한정</div><div class="chips">${s.supporting.map(i => chip(i)).join('')}</div>` : ''}
+            ${s.supporting.length ? `<div class="meta">지지</div><div class="chips">${s.supporting.map(i => chip(i)).join('')}</div>` : ''}
             ${s.counter.length ? `<div class="meta">반대</div><div class="chips">${s.counter.map(i => chip(i)).join('')}</div>` : ''}
             <p class="meta">${esc(s.limitation)}</p>
             ${state.conn?.token ? `
@@ -372,7 +378,8 @@
     if (set) {
       const box = set.closest('[data-review]');
       set.disabled = true;
-      try { await saveReview(box.dataset.review, set.dataset.set, box.querySelector('[data-field=stance]').value, box.querySelector('[data-field=note]').value); }
+      const ev = state.data.evById.get(box.dataset.review), st = box.querySelector('[data-field=stance]').value;
+      try { await saveReview(box.dataset.review, set.dataset.set, st !== ev?.stance ? st : '', box.querySelector('[data-field=note]').value); }
       catch (err) { toast(`저장하지 못했어요: ${err.message}`, true); set.disabled = false; }
       return;
     }

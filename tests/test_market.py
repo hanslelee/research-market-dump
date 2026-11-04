@@ -97,7 +97,7 @@ class TestAcademicLane(unittest.TestCase):
             self.assertEqual((r["to"], r["type"], r["status"]), ("claim:MKT-01-A", "narrow", "new"))
             res = B.build(d)
             row = next(x for x in res["rows"] if x["key"] == "rel:" + r["id"])
-            self.assertEqual((row["stance"], row["verification_status"], row["limitation"]), ("limits", "UNVERIFIED", "School teachers, not tutors."))
+            self.assertEqual((row["stance"], row["verification_status"], row["limitation"]), ("supports", "UNVERIFIED", "School teachers, not tutors."))
 
 
 if __name__ == "__main__":

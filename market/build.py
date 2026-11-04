@@ -3,11 +3,14 @@
 Claims: two team claims (MKT-01, MKT-02, "role": "parent") judged through Hansle's sub-claims (MKT-01-A ... MKT-02-C).
   Market Conclusions sheet = one row per sub-claim. Market Handoff sheet = one row per team claim.
 
-Evidence row status (Market Evidence sheet):
-  UNVERIFIED  drafted by an agent (web quote, or a paper relation still "new"); no person has looked
-  PARTIAL     a person looked (relation approved, or review.csv) but it is abstract-level, indirect or only part of the claim
-  VERIFIED    only from review.csv: a person opened the original, the quote is there, checked_by and checked_date set,
-              and the snapshot is a real page (fetched or manual), not a pilot excerpt
+Two separate axes per evidence row:
+  status = how deeply a person checked it (review.csv)
+    UNVERIFIED      nobody has looked yet (agent draft)
+    PARTIAL         the quote was confirmed, but only part of the source was seen (abstract, excerpt, article summary)
+    VERIFIED        the whole original was opened and checked (checked_by, checked_date, a full saved page)
+    NOT APPLICABLE  wrong or irrelevant: kept in the list, left out of every claim
+  stance = what it says about its claim: supports or contradicts (set by the agent; a person corrects it only when wrong).
+    Indirect or conditional support is "supports"; why it is indirect is written in the limitation.
 
 Claim status (Conclusions and Handoff), four levels: VERIFIED > PARTIAL > SYNTHETIC > MISSING
   sub-claim   SYNTHETIC when fixed so (MathBridge's own features are fictional); else from its reviewed supporting
@@ -19,8 +22,7 @@ edu_candidates.csv for Zixuan (shared evidence, one MKT-E id).
 
 Human inputs (never written by an agent):
   market/review.csv        evidence_id, verification_status, checked_by, checked_date, note, stance
-                           (NOT APPLICABLE = wrong or irrelevant row: kept in the list, left out of every claim;
-                            stance overrides the agent's supports / limits / contradicts)
+                           (stance, optional: supports or contradicts, overrides the agent)
   market/conclusions.json  {"MKT-01-A": {"conclusion": "...", "proposed_action": "", "review_status": "DRAFT", "cross_refs": ["EDU-E001"]}}
 """
 import csv
@@ -30,7 +32,7 @@ from pathlib import Path
 import mcommon as M
 from common import load_dir
 
-STANCE_FROM_REL = {"support": "supports", "motivates": "supports", "narrow": "limits", "conflict": "contradicts",
+STANCE_FROM_REL = {"support": "supports", "motivates": "supports", "narrow": "supports", "conflict": "contradicts",
                    "duplicate": "contradicts"}
 HANDOFF_FIELDS = ["claim_id", "owner", "claim_text", "evidence_ids", "assumption_ids", "evidence_status", "materiality",
                   "limitation", "proposed_action", "version", "review_status"]
@@ -101,14 +103,16 @@ def apply_review(data: Path, rows, competitors):
             r["verification_status"] = x["verification_status"].strip()
         r["checked_by"] = x.get("checked_by", "").strip()
         r["checked_date"] = x.get("checked_date", "").strip()
-        if (x.get("stance") or "").strip() in ("supports", "limits", "contradicts"):
+        st = STANCE_ALIAS.get((x.get("stance") or "").strip())
+        if st and st != r.get("stance"):
             r["stance_by_agent"] = r.get("stance")
-            r["stance"] = x["stance"].strip()
+            r["stance"] = st
         if x.get("note"):
             r["review_note"] = x["note"].strip()
 
 
-OVERLAP_STANCE = {"similar": "contradicts", "different": "supports", "unclear": "limits"}
+OVERLAP_STANCE = {"similar": "contradicts", "different": "supports", "unclear": "supports"}
+STANCE_ALIAS = {"supports": "supports", "limits": "supports", "contradicts": "contradicts"}  # "limits" was the old middle value
 
 
 def competitor_rows(data: Path):
@@ -131,7 +135,7 @@ def competitor_evidence(comps, mc, claim_id=None):
             "key": c["key"], "lane": "competitor", "claim_id": claim_id, "url": c.get("url", ""),
             "title": f"{c['competitor']}: {c.get('product', '')}".strip(": "), "publisher": c["competitor"],
             "publication_date": "", "quote": quote, "finding": c.get("differentiation", ""),
-            "stance": OVERLAP_STANCE.get(c.get("overlap", "unclear"), "limits"), "unit": "",
+            "stance": OVERLAP_STANCE.get(c.get("overlap", "unclear"), "supports"), "unit": "",
             "limitation": ("Company self-description on its own website; features and price not independently tested."
                            if t == "company" else "Second-hand description of the competitor; check the provider's own page."),
             "source_type": M.SOURCE_TYPE[t], "tier": t, "snapshot": c.get("snapshot", ""),
@@ -151,7 +155,7 @@ def counts(r):
 def sub_status(claim, ev):
     if claim.get("fixed_status") in LADDER:
         return claim["fixed_status"]
-    sup = [e for e in ev if e["stance"] in ("supports", "limits") and counts(e)]
+    sup = [e for e in ev if e["stance"] == "supports" and counts(e)]
     if not sup:
         return "MISSING"
     return "VERIFIED" if all(e["verification_status"] == "VERIFIED" for e in sup) else "PARTIAL"
@@ -182,7 +186,7 @@ def conclusions(data: Path, config, rows):
         out.append({
             "claim_id": cid, "parent": c.get("parent", ""), "claim_text": c["text"],
             "market_conclusion": hc.get("conclusion") or f"[DRAFT - write after reading the evidence] {c['text']}",
-            "supporting_evidence_ids": sorted(r["evidence_id"] for r in ev if r["stance"] in ("supports", "limits"))
+            "supporting_evidence_ids": sorted(r["evidence_id"] for r in ev if r["stance"] == "supports")
                                        + list(hc.get("cross_refs", [])),
             "counter_evidence_ids": sorted(r["evidence_id"] for r in ev if r["stance"] == "contradicts"),
             "assumption_ids": c.get("assumption_ids", []), "verification_status": st,
@@ -293,6 +297,8 @@ def build(data: Path, extra_claims=None):
             comp_ev.append(r)
     rows = assign_ids(data, academic_rows(data) + web + comp_ev)
     by_key = {r["key"]: r for r in rows}
+    for r in rows:
+        r["stance"] = STANCE_ALIAS.get(r.get("stance"), "supports")
     apply_review(data, rows, [])
     edu = (M.read(M.mdir(data) / "edu_related.json", {}).get("items") or {})
     for r in rows:

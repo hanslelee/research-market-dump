@@ -6,7 +6,7 @@ Brief 5.1: "Reuse your existing research workflow to search for relevant academi
 formative assessment and AI-assisted learning." For each sub-claim with "academic_queries":
   1. search   Semantic Scholar relevance search for each query (pipeline/websearch.s2_search)          (no model)
   2. judge    the model reads title + abstract and says how the paper bears on THIS market sub-claim:
-              support / narrow (indirect or partial: becomes "limits") / conflict, with one evidence sentence;
+              support / narrow (indirect or partial: exported as "supports", reason in the limitation) / conflict, with one evidence sentence;
               "none" when it does not bear on it at all                                                (model, Rung 0)
   3. add      the top papers are added to papers/ (tagged and summarized by the existing agents)       (pipeline/addpaper.py)
   4. link     a relation draft paper -> sub-claim, status "new" (= UNVERIFIED in the workbook)

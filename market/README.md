@@ -38,7 +38,7 @@ human:  market/review.csv (VERIFIED / PARTIAL)   market/conclusions.json (conclu
 `https://<you>.github.io/research-market-dump/viewer/` (Settings → Pages: main, root).
 
 - **홈**: team claims, sub-claims and evidence as a graph. Evidence shape = source kind (paper, news, government
-  statistics, company page, research report, book, other); edge colour = supports / limits / contradicts; dashed = not reviewed.
+  statistics, company page, research report, book, other); edge colour = supports / contradicts; dashed = not reviewed.
 - **Evidences**: every evidence row with filters; the detail shows the copied quote, the saved snapshot and review buttons.
 - **Claims**: MKT-01 / MKT-02 with their sub-claims, status, action, limitation, evidence chips and your conclusion.
 - **저장소 연결** (repo, branch, fine-grained token with Contents read/write) enables: review buttons
@@ -59,11 +59,19 @@ Local: `python market/run.py all --data .` (needs the same environment variables
 
 ## Status policy
 
-Evidence rows (Market Evidence): UNVERIFIED = drafted by an agent, nobody has looked; PARTIAL = a person looked, but
-abstract-level, indirect or only part of the claim; VERIFIED = a person opened the original and the quote is there
-(checked_by + checked_date, a real saved page, not a pilot excerpt); NOT APPLICABLE = wrong or irrelevant, kept in the
-list but left out of every claim. "EDU related" rows (`market/edu_related.json`) are shared with Zixuan's education check:
-they count for MKT like any other row and are also exported to `edu_candidates.csv`.
+Two separate axes per evidence row.
+
+| Status (you set it) | Meaning |
+|---|---|
+| UNVERIFIED | nobody has looked yet (agent draft) |
+| PARTIAL | the quote was confirmed, but only part of the source was seen (abstract, excerpt, article summary) |
+| VERIFIED | the whole original was opened and checked (needs a full saved page, checked_by, checked_date) |
+| NOT APPLICABLE | wrong or irrelevant: kept in the list, left out of every claim |
+
+Stance (the agent sets it; you correct it only when wrong): **supports** or **contradicts**. Indirect or conditional
+support is "supports", and why it is indirect is in the limitation. In the workbook, supports → supporting_evidence_ids,
+contradicts → counter_evidence_ids. "EDU related" rows (`market/edu_related.json`) are shared with Zixuan's education
+check: they count for MKT like any other row and are also exported to `edu_candidates.csv`.
 
 Claims, four levels, weakest first: MISSING < SYNTHETIC < PARTIAL < VERIFIED.
 - Sub-claim (Market Conclusions): SYNTHETIC when fixed so (MKT-02-B: MathBridge's features are fictional); otherwise

@@ -124,7 +124,7 @@ def t_agent_invented_quote(d, base):
     page = "<html><body><p>" + "KooBits Premium Plan. Proficiency Reports with KooBits Parent App. $148.50 / year. " * 6 + "</p></body></html>"
     reply = {"publisher": "x", "publication_date": "", "title": "x", "items": [
         {"quote": "KooBits reaches 40% of Singapore tuition centres.", "finding": "x", "stance": "supports", "unit": "", "limitation": ""},
-        {"quote": "Proficiency Reports with KooBits Parent App.", "finding": "x", "stance": "limits", "unit": "", "limitation": ""}]}
+        {"quote": "Proficiency Reports with KooBits Parent App.", "finding": "x", "stance": "supports", "unit": "", "limitation": ""}]}
     chat = lambda *a, **k: {"text": json.dumps(reply), "model": "mock"}
     cfg = json.loads((d / "config.json").read_text())
     cfg["market"]["seed_urls"] = [{"url": "https://www.koobits.com/seed-page", "claim_id": "MKT-02-A"}]

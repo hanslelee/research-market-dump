@@ -1,13 +1,13 @@
 {
   "_how": "Your words per sub-claim (MKT-01-A ...). Leave proposed_action empty to let the rules decide. review_status: DRAFT / READY FOR REVIEW / APPROVED / HOLD / RETURN. cross_refs: ids in other members' files, e.g. EDU-E001.",
   "MKT-01-A": {
-    "conclusion": "Partly supported. Singapore teachers spend 6.4 h/week on marking (OECD TALIS 2024, MKT-E020), and studies elsewhere show diagnosing maths misconceptions is demanding (MKT-E022–E024). No evidence specific to tutors or tuition centres.",
+    "conclusion": "",
     "proposed_action": "",
     "review_status": "DRAFT",
     "cross_refs": []
   },
   "MKT-01-B": {
-    "conclusion": "",
+    "conclusion": "Partly supported. Automated grading cut teacher grading time by 35% (MKT-E028) and teachers value adaptive diagnostic assessment (MKT-E025); Singapore households spent S$1.8b on tuition in 2023 (MKT-E002). No public evidence that tuition centres pay for diagnostic software.",
     "proposed_action": "",
     "review_status": "DRAFT",
     "cross_refs": []

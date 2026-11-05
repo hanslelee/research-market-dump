@@ -215,9 +215,14 @@ def run(data: Path, today: str, log=print, chat=None, search_fn=S.search, getter
         for q in (f"{comp['name']} pricing plans", f"{comp['name']} features for teachers reports"):
             urls += [x["url"] for x in search_fn(q, mc.get("search", {}), log)
                      if M._match(M.domain(x["url"]), comp.get("domains", []))]
-        for url in list(dict.fromkeys(urls))[:3]:
+        listed = list(comp.get("urls", []))  # pages named in config are always read; search adds up to 3 more
+        found = [u for u in dict.fromkeys(urls) if u not in listed][:3]
+        for url in listed + found:
+            done = store.urls.get(url, {}).get("extracted_for", [])
+            if "competitors" in done and not refresh:
+                continue  # already read; --refresh reads it again
             snap = F.snapshot(data, url, today, getter=getter, log=log)
-            store.urls[url] = snap
+            store.urls[url] = {**snap, "extracted_for": done}
             if not snap["ok"]:
                 store.log(step="fetch", competitor=comp["name"], url=url, action="skipped", reason=snap["reason"])
                 summary["skipped_pages"] += 1
@@ -225,6 +230,7 @@ def run(data: Path, today: str, log=print, chat=None, search_fn=S.search, getter
             summary["pages"] += 1
             try:
                 summary["competitor_features"] += extract_competitor(comp, url, snap, F.text_of(data, snap), mc, chat, agent, store, today)
+                store.urls[url]["extracted_for"] = sorted(set(done) | {"competitors"})
             except llm.LLMUnavailable:
                 store.save()
                 raise

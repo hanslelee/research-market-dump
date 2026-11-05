@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T09:50:00+00:00",
+  "generated_at": "2026-11-05T09:52:38+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -368,12 +368,12 @@
       "claim": "MKT-01-A",
       "stance": "supports",
       "stance_by_agent": "",
-      "edited_by": "",
-      "edited_date": "",
+      "edited_by": "Hansle",
+      "edited_date": "2026-11-05",
       "status": "PARTIAL",
       "limitation": "It focuses on middle school algebra in state schools rather than primary mathematics or tuition centres in Singapore.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

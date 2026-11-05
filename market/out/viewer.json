@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:02:10+00:00",
+  "generated_at": "2026-11-05T15:02:50+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -422,7 +422,7 @@
       "stance_by_agent": "",
       "edited_by": "",
       "edited_date": "",
-      "status": "VERIFIED",
+      "status": "PARTIAL",
       "limitation": "It investigates preservice teachers in California higher education rather than commercial tuition centres in Singapore.",
       "checked_by": "Hansle",
       "checked_date": "2026-11-05",

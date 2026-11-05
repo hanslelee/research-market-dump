@@ -317,7 +317,7 @@ def roll_up(data: Path, config, concl):
                     "assumption_ids": list(dict.fromkeys(a for s in subs for a in s["assumption_ids"])),
                     "evidence_status": st, "materiality": c.get("materiality", "HIGH"), "limitation": lim,
                     "proposed_action": action, "version": mc.get("version", "v0.1"),
-                    "review_status": hc.get("review_status", "DRAFT")})
+                    "review_status": hc.get("review_status", "DRAFT"), "conclusion": hc.get("conclusion", "")})
     return out
 
 

@@ -279,6 +279,10 @@
         <header><h2>${esc(p.id)}</h2>${badge(p.status)}${badge(p.action)}<span class="meta">${esc(p.review_status)}</span></header>
         <p>${esc(p.text)}</p>
         <p class="meta">${esc(p.limitation)}</p>
+        ${state.conn?.token ? `
+          <textarea data-conclusion="${esc(p.id)}" placeholder="Your conclusion for the team claim (goes into Market Conclusions and market_handoff.json)">${esc(p.conclusion || '')}</textarea>
+          <div class="actions" style="margin-top:6px"><button type="button" data-save-conclusion="${esc(p.id)}">Save team-claim conclusion</button></div>`
+          : (p.conclusion ? `<p><b>Conclusion:</b> ${esc(p.conclusion)}</p>` : '')}
         ${d.claims.filter(s => s.parent === p.id).map(s => `
           <div class="sub">
             <header><b>${esc(s.id)}</b>${badge(s.status)}${badge(s.action)}${s.fixed_status ? '<span class="badge outline">fixed by design</span>' : ''}</header>

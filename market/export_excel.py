@@ -40,6 +40,9 @@ def sheet_rows(res, tests):
     concl = [[c["claim_id"], c["market_conclusion"], j(c["supporting_evidence_ids"]), j(c["counter_evidence_ids"]),
               j(c["assumption_ids"]), c["verification_status"], c["materiality"], B.TRACTION_NOTE + " " + c["limitations"],
               c["proposed_action"]] for c in res["conclusions"]]
+    concl += [[h["claim_id"] + " (team claim)", h.get("conclusion", "") or "[DRAFT - team-claim conclusion not written yet]",
+               "", "", j(h["assumption_ids"]), h["evidence_status"], h["materiality"], B.TRACTION_NOTE + " " + h["limitation"],
+               h["proposed_action"]] for h in res["handoff"]]
     hand = [[h["claim_id"], h["owner"], h["claim_text"], j(h["evidence_ids"]), j(h["assumption_ids"]), h["evidence_status"],
              h["materiality"], h["limitation"], h["proposed_action"], artifact_version(res), h["review_status"]]
             for h in res["handoff_rows"]]
@@ -61,6 +64,7 @@ def viewer_data(data: Path, res, tests):
         c = claims.get("claim:" + h["claim_id"], {})
         out_claims.append({"id": h["claim_id"], "role": "parent", "text": h["claim_text"], "status": h["evidence_status"],
                            "action": h["proposed_action"], "limitation": h["limitation"], "review_status": h["review_status"],
+                           "conclusion": h.get("conclusion", ""),
                            "evidence_ids": h["evidence_ids"], "basis": c.get("basis", "")})
     for cid, c in concl.items():
         cl = claims.get("claim:" + cid, {})
@@ -107,7 +111,8 @@ def handoff_json(res):
                         "evidence_status": h["evidence_status"], "materiality": h["materiality"], "limitation": h["limitation"],
                         "recommended_action": h["proposed_action"], "artifact_version": ver, "team_claim": h["parent"]}
                        for h in res["handoff_rows"]],
-            "team_claims": [{"claim_id": h["claim_id"], "claim_text": h["claim_text"], "evidence_status": h["evidence_status"],
+            "team_claims": [{"claim_id": h["claim_id"], "claim_text": h["claim_text"], "conclusion": h.get("conclusion", ""),
+                             "evidence_status": h["evidence_status"],
                              "recommended_action": h["proposed_action"], "limitation": h["limitation"]} for h in res["handoff"]]}
 
 

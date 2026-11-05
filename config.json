@@ -160,7 +160,9 @@
         ],
         "urls": [
           "https://www.koobits.com/plans?k20plan=3",
-          "https://www.koobits.com/math"
+          "https://www.koobits.com/math",
+          "https://www.koobits.com/educators/school",
+          "https://www.koobits.com/franchise/sg"
         ]
       },
       {
@@ -178,7 +180,9 @@
           "moe.gov.sg",
           "learning.moe.edu.sg"
         ],
-        "urls": []
+        "urls": [
+          "https://learning.moe.edu.sg/ai-in-education/ai-in-sls/adaptive-learning-system/"
+        ]
       }
     ],
     "seed_urls": [

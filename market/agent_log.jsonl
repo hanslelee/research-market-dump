@@ -252,3 +252,18 @@
 {"step": "filter", "claim": "MKT-02-C", "url": "https://math-tuition-singapore.us-southeast-1.linodeobjects.com/primary-3-tuition-centre-tips/p3-tuition/metrics-for-measuring-the-impact-of-tuition-centre-communication-on-grades.html", "tier": "other", "action": "dropped"}
 {"step": "filter", "claim": "MKT-02-C", "url": "https://www.instagram.com/reel/Deln3MFTUZD", "tier": "blocked", "action": "dropped"}
 {"step": "done", "date": "2026-11-03", "pages": 16, "evidence": 1, "competitor_features": 0, "skipped_pages": 9}
+{"step": "plan", "claim": "MKT-02-A", "queries": ["Singapore primary math platform diagnostic report learning gaps", "tuition centre learning management system Singapore student reports", "Student Learning Space adaptive learning system mathematics"]}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://esingaporemath.com/faq/teachers", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://learn.sumdog.com/en-gb/blog/how-the-sumdog-diagnostic-test-can-support-intervention", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.cbinsights.com/company/cool-math-games/financials", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.cbinsights.com/company/cool-math-games/people", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.cbinsights.com/company/cool-math-games/alternatives-competitors", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.tigernix.com/blog/benefits-tuition-centre-management-system-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://ax9qdysnndqf.compat.objectstorage.ap-singapore-1.oraclecloud.com/math-tuition-singapore/tuition/secondary-4-tuition-centre-tips/reading-tuition-centre-progress-tracking-key-metrics-for-improvement.html", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://oclass.app/tuition", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://aoneschools.sg", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.edulabs.com.sg", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://ancourage.academy/articles/moe-sls-ai-features-parent-guide-singapore", "tier": "other", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.youtube.com/watch?v=tKLBNQoaefQ", "tier": "blocked", "action": "dropped"}
+{"step": "filter", "claim": "MKT-02-A", "url": "https://www.sowiso.com/blog/adaptive-learning-mathematics", "tier": "other", "action": "dropped"}
+{"step": "done", "date": "2026-11-05", "pages": 0, "evidence": 0, "competitor_features": 0, "skipped_pages": 0}

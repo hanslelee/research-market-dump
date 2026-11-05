@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:05:45+00:00",
+  "generated_at": "2026-11-05T15:06:29+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -39,10 +39,10 @@
       "limitation": "Sub-claims: MKT-02-A PARTIAL, MKT-02-B SYNTHETIC, MKT-02-C PARTIAL. On HOLD: MKT-02-A (unresolved contradiction).",
       "review_status": "DRAFT",
       "evidence_ids": [
-        "MKT-E003",
         "MKT-E033",
         "MKT-E034",
         "MKT-E035",
+        "MKT-E003",
         "MKT-E007",
         "MKT-E008",
         "MKT-E009",
@@ -153,16 +153,16 @@
       "text": "Existing products do not provide tutor-reviewed, evidence-traceable learning-gap reports to tuition centres.",
       "status": "PARTIAL",
       "action": "HOLD",
-      "limitation": "Action HOLD by reviewer: Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps. Unresolved contradiction: 9 reviewed counter-evidence row(s) (MKT-E011, MKT-E014, MKT-E015, MKT-E009, MKT-E008, MKT-E010, MKT-E007, MKT-E018, MKT-E019). It does not evaluate human-tutor-reviewed or traceably evidenced reports tailored for tuition centres in Singapore.; It investigates vocational high school math needs in Indonesia through a needs analysis rather than auditing existing commercial software offerings for tutor-reviewed, evidence-traceable reporting in Singapore tuition centres.; It does not evaluate commercial market offerings or human-tutor-reviewed reports in tuition centres in Singapore.; The quote does not explicitly state whether these reports are tutor-reviewed, evidence-traceable, or sold specifically to tuition centres.; The excerpt does not discuss commercial sales to tuition centres or whether reports are tutor-reviewed and evidence-traceable.; The text does not mention whether these reports are tutor-reviewed, evidence-traceable, or sold specifically to tuition centres.; Company self-description on its own website; features and price not independently tested.; Company self-description, not independently tested. Sold to parents (B2C) with its own teachers, not as a tool for tuition centres; no mention of evidence-traceable gap reports. Contradicts MKT-02-A only in part.; Company self-description, not independently te",
+      "limitation": "Action HOLD by reviewer: Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps. Unresolved contradiction: 10 reviewed counter-evidence row(s) (MKT-E011, MKT-E014, MKT-E015, MKT-E003, MKT-E009, MKT-E008, MKT-E010, MKT-E007, MKT-E018, MKT-E019). It does not evaluate human-tutor-reviewed or traceably evidenced reports tailored for tuition centres in Singapore.; It investigates vocational high school math needs in Indonesia through a needs analysis rather than auditing existing commercial software offerings for tutor-reviewed, evidence-traceable reporting in Singapore tuition centres.; It does not evaluate commercial market offerings or human-tutor-reviewed reports in tuition centres in Singapore.; The quote does not explicitly state whether these reports are tutor-reviewed, evidence-traceable, or sold specifically to tuition centres.; The excerpt does not discuss commercial sales to tuition centres or whether reports are tutor-reviewed and evidence-traceable.; The text does not mention whether these reports are tutor-reviewed, evidence-traceable, or sold specifically to tuition centres.; Company self-description on its own website; features and price not independently tested.; Company self-description, not independently tested. Sold to parents (B2C) with its own teachers, not as a tool for tuition centres; no mention of evidence-traceable gap reports. Contradicts MKT-02-A only in part.; Company self-description, not indep",
       "conclusion": "Largely contradicted on diagnosis: Geniebook, KooBits and MOE SLS already identify learning gaps and report them (MKT-E004, MKT-E009, MKT-E019, MKT-E010). Not found in public material: tutor-reviewed, evidence-traceable reports licensed to tuition centres.",
       "review_status": "DRAFT",
       "supporting": [
-        "MKT-E003",
         "MKT-E033",
         "MKT-E034",
         "MKT-E035"
       ],
       "counter": [
+        "MKT-E003",
         "MKT-E007",
         "MKT-E008",
         "MKT-E009",
@@ -985,8 +985,8 @@
       "quote": "Proficiency Reports with KooBits Parent App",
       "finding": "Unlike MathBridge AI which focuses on institutional licensing and comprehensive diagnostic gap reports for tuition centres, KooBits targets individual home users with a parent-facing app for proficiency tracking.",
       "claim": "MKT-02-A",
-      "stance": "supports",
-      "stance_by_agent": "",
+      "stance": "contradicts",
+      "stance_by_agent": "supports",
       "edited_by": "",
       "edited_date": "",
       "status": "PARTIAL",

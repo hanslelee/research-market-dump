@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T12:14:43+00:00",
+  "generated_at": "2026-11-05T09:44:09+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -711,7 +711,7 @@
       "status": "PARTIAL",
       "limitation": "Academic study, abstract-level; not evidence of purchasing by Singapore tuition centres. Gap: Does not address primary-level diagnosis tools or purchasing by tuition centres.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": true,
       "edu_id": "",
       "snapshot": "",

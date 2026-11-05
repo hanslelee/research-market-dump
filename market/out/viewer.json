@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:43:52+00:00",
+  "generated_at": "2026-11-05T13:46:05+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -805,7 +805,7 @@
       "status": "PARTIAL",
       "limitation": "Secondary report; primary SingStat table not opened. All subjects and levels, not primary maths. Household spending on tuition, not centre spending on software.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "market/snapshots/manual/a72e9219fbb6.txt",

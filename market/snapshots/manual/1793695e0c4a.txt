@@ -1,8 +1,0 @@
-EXCERPT: verbatim sentences copied by Claude on 2026-11-05 via a web fetch tool (the page could not be saved raw from this environment). Check against the original page.
-Source: https://learning.moe.edu.sg/ai-in-education/ai-in-sls/adaptive-learning-system/
-
-The ALS provides a personalised learning pathway for each student.
-It is currently available for Primary 5 and 6 Mathematics and Foundation Mathematics, for the topics of Whole Numbers, Decimals, Percentage and Fractions.
-More topics, levels and subjects will be added progressively.
-Enables self-directed learning where students can access ALS on their own to learn.
-Supports monitoring of progress through the Learning Progress Dashboard which provides teachers with a summary of students' concept mastery to inform their interventions, which will help them close students' learning gaps.

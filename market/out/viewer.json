@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:44:14+00:00",
+  "generated_at": "2026-11-05T15:45:04+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -1284,9 +1284,9 @@
       "title": "MOE Student Learning Space (Adaptive Learning System): Adaptive Learning System (ALS)",
       "publisher": "MOE Student Learning Space (Adaptive Learning System)",
       "date": "",
-      "url": "https://learning.moe.edu.sg/ai-in-education/ai-in-sls/adaptive-learning-system/",
-      "quote": "Supports monitoring of progress through the Learning Progress Dashboard which provides teachers with a summary of students' concept mastery to inform their interventions, which will help them close students' learning gaps.",
-      "finding": "MOE ALS gives school teachers a concept-mastery dashboard to close learning gaps in P5-P6 maths; it serves the national school system, not tuition centres, and does not describe tutor review of AI diagnosis.",
+      "url": "https://www.learning.moe.edu.sg/about/ai-in-sls/aied-features/adaptive-learning-system/",
+      "quote": "Learning Progress Dashboard which provides teachers with a summary of students' concept mastery",
+      "finding": "MOE ALS gives school teachers a concept-mastery dashboard to close learning gaps (Upper Primary Mathematics); it serves the national school system, not tuition centres, and does not describe tutor review of AI diagnosis.",
       "claim": "MKT-02-A",
       "stance": "contradicts",
       "stance_by_agent": "",
@@ -1298,7 +1298,7 @@
       "checked_date": "",
       "edu_related": false,
       "edu_id": "",
-      "snapshot": "market/snapshots/manual/1793695e0c4a.txt",
+      "snapshot": "market/snapshots/manual/2ed1b1614255.txt",
       "snapshot_kind": "excerpt",
       "found_by": "claude",
       "lane": "competitor",
@@ -1388,12 +1388,12 @@
         "offering immediate feedback based on his/her readiness",
         "Students can access the ALS through the Student Learning Space (SLS) for self-directed learning",
         "students learn independently, at their own pace, according to their strengths and needs",
-        "Supports monitoring of progress through the Learning Progress Dashboard which provides teachers with a summary of students' concept mastery to inform their interventions, which will help them close students' learning gaps.",
-        "It is currently available for Primary 5 and 6 Mathematics and Foundation Mathematics, for the topics of Whole Numbers, Decimals, Percentage and Fractions."
+        "Learning Progress Dashboard which provides teachers with a summary of students' concept mastery",
+        "to inform their interventions which will help them close students' learning gaps"
       ],
       "price": "NOT FOUND",
       "pricing_status": "NOT FOUND",
-      "differentiation": "State-provided adaptive maths recommendations in MOE schools; free alternative in the school segment. MOE Student Learning Space's Adaptive Learning System is a government-provided platform focused on personalised student self-directed learning and practice within public schools, rather than commercial diagnostic tools specifically licensed to tuition centres for tutor review. Unlike MathBridge AI, which is designed for teachers and tuition centres to diagnose gaps and generate reports, this system focuses on self-directed student learning through personalized pathways and immediate feedback within the national SLS platform. MOE ALS gives school teachers a concept-mastery dashboard to close learning gaps in P5-P6 maths; it serves the national school system, not tuition centres, and does not describe tutor review of AI diagnosis.",
+      "differentiation": "State-provided adaptive maths recommendations in MOE schools; free alternative in the school segment. MOE Student Learning Space's Adaptive Learning System is a government-provided platform focused on personalised student self-directed learning and practice within public schools, rather than commercial diagnostic tools specifically licensed to tuition centres for tutor review. Unlike MathBridge AI, which is designed for teachers and tuition centres to diagnose gaps and generate reports, this system focuses on self-directed student learning through personalized pathways and immediate feedback within the national SLS platform. MOE ALS gives school teachers a concept-mastery dashboard to close learning gaps (Upper Primary Mathematics); it serves the national school system, not tuition centres, and does not describe tutor review of AI diagnosis.",
       "evidence_ids": [
         "MKT-E007",
         "MKT-E010",

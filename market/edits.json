@@ -10,5 +10,11 @@
     "limitation": "It focuses on middle school algebra in state schools rather than primary mathematics or tuition centres in Singapore.",
     "by": "Hansle",
     "date": "2026-11-05"
+  },
+  "MKT-E036": {
+    "finding": "Human experts gave more nuanced feedback than ChatGPT-4o and Perplexity, which indirectly supports the value of tutor review over automated feedback alone.",
+    "limitation": "Preservice teacher training in mixed-reality simulations on controversial issues, not commercial maths diagnostics for tuition centres. Does not measure what tuition centres expect or would pay for.",
+    "by": "Hansle",
+    "date": "2026-11-05"
   }
 }

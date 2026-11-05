@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:11:28+00:00",
+  "generated_at": "2026-11-05T14:12:09+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -319,7 +319,7 @@
       "status": "PARTIAL",
       "limitation": "It examines secondary school classrooms rather than commercial tuition centres.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

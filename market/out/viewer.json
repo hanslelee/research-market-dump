@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:09:37+00:00",
+  "generated_at": "2026-11-05T14:10:18+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -397,10 +397,10 @@
       "stance_by_agent": "",
       "edited_by": "",
       "edited_date": "",
-      "status": "PARTIAL",
+      "status": "VERIFIED",
       "limitation": "It provides a broad review of mathematical modeling in STEM automated grading rather than empirical evidence of tuition centres spending money on math diagnostic tools.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

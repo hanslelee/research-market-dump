@@ -28,5 +28,11 @@
     "limitation": "Company self-description, not independently tested. Sold to parents (B2C) with its own teachers, not as a tool for tuition centres; no mention of evidence-traceable gap reports. Contradicts MKT-02-A only in part.",
     "by": "Hansle",
     "date": "2026-11-05"
+  },
+  "MKT-E019": {
+    "finding": "Geniebook already pairs AI with MOE-aligned human tutors: AI automates marking, tracks learning gaps and generates revision notes, while tutors focus on mentorship and live instruction. AI gap-tracking combined with human tutors is therefore not unique to MathBridge.",
+    "limitation": "Company self-description, not independently tested. Geniebook sells to students and parents with its own tutors, not as a tool for independent tuition centres. The page does not say tutors review the AI's gap diagnosis or that reports trace each gap to evidence, so it contradicts MKT-02-A only in part.",
+    "by": "Hansle",
+    "date": "2026-11-05"
   }
 }

@@ -3,14 +3,14 @@
     "key": "comp:0537dcf302d8",
     "competitor": "KooBits",
     "product": "Premium Plan",
-    "target_customer": "Parent",
+    "target_customer": "",
     "features": [
       "Proficiency Reports with KooBits Parent App"
     ],
     "price": "$148.50 / year",
     "pricing_status": "FOUND",
-    "differentiation": "Unlike MathBridge AI which focuses on institutional licensing and comprehensive diagnostic gap reports for tuition centres, KooBits targets individual home users with a parent-facing app for proficiency tracking.",
-    "overlap": "unclear",
+    "differentiation": "KooBits offers parent-focused proficiency reports rather than evidence-linked candidate gap reports specifically designed for Singapore tuition centres and teacher review.",
+    "overlap": "similar",
     "url": "https://www.koobits.com/plans?k20plan=3",
     "snapshot": "market/snapshots/manual/96511fcc0f74.txt",
     "snapshot_kind": "excerpt",

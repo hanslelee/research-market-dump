@@ -135,22 +135,26 @@
   "https://www.koobits.com/plans?k20plan=3": {
     "url": "https://www.koobits.com/plans?k20plan=3",
     "hash": "96511fcc0f74",
-    "fetched_at": "2026-11-03",
+    "fetched_at": "2026-11-05",
     "kind": "excerpt",
     "path": "market/snapshots/manual/96511fcc0f74.txt",
     "chars": 181,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": [
+      "competitors"
+    ]
   },
   "https://www.koobits.com/math": {
     "url": "https://www.koobits.com/math",
     "hash": "7d3d6373651f",
-    "fetched_at": "2026-11-03",
+    "fetched_at": "2026-11-05",
     "kind": "fetched",
     "path": "market/snapshots/7d3d6373651f.txt",
     "chars": 15586,
     "ok": true,
-    "reason": ""
+    "reason": "",
+    "extracted_for": []
   },
   "https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan": {
     "url": "https://support.koobits.com/hc/en-gb/articles/4407829807769-Information-about-KooBits-Home-Premium-plan",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:59:41+00:00",
+  "generated_at": "2026-11-05T15:01:47+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -341,7 +341,7 @@
       "stance_by_agent": "",
       "edited_by": "",
       "edited_date": "",
-      "status": "VERIFIED",
+      "status": "PARTIAL",
       "limitation": "It reviews general assessment and feedback research across various subjects rather than specifically examining primary mathematics diagnostic software adoption in tuition centres.",
       "checked_by": "Hansle",
       "checked_date": "2026-11-05",
@@ -395,7 +395,7 @@
       "stance_by_agent": "",
       "edited_by": "",
       "edited_date": "",
-      "status": "VERIFIED",
+      "status": "PARTIAL",
       "limitation": "It provides a broad review of mathematical modeling in STEM automated grading rather than empirical evidence of tuition centres spending money on math diagnostic tools.",
       "checked_by": "Hansle",
       "checked_date": "2026-11-05",

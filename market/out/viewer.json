@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:50:58+00:00",
+  "generated_at": "2026-11-05T14:51:16+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -1208,7 +1208,7 @@
       "status": "PARTIAL",
       "limitation": "Company self-description, not independently tested. Geniebook sells to students and parents with its own tutors, not as a tool for independent tuition centres. The page does not say tutors review the AI's gap diagnosis or that reports trace each gap to evidence, so it contradicts MKT-02-A only in part.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "market/snapshots/c12701d5c208.txt",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:46:09+00:00",
+  "generated_at": "2026-11-05T14:46:55+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -1097,7 +1097,7 @@
       "stance_by_agent": "",
       "edited_by": "Hansle",
       "edited_date": "2026-11-05",
-      "status": "VERIFIED",
+      "status": "PARTIAL",
       "limitation": "Company self-description, not independently tested. Sold to parents (B2C) with its own teachers, not as a tool for tuition centres; no mention of evidence-traceable gap reports. Contradicts MKT-02-A only in part.",
       "checked_by": "Hansle",
       "checked_date": "2026-11-05",

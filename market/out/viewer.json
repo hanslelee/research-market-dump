@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:33:46+00:00",
+  "generated_at": "2026-11-05T13:35:14+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -454,7 +454,7 @@
       "status": "PARTIAL",
       "limitation": "However, the study focuses on public school teachers in Indonesia rather than private tutors in Singapore.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

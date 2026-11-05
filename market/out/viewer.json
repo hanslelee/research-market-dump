@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:38:29+00:00",
+  "generated_at": "2026-11-05T13:43:07+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -667,10 +667,10 @@
       "stance_by_agent": "",
       "edited_by": "",
       "edited_date": "",
-      "status": "PARTIAL",
+      "status": "VERIFIED",
       "limitation": "This study examines general literacy and numeracy diagnostic approaches in Indonesian public primary schools rather than specifically focusing on primary mathematics tutoring centres in Singapore.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

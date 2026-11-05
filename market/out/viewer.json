@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:43:07+00:00",
+  "generated_at": "2026-11-05T13:43:33+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -940,7 +940,7 @@
       "status": "VERIFIED",
       "limitation": "The quote discusses preparation time for differentiated learning in general rather than the specific process of diagnosing primary mathematics learning gaps.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "market/snapshots/d758f1ea8079.txt",

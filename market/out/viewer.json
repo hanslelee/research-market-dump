@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T09:47:23+00:00",
+  "generated_at": "2026-11-05T09:50:00+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -742,12 +742,12 @@
       "date": "2017",
       "url": "https://tidsskrift.dk/NOMAD/article/view/148889",
       "quote": "The results show positive relations between student achievement in mathematics and the ways of doing formative assessment.",
-      "finding": "Formative assessment is positively related to maths achievement, which supports the value of diagnosis but not that centres would pay for a tool.",
+      "finding": "Formative assessment is positively related to maths achievement, which supports the value of diagnosis.",
       "claim": "MKT-01-A",
       "stance": "supports",
       "stance_by_agent": "",
-      "edited_by": "",
-      "edited_date": "",
+      "edited_by": "Hansle",
+      "edited_date": "2026-11-05",
       "status": "PARTIAL",
       "limitation": "Academic study, abstract-level; not evidence of purchasing by Singapore tuition centres. Gap: Does not address primary-level diagnosis tools or purchasing by tuition centres.",
       "checked_by": "Hansle",

@@ -2,7 +2,7 @@
   "case_id": "MATHBRIDGE-BASE-v1",
   "owner": "Hansle",
   "artifact": "market_handoff",
-  "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ad75421",
+  "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ eb01466",
   "claims": [
     {
       "claim_id": "MKT-01-A",
@@ -22,7 +22,7 @@
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05). Action Accept by reviewer: Set by Hansle 2026-11-04: teacher time on assessment is supported (TALIS 2024, diagnosis studies); limits stated. It does not examine primary mathematics learning-gap diagnosis or tuition centres in Singapore.; It focuses on middle school algebra in state schools rather than primary mathematics or tuition centres in Singapore.; However, the study focuses on public school teachers in Indonesia rather than private tutors in Singapore.; This study examines general literacy and numeracy diagnostic approaches in Indonesian public primary schools rather than specifically focusing on primary mathematics tutoring centres in Singapore.; Academic study, abstract-level; not evidence of purchasing by Singapore tuition centres. Gap: Does not address primary-level diagnosis tools or purchasing by tuition centres.; The quote discusses preparation time for differentiated learning in general rather than the specific process of diagnosing primary mathematics learning gaps.; The data reports overall marking and correcting time for teachers rather than specifically isolating primary mathematics or the diagnosis of learning gaps.",
       "recommended_action": "Accept",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ad75421",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ eb01466",
       "team_claim": "MKT-01"
     },
     {
@@ -41,7 +41,7 @@
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05).  The study examines public elementary school teachers rather than commercial tuition centres in Singapore.; It reviews general assessment and feedback research across various subjects rather than specifically examining primary mathematics diagnostic software adoption in tuition centres.; It provides a broad review of mathematical modeling in STEM automated grading rather than empirical evidence of tuition centres spending money on math diagnostic tools.; The research studies general classroom automated grading rather than diagnostic software specifically targeted at primary mathematics learning gaps in tuition centres.; Secondary report; primary SingStat table not opened. All subjects and levels, not primary maths. Household spending on tuition, not centre spending on software.",
       "recommended_action": "Investigate",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ad75421",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ eb01466",
       "team_claim": "MKT-01"
     },
     {
@@ -58,7 +58,7 @@
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05).  It examines secondary school classrooms rather than commercial tuition centres.; It investigates preservice teachers in California higher education rather than commercial tuition centres in Singapore.; It focuses on distance learning university teachers rather than Singaporean tuition centre operators.",
       "recommended_action": "Investigate",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ad75421",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ eb01466",
       "team_claim": "MKT-01"
     },
     {
@@ -73,7 +73,7 @@
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05). Open question for deeper diligence: no public evidence found.",
       "recommended_action": "Investigate",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ad75421",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ eb01466",
       "team_claim": "MKT-01"
     },
     {
@@ -100,7 +100,7 @@
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05). Action HOLD by reviewer: Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps. Unresolved contradiction: 4 reviewed counter-evidence row(s) (MKT-E009, MKT-E008, MKT-E007, MKT-E019). 1 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It does not evaluate human-tutor-reviewed or traceably evidenced reports tailored for tuition centres in Singapore.; It investigates vocational high school math needs in Indonesia through a needs analysis rather than auditing existing commercial software offerings for tutor-reviewed, evidence-traceable reporting in Singapore tuition centres.; It does not evaluate commercial market offerings or human-tutor-reviewed reports in tuition centres in Singapore.; The quote does not explicitly state whether these reports are tutor-reviewed, evidence-traceable, or sold specifically to tuition centres.; The excerpt does not discuss commercial sales to tuition centres or whether reports are tutor-reviewed and evidence-traceable.; The text does not mention whether these reports are tutor-reviewed, evidence-traceable, or sold specifically to tuition centres.; Company self-description on its own website; features and price not independently tested.; Company self-description, not independently tested. Sold to parents (B2C) with its own teachers, not as a tool for tuition centres; no mention of evidence-traceable gap reports. Contradicts MKT-02-A only in part. MKT-02-B (synthetic by design): Synthetic by design: MathBridge's features are fictional (SYN-02). Against the Competitor Matrix, its distinguishing features are tutor review, response-level evidence links and a centre licence.",
       "recommended_action": "HOLD",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ad75421",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ eb01466",
       "team_claim": "MKT-02"
     },
     {
@@ -117,7 +117,7 @@
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05).  Preservice teacher training in mixed-reality simulations on controversial issues, not commercial maths diagnostics for tuition centres. Does not measure what tuition centres expect or would pay for.; Undergraduate students' perceptions of feedback in higher education, not primary maths diagnostics or tuition centres; measures student trust, not what centres value or would pay for. When blinded, students rated AI-only feedback as useful as co-produced feedback.; It evaluates general science teachers in a co-designed research project rather than commercial tuition centres in Singapore using a primary mathematics diagnostic tool.",
       "recommended_action": "Investigate",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ad75421",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ eb01466",
       "team_claim": "MKT-02"
     }
   ],

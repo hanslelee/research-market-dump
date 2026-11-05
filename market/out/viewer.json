@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:23:09+00:00",
+  "generated_at": "2026-11-05T14:23:29+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -292,7 +292,7 @@
       "status": "PARTIAL",
       "limitation": "Preservice teacher training in mixed-reality simulations on controversial issues, not commercial maths diagnostics for tuition centres. Does not measure what tuition centres expect or would pay for.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

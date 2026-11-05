@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:14:44+00:00",
+  "generated_at": "2026-11-05T14:17:06+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -697,7 +697,7 @@
       "status": "NOT APPLICABLE",
       "limitation": "It looks at general K-12 school adoption rather than commercial tuition centres in Singapore.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

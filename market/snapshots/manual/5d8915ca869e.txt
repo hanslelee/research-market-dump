@@ -1,0 +1,8 @@
+EXCERPT: verbatim sentences copied by Claude on 2026-11-06 via a web fetch tool (the page could not be saved raw from this environment). Check against the original page. GovTech article, 21 January 2025.
+Source: https://www.tech.gov.sg/technews/ai-in-education-transforming-singapore-education-system-with-student-learning-space/
+
+It guides students through a curriculum that adapts to their progress and mastery levels.
+ALS generates feedback.
+The system's automated feedback must be vetted by teachers who can also modify or add feedback to enhance it further.
+Through the Learning Progress Dashboard, teachers receive data-driven insights into each student's progress
+ALS minimises the time teachers spend on routine assessments and administrative tasks

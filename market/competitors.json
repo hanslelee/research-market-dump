@@ -251,12 +251,11 @@
     "product": "Adaptive Learning System (ALS)",
     "target_customer": "Students and teachers in the national school system",
     "features": [
-      "Learning Progress Dashboard which provides teachers with a summary of students' concept mastery",
-      "to inform their interventions which will help them close students' learning gaps"
+      "Through the Learning Progress Dashboard, teachers receive data-driven insights into each student's progress"
     ],
-    "differentiation": "MOE ALS gives school teachers a concept-mastery dashboard to close learning gaps (Upper Primary Mathematics); it serves the national school system, not tuition centres, and does not describe tutor review of AI diagnosis.",
-    "url": "https://www.learning.moe.edu.sg/about/ai-in-sls/aied-features/adaptive-learning-system/",
-    "snapshot": "market/snapshots/manual/2ed1b1614255.txt",
+    "differentiation": "MOE ALS gives school teachers a dashboard of each student's progress and concept mastery; it serves the national school system, not tuition centres.",
+    "url": "https://www.tech.gov.sg/technews/ai-in-education-transforming-singapore-education-system-with-student-learning-space/",
+    "snapshot": "market/snapshots/manual/5d8915ca869e.txt",
     "price": "NOT FOUND",
     "pricing_status": "NOT FOUND",
     "overlap": "similar",
@@ -264,6 +263,28 @@
     "found_by": "claude",
     "checked_date": "",
     "created_at": "2026-11-05",
-    "verification_status": "UNVERIFIED"
+    "verification_status": "UNVERIFIED",
+    "publication_date": "2025-01-21"
+  },
+  "comp:claude-moe-als-vetting": {
+    "key": "comp:claude-moe-als-vetting",
+    "competitor": "MOE Student Learning Space (Adaptive Learning System)",
+    "product": "Adaptive Learning System (ALS)",
+    "target_customer": "Students and teachers in the national school system",
+    "features": [
+      "The system's automated feedback must be vetted by teachers who can also modify or add feedback to enhance it further."
+    ],
+    "differentiation": "In MOE ALS, teachers vet and can modify the AI's automated feedback, so human review of AI output already exists in the school system; it is feedback to students, not a learning-gap report licensed to tuition centres, and the article does not describe evidence-traceable reports.",
+    "url": "https://www.tech.gov.sg/technews/ai-in-education-transforming-singapore-education-system-with-student-learning-space/",
+    "snapshot": "market/snapshots/manual/5d8915ca869e.txt",
+    "price": "NOT FOUND",
+    "pricing_status": "NOT FOUND",
+    "overlap": "similar",
+    "snapshot_kind": "excerpt",
+    "found_by": "claude",
+    "checked_date": "",
+    "created_at": "2026-11-05",
+    "verification_status": "UNVERIFIED",
+    "publication_date": "2025-01-21"
   }
 }

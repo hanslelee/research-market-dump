@@ -178,10 +178,11 @@
         "name": "MOE Student Learning Space (Adaptive Learning System)",
         "domains": [
           "moe.gov.sg",
-          "learning.moe.edu.sg"
+          "learning.moe.edu.sg",
+          "tech.gov.sg"
         ],
         "urls": [
-          "https://www.learning.moe.edu.sg/about/ai-in-sls/aied-features/adaptive-learning-system/"
+          "https://www.tech.gov.sg/technews/ai-in-education-transforming-singapore-education-system-with-student-learning-space/"
         ]
       }
     ],

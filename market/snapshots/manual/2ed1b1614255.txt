@@ -1,6 +1,0 @@
-EXCERPT: verbatim phrases copied by Claude on 2026-11-05 via a web fetch tool (the page could not be saved raw from this environment). Check against the original page.
-Source: https://www.learning.moe.edu.sg/about/ai-in-sls/aied-features/adaptive-learning-system/
-
-The Adaptive Learning System (ALS) offers personalised learning pathways for Upper Primary Mathematics and Upper Secondary Geography.
-Learning Progress Dashboard which provides teachers with a summary of students' concept mastery
-to inform their interventions which will help them close students' learning gaps

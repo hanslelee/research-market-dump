@@ -212,8 +212,12 @@
         ${e.edu_related ? ' <span class="badge outline">EDU related</span>' : ''}</div>
       <div class="field"><b>Claim</b>${esc(e.claim)} ${c ? '· ' + esc(c.text) : ''}</div>
       <div class="field"><b>Quote (copied verbatim)</b><blockquote>${esc(e.quote)}</blockquote></div>
-      <div class="field"><b>Finding</b>${esc(e.finding)}</div>
-      <div class="field"><b>Limitation</b>${esc(e.limitation)}</div>
+      ${state.conn?.token ? `<div class="field" data-edit="${esc(e.id)}"><b>Finding</b><textarea data-field="finding">${esc(e.finding)}</textarea>
+        <b style="margin-top:8px">Limitation</b><textarea data-field="limitation">${esc(e.limitation)}</textarea>
+        <div class="actions"><button type="button" data-save-text>Save finding and limitation</button>
+        ${e.edited_by ? `<span class="meta">edited by ${esc(e.edited_by)} ${esc(e.edited_date)}</span>` : ''}</div></div>`
+      : `<div class="field"><b>Finding</b>${esc(e.finding)}</div>
+      <div class="field"><b>Limitation</b>${esc(e.limitation)}</div>`}
       <div class="field"><b>Source</b>${esc(e.publisher)} ${esc(e.date)}<br>
         ${e.url ? `<a href="${esc(e.url)}" target="_blank" rel="noopener">Open original</a>` : ''}
         ${snapshotLink(e) ? ` · <a href="${esc(snapshotLink(e))}" target="_blank" rel="noopener">Saved copy (${esc(e.snapshot_kind)})</a>` : ''}</div>
@@ -339,6 +343,14 @@
     render();
   }
 
+  async function saveText(id, finding, limitation) {
+    const cur = await api.raw('market/edits.json').catch(() => ({}));
+    cur[id] = { finding, limitation, by: state.conn.name || 'Hansle', date: today() };
+    await saveWithExport([{ path: 'market/edits.json', content: JSON.stringify(cur, null, 2) + '\n' }], `Edit text ${id}`);
+    const e = state.data.evById.get(id);
+    if (e) Object.assign(e, { finding, limitation, edited_by: cur[id].by, edited_date: cur[id].date });
+  }
+
   async function saveConclusion(id, text) {
     const cur = await api.raw('market/conclusions.json').catch(() => ({}));
     cur[id] = { ...(cur[id] || {}), conclusion: text };
@@ -382,6 +394,14 @@
       const ev = state.data.evById.get(box.dataset.review), st = box.querySelector('[data-field=stance]').value;
       try { await saveReview(box.dataset.review, set.dataset.set, st !== ev?.stance ? st : '', box.querySelector('[data-field=note]').value); }
       catch (err) { toast(`Could not save: ${err.message}`, true); set.disabled = false; }
+      return;
+    }
+    const stx = e.target.closest('[data-save-text]');
+    if (stx) {
+      const box = stx.closest('[data-edit]'); stx.disabled = true;
+      try { await saveText(box.dataset.edit, box.querySelector('[data-field=finding]').value.trim(), box.querySelector('[data-field=limitation]').value.trim()); }
+      catch (err) { toast(`Could not save: ${err.message}`, true); }
+      stx.disabled = false;
       return;
     }
     const sc = e.target.closest('[data-save-conclusion]');

@@ -44,7 +44,7 @@ human:  market/review.csv (VERIFIED / PARTIAL)   market/conclusions.json (conclu
 - **Claims**: MKT-01 / MKT-02 with their sub-claims, status, action, limitation, evidence chips and your conclusion.
 - **저장소 연결** (repo, branch, fine-grained token with Contents read/write) enables: review buttons
   (PARTIAL / VERIFIED / NOT APPLICABLE, stance correction) → `market/review.csv`; conclusions → `market/conclusions.json`;
-  each save is one commit plus an export request, and Actions rebuilds `viewer.json` and the workbook in 1 to 2 minutes.
+  finding and limitation text per evidence row → `market/edits.json` (the quote stays verbatim and cannot be edited); each save is one commit plus an export request, and Actions rebuilds `viewer.json` and the workbook in 1 to 2 minutes.
 - **엑셀 받기 / 엑셀 다시 만들기**: download or rebuild `market/out/01_Hansle_Market_Research.xlsx`.
 
 ## Run

@@ -117,6 +117,21 @@ def apply_review(data: Path, rows, competitors):
             r["review_note"] = x["note"].strip()
 
 
+def apply_edits(data: Path, rows):
+    """Text edits made on the web page (market/edits.json): {evidence_id: {finding, limitation, by, date}}.
+    The quote is never editable: it must stay a verbatim copy of the source (R3)."""
+    ed = M.read(M.mdir(data) / "edits.json", {})
+    for r in rows:
+        x = ed.get(r.get("evidence_id", ""))
+        if not x:
+            continue
+        for f in ("finding", "limitation"):
+            if f in x and x[f] != r.get(f, ""):
+                r[f + "_by_agent"] = r.get(f, "")
+                r[f] = x[f]
+        r["edited_by"], r["edited_date"] = x.get("by", ""), x.get("date", "")
+
+
 OVERLAP_STANCE = {"similar": "contradicts", "different": "supports", "unclear": "supports"}
 STANCE_ALIAS = {"supports": "supports", "limits": "supports", "contradicts": "contradicts"}  # "limits" was the old middle value
 
@@ -393,6 +408,7 @@ def build(data: Path, extra_claims=None):
         r["stance"] = STANCE_ALIAS.get(r.get("stance"), "supports")
         r["evidence_class"] = "EXT-PUB"  # packet v1.0 section 1: external public source (all market evidence is public)
     apply_review(data, rows, [])
+    apply_edits(data, rows)
     edu = (M.read(M.mdir(data) / "edu_related.json", {}).get("items") or {})
     for r in rows:
         if r["evidence_id"] in edu:

@@ -102,3 +102,16 @@ class TestAcademicLane(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestEdits(unittest.TestCase):
+    def test_edits_replace_finding_and_limitation(self):
+        import tempfile, json as _j
+        from pathlib import Path as _P
+        import build as _B
+        with tempfile.TemporaryDirectory() as t:
+            (_P(t) / "market").mkdir()
+            (_P(t) / "market" / "edits.json").write_text(_j.dumps({"MKT-E001": {"finding": "new f", "limitation": "new l", "by": "Hansle", "date": "2026-11-05"}}))
+            rows = [{"evidence_id": "MKT-E001", "finding": "old", "limitation": "", "quote": "q"}]
+            _B.apply_edits(_P(t), rows)
+            self.assertEqual((rows[0]["finding"], rows[0]["limitation"], rows[0]["finding_by_agent"], rows[0]["quote"]), ("new f", "new l", "old", "q"))

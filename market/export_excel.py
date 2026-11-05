@@ -73,7 +73,7 @@ def viewer_data(data: Path, res, tests):
     ev = [{"id": r["evidence_id"], "kind": M.KIND.get(r["source_type"], "other"), "source_type": r["source_type"],
            "title": r["title"], "publisher": r["publisher"], "date": r["publication_date"], "url": r["url"],
            "quote": r["quote"], "finding": r["finding"], "claim": r["claim_id"], "stance": r["stance"],
-           "stance_by_agent": r.get("stance_by_agent", ""), "status": r["verification_status"], "limitation": r["limitation"],
+           "stance_by_agent": r.get("stance_by_agent", ""), "edited_by": r.get("edited_by", ""), "edited_date": r.get("edited_date", ""), "status": r["verification_status"], "limitation": r["limitation"],
            "checked_by": r.get("checked_by", ""), "checked_date": r.get("checked_date", ""), "edu_related": bool(r.get("edu_related")),
            "edu_id": r.get("edu_id", ""), "snapshot": r.get("snapshot", ""), "snapshot_kind": r.get("snapshot_kind", ""),
            "found_by": r.get("found_by", ""), "lane": r.get("lane", ""), "unit": r.get("unit", "")} for r in res["rows"]]

@@ -59,7 +59,7 @@ def academic_rows(data: Path):
         if verdict == "unsupported":
             continue
         abstract = p.get("abstract", "")
-        quote = M.best_sentence(abstract, r.get("reason", "")) or abstract[:300]
+        quote = r.get("quote") or M.best_sentence(abstract, r.get("reason", "")) or abstract[:300]  # a person may pick the sentence; R3 still checks it
         gap = (p.get("summary") or {}).get("gap", "") if isinstance(p.get("summary"), dict) else ""
         rows.append({
             "key": "rel:" + r["id"], "lane": "academic", "claim_id": cid, "url": p.get("url", ""), "title": p.get("title", ""),

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:29:33+00:00",
+  "generated_at": "2026-11-05T14:31:36+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -154,7 +154,7 @@
       "text": "Existing products do not provide tutor-reviewed, evidence-traceable learning-gap reports to tuition centres.",
       "status": "PARTIAL",
       "action": "HOLD",
-      "limitation": "Action HOLD by reviewer: Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps. Unresolved contradiction: 4 reviewed counter-evidence row(s) (MKT-E004, MKT-E009, MKT-E007, MKT-E019). 8 evidence row(s) not reviewed yet (UNVERIFIED, not counted). Company self-description on its own website; features and price not independently tested.",
+      "limitation": "Action HOLD by reviewer: Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps. Unresolved contradiction: 4 reviewed counter-evidence row(s) (MKT-E004, MKT-E009, MKT-E007, MKT-E019). 7 evidence row(s) not reviewed yet (UNVERIFIED, not counted). It does not evaluate human-tutor-reviewed or traceably evidenced reports tailored for tuition centres in Singapore.; Company self-description on its own website; features and price not independently tested.",
       "conclusion": "Largely contradicted on diagnosis: Geniebook, KooBits and MOE SLS already identify learning gaps and report them (MKT-E004, MKT-E009, MKT-E019, MKT-E010). Not found in public material: tutor-reviewed, evidence-traceable reports licensed to tuition centres.",
       "review_status": "DRAFT",
       "supporting": [
@@ -478,10 +478,10 @@
       "stance_by_agent": "",
       "edited_by": "",
       "edited_date": "",
-      "status": "UNVERIFIED",
+      "status": "PARTIAL",
       "limitation": "It does not evaluate human-tutor-reviewed or traceably evidenced reports tailored for tuition centres in Singapore.",
-      "checked_by": "",
-      "checked_date": "",
+      "checked_by": "Hansle",
+      "checked_date": "2026-11-05",
       "edu_related": false,
       "edu_id": "",
       "snapshot": "",

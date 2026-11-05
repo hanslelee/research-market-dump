@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T13:46:05+00:00",
+  "generated_at": "2026-11-05T14:06:00+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -859,7 +859,7 @@
       "status": "NOT APPLICABLE",
       "limitation": "The study measures general secondary mathematics achievement rather than specifically diagnosing primary mathematics learning gaps.",
       "checked_by": "Hansle",
-      "checked_date": "2026-11-04",
+      "checked_date": "2026-11-05",
       "edu_related": true,
       "edu_id": "",
       "snapshot": "market/snapshots/f53e6117d706.txt",

@@ -16,5 +16,11 @@
     "limitation": "Preservice teacher training in mixed-reality simulations on controversial issues, not commercial maths diagnostics for tuition centres. Does not measure what tuition centres expect or would pay for.",
     "by": "Hansle",
     "date": "2026-11-05"
+  },
+  "MKT-E037": {
+    "finding": "With sources disclosed, students showed bias against AI-only feedback, while human-AI co-produced feedback kept its positive perception; this indirectly supports adding tutor review to AI diagnosis.",
+    "limitation": "Undergraduate students' perceptions of feedback in higher education, not primary maths diagnostics or tuition centres; measures student trust, not what centres value or would pay for. When blinded, students rated AI-only feedback as useful as co-produced feedback.",
+    "by": "Hansle",
+    "date": "2026-11-05"
   }
 }

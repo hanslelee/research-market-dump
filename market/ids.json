@@ -37,5 +37,8 @@
   "rel:rel:23c5314d4144": "MKT-E036",
   "rel:rel:661d8a159a9d": "MKT-E037",
   "rel:rel:9b8a0bda6768": "MKT-E038",
-  "rel:rel:a332b0e02e7d": "MKT-E039"
+  "rel:rel:a332b0e02e7d": "MKT-E039",
+  "comp:claude-koobits-franchise": "MKT-E040",
+  "comp:claude-koobits-school": "MKT-E041",
+  "comp:claude-moe-als-dashboard": "MKT-E042"
 }

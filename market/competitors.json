@@ -201,5 +201,69 @@
     "checked_date": "",
     "created_at": "2026-11-03",
     "verification_status": "UNVERIFIED"
+  },
+  "comp:claude-koobits-school": {
+    "key": "comp:claude-koobits-school",
+    "competitor": "KooBits",
+    "product": "KooBits for Schools",
+    "target_customer": "Schools (teachers and school leaders)",
+    "features": [
+      "Comprehensive teacher-reports to pin-point strengths & weaknesses in classroom",
+      "Our advanced technology & AI-tools automates routine tasks like marking, homework assignment and progress tracking.",
+      "Click-and-select questions to easily customize assignments, quizzes and assessments"
+    ],
+    "differentiation": "KooBits already sells to schools with teacher reports that pin-point class strengths and weaknesses; the page does not say teachers review an AI diagnosis or that reports trace each gap to student responses.",
+    "url": "https://www.koobits.com/educators/school",
+    "snapshot": "market/snapshots/manual/3b406a4869de.txt",
+    "price": "NOT FOUND",
+    "pricing_status": "NOT FOUND",
+    "overlap": "similar",
+    "snapshot_kind": "excerpt",
+    "found_by": "claude",
+    "checked_date": "",
+    "created_at": "2026-11-05",
+    "verification_status": "UNVERIFIED"
+  },
+  "comp:claude-koobits-franchise": {
+    "key": "comp:claude-koobits-franchise",
+    "competitor": "KooBits",
+    "product": "KooBits Franchise (Singapore)",
+    "target_customer": "New and existing learning centres",
+    "features": [
+      "Operate under an established Singapore-education brand or adopt KooBits system in your existing learning center",
+      "KooBits’s technology-powered system supports lesson delivery, practice, and progress tracking"
+    ],
+    "differentiation": "KooBits offers its system to existing learning centres (franchise or system adoption), so a product for tuition centres already exists; the page mentions progress tracking and parent analytics, not tutor-reviewed or evidence-traceable gap reports.",
+    "url": "https://www.koobits.com/franchise/sg",
+    "snapshot": "market/snapshots/manual/e8e128924afd.txt",
+    "price": "NOT FOUND",
+    "pricing_status": "NOT FOUND",
+    "overlap": "similar",
+    "snapshot_kind": "excerpt",
+    "found_by": "claude",
+    "checked_date": "",
+    "created_at": "2026-11-05",
+    "verification_status": "UNVERIFIED"
+  },
+  "comp:claude-moe-als-dashboard": {
+    "key": "comp:claude-moe-als-dashboard",
+    "competitor": "MOE Student Learning Space (Adaptive Learning System)",
+    "product": "Adaptive Learning System (ALS)",
+    "target_customer": "Students and teachers in the national school system",
+    "features": [
+      "Supports monitoring of progress through the Learning Progress Dashboard which provides teachers with a summary of students' concept mastery to inform their interventions, which will help them close students' learning gaps.",
+      "It is currently available for Primary 5 and 6 Mathematics and Foundation Mathematics, for the topics of Whole Numbers, Decimals, Percentage and Fractions."
+    ],
+    "differentiation": "MOE ALS gives school teachers a concept-mastery dashboard to close learning gaps in P5-P6 maths; it serves the national school system, not tuition centres, and does not describe tutor review of AI diagnosis.",
+    "url": "https://learning.moe.edu.sg/ai-in-education/ai-in-sls/adaptive-learning-system/",
+    "snapshot": "market/snapshots/manual/1793695e0c4a.txt",
+    "price": "NOT FOUND",
+    "pricing_status": "NOT FOUND",
+    "overlap": "similar",
+    "snapshot_kind": "excerpt",
+    "found_by": "claude",
+    "checked_date": "",
+    "created_at": "2026-11-05",
+    "verification_status": "UNVERIFIED"
   }
 }

@@ -22,7 +22,7 @@ human:  market/review.csv (VERIFIED / PARTIAL)   market/conclusions.json (conclu
 | Market Evidence | paper lane (Semantic Scholar: maths diagnostics, formative assessment, AI-assisted learning, per sub-claim `academic_queries`) + market agent (statistics, news, competitor pages) |
 | Competitor Matrix | market agent (features and price copied from the saved page, else NOT FOUND) |
 | Market Conclusions | built from the evidence; **conclusion text is yours** (`market/conclusions.json`) |
-| Market Handoff | 6 key findings for Kaizhen (one per sub-claim; MKT-02-B, synthetic, is folded into MKT-02-A's limitation). claim_text = your conclusion; artifact_version = workbook version @ git commit. `market_handoff.json` also carries the two team claims |
+| Market Handoff | two rows, one per team claim (MKT-01, MKT-02). claim_text = your team-claim conclusion followed by each sub-claim's status, action and conclusion; limitation = traction note (SYN-05) + roll-up; artifact_version = workbook version @ git commit. Same in `market_handoff.json` |
 | Component Tests | `market/seeded_tests.py` (8 seeded-defect tests, expected results frozen in code; CT-02 is the component run of team test T03) |
 | Test Status v2 | T03 row filled from the actual CT-02 run (detection, route, version, date, runtime, cost); human review minutes and integration status are left for people |
 

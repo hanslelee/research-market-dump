@@ -100,8 +100,7 @@ def artifact_version(res):
 
 
 def handoff_json(res):
-    """Kaizhen's handoff fields (packet v1.0 section 13, 4 Nov list): one object per key finding (sub-claim),
-    plus the two team claims as a roll-up."""
+    """Handoff fields (packet v1.0 section 13): one object per team claim (MKT-01, MKT-02), each with its sub-claims."""
     mc = M.mcfg(res["config"])
     ver = artifact_version(res)
     return {"case_id": mc.get("case_id", ""), "owner": mc.get("owner", "Hansle"), "artifact": "market_handoff",
@@ -109,11 +108,9 @@ def handoff_json(res):
             "claims": [{"claim_id": h["claim_id"], "owner": h["owner"], "claim_text": h["claim_text"],
                         "evidence_ids": h["evidence_ids"], "assumption_ids": h["assumption_ids"],
                         "evidence_status": h["evidence_status"], "materiality": h["materiality"], "limitation": h["limitation"],
-                        "recommended_action": h["proposed_action"], "artifact_version": ver, "team_claim": h["parent"]}
-                       for h in res["handoff_rows"]],
-            "team_claims": [{"claim_id": h["claim_id"], "claim_text": h["claim_text"], "conclusion": h.get("conclusion", ""),
-                             "evidence_status": h["evidence_status"],
-                             "recommended_action": h["proposed_action"], "limitation": h["limitation"]} for h in res["handoff"]]}
+                        "recommended_action": h["proposed_action"], "artifact_version": ver, "review_status": h["review_status"],
+                        "sub_claims": h["sub_claims"]}
+                       for h in res["handoff_rows"]]}
 
 
 def fill_test_status(wb, tests):

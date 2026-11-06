@@ -321,26 +321,23 @@ def roll_up(data: Path, config, concl):
     return out
 
 
-def key_findings(concl, mc):
-    """Kaizhen's handoff tab (4 Nov): 5-6 key findings per person. One row per evidence-based sub-claim; the synthetic
-    sub-claim (MKT-02-B) is folded into the limitation of its sibling. claim_text = the reviewer's conclusion."""
-    synth = {c.get("parent"): c for c in concl if c.get("verification_status") == "SYNTHETIC"}
+def team_rows(handoff, concl):
+    """Market Handoff (Hansle, 6 Nov): one row per team claim (MKT-01, MKT-02). Each row carries its sub-claims:
+    claim_text = team conclusion + each sub-claim's status, action and conclusion; limitation = traction note + roll-up."""
     out = []
-    for c in concl:
-        if c.get("verification_status") == "SYNTHETIC" or c["claim_id"].startswith("MKT-99"):
-            continue
-        lim = TRACTION_NOTE + " " + c["limitations"]
-        s = synth.get(c.get("parent"))
-        if s and c["claim_id"].endswith("-A"):
-            lim += f" {s['claim_id']} (synthetic by design): {s['market_conclusion']}"
-        concl_text = c["market_conclusion"]
-        if concl_text.startswith("[DRAFT"):
-            concl_text = c["claim_text"]
-        out.append({"claim_id": c["claim_id"], "owner": c["owner"], "claim_text": concl_text,
-                    "evidence_ids": c["supporting_evidence_ids"] + c["counter_evidence_ids"], "assumption_ids": c["assumption_ids"],
-                    "evidence_status": c["verification_status"], "materiality": c["materiality"], "limitation": lim[:2000],
-                    "proposed_action": c["proposed_action"], "version": c["version"], "review_status": c["review_status"],
-                    "parent": c.get("parent", "")})
+    for h in handoff:
+        subs = [c for c in concl if c.get("parent") == h["claim_id"]]
+        head = h.get("conclusion") or h["claim_text"]
+        parts = []
+        for c in subs:
+            t = c["market_conclusion"]
+            t = c["claim_text"] if t.startswith("[DRAFT") else t
+            parts.append(f"{c['claim_id']} [{c['verification_status']}, {c['proposed_action']}]: {t}")
+        text = head + ("\n\nSub-claims:\n" + "\n".join(parts) if parts else "")
+        lim = TRACTION_NOTE + " " + h["limitation"]
+        out.append({**h, "claim_text": text, "limitation": lim, "parent": "",
+                    "sub_claims": [{"claim_id": c["claim_id"], "evidence_status": c["verification_status"],
+                                    "recommended_action": c["proposed_action"], "conclusion": c["market_conclusion"]} for c in subs]})
     return out
 
 
@@ -435,7 +432,7 @@ def build(data: Path, extra_claims=None):
             issues.append({"rule": "R7_human_action_overrides_hold", "where": c["claim_id"],
                            "issue": f"rules say HOLD, conclusions.json says {c['proposed_action']}: needs Kaizhen's adjudication"})
     handoff = roll_up(data, config, concl)
-    handoff_rows = key_findings(concl, mc)
+    handoff_rows = team_rows(handoff, concl)
     matrix = merged_competitors(comps, mc)
     pending = sum(1 for r in rows if r.get("relation_status") == "new")
     return {"rows": rows, "competitors": comps, "matrix": matrix, "conclusions": concl, "handoff": handoff,

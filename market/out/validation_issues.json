@@ -3,5 +3,10 @@
     "rule": "R10_unresolved_contradiction",
     "where": "MKT-02-A",
     "issue": "reviewed counter-evidence on this sub-claim; HOLD until adjudicated (packet 12: contradiction unresolved)"
+  },
+  {
+    "rule": "R7_human_action_overrides_hold",
+    "where": "MKT-02-A",
+    "issue": "rules say HOLD, conclusions.json says Correct: needs Kaizhen's adjudication"
   }
 ]

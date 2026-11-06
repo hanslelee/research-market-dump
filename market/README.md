@@ -81,8 +81,8 @@ Claims, four levels, weakest first: MISSING < SYNTHETIC < PARTIAL < VERIFIED.
 - Actions (case packet v1.0 section 12): missing evidence is an open question for deeper diligence, not a HOLD
   (unless conclusions.json marks the sub-claim `"material_blocker": true`); inflated or false evidence (R2, R4, R8) and
   an unresolved contradiction (R10: reviewed counter-evidence) → HOLD; VERIFIED → Accept; otherwise Investigate.
-  Vocabulary (Kaizhen, 4 Nov): Accept / Investigate / Correct / HOLD. A team claim is on HOLD if any sub-claim is,
-  Accept if all are, else Investigate; open questions are listed in its limitation.
+  Vocabulary (Kaizhen, 4 Nov): Accept / Investigate / Correct / HOLD. A team claim takes the weakest sub-claim action
+  (HOLD > Correct > Investigate > Accept); open questions are listed in its limitation.
   A human action in conclusions.json that overrides a rule HOLD is logged as R7 for Kaizhen's adjudication.
 
 ## Rules (no model)

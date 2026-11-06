@@ -303,12 +303,17 @@ def roll_up(data: Path, config, concl):
             st = min((s["verification_status"] for s in subs), key=LADDER.index)
             empty = [s["claim_id"] for s in subs if s["verification_status"] == "MISSING"]
             held = [s["claim_id"] for s in subs if s["proposed_action"] == "HOLD"]
-            action = "HOLD" if held else ("Accept" if all(s["proposed_action"] == "Accept" for s in subs) else "Investigate")
+            fix = [s["claim_id"] for s in subs if s["proposed_action"] == "Correct"]
+            # weakest action wins: HOLD > Correct > Investigate > Accept
+            action = ("HOLD" if held else "Correct" if fix else
+                      "Accept" if all(s["proposed_action"] == "Accept" for s in subs) else "Investigate")
             lim = "Sub-claims: " + ", ".join(f"{s['claim_id']} {s['verification_status']}" for s in subs) + "."
             if held:
                 lim += " On HOLD: " + "; ".join(
                     f"{s['claim_id']} ({'unresolved contradiction' if s.get('contradicted') else 'rule or reviewer'})" for s in subs
                     if s["claim_id"] in held) + "."
+            if fix and not held:
+                lim += " To correct: " + ", ".join(fix) + " (claim as written is contradicted; narrow it to what remains)."
             if empty:
                 lim += " Open questions for deeper diligence (no public evidence): " + ", ".join(empty) + "."
         hc = human.get(pid, {})

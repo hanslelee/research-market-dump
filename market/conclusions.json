@@ -27,10 +27,10 @@
   },
   "MKT-02-A": {
     "conclusion": "Largely contradicted. Geniebook pairs AI gap-tracking with human tutors (MKT-E019, MKT-E008); KooBits sells teacher strength-and-weakness reports to schools (MKT-E041) and offers its system to existing learning centres (MKT-E040); MOE ALS gives teachers a progress and concept-mastery dashboard (MKT-E042) and requires teachers to vet its automated feedback (MKT-E043). Not found in any public material: teacher-reviewed AI gap diagnosis available to tuition centres (ALS is limited to the national school system), or reports that trace each gap to the student's responses.",
-    "proposed_action": "HOLD",
+    "proposed_action": "Correct",
     "review_status": "DRAFT",
     "cross_refs": [],
-    "action_reason": "Set by Hansle 2026-11-04: reviewed counter-evidence shows competitors already identify and report learning gaps."
+    "action_reason": "Set by Hansle 2026-11-06: reviewed counter-evidence shows competitors already diagnose and report learning gaps, serve learning centres (KooBits) and have teachers vet AI feedback (MOE ALS). Correct the claim to what remains: teacher-reviewed AI gap diagnosis available to tuition centres, and reports that trace each gap to student responses (open diligence question)."
   },
   "MKT-02-B": {
     "conclusion": "Synthetic by design: MathBridge's features are fictional (SYN-02). Against the Competitor Matrix, the only distinguishing features left are teacher-reviewed AI diagnosis offered to tuition centres and response-level evidence links; a centre licence alone is not unique (KooBits, MKT-E040), nor is teacher review alone (MOE ALS, MKT-E043).",

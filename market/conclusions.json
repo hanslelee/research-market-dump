@@ -1,7 +1,7 @@
 {
   "_how": "Your words per sub-claim (MKT-01-A ...). Leave proposed_action empty to let the rules decide. review_status: DRAFT / READY FOR REVIEW / APPROVED / HOLD / RETURN. cross_refs: ids in other members' files, e.g. EDU-E001.",
   "MKT-01-A": {
-    "conclusion": "Partly supported. Singapore teachers spend 6.4 h/week on marking (OECD TALIS 2024, MKT-E020), and studies elsewhere show diagnosing maths misconceptions is demanding (MKT-E022–E024). No evidence specific to tutors or tuition centres.",
+    "conclusion": "Partly supported. Singapore teachers spend 6.4 h/week marking (OECD TALIS 2024, MKT-E020) and differentiated primary teaching doubles preparation time (MKT-E017); initial diagnostic assessment adds to primary teachers' workload (MKT-E024), and studies elsewhere show diagnosing maths misconceptions is demanding (MKT-E022, MKT-E023). No evidence specific to tutors or tuition centres.",
     "proposed_action": "Accept",
     "review_status": "DRAFT",
     "cross_refs": [],

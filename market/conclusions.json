@@ -45,7 +45,8 @@
     "cross_refs": []
   },
   "MKT-01": {
-    "review_status": "DRAFT"
+    "review_status": "DRAFT",
+    "conclusion": "Partly supported. Diagnosis is time-consuming and teachers value time-saving tools (MKT-01-A, -B, -C: PARTIAL), but evidence comes from schools and universities, not Singapore tuition centres, and the number of centres is unknown (MKT-01-D: MISSING, open diligence question). Public evidence describes the market, not MathBridge's traction (fictional, pre-revenue, SYN-05)."
   },
   "MKT-02": {
     "review_status": "DRAFT"

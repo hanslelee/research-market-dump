@@ -2,7 +2,7 @@
   "case_id": "MATHBRIDGE-BASE-v1",
   "owner": "Hansle",
   "artifact": "market_handoff",
-  "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ee57358",
+  "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ dfe03f1",
   "claims": [
     {
       "claim_id": "MKT-01",
@@ -32,7 +32,7 @@
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05). Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C PARTIAL, MKT-01-D MISSING. Open questions for deeper diligence (no public evidence): MKT-01-D.",
       "recommended_action": "Investigate",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ee57358",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ dfe03f1",
       "review_status": "DRAFT",
       "sub_claims": [
         {
@@ -92,7 +92,7 @@
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05). Sub-claims: MKT-02-A PARTIAL, MKT-02-B SYNTHETIC, MKT-02-C PARTIAL. On HOLD: MKT-02-A (unresolved contradiction).",
       "recommended_action": "HOLD",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ ee57358",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ dfe03f1",
       "review_status": "DRAFT",
       "sub_claims": [
         {

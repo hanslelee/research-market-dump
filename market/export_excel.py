@@ -40,8 +40,10 @@ def sheet_rows(res, tests):
     concl = [[c["claim_id"], c["market_conclusion"], j(c["supporting_evidence_ids"]), j(c["counter_evidence_ids"]),
               j(c["assumption_ids"]), c["verification_status"], c["materiality"], B.TRACTION_NOTE + " " + c["limitations"],
               c["proposed_action"]] for c in res["conclusions"]]
+    def by_sub(pid, field):  # one line per sub-claim, ids joined with "; "
+        return "\n".join(j(c[field]) for c in res["conclusions"] if c.get("parent") == pid and c[field])
     concl += [[h["claim_id"] + " (team claim)", h.get("conclusion", "") or "[DRAFT - team-claim conclusion not written yet]",
-               "", "", j(h["assumption_ids"]), h["evidence_status"], h["materiality"], B.TRACTION_NOTE + " " + h["limitation"],
+               by_sub(h["claim_id"], "supporting_evidence_ids"), by_sub(h["claim_id"], "counter_evidence_ids"), j(h["assumption_ids"]), h["evidence_status"], h["materiality"], B.TRACTION_NOTE + " " + h["limitation"],
                h["proposed_action"]] for h in res["handoff"]]
     hand = [[h["claim_id"], h["owner"], h["claim_text"], j(h["evidence_ids"]), j(h["assumption_ids"]), h["evidence_status"],
              h["materiality"], h["limitation"], h["proposed_action"], artifact_version(res), h["review_status"]]

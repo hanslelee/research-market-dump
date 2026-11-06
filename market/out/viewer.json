@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:13:36+00:00",
+  "generated_at": "2026-11-06T06:14:08+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -1155,12 +1155,12 @@
       "date": "",
       "url": "https://www.learning.moe.edu.sg/students/student-user-guide/self-study/about-adaptive-learning-system",
       "quote": "gives each student a personalised path to learn at their own pace",
-      "finding": "Unlike MathBridge AI, which is designed for teachers and tuition centres to diagnose gaps and generate reports, this system focuses on self-directed student learning through personalized pathways and immediate feedback within the national SLS platform.",
+      "finding": "MOE ALS already gives each student a personalised learning path based on their readiness, so adaptive gap-targeting exists for students in the national school system.",
       "claim": "MKT-02-A",
       "stance": "contradicts",
       "stance_by_agent": "",
-      "edited_by": "",
-      "edited_date": "",
+      "edited_by": "Hansle",
+      "edited_date": "2026-11-06",
       "status": "PARTIAL",
       "limitation": "Company self-description on its own website; features and price not independently tested.",
       "checked_by": "Hansle",

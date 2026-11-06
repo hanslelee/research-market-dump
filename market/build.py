@@ -337,7 +337,7 @@ def team_rows(handoff, concl):
         for c in subs:
             t = c["market_conclusion"]
             t = c["claim_text"] if t.startswith("[DRAFT") else t
-            parts.append(f"{c['claim_id']} [{c['verification_status']}, {c['proposed_action']}]: {t}")
+            parts.append(f"{c['claim_id']} ({c['claim_text']}) [{c['verification_status']}, {c['proposed_action']}]: {t}")
         text = head + ("\n\nSub-claims:\n" + "\n".join(parts) if parts else "")
         lim = TRACTION_NOTE + " " + h["limitation"]
         out.append({**h, "claim_text": text, "limitation": lim, "parent": "",

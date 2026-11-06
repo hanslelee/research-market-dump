@@ -34,5 +34,11 @@
     "limitation": "Company self-description, not independently tested. Geniebook sells to students and parents with its own tutors, not as a tool for independent tuition centres. The page does not say tutors review the AI's gap diagnosis or that reports trace each gap to evidence, so it contradicts MKT-02-A only in part.",
     "by": "Hansle",
     "date": "2026-11-05"
+  },
+  "MKT-E003": {
+    "finding": "KooBits already sends proficiency reports on each child's strengths and weaknesses to parents through its app, so learning-gap reporting exists in the market.",
+    "limitation": "Company self-description on its own website; features and price not independently tested.",
+    "by": "Hansle",
+    "date": "2026-11-06"
   }
 }

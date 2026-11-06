@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:01:56+00:00",
+  "generated_at": "2026-11-06T06:02:51+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -196,7 +196,7 @@
       "status": "SYNTHETIC",
       "action": "Investigate",
       "limitation": "SYNTHETIC by design: Sub-claim of MKT-02, chosen by Hansle to make MKT-02 checkable. MathBridge AI's features are fictional (packet SYN-02), so this can only be SYNTHETIC: a comparison of SYN-02 with the Competitor Matrix.",
-      "conclusion": "Synthetic by design: MathBridge's features are fictional (SYN-02). Against the Competitor Matrix, its distinguishing features are tutor review, response-level evidence links and a centre licence.",
+      "conclusion": "Synthetic by design: MathBridge's features are fictional (SYN-02). Against the Competitor Matrix, the only distinguishing features left are teacher-reviewed AI diagnosis offered to tuition centres and response-level evidence links; a centre licence alone is not unique (KooBits, MKT-E040), nor is teacher review alone (MOE ALS, MKT-E043).",
       "review_status": "DRAFT",
       "supporting": [],
       "counter": [],

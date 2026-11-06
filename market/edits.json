@@ -46,5 +46,11 @@
     "limitation": "Company self-description on its own website; features and price not independently tested.",
     "by": "Hansle",
     "date": "2026-11-06"
+  },
+  "MKT-E009": {
+    "finding": "KooBits already customises daily questions to each child's weak points, so automated gap-targeting exists in the market.",
+    "limitation": "Company self-description on its own website; features and price not independently tested.",
+    "by": "Hansle",
+    "date": "2026-11-06"
   }
 }

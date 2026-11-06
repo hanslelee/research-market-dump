@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:02:51+00:00",
+  "generated_at": "2026-11-06T06:03:26+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -213,7 +213,7 @@
       "status": "PARTIAL",
       "action": "Investigate",
       "limitation": " Preservice teacher training in mixed-reality simulations on controversial issues, not commercial maths diagnostics for tuition centres. Does not measure what tuition centres expect or would pay for.; Undergraduate students' perceptions of feedback in higher education, not primary maths diagnostics or tuition centres; measures student trust, not what centres value or would pay for. When blinded, students rated AI-only feedback as useful as co-produced feedback.; It evaluates general science teachers in a co-designed research project rather than commercial tuition centres in Singapore using a primary mathematics diagnostic tool.",
-      "conclusion": "Indirectly supported. Expert human feedback is more nuanced than AI alone (MKT-E036) and explained diagnostic results help teachers plan better (MKT-E039). No evidence that tuition centres value or would pay for these features.",
+      "conclusion": "Indirectly supported. Expert human feedback is more nuanced than AI alone (MKT-E036), human-AI co-produced feedback keeps trust when the source is disclosed while AI-only feedback loses it (MKT-E037), and explained diagnostic results help teachers plan (MKT-E039). No evidence that tuition centres value or would pay for these features.",
       "review_status": "DRAFT",
       "supporting": [
         "MKT-E036",

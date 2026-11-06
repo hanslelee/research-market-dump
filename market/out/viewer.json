@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:00:17+00:00",
+  "generated_at": "2026-11-06T06:01:05+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -141,7 +141,7 @@
       "status": "MISSING",
       "action": "Investigate",
       "limitation": "Open question for deeper diligence: no public evidence found.",
-      "conclusion": "Not established. MOE publishes student counts (237,966 primary students in 2024, MKT-E006) but no count of tuition centres, and MOE does not track the industry's size. Market size must remain an explicit assumption.",
+      "conclusion": "Not established. MOE publishes student counts but no count of tuition centres, and does not track the industry's size. The number of potential centre customers must remain an explicit assumption (F-A01) and an open diligence question.",
       "review_status": "DRAFT",
       "supporting": [],
       "counter": [],

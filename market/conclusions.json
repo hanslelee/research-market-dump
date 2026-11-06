@@ -20,7 +20,7 @@
     "cross_refs": []
   },
   "MKT-01-D": {
-    "conclusion": "Not established. MOE publishes student counts (237,966 primary students in 2024, MKT-E006) but no count of tuition centres, and MOE does not track the industry's size. Market size must remain an explicit assumption.",
+    "conclusion": "Not established. MOE publishes student counts but no count of tuition centres, and does not track the industry's size. The number of potential centre customers must remain an explicit assumption (F-A01) and an open diligence question.",
     "proposed_action": "",
     "review_status": "DRAFT",
     "cross_refs": []

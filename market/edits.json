@@ -52,5 +52,11 @@
     "limitation": "Company self-description on its own website; features and price not independently tested.",
     "by": "Hansle",
     "date": "2026-11-06"
+  },
+  "MKT-E010": {
+    "finding": "MOE ALS already tailors resources and practice questions to each student's needs and pace, so adaptive gap-targeting exists in schools at no cost to students.",
+    "limitation": "Company self-description on its own website; features and price not independently tested.",
+    "by": "Hansle",
+    "date": "2026-11-06"
   }
 }

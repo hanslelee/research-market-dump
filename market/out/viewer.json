@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:59:54+00:00",
+  "generated_at": "2026-11-06T06:00:17+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -120,7 +120,7 @@
       "status": "PARTIAL",
       "action": "Investigate",
       "limitation": " It examines secondary school classrooms rather than commercial tuition centres.; It investigates preservice teachers in California higher education rather than commercial tuition centres in Singapore.; It focuses on distance learning university teachers rather than Singaporean tuition centre operators.",
-      "conclusion": "Weakly supported. Teachers adopt learning-analytics tools when they expect better performance (MKT-E032) and use dashboards to find struggling students (MKT-E029), but all evidence is from schools or universities. Needs primary research with Singapore tuition centres.",
+      "conclusion": "Weakly supported. Teachers use dashboards to find struggling students (MKT-E029, MKT-E031) and are open to AI tools (MKT-E030), but all evidence is from schools or universities, none from Singapore tuition centres. Needs primary research (interviews or a pilot) with centres.",
       "review_status": "DRAFT",
       "supporting": [
         "MKT-E029",

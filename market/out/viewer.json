@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:14:08+00:00",
+  "generated_at": "2026-11-06T06:14:30+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -1074,12 +1074,12 @@
       "date": "",
       "url": "https://www.koobits.com/math",
       "quote": "10 daily questions customised to improve your child's weak points",
-      "finding": "KooBits targets parents at home with a gamified self-directed student platform and animated tutorials, whereas MathBridge AI focuses on diagnostics and evidence-linked gap reports specifically for tuition centres and teachers.",
+      "finding": "KooBits already customises daily questions to each child's weak points, so automated gap-targeting exists in the market.",
       "claim": "MKT-02-A",
       "stance": "contradicts",
       "stance_by_agent": "",
-      "edited_by": "",
-      "edited_date": "",
+      "edited_by": "Hansle",
+      "edited_date": "2026-11-06",
       "status": "PARTIAL",
       "limitation": "Company self-description on its own website; features and price not independently tested.",
       "checked_by": "Hansle",

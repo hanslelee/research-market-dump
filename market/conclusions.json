@@ -26,7 +26,7 @@
     "cross_refs": []
   },
   "MKT-02-A": {
-    "conclusion": "Largely contradicted on diagnosis: Geniebook, KooBits and MOE SLS already identify learning gaps and report them (MKT-E004, MKT-E009, MKT-E019, MKT-E010). Not found in public material: tutor-reviewed, evidence-traceable reports licensed to tuition centres.",
+    "conclusion": "Largely contradicted. Geniebook pairs AI gap-tracking with human tutors (MKT-E019, MKT-E008); KooBits sells teacher strength-and-weakness reports to schools (MKT-E041) and offers its system to existing learning centres (MKT-E040); MOE ALS gives teachers a progress and concept-mastery dashboard (MKT-E042) and requires teachers to vet its automated feedback (MKT-E043). Not found in any public material: teacher-reviewed AI gap diagnosis available to tuition centres (ALS is limited to the national school system), or reports that trace each gap to the student's responses.",
     "proposed_action": "HOLD",
     "review_status": "DRAFT",
     "cross_refs": [],

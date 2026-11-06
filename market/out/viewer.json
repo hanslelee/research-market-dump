@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T06:14:30+00:00",
+  "generated_at": "2026-11-06T06:14:52+00:00",
   "case_id": "MATHBRIDGE-BASE-v1",
   "version": "v1.0",
   "claims": [
@@ -1128,12 +1128,12 @@
       "date": "",
       "url": "https://www.learning.moe.edu.sg/teachers/teacher-user-guide/discover/about-adaptive-learning-system",
       "quote": "tailors learning resources and practice questions to each student's needs and pace",
-      "finding": "MOE Student Learning Space's Adaptive Learning System is a government-provided platform focused on personalised student self-directed learning and practice within public schools, rather than commercial diagnostic tools specifically licensed to tuition centres for tutor review.",
+      "finding": "MOE ALS already tailors resources and practice questions to each student's needs and pace, so adaptive gap-targeting exists in schools at no cost to students.",
       "claim": "MKT-02-A",
       "stance": "contradicts",
       "stance_by_agent": "",
-      "edited_by": "",
-      "edited_date": "",
+      "edited_by": "Hansle",
+      "edited_date": "2026-11-06",
       "status": "PARTIAL",
       "limitation": "Company self-description on its own website; features and price not independently tested.",
       "checked_by": "Hansle",

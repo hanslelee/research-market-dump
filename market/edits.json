@@ -40,5 +40,11 @@
     "limitation": "Company self-description on its own website; features and price not independently tested.",
     "by": "Hansle",
     "date": "2026-11-06"
+  },
+  "MKT-E007": {
+    "finding": "MOE ALS already gives each student a personalised learning path based on their readiness, so adaptive gap-targeting exists for students in the national school system.",
+    "limitation": "Company self-description on its own website; features and price not independently tested.",
+    "by": "Hansle",
+    "date": "2026-11-06"
   }
 }

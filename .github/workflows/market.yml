@@ -3,6 +3,7 @@
 #   step = web       market research agent (statistics, news, competitor pages)
 #   step = all       both, then component tests and the Excel export
 #   step = export    only rebuild the workbook (after you approve relations or edit market/review.csv)
+#   step = t03       T03 controlled test on a TEST copy -> controlled_tests/T03/output/ (real data unchanged)
 # Results are committed to this repository; the workbook is market/out/01_Hansle_Market_Research.xlsx
 name: market
 
@@ -10,9 +11,9 @@ on:
   workflow_dispatch:
     inputs:
       step:
-        description: academic, web, all, tests or export
+        description: academic, web, all, tests, export or t03 (T03 controlled test)
         type: choice
-        options: [all, academic, web, tests, export]
+        options: [all, academic, web, tests, export, t03]
         default: all
       only:
         description: "Optional: MKT-01-A,MKT-02-A,competitors"

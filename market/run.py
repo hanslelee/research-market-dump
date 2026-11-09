@@ -6,6 +6,7 @@
     python market/run.py export --data .            # fill the workbook + CSVs in market/out/
     python market/run.py all --data .               # academic, web, tests, export
     python market/run.py snapshot-name <url>        # file name for a hand-made snapshot of a page
+    python market/run.py t03 --data .               # T03 controlled test -> controlled_tests/T03/output/
 
 --only MKT-01-A,MKT-02-A,competitors limits which claims (and whether competitors) are processed.
 """
@@ -19,7 +20,7 @@ import mcommon as M  # noqa: E402
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["academic", "web", "tests", "export", "all", "snapshot-name"])
+    ap.add_argument("cmd", choices=["academic", "web", "tests", "export", "all", "snapshot-name", "t03"])
     ap.add_argument("url", nargs="?")
     ap.add_argument("--data", default=".")
     ap.add_argument("--today", default=M.today())
@@ -30,6 +31,10 @@ def main():
     only = {x.strip() for x in a.only.split(",") if x.strip()} or None
     if a.cmd == "snapshot-name":
         print(f"market/snapshots/manual/{M.h(a.url)}.txt")
+        return
+    if a.cmd == "t03":
+        import controlled_t03
+        controlled_t03.run(data, a.today)
         return
     if a.cmd in ("academic", "all"):
         import academic

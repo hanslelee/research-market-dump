@@ -2,12 +2,12 @@
   "case_id": "MATHBRIDGE-BASE-v1",
   "owner": "Hansle",
   "artifact": "market_handoff",
-  "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ 344976e",
+  "artifact_version": "01_Hansle_Market_Research.xlsx v1.2 @ 4775d12",
   "claims": [
     {
       "claim_id": "MKT-01",
       "owner": "Hansle",
-      "claim_text": "Partly supported. Diagnosis is time-consuming and teachers value time-saving tools (MKT-01-A, -B, -C: PARTIAL), but evidence comes from schools and universities, not Singapore tuition centres, and the number of centres is unknown (MKT-01-D: MISSING, open diligence question). Public evidence describes the market, not MathBridge's traction (fictional, pre-revenue, SYN-05).\n\nSub-claims:\nMKT-01-A (Diagnosing primary mathematics learning gaps takes substantial teacher or tutor time and effort.) [PARTIAL, Accept]: Partly supported. Singapore teachers spend 6.4 h/week marking (OECD TALIS 2024, MKT-E020) and differentiated primary teaching doubles preparation time (MKT-E017); initial diagnostic assessment adds to primary teachers' workload (MKT-E024), and studies elsewhere show diagnosing maths misconceptions is demanding (MKT-E022, MKT-E023). No evidence specific to tutors or tuition centres.\nMKT-01-B (Tuition centres or teachers already spend, or are willing to spend, on tools that reduce diagnosis time.) [PARTIAL, Investigate]: Partly supported. Automated grading cut teacher grading time by 35% (MKT-E028) and teachers value adaptive diagnostic assessment (MKT-E025); Singapore households spent S$1.8b on tuition in 2023 (MKT-E002). No public evidence that tuition centres pay for diagnostic software; diligence should ask centres about current tool spend.\nMKT-01-C (Singapore tuition centres show actual demand to adopt diagnosis-automation tools.) [PARTIAL, Investigate]: Weakly supported. Teachers use dashboards to find struggling students (MKT-E029, MKT-E031) and are open to AI tools (MKT-E030), but all evidence is from schools or universities, none from Singapore tuition centres. Needs primary research (interviews or a pilot) with centres.\nMKT-01-D (Potential customers in Singapore are counted in tuition centres, and their number is X.) [MISSING, Investigate]: Not established. MOE publishes student counts but no count of tuition centres, and does not track the industry's size. The number of potential centre customers must remain an explicit assumption (F-A01) and an open diligence question.",
+      "claim_text": "Partly supported. Diagnosis is time-consuming and teachers value time-saving tools (MKT-01-A, -B, -C: PARTIAL), but evidence comes from schools and universities, not Singapore tuition centres, and the number of centres is unknown (MKT-01-D: MISSING, open diligence question). Public evidence describes the market, not MathBridge's traction (fictional, pre-revenue, SYN-05).\n\nSub-claims:\nMKT-01-A (Diagnosing primary mathematics learning gaps takes substantial teacher or tutor time and effort.) [PARTIAL, Accept]: Partly supported. Singapore teachers spend 6.4 h/week marking (OECD TALIS 2024, MKT-E020) and differentiated primary teaching doubles preparation time (MKT-E017); initial diagnostic assessment adds to primary teachers' workload (MKT-E024), and studies elsewhere show diagnosing maths misconceptions is demanding (MKT-E022, MKT-E023). No evidence specific to tutors or tuition centres.\nMKT-01-B (Tuition centres or teachers already spend, or are willing to spend, on tools that reduce diagnosis time.) [PARTIAL, Investigate]: Partly supported. Automated grading cut teacher grading time by 35% (MKT-E028) and teachers value adaptive diagnostic assessment (MKT-E025); Singapore households spent S$1.8b on tuition in 2023 (MKT-E002). No public evidence that tuition centres pay for diagnostic software; diligence should ask centres about current tool spend.\nMKT-01-C (Singapore tuition centres show actual demand to adopt diagnosis-automation tools.) [PARTIAL, Investigate]: Weakly supported. Teachers use dashboards to find struggling students (MKT-E029, MKT-E031) and are open to AI tools (MKT-E030), but all evidence is from schools or universities, none from Singapore tuition centres. Needs primary research (interviews or a pilot) with centres.\nMKT-01-D (Potential customers in Singapore are counted in tuition centres, and their number is X.) [MISSING, Investigate]: Not established. MOE publishes student counts but no count of tuition centres, and does not track the industry's size. The number of potential centre customers is UNKNOWN (UNK): no public source gives it and no case assumption defines it (F-A02's centre counts are illustrative revenue inputs, not market size). Open diligence question.",
       "evidence_ids": [
         "MKT-E001",
         "MKT-E017",
@@ -25,15 +25,13 @@
         "MKT-E030",
         "MKT-E031"
       ],
-      "assumption_ids": [
-        "F-A01"
-      ],
-      "evidence_status": "MISSING",
+      "assumption_ids": [],
+      "evidence_status": "MIXED – PARTIAL / MISSING",
       "materiality": "HIGH",
       "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05). Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C PARTIAL, MKT-01-D MISSING. Open questions for deeper diligence (no public evidence): MKT-01-D.",
       "recommended_action": "Investigate",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ 344976e",
-      "review_status": "DRAFT",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.2 @ 4775d12",
+      "review_status": "READY FOR REVIEW",
       "sub_claims": [
         {
           "claim_id": "MKT-01-A",
@@ -57,7 +55,7 @@
           "claim_id": "MKT-01-D",
           "evidence_status": "MISSING",
           "recommended_action": "Investigate",
-          "conclusion": "Not established. MOE publishes student counts but no count of tuition centres, and does not track the industry's size. The number of potential centre customers must remain an explicit assumption (F-A01) and an open diligence question."
+          "conclusion": "Not established. MOE publishes student counts but no count of tuition centres, and does not track the industry's size. The number of potential centre customers is UNKNOWN (UNK): no public source gives it and no case assumption defines it (F-A02's centre counts are illustrative revenue inputs, not market size). Open diligence question."
         }
       ]
     },
@@ -87,13 +85,15 @@
         "MKT-E037",
         "MKT-E039"
       ],
-      "assumption_ids": [],
-      "evidence_status": "SYNTHETIC",
+      "assumption_ids": [
+        "SYN-02"
+      ],
+      "evidence_status": "MIXED – EXT-PUB (PARTIAL, competitors) / SYN (MathBridge features, SYN-02) / PARTIAL (value to centres, MKT-02-C)",
       "materiality": "HIGH",
-      "limitation": "Market evidence, not MathBridge traction: MathBridge is fictional and pre-revenue with no customers (SYN-05). Sub-claims: MKT-02-A PARTIAL, MKT-02-B SYNTHETIC, MKT-02-C PARTIAL. To correct: MKT-02-A (claim as written is contradicted; narrow it to what remains).",
+      "limitation": "Market evidence, not MathBridge traction (fictional company, pre-revenue, no customers; SYN-05). Sub-claims: MKT-02-A PARTIAL (Correct), MKT-02-B SYNTHETIC, MKT-02-C PARTIAL. Why Correct, not HOLD: competitors already diagnose learning gaps; among them, KooBits already serves learning centres (MKT-E040), and MOE ALS already has teachers review AI feedback (MKT-E043). MKT-02-A (\"Existing products do not provide tutor-reviewed, evidence-traceable learning-gap reports to tuition centres.\") is therefore wrong as written, so the claim is narrowed to the two differences that could still set MathBridge apart and passed to deeper diligence: (1) teacher-reviewed AI diagnosis for tuition centres, (2) reports that trace each gap to student answers. Both are yet unverified.",
       "recommended_action": "Correct",
-      "artifact_version": "01_Hansle_Market_Research.xlsx v1.0 @ 344976e",
-      "review_status": "DRAFT",
+      "artifact_version": "01_Hansle_Market_Research.xlsx v1.2 @ 4775d12",
+      "review_status": "READY FOR REVIEW",
       "sub_claims": [
         {
           "claim_id": "MKT-02-A",

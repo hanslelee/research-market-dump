@@ -179,7 +179,8 @@ def merged_competitors(comps, mc):
             "target_customer": "; ".join(uniq(c.get("target_customer", "") for c in cs)),
             "features": uniq(f for c in cs for f in c.get("features", [])),
             "price": "; ".join(prices) or "NOT FOUND", "pricing_status": "FOUND" if prices else "NOT FOUND",
-            "differentiation": " ".join(uniq(c.get("differentiation", "") for c in cs)),
+            "differentiation": (mc.get("competitor_overrides", {}).get(name, {}).get("differentiation")
+                                or " ".join(uniq(c.get("differentiation", "") for c in cs))),
             "evidence_ids": sorted({c["evidence_id"] for c in cs}, key=lambda i: int(i.split("E")[-1])),
             "checked_date": max((c.get("checked_date", "") for c in cs), default=""),
             "overlap": "similar" if "similar" in overlaps else ("different" if overlaps == {"different"} else "unclear"),
@@ -322,7 +323,9 @@ def roll_up(data: Path, config, concl):
                     "assumption_ids": list(dict.fromkeys(a for s in subs for a in s["assumption_ids"])),
                     "evidence_status": st, "materiality": c.get("materiality", "HIGH"), "limitation": lim,
                     "proposed_action": action, "version": mc.get("version", "v0.1"),
-                    "review_status": hc.get("review_status", "DRAFT"), "conclusion": hc.get("conclusion", "")})
+                    "review_status": hc.get("review_status", "DRAFT"), "conclusion": hc.get("conclusion", ""),
+                    # display label set by a person (e.g. MIXED – PARTIAL / MISSING); the rule status above still drives actions
+                    "status_label": hc.get("status_label", "") or st, "handoff_limitation": hc.get("handoff_limitation", "")})
     return out
 
 
@@ -339,8 +342,8 @@ def team_rows(handoff, concl):
             t = c["claim_text"] if t.startswith("[DRAFT") else t
             parts.append(f"{c['claim_id']} ({c['claim_text']}) [{c['verification_status']}, {c['proposed_action']}]: {t}")
         text = head + ("\n\nSub-claims:\n" + "\n".join(parts) if parts else "")
-        lim = TRACTION_NOTE + " " + h["limitation"]
-        out.append({**h, "claim_text": text, "limitation": lim, "parent": "",
+        lim = h.get("handoff_limitation") or (TRACTION_NOTE + " " + h["limitation"])
+        out.append({**h, "claim_text": text, "limitation": lim, "evidence_status": h.get("status_label") or h["evidence_status"], "parent": "",
                     "sub_claims": [{"claim_id": c["claim_id"], "evidence_status": c["verification_status"],
                                     "recommended_action": c["proposed_action"], "conclusion": c["market_conclusion"]} for c in subs]})
     return out

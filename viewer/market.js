@@ -277,6 +277,7 @@
     $('#claims-list').innerHTML = d.claims.filter(c => c.role === 'parent').map(p => `
       <article class="parent">
         <header><h2>${esc(p.id)}</h2>${badge(p.status)}${badge(p.action)}<span class="meta">${esc(p.review_status)}</span></header>
+        ${p.status_label && p.status_label !== p.status ? `<p class="meta"><b>Status (handoff):</b> ${esc(p.status_label)}</p>` : ''}
         <p>${esc(p.text)}</p>
         <p class="meta">${esc(p.limitation)}</p>
         ${state.conn?.token ? `

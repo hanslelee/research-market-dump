@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-11-08",
+    "change": "MKT-01-D / MKT-01: removed F-A01 (it is the S$5,000 licence price, not a centre count); number of centres marked UNKNOWN (UNK)",
+    "reason": "Kaizhen review 2026-11-07",
+    "original_preserved": "YES"
+  },
+  {
+    "date": "2026-11-08",
+    "change": "MKT-01 status MISSING -> MIXED – PARTIAL / MISSING; MKT-02 status SYNTHETIC -> MIXED – EXT-PUB (PARTIAL) / SYN (team-claim rows only; sub-claim statuses unchanged)",
+    "reason": "Kaizhen review 2026-11-07",
+    "original_preserved": "YES"
+  },
+  {
+    "date": "2026-11-08",
+    "change": "MKT-02-B and MKT-02: assumption SYN-02 added",
+    "reason": "Kaizhen review 2026-11-07",
+    "original_preserved": "YES"
+  },
+  {
+    "date": "2026-11-08",
+    "change": "test_results.json supplied with the workbook; Component Tests evidence_file updated",
+    "reason": "Kaizhen review 2026-11-07",
+    "original_preserved": "YES"
+  },
+  {
+    "date": "2026-11-09",
+    "change": "MKT-02 status split into three parts: competitors EXT-PUB (PARTIAL), MathBridge features SYN (SYN-02), value to centres PARTIAL (MKT-02-C)",
+    "reason": "Kaizhen Challenge Log CH-12",
+    "original_preserved": "YES"
+  }
+]

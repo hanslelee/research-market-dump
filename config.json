@@ -74,7 +74,7 @@
     "hold_days": 3
   },
   "market": {
-    "version": "v1.0",
+    "version": "v1.2",
     "owner": "Hansle",
     "case_id": "MATHBRIDGE-BASE-v1",
     "product": "MathBridge AI (fictional): primary mathematics learning-gap diagnostic for Singapore tuition centres; teacher-approved questions, response-to-objective mapping, evidence-linked candidate gap reports, tutor review; annual institution licence.",
@@ -217,6 +217,16 @@
       "INT-",
       "GROW-",
       "F-A"
-    ]
+    ],
+    "competitor_overrides": {
+      "KooBits": {
+        "differentiation": "KooBits sells to parents, schools (teacher strength-and-weakness reports) and learning centres (franchise or system adoption); no public page describes teacher review of an AI diagnosis or reports that trace each gap to student responses."
+      }
+    },
+    "test_status_human": {
+      "T03": {
+        "human_review_min": 30
+      }
+    }
   }
 }

@@ -9,7 +9,9 @@
   "basis": "Sub-claim of MKT-02, chosen by Hansle to make MKT-02 checkable. MathBridge AI's features are fictional (packet SYN-02), so this can only be SYNTHETIC: a comparison of SYN-02 with the Competitor Matrix.",
   "materiality": "HIGH",
   "unit": "",
-  "assumption_ids": [],
+  "assumption_ids": [
+    "SYN-02"
+  ],
   "market_queries": [],
   "fixed_status": "SYNTHETIC",
   "memo": ""

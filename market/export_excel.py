@@ -43,7 +43,7 @@ def sheet_rows(res, tests):
     def by_sub(pid, field):  # one line per sub-claim, ids joined with "; "
         return "\n".join(j(c[field]) for c in res["conclusions"] if c.get("parent") == pid and c[field])
     concl += [[h["claim_id"] + " (team claim)", h.get("conclusion", "") or "[DRAFT - team-claim conclusion not written yet]",
-               by_sub(h["claim_id"], "supporting_evidence_ids"), by_sub(h["claim_id"], "counter_evidence_ids"), j(h["assumption_ids"]), h["evidence_status"], h["materiality"], B.TRACTION_NOTE + " " + h["limitation"],
+               by_sub(h["claim_id"], "supporting_evidence_ids"), by_sub(h["claim_id"], "counter_evidence_ids"), j(h["assumption_ids"]), h.get("status_label") or h["evidence_status"], h["materiality"], B.TRACTION_NOTE + " " + h["limitation"],
                h["proposed_action"]] for h in res["handoff"]]
     hand = [[h["claim_id"], h["owner"], h["claim_text"], j(h["evidence_ids"]), j(h["assumption_ids"]), h["evidence_status"],
              h["materiality"], h["limitation"], h["proposed_action"], artifact_version(res), h["review_status"]]
@@ -65,6 +65,7 @@ def viewer_data(data: Path, res, tests):
     for h in res["handoff"]:
         c = claims.get("claim:" + h["claim_id"], {})
         out_claims.append({"id": h["claim_id"], "role": "parent", "text": h["claim_text"], "status": h["evidence_status"],
+                           "status_label": h.get("status_label", ""),
                            "action": h["proposed_action"], "limitation": h["limitation"], "review_status": h["review_status"],
                            "conclusion": h.get("conclusion", ""),
                            "evidence_ids": h["evidence_ids"], "basis": c.get("basis", "")})
@@ -115,7 +116,20 @@ def handoff_json(res):
                        for h in res["handoff_rows"]]}
 
 
-def fill_test_status(wb, tests):
+def fill_change_log(wb, data):
+    """v2 Change Log: append the dated changes recorded in market/change_log.json (template rows are kept)."""
+    rows = M.read(M.mdir(data) / "change_log.json", [])
+    if "v2 Change Log" not in wb.sheetnames or not rows:
+        return
+    ws = wb["v2 Change Log"]
+    last = max(r for r in range(1, ws.max_row + 1) if ws.cell(r, 1).value)
+    for i, r in enumerate(rows):
+        for k, key in enumerate(("date", "change", "reason", "original_preserved")):
+            cell = ws.cell(last + 1 + i, k + 1, r.get(key, ""))
+            cell._style = copy.copy(ws.cell(last, k + 1)._style)
+
+
+def fill_test_status(wb, tests, human=None):
     """Test Status v2 (template v2): record the component run of T03 from the actual test result. Fields that only a
     person or the integrated run can supply (human_review_min, integration_status) are left as they are."""
     if "Test Status v2" not in wb.sheetnames:
@@ -138,6 +152,8 @@ def fill_test_status(wb, tests):
         put("cost_SGD", t.get("cost_sgd", 0))
         put("issue_id", "R4_unit_leap" if t["pass_fail"] == "PASS" else t.get("issue_id", ""))
         put("evidence_file", f"{t['evidence_file']} ({t['test_id']})")
+        for k, v in (human or {}).get(t["team_test_id"], {}).items():  # values only a person can supply
+            put(k, v)
 
 
 def _fill(ws, rows):
@@ -177,7 +193,8 @@ def export(data: Path, tests=None):
             w = csv.writer(f)
             w.writerow(header)
             w.writerows(rows)
-    fill_test_status(wb, tests)
+    fill_test_status(wb, tests, M.mcfg(res["config"]).get("test_status_human", {}))
+    fill_change_log(wb, data)
     wb.save(out / "01_Hansle_Market_Research.xlsx")
     M.write(out / "market_handoff.json", handoff_json(res))
     visited = M.read(M.mdir(data) / "visited.json", {})

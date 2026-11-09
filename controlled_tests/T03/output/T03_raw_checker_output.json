@@ -1,0 +1,128 @@
+{
+  "test_id": "T03",
+  "scenario": "Inflated market size",
+  "owner": "Hansle",
+  "run_started": "2026-11-09T13:40:37+08:00",
+  "runtime_seconds": 0.8,
+  "cost_sgd": 0,
+  "repo_commit": "cea1b71",
+  "github_run_id": "42568656925",
+  "executor": "hanslelee",
+  "checker": "research-market-dump market/build.py validate() (rules R1-R10)",
+  "injection": {
+    "test_id": "T03",
+    "scenario": "Inflated market size",
+    "owner": "Hansle",
+    "prepared": "2026-11-09",
+    "baseline": "01_Hansle_Market_Research_2026-11-09_v1.2.xlsx (v1.2)",
+    "injected_change": "In a TEST copy, the MOE student count (Primary enrolment, 2024: 237,966 students) is described as the number of paying tuition centres and added as supporting evidence for MKT-01-D.",
+    "baseline_alignment": {
+      "claims/claim_MKT-01-D.json": {
+        "assumption_ids": []
+      },
+      "why": "Mirror v1.2 in the test copy: F-A01 was removed from MKT-01-D (INT-01). Not a defect."
+    },
+    "add_evidence": {
+      "key": "web:T03-seed",
+      "lane": "web",
+      "claim_id": "MKT-01-D",
+      "url": "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf",
+      "title": "Education Statistics Digest 2025, Section 1 Table 4",
+      "publisher": "Ministry of Education Singapore",
+      "publication_date": "2025",
+      "quote": "Primary enrolment, 2024: 237,966 students",
+      "finding": "Singapore has 237,966 paying tuition centres, so MathBridge's potential customer base is 237,966 centres.",
+      "stance": "supports",
+      "unit": "students",
+      "limitation": "",
+      "tier": "government",
+      "source_type": "Government statistics",
+      "snapshot": "market/snapshots/manual/90c7312a13c7.txt",
+      "snapshot_kind": "excerpt",
+      "found_by": "T03 seeded defect (Hansle)",
+      "verification_status": "PARTIAL"
+    },
+    "expected_detection": "Students treated as buyers (R4_unit_leap on MKT-01-D: claim counts centres, evidence counts students)",
+    "expected_route": "HOLD (MKT-01-D and team claim MKT-01)"
+  },
+  "control_without_seed": {
+    "issues_all": [
+      {
+        "rule": "R10_unresolved_contradiction",
+        "where": "MKT-02-A",
+        "issue": "reviewed counter-evidence on this sub-claim; HOLD until adjudicated (packet 12: contradiction unresolved)"
+      },
+      {
+        "rule": "R7_human_action_overrides_hold",
+        "where": "MKT-02-A",
+        "issue": "rules say HOLD, conclusions.json says Correct: needs Kaizhen's adjudication"
+      }
+    ],
+    "issues_on_MKT-01-D": [],
+    "MKT-01-D": {
+      "verification_status": "MISSING",
+      "proposed_action": "Investigate",
+      "supporting_evidence_ids": [],
+      "assumption_ids": [],
+      "limitations": "Open question for deeper diligence: no public evidence found."
+    },
+    "MKT-01": {
+      "evidence_status": "MISSING",
+      "proposed_action": "Investigate",
+      "limitation": "Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C PARTIAL, MKT-01-D MISSING. Open questions for deeper diligence (no public evidence): MKT-01-D."
+    },
+    "seeded_row": null
+  },
+  "with_seed": {
+    "issues_all": [
+      {
+        "rule": "R4_unit_leap",
+        "where": "MKT-01-D",
+        "issue": "claim counts centres but MKT-E044 counts students; no assumption converts students -> centres"
+      },
+      {
+        "rule": "R10_unresolved_contradiction",
+        "where": "MKT-02-A",
+        "issue": "reviewed counter-evidence on this sub-claim; HOLD until adjudicated (packet 12: contradiction unresolved)"
+      },
+      {
+        "rule": "R7_human_action_overrides_hold",
+        "where": "MKT-02-A",
+        "issue": "rules say HOLD, conclusions.json says Correct: needs Kaizhen's adjudication"
+      }
+    ],
+    "issues_on_MKT-01-D": [
+      {
+        "rule": "R4_unit_leap",
+        "where": "MKT-01-D",
+        "issue": "claim counts centres but MKT-E044 counts students; no assumption converts students -> centres"
+      }
+    ],
+    "MKT-01-D": {
+      "verification_status": "PARTIAL",
+      "proposed_action": "HOLD",
+      "supporting_evidence_ids": [
+        "MKT-E044"
+      ],
+      "assumption_ids": [],
+      "limitations": "No usable public evidence found yet."
+    },
+    "MKT-01": {
+      "evidence_status": "PARTIAL",
+      "proposed_action": "HOLD",
+      "limitation": "Sub-claims: MKT-01-A PARTIAL, MKT-01-B PARTIAL, MKT-01-C PARTIAL, MKT-01-D PARTIAL. On HOLD: MKT-01-D (rule or reviewer)."
+    },
+    "seeded_row": {
+      "evidence_id": "MKT-E044",
+      "claim_id": "MKT-01-D",
+      "quote": "Primary enrolment, 2024: 237,966 students",
+      "finding": "Singapore has 237,966 paying tuition centres, so MathBridge's potential customer base is 237,966 centres.",
+      "unit": "students",
+      "source_type": "Government statistics",
+      "tier": "government",
+      "evidence_class": "EXT-PUB",
+      "verification_status": "PARTIAL",
+      "url": "https://www.moe.gov.sg/-/media/files/about-us/esd-2025.pdf"
+    }
+  }
+}

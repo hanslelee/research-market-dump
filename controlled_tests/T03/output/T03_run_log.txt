@@ -1,0 +1,10 @@
+T03 start 2026-11-09T13:40:37+08:00 | repo commit cea1b71 | GitHub run 42568656925 by hanslelee
+injected change: In a TEST copy, the MOE student count (Primary enrolment, 2024: 237,966 students) is described as the number of paying tuition centres and added as supporting evidence for MKT-01-D.
+TEST copy made; baseline alignment applied (MKT-01-D assumption_ids = [])
+control run (TEST copy without the seeded row): MKT-01-D Investigate, R4 on MKT-01-D: False
+seeded row added to the TEST copy
+checker: [R4_unit_leap] MKT-01-D: claim counts centres but MKT-E044 counts students; no assumption converts students -> centres
+route: MKT-01-D HOLD (PARTIAL); team claim MKT-01 HOLD (PARTIAL)
+seeded row kept as MKT-E044: source_type=Government statistics, evidence_class=EXT-PUB, unit=students
+TEST workbook rebuilt from the TEST copy
+T03 end, runtime 0.8 s; external cost SGD 0 (no API calls)
